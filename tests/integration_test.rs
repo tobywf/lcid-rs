@@ -1,5 +1,5 @@
 use assert_matches::assert_matches;
-use lcid::{LanguageId, LcidConversionError};
+use lcid::{LanguageId, LcidLookupError};
 use lcid_gen::{CultureInfo, Numbered};
 use std::collections::HashMap;
 use std::convert::TryInto;
@@ -11,9 +11,9 @@ struct Fixture {
 }
 
 fn setup() -> Fixture {
-    let numbered = lcid_gen::read_numbered("ms-lcid-14-1-numbered.json");
-    let named = lcid_gen::read_named("ms-lcid-14-1-named.json");
-    let culture_infos = lcid_gen::read_culture_info("culture-infos.json");
+    let numbered = lcid_gen::read_numbered("lcid_gen/ms-lcid-14-1-numbered.json");
+    let named = lcid_gen::read_named("lcid_gen/ms-lcid-14-1-named.json");
+    let culture_infos = lcid_gen::read_culture_info("lcid_gen/culture-infos.json");
 
     Fixture {
         numbered,
@@ -47,15 +47,15 @@ fn numbered_json() {
             }
             Numbered::Reserved(name, lcid) => {
                 let err = TryInto::<&LanguageId>::try_into(lcid).unwrap_err();
-                assert_matches!(err, LcidConversionError::Reserved(l, n) if l == lcid && n == &name);
+                assert_matches!(err, LcidLookupError::Reserved(l, n) if l == lcid && n == &name);
             }
             Numbered::ReservedUnknown(lcid) => {
                 let err = TryInto::<&LanguageId>::try_into(lcid).unwrap_err();
-                assert_matches!(err, LcidConversionError::ReservedUnknown(l) if l == lcid);
+                assert_matches!(err, LcidLookupError::ReservedUnknown(l) if l == lcid);
             }
             Numbered::NeitherDefinedNorReserved(lcid) => {
                 let err = TryInto::<&LanguageId>::try_into(lcid).unwrap_err();
-                assert_matches!(err, LcidConversionError::NeitherDefinedNorReserved(l) if l == lcid);
+                assert_matches!(err, LcidLookupError::NeitherDefinedNorReserved(l) if l == lcid);
             }
         }
     }

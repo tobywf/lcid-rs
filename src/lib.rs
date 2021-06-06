@@ -1,50 +1,87 @@
-/// This crate is based on MS-LCID "Windows Language Code Identifier Reference".
-/// Sort IDs are not supported (yet).
-///
-/// PDF:
-/// https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f
-/// Numbered Table:
-/// https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/63d3d639-7fd2-4afb-abbe-0d5b5551eef8
-/// Named Table:
-/// https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/926e694f-1797-4418-a922-343d1c5e91a6
+//! This crate provides language information and lookups from Microsoft's numeric
+//! language code identifiers (LCIDs) or language names (IETF language tags,
+//! [`BCP 47`]), similar to - but more limited than - the
+//! [`System.Globalization.CultureInfo`] class in .NET. The lookup follows the
+//! [`MS-LCID`] "Windows Language Code Identifier Reference" specification.
+//! Sort IDs are not supported yet.
+//!
+//! # Examples
+//!
+//! ```
+//! use lcid::LanguageId;
+//! use std::convert::TryInto;
+//!
+//! let lcid = 1033;
+//! let lang: &LanguageId = lcid.try_into().unwrap();
+//! assert_eq!(lang.name, "en-US");
+//!
+//! let name = "en-US";
+//! let lang: &LanguageId = name.try_into().unwrap();
+//! assert_eq!(lang.lcid, 1033);
+//! ```
+//!
+//! [`BCP 47`]: https://tools.ietf.org/rfc/bcp/bcp47.txt
+//! [`System.Globalization.CultureInfo`]: https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo
+//! [`MS-LCID`]: https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f
 use std::convert::TryFrom;
 use thiserror::Error;
 
+/// Errors when looking up a [`LanguageId`] from a numeric ([`u32`]) LCID via
+/// [`TryFrom`] or [`TryInto`](std::convert::TryInto).
 #[derive(Error, Debug)]
-pub enum LcidConversionError {
+pub enum LcidLookupError {
+    /// The LCID has set reserved bits (original value, reserved bits).
     #[error("LCID {0}/{0:#06x} has reserved bits set: {1}/{1:#x}")]
     ReservedBits(u32, u32),
+    /// The LCID has sort ID bits set (original value, sort ID bits).
     #[error("LCID {0}/{0:#06x} has sort ID bits set: {1}/{1:#x}")]
     SortIdBits(u32, u32),
+    /// The LCID refers to a named reserved language.
     #[error("LCID {0}/{0:#06x} is reserved ('{1}')")]
     Reserved(u32, &'static str),
+    /// The LCID refers to a unknown reserved language.
     #[error("LCID {0}/{0:#06x} is reserved (<unknown>)")]
     ReservedUnknown(u32),
+    /// The LCID is neither defined nor reserved.
+    #[error("LCID {0}/{0:#06x} is neither defined nor reserved")]
+    NeitherDefinedNorReserved(u32),
+    /// The LCID is undefined.
     #[error("LCID {0}/{0:#06x} is undefined")]
     Undefined(u32),
-    #[error("LCID {0}/{0:#06x} is neither defined no reserved")]
-    NeitherDefinedNorReserved(u32),
 }
 
+/// Errors when looking up a [`LanguageId`] from a named identifier via
+/// [`TryFrom`] or [`TryInto`](std::convert::TryInto).
 #[derive(Error, Debug)]
-pub enum NameConversionError {
+pub enum NameLookupError {
+    /// The name refers to a reserved language.
     #[error("Name '{0}' is reserved ({1}/{1:#06x})")]
     Reserved(&'static str, u32),
+    /// The name does not refer to a defined language.
     #[error("Name '{0}' is undefined")]
     Undefined(String),
 }
 
+/// A language's identifiers and information. Lookups from numeric or named
+/// identifiers return a reference to statically defined `LanguageId`.
 #[derive(Clone, Debug)]
 pub struct LanguageId {
-    /// The language identifier's name/IETF tag
+    /// A unique name that identifies the language (IETF language tag).
     pub name: &'static str,
-    /// The language identifier's combined language code ID
+    /// The language code ID for the language. This does not identify a
+    /// language uniquely.
     pub lcid: u32,
+    /// A non-localized, English, readable name for the language.
     pub english_name: &'static str,
+    /// A two-letter ISO-639 code for the language.
     pub iso639_two_letter: &'static str,
+    /// A three-letter ISO-639 code for the language.
     pub iso639_three_letter: &'static str,
+    /// A three-letter code for the language used in the Windows API.
     pub windows_three_letter: &'static str,
 }
+
+include!("gen.rs");
 
 const PRIMARY_LANG_ID_MASK: u32 = 0x3ff;
 const SUB_LANG_ID_MASK: u32 = 0x3f;
@@ -57,7 +94,7 @@ const RESERVED_BITS_SHIFT: u32 = 20;
 const SORT_ID_BITS_SHIFT: u32 = 16;
 
 impl LanguageId {
-    /// The language identifier's primary language code ID
+    /// The primary language ID part of the language's LCID
     #[inline]
     pub fn primary_language_id(&self) -> u32 {
         // +----------------+---------------------+
@@ -68,7 +105,7 @@ impl LanguageId {
         (self.lcid >> PRIMARY_LANG_ID_SHIFT) & PRIMARY_LANG_ID_MASK
     }
 
-    /// The language identifier's sub language code ID
+    /// The sub language ID part of the language's LCID
     #[inline]
     pub fn sub_language_id(&self) -> u32 {
         // +----------------+---------------------+
@@ -80,11 +117,15 @@ impl LanguageId {
     }
 }
 
-include!(concat!(env!("OUT_DIR"), "/ms-lcid-14-1.rs"));
-
 impl TryFrom<u32> for &'static LanguageId {
-    type Error = LcidConversionError;
+    type Error = LcidLookupError;
 
+    /// Try to identify a [`LanguageId`] from a numeric LCID. This returns an
+    /// error if:
+    /// * The LCID has any reserved bits set
+    /// * The LCID has a sort ID
+    /// * The LCID maps to an unknown, reserved, or neither defined nor reserved
+    ///   language
     fn try_from(value: u32) -> std::result::Result<Self, Self::Error> {
         // +----------+---------+-------------+
         // | Reserved | Sort ID | Language ID |
@@ -108,8 +149,10 @@ impl TryFrom<u32> for &'static LanguageId {
 }
 
 impl TryFrom<&str> for &'static LanguageId {
-    type Error = NameConversionError;
+    type Error = NameLookupError;
 
+    /// Try to identify a [`LanguageId`] from a name. This returns an
+    /// error if the name is unknown or reserved.
     fn try_from(value: &str) -> std::result::Result<Self, Self::Error> {
         // Generated from JSON
         parse_name!(value)
@@ -168,7 +211,7 @@ mod tests {
         for reserved_bits in 1..=RESERVED_BITS_MASK {
             let reserved = reserved_bits << RESERVED_BITS_SHIFT;
             let err = TryInto::<&LanguageId>::try_into(reserved).unwrap_err();
-            assert_matches!(err, LcidConversionError::ReservedBits(v, r) if v == reserved && r == reserved_bits);
+            assert_matches!(err, LcidLookupError::ReservedBits(v, r) if v == reserved && r == reserved_bits);
         }
     }
 
@@ -177,7 +220,7 @@ mod tests {
         for sort_id_bits in 1..=SORT_ID_BITS_MASK {
             let sort_id = sort_id_bits << SORT_ID_BITS_SHIFT;
             let err = TryInto::<&LanguageId>::try_into(sort_id).unwrap_err();
-            assert_matches!(err, LcidConversionError::SortIdBits(v, r) if v == sort_id && r == sort_id_bits);
+            assert_matches!(err, LcidLookupError::SortIdBits(v, r) if v == sort_id && r == sort_id_bits);
         }
     }
 }

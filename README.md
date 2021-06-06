@@ -1,8 +1,13 @@
 # LCID-rs: A Rust library for Windows Language Code Identifiers
 
-This library provides language code identifier parsing and information according to [MS-LCID](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f).
+This library provides language code identifier parsing and information according to the [MS-LCID "Windows Language Code Identifier (LCID) Reference"](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f).
 
-It currently tracks the `14.1`/2021-07-04 protocol revision. If you require that specific revision, please pin to version `0.1` of this crate.
+```toml
+[dependencies]
+lcid = "0.1"
+```
+
+It currently tracks the `14.1`/2021-07-04 protocol revision. Future protocol revisions will may only trigger a minor version bump, so if you need a specific revision, pin this crate accordingly.
 
 Language identifiers can be queried from a 32-bit unsigned integer (Language Code Identifier, or LCID) or a string (name, i.e. supported [IETF BCP 47 language tag](https://tools.ietf.org/rfc/bcp/bcp47.txt)):
 
@@ -28,7 +33,15 @@ LCID 1033 is 'en-US'/'English (United States)'
 Name 'en-US' is 1033/'English (United States)'
 ```
 
-## MS-LCID specification errata
+## How the information was generated
+
+First, information was extracted from the [MS-LCID PDF](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f), and from both HTML tables of the [associated LCIDs](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/63d3d639-7fd2-4afb-abbe-0d5b5551eef8) ("numbered") and the [unassociated LCIDs](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/926e694f-1797-4418-a922-343d1c5e91a6) ("named"). This was then manually cleaned, converted to JSON, and compared.
+
+Then, the `GetCultureInfo.ps1` script was run on a Windows Server 2019 machine (Build 17763) to gather further information from the `System.Globalization.CultureInfo` API. The values returned by the API do not always match the information in MS-LCID, so some fix-up were applied. For details, please see the script.
+
+Finally, the `lcid-gen` crate generates code for the `lcid` crate (`src/gen.rs`). This is done to avoid having a build-time dependency on the JSON files.
+
+## MS-LCID errata
 
 * "es-CU" is listed as `0x5C0A` in the Language ID table, and in the Locale Names without LCIDs table as `0x1000`.
 * "ff-Latn-GM" is misprinted as "ff-latn-GM" (lower-case "l").

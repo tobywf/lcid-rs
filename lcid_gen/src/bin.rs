@@ -1,8 +1,7 @@
 use std::collections::HashMap;
-use std::env;
 use std::fs::File;
 use std::io::{BufWriter, Write};
-use std::path::{Path, PathBuf};
+use std::path::Path;
 
 use lcid_gen::{CultureInfo, Numbered};
 
@@ -16,18 +15,26 @@ where
 }
 
 fn name_to_ident(tag: &str) -> String {
-    format!("LANG_{}", tag.replace("-", "_").to_ascii_uppercase())
+    if tag.is_empty() {
+        "LANG_INVARIANT".to_owned()
+    } else {
+        format!("LANG_{}", tag.replace("-", "_").to_ascii_uppercase())
+    }
 }
 
 fn dump_ci(
     identifiers: &HashMap<String, String>,
     culture_infos: HashMap<String, CultureInfo>,
 ) -> String {
+    let mut culture_infos: Vec<_> = culture_infos.into_iter().collect();
+    culture_infos.sort_by_key(|item| item.1.lcid);
+
     let mut ci_dump = String::new();
     for (name, ci) in culture_infos {
         let identifier = identifiers.get(&name).expect("Identifier not found");
+        ci_dump.push_str(&format!("/// {}\n", ci.english_name));
         ci_dump.push_str(&format!(
-            "const {}: &LanguageId = &LanguageId {{\n",
+            "pub const {}: &LanguageId = &LanguageId {{\n",
             identifier
         ));
 
@@ -164,18 +171,9 @@ fn parse_ms_lcid<P: AsRef<Path>>(
 }
 
 fn main() {
-    println!("cargo:rerun-if-changed=ms-lcid-14-1-named.json");
-    println!("cargo:rerun-if-changed=ms-lcid-14-1-numbered.json");
-    println!("cargo:rerun-if-changed=culture-infos.json");
+    let numbered = lcid_gen::read_numbered("lcid_gen/ms-lcid-14-1-numbered.json");
+    let named = lcid_gen::read_named("lcid_gen/ms-lcid-14-1-named.json");
+    let culture_infos = lcid_gen::read_culture_info("lcid_gen/culture-infos.json");
 
-    let out_dir = env::var("OUT_DIR").expect("No OUT_DIR env var");
-    let out_path = PathBuf::from(&out_dir);
-
-    let numbered = lcid_gen::read_numbered("ms-lcid-14-1-numbered.json");
-    let named = lcid_gen::read_named("ms-lcid-14-1-named.json");
-    let culture_infos = lcid_gen::read_culture_info("culture-infos.json");
-
-    let rs_path = out_path.join("ms-lcid-14-1.rs");
-
-    parse_ms_lcid(numbered, named, culture_infos, &rs_path);
+    parse_ms_lcid(numbered, named, culture_infos, "src/gen.rs");
 }
