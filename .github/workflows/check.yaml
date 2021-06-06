@@ -1,0 +1,58 @@
+name: Check
+on:
+  push:
+    branches:
+    - master
+    - workflow_check
+  pull_request:
+    branches:
+    - master
+  schedule:
+  # At 11:00 (UTC) on day-of-month 4
+  - cron: '0 11 4 * *'
+jobs:
+  check:
+    name: Check
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      # Emit backtraces on panics.
+      RUST_BACKTRACE: full
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install stable toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          components: rustfmt, clippy
+
+      - name: Run cargo check
+        uses: actions-rs/cargo@v1
+        with:
+          command: check
+          args: --all
+
+      - name: Run cargo fmt
+        uses: actions-rs/cargo@v1
+        with:
+          command: fmt
+          args: --all -- --check
+
+      - name: Run cargo build
+        uses: actions-rs/cargo@v1
+        with:
+          command: build
+          args:  --all --verbose
+
+      - name: Run cargo test
+        uses: actions-rs/cargo@v1
+        with:
+          command: test
+          args:  --all
+
+      - name: Run cargo clippy
+        uses: actions-rs/cargo@v1
+        with:
+          command: clippy
+          args:  --all
