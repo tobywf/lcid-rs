@@ -2980,873 +2980,23 @@ pub const LANG_QUZ_PE: &LanguageId = &LanguageId {
     windows_three_letter: "QUP",
 };
 
-/// Duala (Cameroon)
-pub const LANG_DUA_CM: &LanguageId = &LanguageId {
-    name: "dua-CM",
+/// Afar
+pub const LANG_AA: &LanguageId = &LanguageId {
+    name: "aa",
     lcid: 0x1000,
-    english_name: "Duala (Cameroon)",
-    iso639_two_letter: "dua",
-    iso639_three_letter: "dua",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Niue)
-pub const LANG_EN_NU: &LanguageId = &LanguageId {
-    name: "en-NU",
-    lcid: 0x1000,
-    english_name: "English (Niue)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Uzbek (Perso-Arabic)
-pub const LANG_UZ_ARAB: &LanguageId = &LanguageId {
-    name: "uz-Arab",
-    lcid: 0x1000,
-    english_name: "Uzbek (Perso-Arabic)",
-    iso639_two_letter: "uz",
-    iso639_three_letter: "uzb",
-    windows_three_letter: "ZZZ",
-};
-
-/// Tamil (Malaysia)
-pub const LANG_TA_MY: &LanguageId = &LanguageId {
-    name: "ta-MY",
-    lcid: 0x1000,
-    english_name: "Tamil (Malaysia)",
-    iso639_two_letter: "ta",
-    iso639_three_letter: "tam",
-    windows_three_letter: "ZZZ",
-};
-
-/// Luo
-pub const LANG_LUO: &LanguageId = &LanguageId {
-    name: "luo",
-    lcid: 0x1000,
-    english_name: "Luo",
-    iso639_two_letter: "luo",
-    iso639_three_letter: "luo",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Comoros)
-pub const LANG_FR_KM: &LanguageId = &LanguageId {
-    name: "fr-KM",
-    lcid: 0x1000,
-    english_name: "French (Comoros)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Manx (Isle of Man)
-pub const LANG_GV_IM: &LanguageId = &LanguageId {
-    name: "gv-IM",
-    lcid: 0x1000,
-    english_name: "Manx (Isle of Man)",
-    iso639_two_letter: "gv",
-    iso639_three_letter: "glv",
-    windows_three_letter: "ZZZ",
-};
-
-/// Sena
-pub const LANG_SEH: &LanguageId = &LanguageId {
-    name: "seh",
-    lcid: 0x1000,
-    english_name: "Sena",
-    iso639_two_letter: "seh",
-    iso639_three_letter: "seh",
-    windows_three_letter: "ZZZ",
-};
-
-/// Chechen (Russia)
-pub const LANG_CE_RU: &LanguageId = &LanguageId {
-    name: "ce-RU",
-    lcid: 0x1000,
-    english_name: "Chechen (Russia)",
-    iso639_two_letter: "ce",
-    iso639_three_letter: "che",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Seychelles)
-pub const LANG_EN_SC: &LanguageId = &LanguageId {
-    name: "en-SC",
-    lcid: 0x1000,
-    english_name: "English (Seychelles)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Language (ceb-Latn)
-pub const LANG_CEB_LATN: &LanguageId = &LanguageId {
-    name: "ceb-Latn",
-    lcid: 0x1000,
-    english_name: "Unknown Language (ceb-Latn)",
-    iso639_two_letter: "ceb",
-    iso639_three_letter: "ceb",
-    windows_three_letter: "ZZZ",
-};
-
-/// Afar (Ethiopia)
-pub const LANG_AA_ET: &LanguageId = &LanguageId {
-    name: "aa-ET",
-    lcid: 0x1000,
-    english_name: "Afar (Ethiopia)",
+    english_name: "Afar",
     iso639_two_letter: "aa",
     iso639_three_letter: "aar",
     windows_three_letter: "ZZZ",
 };
 
-/// French (Djibouti)
-pub const LANG_FR_DJ: &LanguageId = &LanguageId {
-    name: "fr-DJ",
-    lcid: 0x1000,
-    english_name: "French (Djibouti)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Luo (Kenya)
-pub const LANG_LUO_KE: &LanguageId = &LanguageId {
-    name: "luo-KE",
-    lcid: 0x1000,
-    english_name: "Luo (Kenya)",
-    iso639_two_letter: "luo",
-    iso639_three_letter: "luo",
-    windows_three_letter: "ZZZ",
-};
-
-/// Volapük (World)
-pub const LANG_VO_001: &LanguageId = &LanguageId {
-    name: "vo-001",
-    lcid: 0x1000,
-    english_name: "Volapük (World)",
-    iso639_two_letter: "vo",
-    iso639_three_letter: "vol",
-    windows_three_letter: "ZZZ",
-};
-
-/// Friulian (Italy)
-pub const LANG_FUR_IT: &LanguageId = &LanguageId {
-    name: "fur-IT",
-    lcid: 0x1000,
-    english_name: "Friulian (Italy)",
-    iso639_two_letter: "fur",
-    iso639_three_letter: "fur",
-    windows_three_letter: "ZZZ",
-};
-
-/// Danish (Greenland)
-pub const LANG_DA_GL: &LanguageId = &LanguageId {
-    name: "da-GL",
-    lcid: 0x1000,
-    english_name: "Danish (Greenland)",
-    iso639_two_letter: "da",
-    iso639_three_letter: "dan",
-    windows_three_letter: "ZZZ",
-};
-
-/// Swedish (Åland Islands)
-pub const LANG_SV_AX: &LanguageId = &LanguageId {
-    name: "sv-AX",
-    lcid: 0x1000,
-    english_name: "Swedish (Åland Islands)",
-    iso639_two_letter: "sv",
-    iso639_three_letter: "swe",
-    windows_three_letter: "ZZZ",
-};
-
-/// Cornish (United Kingdom)
-pub const LANG_KW_GB: &LanguageId = &LanguageId {
-    name: "kw-GB",
-    lcid: 0x1000,
-    english_name: "Cornish (United Kingdom)",
-    iso639_two_letter: "kw",
-    iso639_three_letter: "cor",
-    windows_three_letter: "ZZZ",
-};
-
-/// Vunjo (Tanzania)
-pub const LANG_VUN_TZ: &LanguageId = &LanguageId {
-    name: "vun-TZ",
-    lcid: 0x1000,
-    english_name: "Vunjo (Tanzania)",
-    iso639_two_letter: "vun",
-    iso639_three_letter: "vun",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Language (ngo)
-pub const LANG_NGO: &LanguageId = &LanguageId {
-    name: "ngo",
-    lcid: 0x1000,
-    english_name: "Unknown Language (ngo)",
-    iso639_two_letter: "ngo",
-    iso639_three_letter: "ngo",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Marshall Islands)
-pub const LANG_EN_MH: &LanguageId = &LanguageId {
-    name: "en-MH",
-    lcid: 0x1000,
-    english_name: "English (Marshall Islands)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kabuverdianu
-pub const LANG_KEA: &LanguageId = &LanguageId {
-    name: "kea",
-    lcid: 0x1000,
-    english_name: "Kabuverdianu",
-    iso639_two_letter: "kea",
-    iso639_three_letter: "kea",
-    windows_three_letter: "ZZZ",
-};
-
-/// Nyankole
-pub const LANG_NYN: &LanguageId = &LanguageId {
-    name: "nyn",
-    lcid: 0x1000,
-    english_name: "Nyankole",
-    iso639_two_letter: "nyn",
-    iso639_three_letter: "nyn",
-    windows_three_letter: "ZZZ",
-};
-
-/// Spanish (Belize)
-pub const LANG_ES_BZ: &LanguageId = &LanguageId {
-    name: "es-BZ",
-    lcid: 0x1000,
-    english_name: "Spanish (Belize)",
-    iso639_two_letter: "es",
-    iso639_three_letter: "spa",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Israel)
-pub const LANG_EN_IL: &LanguageId = &LanguageId {
-    name: "en-IL",
-    lcid: 0x1000,
-    english_name: "English (Israel)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ff-Latn-NG)
-pub const LANG_FF_LATN_NG: &LanguageId = &LanguageId {
-    name: "ff-Latn-NG",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ff-Latn-NG)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Pakistan)
-pub const LANG_EN_PK: &LanguageId = &LanguageId {
-    name: "en-PK",
-    lcid: 0x1000,
-    english_name: "English (Pakistan)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Vanuatu)
-pub const LANG_FR_VU: &LanguageId = &LanguageId {
-    name: "fr-VU",
-    lcid: 0x1000,
-    english_name: "French (Vanuatu)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Ngiemboon
-pub const LANG_NNH: &LanguageId = &LanguageId {
-    name: "nnh",
-    lcid: 0x1000,
-    english_name: "Ngiemboon",
-    iso639_two_letter: "nnh",
-    iso639_three_letter: "nnh",
-    windows_three_letter: "ZZZ",
-};
-
-/// Samburu
-pub const LANG_SAQ: &LanguageId = &LanguageId {
-    name: "saq",
-    lcid: 0x1000,
-    english_name: "Samburu",
-    iso639_two_letter: "saq",
-    iso639_three_letter: "saq",
-    windows_three_letter: "ZZZ",
-};
-
-/// Blin
-pub const LANG_BYN: &LanguageId = &LanguageId {
-    name: "byn",
-    lcid: 0x1000,
-    english_name: "Blin",
-    iso639_two_letter: "byn",
-    iso639_three_letter: "byn",
-    windows_three_letter: "ZZZ",
-};
-
-/// Standard Moroccan Tamazight (Tifinagh)
-pub const LANG_ZGH_TFNG: &LanguageId = &LanguageId {
-    name: "zgh-Tfng",
-    lcid: 0x1000,
-    english_name: "Standard Moroccan Tamazight (Tifinagh)",
-    iso639_two_letter: "zgh",
-    iso639_three_letter: "zgh",
-    windows_three_letter: "ZHG",
-};
-
-/// Arabic (Comoros)
-pub const LANG_AR_KM: &LanguageId = &LanguageId {
-    name: "ar-KM",
-    lcid: 0x1000,
-    english_name: "Arabic (Comoros)",
-    iso639_two_letter: "ar",
-    iso639_three_letter: "ara",
-    windows_three_letter: "ZZZ",
-};
-
-/// Rwa (Tanzania)
-pub const LANG_RWK_TZ: &LanguageId = &LanguageId {
-    name: "rwk-TZ",
-    lcid: 0x1000,
-    english_name: "Rwa (Tanzania)",
-    iso639_two_letter: "rwk",
-    iso639_three_letter: "rwk",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kako (Cameroon)
-pub const LANG_KKJ_CM: &LanguageId = &LanguageId {
-    name: "kkj-CM",
-    lcid: 0x1000,
-    english_name: "Kako (Cameroon)",
-    iso639_two_letter: "kkj",
-    iso639_three_letter: "kkj",
-    windows_three_letter: "ZZZ",
-};
-
-/// Bemba (Zambia)
-pub const LANG_BEM_ZM: &LanguageId = &LanguageId {
-    name: "bem-ZM",
-    lcid: 0x1000,
-    english_name: "Bemba (Zambia)",
-    iso639_two_letter: "bem",
-    iso639_three_letter: "bem",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ccp-Cakm-BD)
-pub const LANG_CCP_CAKM_BD: &LanguageId = &LanguageId {
-    name: "ccp-Cakm-BD",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ccp-Cakm-BD)",
-    iso639_two_letter: "ccp",
-    iso639_three_letter: "ccp",
-    windows_three_letter: "ZZZ",
-};
-
-/// Afrikaans (Namibia)
-pub const LANG_AF_NA: &LanguageId = &LanguageId {
-    name: "af-NA",
-    lcid: 0x1000,
-    english_name: "Afrikaans (Namibia)",
-    iso639_two_letter: "af",
-    iso639_three_letter: "afr",
-    windows_three_letter: "ZZZ",
-};
-
-/// Embu (Kenya)
-pub const LANG_EBU_KE: &LanguageId = &LanguageId {
-    name: "ebu-KE",
-    lcid: 0x1000,
-    english_name: "Embu (Kenya)",
-    iso639_two_letter: "ebu",
-    iso639_three_letter: "ebu",
-    windows_three_letter: "ZZZ",
-};
-
-/// Portuguese (Angola)
-pub const LANG_PT_AO: &LanguageId = &LanguageId {
-    name: "pt-AO",
-    lcid: 0x1000,
-    english_name: "Portuguese (Angola)",
-    iso639_two_letter: "pt",
-    iso639_three_letter: "por",
-    windows_three_letter: "PTA",
-};
-
-/// Lakota (United States)
-pub const LANG_LKT_US: &LanguageId = &LanguageId {
-    name: "lkt-US",
-    lcid: 0x1000,
-    english_name: "Lakota (United States)",
-    iso639_two_letter: "lkt",
-    iso639_three_letter: "lkt",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Gabon)
-pub const LANG_FR_GA: &LanguageId = &LanguageId {
-    name: "fr-GA",
-    lcid: 0x1000,
-    english_name: "French (Gabon)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Uganda)
-pub const LANG_EN_UG: &LanguageId = &LanguageId {
-    name: "en-UG",
-    lcid: 0x1000,
-    english_name: "English (Uganda)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Cook Islands)
-pub const LANG_EN_CK: &LanguageId = &LanguageId {
-    name: "en-CK",
-    lcid: 0x1000,
-    english_name: "English (Cook Islands)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Dari (Afghanistan)
-pub const LANG_FA_AF: &LanguageId = &LanguageId {
-    name: "fa-AF",
-    lcid: 0x1000,
-    english_name: "Dari (Afghanistan)",
-    iso639_two_letter: "prs",
-    iso639_three_letter: "prs",
-    windows_three_letter: "PRS",
-};
-
-/// Unknown Language (ccp)
-pub const LANG_CCP: &LanguageId = &LanguageId {
-    name: "ccp",
-    lcid: 0x1000,
-    english_name: "Unknown Language (ccp)",
-    iso639_two_letter: "ccp",
-    iso639_three_letter: "ccp",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ff-Latn-NE)
-pub const LANG_FF_LATN_NE: &LanguageId = &LanguageId {
-    name: "ff-Latn-NE",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ff-Latn-NE)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
-    windows_three_letter: "FUL",
-};
-
-/// English (Nigeria)
-pub const LANG_EN_NG: &LanguageId = &LanguageId {
-    name: "en-NG",
-    lcid: 0x1000,
-    english_name: "English (Nigeria)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kikuyu (Kenya)
-pub const LANG_KI_KE: &LanguageId = &LanguageId {
-    name: "ki-KE",
-    lcid: 0x1000,
-    english_name: "Kikuyu (Kenya)",
-    iso639_two_letter: "ki",
-    iso639_three_letter: "kik",
-    windows_three_letter: "ZZZ",
-};
-
-/// Arabic (Djibouti)
-pub const LANG_AR_DJ: &LanguageId = &LanguageId {
-    name: "ar-DJ",
-    lcid: 0x1000,
-    english_name: "Arabic (Djibouti)",
-    iso639_two_letter: "ar",
-    iso639_three_letter: "ara",
-    windows_three_letter: "ZZZ",
-};
-
-/// Ganda
-pub const LANG_LG: &LanguageId = &LanguageId {
-    name: "lg",
-    lcid: 0x1000,
-    english_name: "Ganda",
-    iso639_two_letter: "lg",
-    iso639_three_letter: "lug",
-    windows_three_letter: "ZZZ",
-};
-
-/// Arabic (Somalia)
-pub const LANG_AR_SO: &LanguageId = &LanguageId {
-    name: "ar-SO",
-    lcid: 0x1000,
-    english_name: "Arabic (Somalia)",
-    iso639_two_letter: "ar",
-    iso639_three_letter: "ara",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kabyle
-pub const LANG_KAB: &LanguageId = &LanguageId {
-    name: "kab",
-    lcid: 0x1000,
-    english_name: "Kabyle",
-    iso639_two_letter: "kab",
-    iso639_three_letter: "kab",
-    windows_three_letter: "ZZZ",
-};
-
-/// Tibetan (India)
-pub const LANG_BO_IN: &LanguageId = &LanguageId {
-    name: "bo-IN",
-    lcid: 0x1000,
-    english_name: "Tibetan (India)",
-    iso639_two_letter: "bo",
-    iso639_three_letter: "bod",
-    windows_three_letter: "ZZZ",
-};
-
-/// Blin (Eritrea)
-pub const LANG_BYN_ER: &LanguageId = &LanguageId {
-    name: "byn-ER",
-    lcid: 0x1000,
-    english_name: "Blin (Eritrea)",
-    iso639_two_letter: "byn",
-    iso639_three_letter: "byn",
-    windows_three_letter: "ZZZ",
-};
-
-/// Basaa
-pub const LANG_BAS: &LanguageId = &LanguageId {
-    name: "bas",
-    lcid: 0x1000,
-    english_name: "Basaa",
-    iso639_two_letter: "bas",
-    iso639_three_letter: "bas",
-    windows_three_letter: "ZZZ",
-};
-
-/// Lakota
-pub const LANG_LKT: &LanguageId = &LanguageId {
-    name: "lkt",
-    lcid: 0x1000,
-    english_name: "Lakota",
-    iso639_two_letter: "lkt",
-    iso639_three_letter: "lkt",
-    windows_three_letter: "ZZZ",
-};
-
-/// Aghem (Cameroon)
-pub const LANG_AGQ_CM: &LanguageId = &LanguageId {
-    name: "agq-CM",
-    lcid: 0x1000,
-    english_name: "Aghem (Cameroon)",
-    iso639_two_letter: "agq",
-    iso639_three_letter: "agq",
-    windows_three_letter: "ZZZ",
-};
-
-/// Tachelhit (Tifinagh)
-pub const LANG_SHI_TFNG: &LanguageId = &LanguageId {
-    name: "shi-Tfng",
-    lcid: 0x1000,
-    english_name: "Tachelhit (Tifinagh)",
-    iso639_two_letter: "shi",
-    iso639_three_letter: "shi",
-    windows_three_letter: "ZZZ",
-};
-
-/// Portuguese (São Tomé and Príncipe)
-pub const LANG_PT_ST: &LanguageId = &LanguageId {
-    name: "pt-ST",
-    lcid: 0x1000,
-    english_name: "Portuguese (São Tomé and Príncipe)",
-    iso639_two_letter: "pt",
-    iso639_three_letter: "por",
-    windows_three_letter: "ZZZ",
-};
-
-/// Hausa (Latin, Ghana)
-pub const LANG_HA_LATN_GH: &LanguageId = &LanguageId {
-    name: "ha-Latn-GH",
-    lcid: 0x1000,
-    english_name: "Hausa (Latin, Ghana)",
-    iso639_two_letter: "ha",
-    iso639_three_letter: "hau",
-    windows_three_letter: "ZZZ",
-};
-
-/// Catalan (Italy)
-pub const LANG_CA_IT: &LanguageId = &LanguageId {
-    name: "ca-IT",
-    lcid: 0x1000,
-    english_name: "Catalan (Italy)",
-    iso639_two_letter: "ca",
-    iso639_three_letter: "cat",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Christmas Island)
-pub const LANG_EN_CX: &LanguageId = &LanguageId {
-    name: "en-CX",
-    lcid: 0x1000,
-    english_name: "English (Christmas Island)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Soga (Uganda)
-pub const LANG_XOG_UG: &LanguageId = &LanguageId {
-    name: "xog-UG",
-    lcid: 0x1000,
-    english_name: "Soga (Uganda)",
-    iso639_two_letter: "xog",
-    iso639_three_letter: "xog",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Botswana)
-pub const LANG_EN_BW: &LanguageId = &LanguageId {
-    name: "en-BW",
-    lcid: 0x1000,
-    english_name: "English (Botswana)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Palau)
-pub const LANG_EN_PW: &LanguageId = &LanguageId {
-    name: "en-PW",
-    lcid: 0x1000,
-    english_name: "English (Palau)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kwasio
-pub const LANG_NMG: &LanguageId = &LanguageId {
-    name: "nmg",
-    lcid: 0x1000,
-    english_name: "Kwasio",
-    iso639_two_letter: "nmg",
-    iso639_three_letter: "nmg",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Turks and Caicos Islands)
-pub const LANG_EN_TC: &LanguageId = &LanguageId {
-    name: "en-TC",
-    lcid: 0x1000,
-    english_name: "English (Turks and Caicos Islands)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kalenjin (Kenya)
-pub const LANG_KLN_KE: &LanguageId = &LanguageId {
-    name: "kln-KE",
-    lcid: 0x1000,
-    english_name: "Kalenjin (Kenya)",
-    iso639_two_letter: "kln",
-    iso639_three_letter: "kln",
-    windows_three_letter: "ZZZ",
-};
-
-/// Somali (Djibouti)
-pub const LANG_SO_DJ: &LanguageId = &LanguageId {
-    name: "so-DJ",
-    lcid: 0x1000,
-    english_name: "Somali (Djibouti)",
-    iso639_two_letter: "so",
-    iso639_three_letter: "som",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Austria)
-pub const LANG_EN_AT: &LanguageId = &LanguageId {
-    name: "en-AT",
-    lcid: 0x1000,
-    english_name: "English (Austria)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Russian (Belarus)
-pub const LANG_RU_BY: &LanguageId = &LanguageId {
-    name: "ru-BY",
-    lcid: 0x1000,
-    english_name: "Russian (Belarus)",
-    iso639_two_letter: "ru",
-    iso639_three_letter: "rus",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (British Virgin Islands)
-pub const LANG_EN_VG: &LanguageId = &LanguageId {
-    name: "en-VG",
-    lcid: 0x1000,
-    english_name: "English (British Virgin Islands)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Portuguese (Cabo Verde)
-pub const LANG_PT_CV: &LanguageId = &LanguageId {
-    name: "pt-CV",
-    lcid: 0x1000,
-    english_name: "Portuguese (Cabo Verde)",
-    iso639_two_letter: "pt",
-    iso639_three_letter: "por",
-    windows_three_letter: "ZZZ",
-};
-
-/// Nuer (South Sudan)
-pub const LANG_NUS_SS: &LanguageId = &LanguageId {
-    name: "nus-SS",
-    lcid: 0x1000,
-    english_name: "Nuer (South Sudan)",
-    iso639_two_letter: "nus",
-    iso639_three_letter: "nus",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Guadeloupe)
-pub const LANG_FR_GP: &LanguageId = &LanguageId {
-    name: "fr-GP",
-    lcid: 0x1000,
-    english_name: "French (Guadeloupe)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Arabic (World)
-pub const LANG_AR_001: &LanguageId = &LanguageId {
-    name: "ar-001",
-    lcid: 0x1000,
-    english_name: "Arabic (World)",
-    iso639_two_letter: "ar",
-    iso639_three_letter: "ara",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Germany)
-pub const LANG_EN_DE: &LanguageId = &LanguageId {
-    name: "en-DE",
-    lcid: 0x1000,
-    english_name: "English (Germany)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Cameroon)
-pub const LANG_EN_CM: &LanguageId = &LanguageId {
-    name: "en-CM",
-    lcid: 0x1000,
-    english_name: "English (Cameroon)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Sena (Mozambique)
-pub const LANG_SEH_MZ: &LanguageId = &LanguageId {
-    name: "seh-MZ",
-    lcid: 0x1000,
-    english_name: "Sena (Mozambique)",
-    iso639_two_letter: "seh",
-    iso639_three_letter: "seh",
-    windows_three_letter: "ZZZ",
-};
-
-/// Tasawaq (Niger)
-pub const LANG_TWQ_NE: &LanguageId = &LanguageId {
-    name: "twq-NE",
-    lcid: 0x1000,
-    english_name: "Tasawaq (Niger)",
-    iso639_two_letter: "twq",
-    iso639_three_letter: "twq",
-    windows_three_letter: "ZZZ",
-};
-
-/// Dutch (Sint Maarten)
-pub const LANG_NL_SX: &LanguageId = &LanguageId {
-    name: "nl-SX",
-    lcid: 0x1000,
-    english_name: "Dutch (Sint Maarten)",
-    iso639_two_letter: "nl",
-    iso639_three_letter: "nld",
-    windows_three_letter: "ZZZ",
-};
-
-/// Russian (Ukraine)
-pub const LANG_RU_UA: &LanguageId = &LanguageId {
-    name: "ru-UA",
-    lcid: 0x1000,
-    english_name: "Russian (Ukraine)",
-    iso639_two_letter: "ru",
-    iso639_three_letter: "rus",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Malta)
-pub const LANG_EN_MT: &LanguageId = &LanguageId {
-    name: "en-MT",
-    lcid: 0x1000,
-    english_name: "English (Malta)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Cocos (Keeling) Islands)
-pub const LANG_EN_CC: &LanguageId = &LanguageId {
-    name: "en-CC",
-    lcid: 0x1000,
-    english_name: "English (Cocos (Keeling) Islands)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Mayotte)
-pub const LANG_FR_YT: &LanguageId = &LanguageId {
-    name: "fr-YT",
-    lcid: 0x1000,
-    english_name: "French (Mayotte)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
+/// Afar (Djibouti)
+pub const LANG_AA_DJ: &LanguageId = &LanguageId {
+    name: "aa-DJ",
+    lcid: 0x1000,
+    english_name: "Afar (Djibouti)",
+    iso639_two_letter: "aa",
+    iso639_three_letter: "aar",
     windows_three_letter: "ZZZ",
 };
 
@@ -3860,1013 +3010,23 @@ pub const LANG_AA_ER: &LanguageId = &LanguageId {
     windows_three_letter: "ZZZ",
 };
 
-/// Mundang
-pub const LANG_MUA: &LanguageId = &LanguageId {
-    name: "mua",
+/// Afar (Ethiopia)
+pub const LANG_AA_ET: &LanguageId = &LanguageId {
+    name: "aa-ET",
     lcid: 0x1000,
-    english_name: "Mundang",
-    iso639_two_letter: "mua",
-    iso639_three_letter: "mua",
+    english_name: "Afar (Ethiopia)",
+    iso639_two_letter: "aa",
+    iso639_three_letter: "aar",
     windows_three_letter: "ZZZ",
 };
 
-/// Somali (Ethiopia)
-pub const LANG_SO_ET: &LanguageId = &LanguageId {
-    name: "so-ET",
+/// Afrikaans (Namibia)
+pub const LANG_AF_NA: &LanguageId = &LanguageId {
+    name: "af-NA",
     lcid: 0x1000,
-    english_name: "Somali (Ethiopia)",
-    iso639_two_letter: "so",
-    iso639_three_letter: "som",
-    windows_three_letter: "ZZZ",
-};
-
-/// Luba-Katanga (Congo DRC)
-pub const LANG_LU_CD: &LanguageId = &LanguageId {
-    name: "lu-CD",
-    lcid: 0x1000,
-    english_name: "Luba-Katanga (Congo DRC)",
-    iso639_two_letter: "lu",
-    iso639_three_letter: "lub",
-    windows_three_letter: "ZZZ",
-};
-
-/// siSwati
-pub const LANG_SS: &LanguageId = &LanguageId {
-    name: "ss",
-    lcid: 0x1000,
-    english_name: "siSwati",
-    iso639_two_letter: "ss",
-    iso639_three_letter: "ssw",
-    windows_three_letter: "ZZZ",
-};
-
-/// Bemba
-pub const LANG_BEM: &LanguageId = &LanguageId {
-    name: "bem",
-    lcid: 0x1000,
-    english_name: "Bemba",
-    iso639_two_letter: "bem",
-    iso639_three_letter: "bem",
-    windows_three_letter: "ZZZ",
-};
-
-/// Asturian (Spain)
-pub const LANG_AST_ES: &LanguageId = &LanguageId {
-    name: "ast-ES",
-    lcid: 0x1000,
-    english_name: "Asturian (Spain)",
-    iso639_two_letter: "ast",
-    iso639_three_letter: "ast",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Swaziland)
-pub const LANG_EN_SZ: &LanguageId = &LanguageId {
-    name: "en-SZ",
-    lcid: 0x1000,
-    english_name: "English (Swaziland)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Northern Luri (Iraq)
-pub const LANG_LRC_IQ: &LanguageId = &LanguageId {
-    name: "lrc-IQ",
-    lcid: 0x1000,
-    english_name: "Northern Luri (Iraq)",
-    iso639_two_letter: "lrc",
-    iso639_three_letter: "lrc",
-    windows_three_letter: "ZZZ",
-};
-
-/// Taita
-pub const LANG_DAV: &LanguageId = &LanguageId {
-    name: "dav",
-    lcid: 0x1000,
-    english_name: "Taita",
-    iso639_two_letter: "dav",
-    iso639_three_letter: "dav",
-    windows_three_letter: "ZZZ",
-};
-
-/// Colognian (Germany)
-pub const LANG_KSH_DE: &LanguageId = &LanguageId {
-    name: "ksh-DE",
-    lcid: 0x1000,
-    english_name: "Colognian (Germany)",
-    iso639_two_letter: "ksh",
-    iso639_three_letter: "ksh",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Seychelles)
-pub const LANG_FR_SC: &LanguageId = &LanguageId {
-    name: "fr-SC",
-    lcid: 0x1000,
-    english_name: "French (Seychelles)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Portuguese (Macao SAR)
-pub const LANG_PT_MO: &LanguageId = &LanguageId {
-    name: "pt-MO",
-    lcid: 0x1000,
-    english_name: "Portuguese (Macao SAR)",
-    iso639_two_letter: "pt",
-    iso639_three_letter: "por",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (St Helena, Ascension, Tristan da Cunha)
-pub const LANG_EN_SH: &LanguageId = &LanguageId {
-    name: "en-SH",
-    lcid: 0x1000,
-    english_name: "English (St Helena, Ascension, Tristan da Cunha)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (World)
-pub const LANG_EN_001: &LanguageId = &LanguageId {
-    name: "en-001",
-    lcid: 0x1000,
-    english_name: "English (World)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Taita (Kenya)
-pub const LANG_DAV_KE: &LanguageId = &LanguageId {
-    name: "dav-KE",
-    lcid: 0x1000,
-    english_name: "Taita (Kenya)",
-    iso639_two_letter: "dav",
-    iso639_three_letter: "dav",
-    windows_three_letter: "ZZZ",
-};
-
-/// Esperanto (World)
-pub const LANG_EO_001: &LanguageId = &LanguageId {
-    name: "eo-001",
-    lcid: 0x1000,
-    english_name: "Esperanto (World)",
-    iso639_two_letter: "eo",
-    iso639_three_letter: "epo",
-    windows_three_letter: "ZZZ",
-};
-
-/// German (Italy)
-pub const LANG_DE_IT: &LanguageId = &LanguageId {
-    name: "de-IT",
-    lcid: 0x1000,
-    english_name: "German (Italy)",
-    iso639_two_letter: "de",
-    iso639_three_letter: "deu",
-    windows_three_letter: "ZZZ",
-};
-
-/// Lingala (Angola)
-pub const LANG_LN_AO: &LanguageId = &LanguageId {
-    name: "ln-AO",
-    lcid: 0x1000,
-    english_name: "Lingala (Angola)",
-    iso639_two_letter: "ln",
-    iso639_three_letter: "lin",
-    windows_three_letter: "ZZZ",
-};
-
-/// Zarma (Niger)
-pub const LANG_DJE_NE: &LanguageId = &LanguageId {
-    name: "dje-NE",
-    lcid: 0x1000,
-    english_name: "Zarma (Niger)",
-    iso639_two_letter: "dje",
-    iso639_three_letter: "dje",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Europe)
-pub const LANG_EN_150: &LanguageId = &LanguageId {
-    name: "en-150",
-    lcid: 0x1000,
-    english_name: "English (Europe)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Ewondo
-pub const LANG_EWO: &LanguageId = &LanguageId {
-    name: "ewo",
-    lcid: 0x1000,
-    english_name: "Ewondo",
-    iso639_two_letter: "ewo",
-    iso639_three_letter: "ewo",
-    windows_three_letter: "ZZZ",
-};
-
-/// Nuer (South Sudan)
-pub const LANG_NUS_SD: &LanguageId = &LanguageId {
-    name: "nus-SD",
-    lcid: 0x1000,
-    english_name: "Nuer (South Sudan)",
-    iso639_two_letter: "nus",
-    iso639_three_letter: "nus",
-    windows_three_letter: "ZZZ",
-};
-
-/// Ngiemboon (Cameroon)
-pub const LANG_NNH_CM: &LanguageId = &LanguageId {
-    name: "nnh-CM",
-    lcid: 0x1000,
-    english_name: "Ngiemboon (Cameroon)",
-    iso639_two_letter: "nnh",
-    iso639_three_letter: "nnh",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ngo-GN)
-pub const LANG_NGO_GN: &LanguageId = &LanguageId {
-    name: "ngo-GN",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ngo-GN)",
-    iso639_two_letter: "ngo",
-    iso639_three_letter: "ngo",
-    windows_three_letter: "ZZZ",
-};
-
-/// Interlingua (World)
-pub const LANG_IA_001: &LanguageId = &LanguageId {
-    name: "ia-001",
-    lcid: 0x1000,
-    english_name: "Interlingua (World)",
-    iso639_two_letter: "ia",
-    iso639_three_letter: "ina",
-    windows_three_letter: "ZZZ",
-};
-
-/// Dutch (Bonaire, Sint Eustatius and Saba)
-pub const LANG_NL_BQ: &LanguageId = &LanguageId {
-    name: "nl-BQ",
-    lcid: 0x1000,
-    english_name: "Dutch (Bonaire, Sint Eustatius and Saba)",
-    iso639_two_letter: "nl",
-    iso639_three_letter: "nld",
-    windows_three_letter: "ZZZ",
-};
-
-/// Tongan
-pub const LANG_TO: &LanguageId = &LanguageId {
-    name: "to",
-    lcid: 0x1000,
-    english_name: "Tongan",
-    iso639_two_letter: "to",
-    iso639_three_letter: "ton",
-    windows_three_letter: "ZZZ",
-};
-
-/// Swiss German (Switzerland)
-pub const LANG_GSW_CH: &LanguageId = &LanguageId {
-    name: "gsw-CH",
-    lcid: 0x1000,
-    english_name: "Swiss German (Switzerland)",
-    iso639_two_letter: "gsw",
-    iso639_three_letter: "gsw",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kako
-pub const LANG_KKJ: &LanguageId = &LanguageId {
-    name: "kkj",
-    lcid: 0x1000,
-    english_name: "Kako",
-    iso639_two_letter: "kkj",
-    iso639_three_letter: "kkj",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Algeria)
-pub const LANG_FR_DZ: &LanguageId = &LanguageId {
-    name: "fr-DZ",
-    lcid: 0x1000,
-    english_name: "French (Algeria)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Rundi (Burundi)
-pub const LANG_RN_BI: &LanguageId = &LanguageId {
-    name: "rn-BI",
-    lcid: 0x1000,
-    english_name: "Rundi (Burundi)",
-    iso639_two_letter: "rn",
-    iso639_three_letter: "run",
-    windows_three_letter: "ZZZ",
-};
-
-/// Fulah (Mauritania)
-pub const LANG_FF_MR: &LanguageId = &LanguageId {
-    name: "ff-MR",
-    lcid: 0x1000,
-    english_name: "Fulah (Mauritania)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
-    windows_three_letter: "ZZZ",
-};
-
-/// German (Belgium)
-pub const LANG_DE_BE: &LanguageId = &LanguageId {
-    name: "de-BE",
-    lcid: 0x1000,
-    english_name: "German (Belgium)",
-    iso639_two_letter: "de",
-    iso639_three_letter: "deu",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (American Samoa)
-pub const LANG_EN_AS: &LanguageId = &LanguageId {
-    name: "en-AS",
-    lcid: 0x1000,
-    english_name: "English (American Samoa)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Tuvalu)
-pub const LANG_EN_TV: &LanguageId = &LanguageId {
-    name: "en-TV",
-    lcid: 0x1000,
-    english_name: "English (Tuvalu)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kamba
-pub const LANG_KAM: &LanguageId = &LanguageId {
-    name: "kam",
-    lcid: 0x1000,
-    english_name: "Kamba",
-    iso639_two_letter: "kam",
-    iso639_three_letter: "kam",
-    windows_three_letter: "ZZZ",
-};
-
-/// Rundi
-pub const LANG_RN: &LanguageId = &LanguageId {
-    name: "rn",
-    lcid: 0x1000,
-    english_name: "Rundi",
-    iso639_two_letter: "rn",
-    iso639_three_letter: "run",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Martinique)
-pub const LANG_FR_MQ: &LanguageId = &LanguageId {
-    name: "fr-MQ",
-    lcid: 0x1000,
-    english_name: "French (Martinique)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Portuguese (Equatorial Guinea)
-pub const LANG_PT_GQ: &LanguageId = &LanguageId {
-    name: "pt-GQ",
-    lcid: 0x1000,
-    english_name: "Portuguese (Equatorial Guinea)",
-    iso639_two_letter: "pt",
-    iso639_three_letter: "por",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (U.S. Virgin Islands)
-pub const LANG_EN_VI: &LanguageId = &LanguageId {
-    name: "en-VI",
-    lcid: 0x1000,
-    english_name: "English (U.S. Virgin Islands)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Meru
-pub const LANG_MER: &LanguageId = &LanguageId {
-    name: "mer",
-    lcid: 0x1000,
-    english_name: "Meru",
-    iso639_two_letter: "mer",
-    iso639_three_letter: "mer",
-    windows_three_letter: "ZZZ",
-};
-
-/// Volapük
-pub const LANG_VO: &LanguageId = &LanguageId {
-    name: "vo",
-    lcid: 0x1000,
-    english_name: "Volapük",
-    iso639_two_letter: "vo",
-    iso639_three_letter: "vol",
-    windows_three_letter: "ZZZ",
-};
-
-/// Interlingua
-pub const LANG_IA: &LanguageId = &LanguageId {
-    name: "ia",
-    lcid: 0x1000,
-    english_name: "Interlingua",
-    iso639_two_letter: "ia",
-    iso639_three_letter: "ina",
-    windows_three_letter: "ZZZ",
-};
-
-/// Oromo (Kenya)
-pub const LANG_OM_KE: &LanguageId = &LanguageId {
-    name: "om-KE",
-    lcid: 0x1000,
-    english_name: "Oromo (Kenya)",
-    iso639_two_letter: "om",
-    iso639_three_letter: "orm",
-    windows_three_letter: "ZZZ",
-};
-
-/// Morisyen (Mauritius)
-pub const LANG_MFE_MU: &LanguageId = &LanguageId {
-    name: "mfe-MU",
-    lcid: 0x1000,
-    english_name: "Morisyen (Mauritius)",
-    iso639_two_letter: "mfe",
-    iso639_three_letter: "mfe",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Grenada)
-pub const LANG_EN_GD: &LanguageId = &LanguageId {
-    name: "en-GD",
-    lcid: 0x1000,
-    english_name: "English (Grenada)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// siSwati (Swaziland)
-pub const LANG_SS_SZ: &LanguageId = &LanguageId {
-    name: "ss-SZ",
-    lcid: 0x1000,
-    english_name: "siSwati (Swaziland)",
-    iso639_two_letter: "ss",
-    iso639_three_letter: "ssw",
-    windows_three_letter: "ZZZ",
-};
-
-/// Akan (Ghana)
-pub const LANG_AK_GH: &LanguageId = &LanguageId {
-    name: "ak-GH",
-    lcid: 0x1000,
-    english_name: "Akan (Ghana)",
-    iso639_two_letter: "ak",
-    iso639_three_letter: "aka",
-    windows_three_letter: "ZZZ",
-};
-
-/// Jola-Fonyi (Senegal)
-pub const LANG_DYO_SN: &LanguageId = &LanguageId {
-    name: "dyo-SN",
-    lcid: 0x1000,
-    english_name: "Jola-Fonyi (Senegal)",
-    iso639_two_letter: "dyo",
-    iso639_three_letter: "dyo",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Wallis and Futuna)
-pub const LANG_FR_WF: &LanguageId = &LanguageId {
-    name: "fr-WF",
-    lcid: 0x1000,
-    english_name: "French (Wallis and Futuna)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Lingala (Congo)
-pub const LANG_LN_CG: &LanguageId = &LanguageId {
-    name: "ln-CG",
-    lcid: 0x1000,
-    english_name: "Lingala (Congo)",
-    iso639_two_letter: "ln",
-    iso639_three_letter: "lin",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ff-Latn-SL)
-pub const LANG_FF_LATN_SL: &LanguageId = &LanguageId {
-    name: "ff-Latn-SL",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ff-Latn-SL)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
-    windows_three_letter: "FUL",
-};
-
-/// Bena
-pub const LANG_BEZ: &LanguageId = &LanguageId {
-    name: "bez",
-    lcid: 0x1000,
-    english_name: "Bena",
-    iso639_two_letter: "bez",
-    iso639_three_letter: "bez",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Togo)
-pub const LANG_FR_TG: &LanguageId = &LanguageId {
-    name: "fr-TG",
-    lcid: 0x1000,
-    english_name: "French (Togo)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Lingala (Congo DRC)
-pub const LANG_LN_CD: &LanguageId = &LanguageId {
-    name: "ln-CD",
-    lcid: 0x1000,
-    english_name: "Lingala (Congo DRC)",
-    iso639_two_letter: "ln",
-    iso639_three_letter: "lin",
-    windows_three_letter: "ZZZ",
-};
-
-/// Vai (Vai)
-pub const LANG_VAI_VAII: &LanguageId = &LanguageId {
-    name: "vai-Vaii",
-    lcid: 0x1000,
-    english_name: "Vai (Vai)",
-    iso639_two_letter: "vai",
-    iso639_three_letter: "vai",
-    windows_three_letter: "ZZZ",
-};
-
-/// Tigre (Eritrea)
-pub const LANG_TIG_ER: &LanguageId = &LanguageId {
-    name: "tig-ER",
-    lcid: 0x1000,
-    english_name: "Tigre (Eritrea)",
-    iso639_two_letter: "tig",
-    iso639_three_letter: "tig",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Benin)
-pub const LANG_FR_BJ: &LanguageId = &LanguageId {
-    name: "fr-BJ",
-    lcid: 0x1000,
-    english_name: "French (Benin)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ccp-Cakm-IN)
-pub const LANG_CCP_CAKM_IN: &LanguageId = &LanguageId {
-    name: "ccp-Cakm-IN",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ccp-Cakm-IN)",
-    iso639_two_letter: "ccp",
-    iso639_three_letter: "ccp",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ceb-Latn-PH)
-pub const LANG_CEB_LATN_PH: &LanguageId = &LanguageId {
-    name: "ceb-Latn-PH",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ceb-Latn-PH)",
-    iso639_two_letter: "ceb",
-    iso639_three_letter: "ceb",
-    windows_three_letter: "ZZZ",
-};
-
-/// Ganda (Uganda)
-pub const LANG_LG_UG: &LanguageId = &LanguageId {
-    name: "lg-UG",
-    lcid: 0x1000,
-    english_name: "Ganda (Uganda)",
-    iso639_two_letter: "lg",
-    iso639_three_letter: "lug",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Gibraltar)
-pub const LANG_EN_GI: &LanguageId = &LanguageId {
-    name: "en-GI",
-    lcid: 0x1000,
-    english_name: "English (Gibraltar)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// South Ndebele (South Africa)
-pub const LANG_NR_ZA: &LanguageId = &LanguageId {
-    name: "nr-ZA",
-    lcid: 0x1000,
-    english_name: "South Ndebele (South Africa)",
-    iso639_two_letter: "nr",
-    iso639_three_letter: "nbl",
-    windows_three_letter: "ZZZ",
-};
-
-/// Tachelhit (Tifinagh, Morocco)
-pub const LANG_SHI_TFNG_MA: &LanguageId = &LanguageId {
-    name: "shi-Tfng-MA",
-    lcid: 0x1000,
-    english_name: "Tachelhit (Tifinagh, Morocco)",
-    iso639_two_letter: "shi",
-    iso639_three_letter: "shi",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (British Indian Ocean Territory)
-pub const LANG_EN_IO: &LanguageId = &LanguageId {
-    name: "en-IO",
-    lcid: 0x1000,
-    english_name: "English (British Indian Ocean Territory)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Makonde (Tanzania)
-pub const LANG_KDE_TZ: &LanguageId = &LanguageId {
-    name: "kde-TZ",
-    lcid: 0x1000,
-    english_name: "Makonde (Tanzania)",
-    iso639_two_letter: "kde",
-    iso639_three_letter: "kde",
-    windows_three_letter: "ZZZ",
-};
-
-/// Dzongkha
-pub const LANG_DZ: &LanguageId = &LanguageId {
-    name: "dz",
-    lcid: 0x1000,
-    english_name: "Dzongkha",
-    iso639_two_letter: "dz",
-    iso639_three_letter: "dzo",
-    windows_three_letter: "ZZZ",
-};
-
-/// Asturian
-pub const LANG_AST: &LanguageId = &LanguageId {
-    name: "ast",
-    lcid: 0x1000,
-    english_name: "Asturian",
-    iso639_two_letter: "ast",
-    iso639_three_letter: "ast",
-    windows_three_letter: "ZZZ",
-};
-
-/// Tigre
-pub const LANG_TIG: &LanguageId = &LanguageId {
-    name: "tig",
-    lcid: 0x1000,
-    english_name: "Tigre",
-    iso639_two_letter: "tig",
-    iso639_three_letter: "tig",
-    windows_three_letter: "ZZZ",
-};
-
-/// Low German (Netherlands)
-pub const LANG_NDS_NL: &LanguageId = &LanguageId {
-    name: "nds-NL",
-    lcid: 0x1000,
-    english_name: "Low German (Netherlands)",
-    iso639_two_letter: "nds",
-    iso639_three_letter: "nds",
-    windows_three_letter: "ZZZ",
-};
-
-/// Friulian
-pub const LANG_FUR: &LanguageId = &LanguageId {
-    name: "fur",
-    lcid: 0x1000,
-    english_name: "Friulian",
-    iso639_two_letter: "fur",
-    iso639_three_letter: "fur",
-    windows_three_letter: "ZZZ",
-};
-
-/// Gusii
-pub const LANG_GUZ: &LanguageId = &LanguageId {
-    name: "guz",
-    lcid: 0x1000,
-    english_name: "Gusii",
-    iso639_two_letter: "guz",
-    iso639_three_letter: "guz",
-    windows_three_letter: "ZZZ",
-};
-
-/// Asu
-pub const LANG_ASA: &LanguageId = &LanguageId {
-    name: "asa",
-    lcid: 0x1000,
-    english_name: "Asu",
-    iso639_two_letter: "asa",
-    iso639_three_letter: "asa",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Guernsey)
-pub const LANG_EN_GG: &LanguageId = &LanguageId {
-    name: "en-GG",
-    lcid: 0x1000,
-    english_name: "English (Guernsey)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Spanish (Equatorial Guinea)
-pub const LANG_ES_GQ: &LanguageId = &LanguageId {
-    name: "es-GQ",
-    lcid: 0x1000,
-    english_name: "Spanish (Equatorial Guinea)",
-    iso639_two_letter: "es",
-    iso639_three_letter: "spa",
-    windows_three_letter: "ZZZ",
-};
-
-/// Javanese
-pub const LANG_JV: &LanguageId = &LanguageId {
-    name: "jv",
-    lcid: 0x1000,
-    english_name: "Javanese",
-    iso639_two_letter: "jv",
-    iso639_three_letter: "jav",
-    windows_three_letter: "JAV",
-};
-
-/// French (Saint Barthélemy)
-pub const LANG_FR_BL: &LanguageId = &LanguageId {
-    name: "fr-BL",
-    lcid: 0x1000,
-    english_name: "French (Saint Barthélemy)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Lingala (Central African Republic)
-pub const LANG_LN_CF: &LanguageId = &LanguageId {
-    name: "ln-CF",
-    lcid: 0x1000,
-    english_name: "Lingala (Central African Republic)",
-    iso639_two_letter: "ln",
-    iso639_three_letter: "lin",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Sweden)
-pub const LANG_EN_SE: &LanguageId = &LanguageId {
-    name: "en-SE",
-    lcid: 0x1000,
-    english_name: "English (Sweden)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Saint Lucia)
-pub const LANG_EN_LC: &LanguageId = &LanguageId {
-    name: "en-LC",
-    lcid: 0x1000,
-    english_name: "English (Saint Lucia)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Solomon Islands)
-pub const LANG_EN_SB: &LanguageId = &LanguageId {
-    name: "en-SB",
-    lcid: 0x1000,
-    english_name: "English (Solomon Islands)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Turkish (Cyprus)
-pub const LANG_TR_CY: &LanguageId = &LanguageId {
-    name: "tr-CY",
-    lcid: 0x1000,
-    english_name: "Turkish (Cyprus)",
-    iso639_two_letter: "tr",
-    iso639_three_letter: "tur",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Jersey)
-pub const LANG_EN_JE: &LanguageId = &LanguageId {
-    name: "en-JE",
-    lcid: 0x1000,
-    english_name: "English (Jersey)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Ghana)
-pub const LANG_EN_GH: &LanguageId = &LanguageId {
-    name: "en-GH",
-    lcid: 0x1000,
-    english_name: "English (Ghana)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Bamanankan (Latin, Mali)
-pub const LANG_BM_ML: &LanguageId = &LanguageId {
-    name: "bm-ML",
-    lcid: 0x1000,
-    english_name: "Bamanankan (Latin, Mali)",
-    iso639_two_letter: "bm",
-    iso639_three_letter: "bam",
-    windows_three_letter: "ZZZ",
-};
-
-/// Sangu
-pub const LANG_SBP: &LanguageId = &LanguageId {
-    name: "sbp",
-    lcid: 0x1000,
-    english_name: "Sangu",
-    iso639_two_letter: "sbp",
-    iso639_three_letter: "sbp",
-    windows_three_letter: "ZZZ",
-};
-
-/// Spanish (Brazil)
-pub const LANG_ES_BR: &LanguageId = &LanguageId {
-    name: "es-BR",
-    lcid: 0x1000,
-    english_name: "Spanish (Brazil)",
-    iso639_two_letter: "es",
-    iso639_three_letter: "spa",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kurdish (Perso-Arabic, Iran)
-pub const LANG_KU_ARAB_IR: &LanguageId = &LanguageId {
-    name: "ku-Arab-IR",
-    lcid: 0x1000,
-    english_name: "Kurdish (Perso-Arabic, Iran)",
-    iso639_two_letter: "ku",
-    iso639_three_letter: "kur",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Guam)
-pub const LANG_EN_GU: &LanguageId = &LanguageId {
-    name: "en-GU",
-    lcid: 0x1000,
-    english_name: "English (Guam)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Fiji)
-pub const LANG_EN_FJ: &LanguageId = &LanguageId {
-    name: "en-FJ",
-    lcid: 0x1000,
-    english_name: "English (Fiji)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Machame
-pub const LANG_JMC: &LanguageId = &LanguageId {
-    name: "jmc",
-    lcid: 0x1000,
-    english_name: "Machame",
-    iso639_two_letter: "jmc",
-    iso639_three_letter: "jmc",
-    windows_three_letter: "ZZZ",
-};
-
-/// Nyankole (Uganda)
-pub const LANG_NYN_UG: &LanguageId = &LanguageId {
-    name: "nyn-UG",
-    lcid: 0x1000,
-    english_name: "Nyankole (Uganda)",
-    iso639_two_letter: "nyn",
-    iso639_three_letter: "nyn",
-    windows_three_letter: "ZZZ",
-};
-
-/// Langi (Tanzania)
-pub const LANG_LAG_TZ: &LanguageId = &LanguageId {
-    name: "lag-TZ",
-    lcid: 0x1000,
-    english_name: "Langi (Tanzania)",
-    iso639_two_letter: "lag",
-    iso639_three_letter: "lag",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Zambia)
-pub const LANG_EN_ZM: &LanguageId = &LanguageId {
-    name: "en-ZM",
-    lcid: 0x1000,
-    english_name: "English (Zambia)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Tamil (Singapore)
-pub const LANG_TA_SG: &LanguageId = &LanguageId {
-    name: "ta-SG",
-    lcid: 0x1000,
-    english_name: "Tamil (Singapore)",
-    iso639_two_letter: "ta",
-    iso639_three_letter: "tam",
-    windows_three_letter: "ZZZ",
-};
-
-/// Nuer
-pub const LANG_NUS: &LanguageId = &LanguageId {
-    name: "nus",
-    lcid: 0x1000,
-    english_name: "Nuer",
-    iso639_two_letter: "nus",
-    iso639_three_letter: "nus",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Barbados)
-pub const LANG_EN_BB: &LanguageId = &LanguageId {
-    name: "en-BB",
-    lcid: 0x1000,
-    english_name: "English (Barbados)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Syria)
-pub const LANG_FR_SY: &LanguageId = &LanguageId {
-    name: "fr-SY",
-    lcid: 0x1000,
-    english_name: "French (Syria)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Russian (Kazakhstan)
-pub const LANG_RU_KZ: &LanguageId = &LanguageId {
-    name: "ru-KZ",
-    lcid: 0x1000,
-    english_name: "Russian (Kazakhstan)",
-    iso639_two_letter: "ru",
-    iso639_three_letter: "rus",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Cyprus)
-pub const LANG_EN_CY: &LanguageId = &LanguageId {
-    name: "en-CY",
-    lcid: 0x1000,
-    english_name: "English (Cyprus)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Koyraboro Senni
-pub const LANG_SES: &LanguageId = &LanguageId {
-    name: "ses",
-    lcid: 0x1000,
-    english_name: "Koyraboro Senni",
-    iso639_two_letter: "ses",
-    iso639_three_letter: "ses",
+    english_name: "Afrikaans (Namibia)",
+    iso639_two_letter: "af",
+    iso639_three_letter: "afr",
     windows_three_letter: "ZZZ",
 };
 
@@ -4880,143 +3040,13 @@ pub const LANG_AGQ: &LanguageId = &LanguageId {
     windows_three_letter: "ZZZ",
 };
 
-/// Unknown Locale (ff-Latn-GH)
-pub const LANG_FF_LATN_GH: &LanguageId = &LanguageId {
-    name: "ff-Latn-GH",
+/// Aghem (Cameroon)
+pub const LANG_AGQ_CM: &LanguageId = &LanguageId {
+    name: "agq-CM",
     lcid: 0x1000,
-    english_name: "Unknown Locale (ff-Latn-GH)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
-    windows_three_letter: "FUL",
-};
-
-/// Saho (Eritrea)
-pub const LANG_SSY_ER: &LanguageId = &LanguageId {
-    name: "ssy-ER",
-    lcid: 0x1000,
-    english_name: "Saho (Eritrea)",
-    iso639_two_letter: "ssy",
-    iso639_three_letter: "ssy",
-    windows_three_letter: "ZZZ",
-};
-
-/// Arabic (South Sudan)
-pub const LANG_AR_SS: &LanguageId = &LanguageId {
-    name: "ar-SS",
-    lcid: 0x1000,
-    english_name: "Arabic (South Sudan)",
-    iso639_two_letter: "ar",
-    iso639_three_letter: "ara",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Eritrea)
-pub const LANG_EN_ER: &LanguageId = &LanguageId {
-    name: "en-ER",
-    lcid: 0x1000,
-    english_name: "English (Eritrea)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Makhuwa-Meetto
-pub const LANG_MGH: &LanguageId = &LanguageId {
-    name: "mgh",
-    lcid: 0x1000,
-    english_name: "Makhuwa-Meetto",
-    iso639_two_letter: "mgh",
-    iso639_three_letter: "mgh",
-    windows_three_letter: "ZZZ",
-};
-
-/// Chiga
-pub const LANG_CGG: &LanguageId = &LanguageId {
-    name: "cgg",
-    lcid: 0x1000,
-    english_name: "Chiga",
-    iso639_two_letter: "cgg",
-    iso639_three_letter: "cgg",
-    windows_three_letter: "ZZZ",
-};
-
-/// Masai (Tanzania)
-pub const LANG_MAS_TZ: &LanguageId = &LanguageId {
-    name: "mas-TZ",
-    lcid: 0x1000,
-    english_name: "Masai (Tanzania)",
-    iso639_two_letter: "mas",
-    iso639_three_letter: "mas",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kashmiri (Perso-Arabic)
-pub const LANG_KS_ARAB_IN: &LanguageId = &LanguageId {
-    name: "ks-Arab-IN",
-    lcid: 0x1000,
-    english_name: "Kashmiri (Perso-Arabic)",
-    iso639_two_letter: "ks",
-    iso639_three_letter: "kas",
-    windows_three_letter: "ZZZ",
-};
-
-/// Soga
-pub const LANG_XOG: &LanguageId = &LanguageId {
-    name: "xog",
-    lcid: 0x1000,
-    english_name: "Soga",
-    iso639_two_letter: "xog",
-    iso639_three_letter: "xog",
-    windows_three_letter: "ZZZ",
-};
-
-/// Portuguese (Mozambique)
-pub const LANG_PT_MZ: &LanguageId = &LanguageId {
-    name: "pt-MZ",
-    lcid: 0x1000,
-    english_name: "Portuguese (Mozambique)",
-    iso639_two_letter: "pt",
-    iso639_three_letter: "por",
-    windows_three_letter: "ZZZ",
-};
-
-/// Bena (Tanzania)
-pub const LANG_BEZ_TZ: &LanguageId = &LanguageId {
-    name: "bez-TZ",
-    lcid: 0x1000,
-    english_name: "Bena (Tanzania)",
-    iso639_two_letter: "bez",
-    iso639_three_letter: "bez",
-    windows_three_letter: "ZZZ",
-};
-
-/// Yangben (Cameroon)
-pub const LANG_YAV_CM: &LanguageId = &LanguageId {
-    name: "yav-CM",
-    lcid: 0x1000,
-    english_name: "Yangben (Cameroon)",
-    iso639_two_letter: "yav",
-    iso639_three_letter: "yav",
-    windows_three_letter: "ZZZ",
-};
-
-/// Shona (Latin)
-pub const LANG_SN_LATN: &LanguageId = &LanguageId {
-    name: "sn-Latn",
-    lcid: 0x1000,
-    english_name: "Shona (Latin)",
-    iso639_two_letter: "sn",
-    iso639_three_letter: "sna",
-    windows_three_letter: "SNA",
-};
-
-/// Arabic (Chad)
-pub const LANG_AR_TD: &LanguageId = &LanguageId {
-    name: "ar-TD",
-    lcid: 0x1000,
-    english_name: "Arabic (Chad)",
-    iso639_two_letter: "ar",
-    iso639_three_letter: "ara",
+    english_name: "Aghem (Cameroon)",
+    iso639_two_letter: "agq",
+    iso639_three_letter: "agq",
     windows_three_letter: "ZZZ",
 };
 
@@ -5030,133 +3060,43 @@ pub const LANG_AK: &LanguageId = &LanguageId {
     windows_three_letter: "ZZZ",
 };
 
-/// English (Isle of Man)
-pub const LANG_EN_IM: &LanguageId = &LanguageId {
-    name: "en-IM",
+/// Akan (Ghana)
+pub const LANG_AK_GH: &LanguageId = &LanguageId {
+    name: "ak-GH",
     lcid: 0x1000,
-    english_name: "English (Isle of Man)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
+    english_name: "Akan (Ghana)",
+    iso639_two_letter: "ak",
+    iso639_three_letter: "aka",
     windows_three_letter: "ZZZ",
 };
 
-/// Koyra Chiini (Mali)
-pub const LANG_KHQ_ML: &LanguageId = &LanguageId {
-    name: "khq-ML",
+/// Arabic (World)
+pub const LANG_AR_001: &LanguageId = &LanguageId {
+    name: "ar-001",
     lcid: 0x1000,
-    english_name: "Koyra Chiini (Mali)",
-    iso639_two_letter: "khq",
-    iso639_three_letter: "khq",
+    english_name: "Arabic (World)",
+    iso639_two_letter: "ar",
+    iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
 };
 
-/// Kiswahili (Congo DRC)
-pub const LANG_SWC_CD: &LanguageId = &LanguageId {
-    name: "swc-CD",
+/// Arabic (Djibouti)
+pub const LANG_AR_DJ: &LanguageId = &LanguageId {
+    name: "ar-DJ",
     lcid: 0x1000,
-    english_name: "Kiswahili (Congo DRC)",
-    iso639_two_letter: "sw",
-    iso639_three_letter: "swa",
+    english_name: "Arabic (Djibouti)",
+    iso639_two_letter: "ar",
+    iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
 };
 
-/// Hausa (Latin, Niger)
-pub const LANG_HA_LATN_NE: &LanguageId = &LanguageId {
-    name: "ha-Latn-NE",
+/// Arabic (Eritrea)
+pub const LANG_AR_ER: &LanguageId = &LanguageId {
+    name: "ar-ER",
     lcid: 0x1000,
-    english_name: "Hausa (Latin, Niger)",
-    iso639_two_letter: "ha",
-    iso639_three_letter: "hau",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ff-Latn-GN)
-pub const LANG_FF_LATN_GN: &LanguageId = &LanguageId {
-    name: "ff-Latn-GN",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ff-Latn-GN)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
-    windows_three_letter: "ZZZ",
-};
-
-/// North Ndebele
-pub const LANG_ND: &LanguageId = &LanguageId {
-    name: "nd",
-    lcid: 0x1000,
-    english_name: "North Ndebele",
-    iso639_two_letter: "nd",
-    iso639_three_letter: "nde",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Anguilla)
-pub const LANG_EN_AI: &LanguageId = &LanguageId {
-    name: "en-AI",
-    lcid: 0x1000,
-    english_name: "English (Anguilla)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kamba (Kenya)
-pub const LANG_KAM_KE: &LanguageId = &LanguageId {
-    name: "kam-KE",
-    lcid: 0x1000,
-    english_name: "Kamba (Kenya)",
-    iso639_two_letter: "kam",
-    iso639_three_letter: "kam",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Rwanda)
-pub const LANG_EN_RW: &LanguageId = &LanguageId {
-    name: "en-RW",
-    lcid: 0x1000,
-    english_name: "English (Rwanda)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ff-Latn-CM)
-pub const LANG_FF_LATN_CM: &LanguageId = &LanguageId {
-    name: "ff-Latn-CM",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ff-Latn-CM)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
-    windows_three_letter: "ZZZ",
-};
-
-/// Vai (Latin)
-pub const LANG_VAI_LATN: &LanguageId = &LanguageId {
-    name: "vai-Latn",
-    lcid: 0x1000,
-    english_name: "Vai (Latin)",
-    iso639_two_letter: "vai",
-    iso639_three_letter: "vai",
-    windows_three_letter: "ZZZ",
-};
-
-/// Morisyen
-pub const LANG_MFE: &LanguageId = &LanguageId {
-    name: "mfe",
-    lcid: 0x1000,
-    english_name: "Morisyen",
-    iso639_two_letter: "mfe",
-    iso639_three_letter: "mfe",
-    windows_three_letter: "ZZZ",
-};
-
-/// Cornish
-pub const LANG_KW: &LanguageId = &LanguageId {
-    name: "kw",
-    lcid: 0x1000,
-    english_name: "Cornish",
-    iso639_two_letter: "kw",
-    iso639_three_letter: "cor",
+    english_name: "Arabic (Eritrea)",
+    iso639_two_letter: "ar",
+    iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
 };
 
@@ -5170,113 +3110,13 @@ pub const LANG_AR_IL: &LanguageId = &LanguageId {
     windows_three_letter: "ZZZ",
 };
 
-/// Portuguese (Luxembourg)
-pub const LANG_PT_LU: &LanguageId = &LanguageId {
-    name: "pt-LU",
+/// Arabic (Comoros)
+pub const LANG_AR_KM: &LanguageId = &LanguageId {
+    name: "ar-KM",
     lcid: 0x1000,
-    english_name: "Portuguese (Luxembourg)",
-    iso639_two_letter: "pt",
-    iso639_three_letter: "por",
-    windows_three_letter: "ZZZ",
-};
-
-/// Ossetic (Georgia)
-pub const LANG_OS_GE: &LanguageId = &LanguageId {
-    name: "os-GE",
-    lcid: 0x1000,
-    english_name: "Ossetic (Georgia)",
-    iso639_two_letter: "os",
-    iso639_three_letter: "oss",
-    windows_three_letter: "ZZZ",
-};
-
-/// Church Slavic (Russia)
-pub const LANG_CU_RU: &LanguageId = &LanguageId {
-    name: "cu-RU",
-    lcid: 0x1000,
-    english_name: "Church Slavic (Russia)",
-    iso639_two_letter: "cu",
-    iso639_three_letter: "chu",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Samoa)
-pub const LANG_EN_WS: &LanguageId = &LanguageId {
-    name: "en-WS",
-    lcid: 0x1000,
-    english_name: "English (Samoa)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Vai
-pub const LANG_VAI: &LanguageId = &LanguageId {
-    name: "vai",
-    lcid: 0x1000,
-    english_name: "Vai",
-    iso639_two_letter: "vai",
-    iso639_three_letter: "vai",
-    windows_three_letter: "ZZZ",
-};
-
-/// Prussian (World)
-pub const LANG_PRG_001: &LanguageId = &LanguageId {
-    name: "prg-001",
-    lcid: 0x1000,
-    english_name: "Prussian (World)",
-    iso639_two_letter: "prg",
-    iso639_three_letter: "prg",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Guyana)
-pub const LANG_EN_GY: &LanguageId = &LanguageId {
-    name: "en-GY",
-    lcid: 0x1000,
-    english_name: "English (Guyana)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Central Atlas Tamazight (Latin, Morocco)
-pub const LANG_TZM_LATN_MA: &LanguageId = &LanguageId {
-    name: "tzm-Latn-MA",
-    lcid: 0x1000,
-    english_name: "Central Atlas Tamazight (Latin, Morocco)",
-    iso639_two_letter: "tzm",
-    iso639_three_letter: "tzm",
-    windows_three_letter: "ZZZ",
-};
-
-/// Rwa
-pub const LANG_RWK: &LanguageId = &LanguageId {
-    name: "rwk",
-    lcid: 0x1000,
-    english_name: "Rwa",
-    iso639_two_letter: "rwk",
-    iso639_three_letter: "rwk",
-    windows_three_letter: "ZZZ",
-};
-
-/// Koyraboro Senni (Mali)
-pub const LANG_SES_ML: &LanguageId = &LanguageId {
-    name: "ses-ML",
-    lcid: 0x1000,
-    english_name: "Koyraboro Senni (Mali)",
-    iso639_two_letter: "ses",
-    iso639_three_letter: "ses",
-    windows_three_letter: "ZZZ",
-};
-
-/// Manx
-pub const LANG_GV: &LanguageId = &LanguageId {
-    name: "gv",
-    lcid: 0x1000,
-    english_name: "Manx",
-    iso639_two_letter: "gv",
-    iso639_three_letter: "glv",
+    english_name: "Arabic (Comoros)",
+    iso639_two_letter: "ar",
+    iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
 };
 
@@ -5290,73 +3130,13 @@ pub const LANG_AR_MR: &LanguageId = &LanguageId {
     windows_three_letter: "ZZZ",
 };
 
-/// Italian (Vatican City)
-pub const LANG_IT_VA: &LanguageId = &LanguageId {
-    name: "it-VA",
+/// Arabic (Palestinian Authority)
+pub const LANG_AR_PS: &LanguageId = &LanguageId {
+    name: "ar-PS",
     lcid: 0x1000,
-    english_name: "Italian (Vatican City)",
-    iso639_two_letter: "it",
-    iso639_three_letter: "ita",
-    windows_three_letter: "ZZZ",
-};
-
-/// Metaʼ (Cameroon)
-pub const LANG_MGO_CM: &LanguageId = &LanguageId {
-    name: "mgo-CM",
-    lcid: 0x1000,
-    english_name: "Metaʼ (Cameroon)",
-    iso639_two_letter: "mgo",
-    iso639_three_letter: "mgo",
-    windows_three_letter: "ZZZ",
-};
-
-/// Yangben
-pub const LANG_YAV: &LanguageId = &LanguageId {
-    name: "yav",
-    lcid: 0x1000,
-    english_name: "Yangben",
-    iso639_two_letter: "yav",
-    iso639_three_letter: "yav",
-    windows_three_letter: "ZZZ",
-};
-
-/// Malagasy (Madagascar)
-pub const LANG_MG_MG: &LanguageId = &LanguageId {
-    name: "mg-MG",
-    lcid: 0x1000,
-    english_name: "Malagasy (Madagascar)",
-    iso639_two_letter: "mg",
-    iso639_three_letter: "mlg",
-    windows_three_letter: "MLG",
-};
-
-/// English (Mauritius)
-pub const LANG_EN_MU: &LanguageId = &LanguageId {
-    name: "en-MU",
-    lcid: 0x1000,
-    english_name: "English (Mauritius)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Language (swc)
-pub const LANG_SWC: &LanguageId = &LanguageId {
-    name: "swc",
-    lcid: 0x1000,
-    english_name: "Unknown Language (swc)",
-    iso639_two_letter: "swc",
-    iso639_three_letter: "swc",
-    windows_three_letter: "ZZZ",
-};
-
-/// Fulah (Cameroon)
-pub const LANG_FF_CM: &LanguageId = &LanguageId {
-    name: "ff-CM",
-    lcid: 0x1000,
-    english_name: "Fulah (Cameroon)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
+    english_name: "Arabic (Palestinian Authority)",
+    iso639_two_letter: "ar",
+    iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
 };
 
@@ -5370,61 +3150,601 @@ pub const LANG_AR_SD: &LanguageId = &LanguageId {
     windows_three_letter: "ZZZ",
 };
 
-/// Koyra Chiini
-pub const LANG_KHQ: &LanguageId = &LanguageId {
-    name: "khq",
+/// Arabic (Somalia)
+pub const LANG_AR_SO: &LanguageId = &LanguageId {
+    name: "ar-SO",
     lcid: 0x1000,
-    english_name: "Koyra Chiini",
-    iso639_two_letter: "khq",
-    iso639_three_letter: "khq",
+    english_name: "Arabic (Somalia)",
+    iso639_two_letter: "ar",
+    iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
 };
 
-/// French (Saint Pierre and Miquelon)
-pub const LANG_FR_PM: &LanguageId = &LanguageId {
-    name: "fr-PM",
+/// Arabic (South Sudan)
+pub const LANG_AR_SS: &LanguageId = &LanguageId {
+    name: "ar-SS",
     lcid: 0x1000,
-    english_name: "French (Saint Pierre and Miquelon)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
+    english_name: "Arabic (South Sudan)",
+    iso639_two_letter: "ar",
+    iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
 };
 
-/// Yoruba (Benin)
-pub const LANG_YO_BJ: &LanguageId = &LanguageId {
-    name: "yo-BJ",
+/// Arabic (Chad)
+pub const LANG_AR_TD: &LanguageId = &LanguageId {
+    name: "ar-TD",
     lcid: 0x1000,
-    english_name: "Yoruba (Benin)",
-    iso639_two_letter: "yo",
-    iso639_three_letter: "yor",
+    english_name: "Arabic (Chad)",
+    iso639_two_letter: "ar",
+    iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
 };
 
-/// English (Madagascar)
-pub const LANG_EN_MG: &LanguageId = &LanguageId {
-    name: "en-MG",
+/// Asu
+pub const LANG_ASA: &LanguageId = &LanguageId {
+    name: "asa",
     lcid: 0x1000,
-    english_name: "English (Madagascar)",
+    english_name: "Asu",
+    iso639_two_letter: "asa",
+    iso639_three_letter: "asa",
+    windows_three_letter: "ZZZ",
+};
+
+/// Asu (Tanzania)
+pub const LANG_ASA_TZ: &LanguageId = &LanguageId {
+    name: "asa-TZ",
+    lcid: 0x1000,
+    english_name: "Asu (Tanzania)",
+    iso639_two_letter: "asa",
+    iso639_three_letter: "asa",
+    windows_three_letter: "ZZZ",
+};
+
+/// Asturian
+pub const LANG_AST: &LanguageId = &LanguageId {
+    name: "ast",
+    lcid: 0x1000,
+    english_name: "Asturian",
+    iso639_two_letter: "ast",
+    iso639_three_letter: "ast",
+    windows_three_letter: "ZZZ",
+};
+
+/// Asturian (Spain)
+pub const LANG_AST_ES: &LanguageId = &LanguageId {
+    name: "ast-ES",
+    lcid: 0x1000,
+    english_name: "Asturian (Spain)",
+    iso639_two_letter: "ast",
+    iso639_three_letter: "ast",
+    windows_three_letter: "ZZZ",
+};
+
+/// Basaa
+pub const LANG_BAS: &LanguageId = &LanguageId {
+    name: "bas",
+    lcid: 0x1000,
+    english_name: "Basaa",
+    iso639_two_letter: "bas",
+    iso639_three_letter: "bas",
+    windows_three_letter: "ZZZ",
+};
+
+/// Basaa (Cameroon)
+pub const LANG_BAS_CM: &LanguageId = &LanguageId {
+    name: "bas-CM",
+    lcid: 0x1000,
+    english_name: "Basaa (Cameroon)",
+    iso639_two_letter: "bas",
+    iso639_three_letter: "bas",
+    windows_three_letter: "ZZZ",
+};
+
+/// Bemba
+pub const LANG_BEM: &LanguageId = &LanguageId {
+    name: "bem",
+    lcid: 0x1000,
+    english_name: "Bemba",
+    iso639_two_letter: "bem",
+    iso639_three_letter: "bem",
+    windows_three_letter: "ZZZ",
+};
+
+/// Bemba (Zambia)
+pub const LANG_BEM_ZM: &LanguageId = &LanguageId {
+    name: "bem-ZM",
+    lcid: 0x1000,
+    english_name: "Bemba (Zambia)",
+    iso639_two_letter: "bem",
+    iso639_three_letter: "bem",
+    windows_three_letter: "ZZZ",
+};
+
+/// Bena
+pub const LANG_BEZ: &LanguageId = &LanguageId {
+    name: "bez",
+    lcid: 0x1000,
+    english_name: "Bena",
+    iso639_two_letter: "bez",
+    iso639_three_letter: "bez",
+    windows_three_letter: "ZZZ",
+};
+
+/// Bena (Tanzania)
+pub const LANG_BEZ_TZ: &LanguageId = &LanguageId {
+    name: "bez-TZ",
+    lcid: 0x1000,
+    english_name: "Bena (Tanzania)",
+    iso639_two_letter: "bez",
+    iso639_three_letter: "bez",
+    windows_three_letter: "ZZZ",
+};
+
+/// Bamanankan
+pub const LANG_BM: &LanguageId = &LanguageId {
+    name: "bm",
+    lcid: 0x1000,
+    english_name: "Bamanankan",
+    iso639_two_letter: "bm",
+    iso639_three_letter: "bam",
+    windows_three_letter: "ZZZ",
+};
+
+/// Bamanankan (Latin, Mali)
+pub const LANG_BM_ML: &LanguageId = &LanguageId {
+    name: "bm-ML",
+    lcid: 0x1000,
+    english_name: "Bamanankan (Latin, Mali)",
+    iso639_two_letter: "bm",
+    iso639_three_letter: "bam",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tibetan (India)
+pub const LANG_BO_IN: &LanguageId = &LanguageId {
+    name: "bo-IN",
+    lcid: 0x1000,
+    english_name: "Tibetan (India)",
+    iso639_two_letter: "bo",
+    iso639_three_letter: "bod",
+    windows_three_letter: "ZZZ",
+};
+
+/// Bodo
+pub const LANG_BRX: &LanguageId = &LanguageId {
+    name: "brx",
+    lcid: 0x1000,
+    english_name: "Bodo",
+    iso639_two_letter: "brx",
+    iso639_three_letter: "brx",
+    windows_three_letter: "ZZZ",
+};
+
+/// Bodo (India)
+pub const LANG_BRX_IN: &LanguageId = &LanguageId {
+    name: "brx-IN",
+    lcid: 0x1000,
+    english_name: "Bodo (India)",
+    iso639_two_letter: "brx",
+    iso639_three_letter: "brx",
+    windows_three_letter: "ZZZ",
+};
+
+/// Blin
+pub const LANG_BYN: &LanguageId = &LanguageId {
+    name: "byn",
+    lcid: 0x1000,
+    english_name: "Blin",
+    iso639_two_letter: "byn",
+    iso639_three_letter: "byn",
+    windows_three_letter: "ZZZ",
+};
+
+/// Blin (Eritrea)
+pub const LANG_BYN_ER: &LanguageId = &LanguageId {
+    name: "byn-ER",
+    lcid: 0x1000,
+    english_name: "Blin (Eritrea)",
+    iso639_two_letter: "byn",
+    iso639_three_letter: "byn",
+    windows_three_letter: "ZZZ",
+};
+
+/// Catalan (Andorra)
+pub const LANG_CA_AD: &LanguageId = &LanguageId {
+    name: "ca-AD",
+    lcid: 0x1000,
+    english_name: "Catalan (Andorra)",
+    iso639_two_letter: "ca",
+    iso639_three_letter: "cat",
+    windows_three_letter: "ZZZ",
+};
+
+/// Catalan (France)
+pub const LANG_CA_FR: &LanguageId = &LanguageId {
+    name: "ca-FR",
+    lcid: 0x1000,
+    english_name: "Catalan (France)",
+    iso639_two_letter: "ca",
+    iso639_three_letter: "cat",
+    windows_three_letter: "ZZZ",
+};
+
+/// Catalan (Italy)
+pub const LANG_CA_IT: &LanguageId = &LanguageId {
+    name: "ca-IT",
+    lcid: 0x1000,
+    english_name: "Catalan (Italy)",
+    iso639_two_letter: "ca",
+    iso639_three_letter: "cat",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Language (ccp)
+pub const LANG_CCP: &LanguageId = &LanguageId {
+    name: "ccp",
+    lcid: 0x1000,
+    english_name: "Unknown Language (ccp)",
+    iso639_two_letter: "ccp",
+    iso639_three_letter: "ccp",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Language (ccp-Cakm)
+pub const LANG_CCP_CAKM: &LanguageId = &LanguageId {
+    name: "ccp-Cakm",
+    lcid: 0x1000,
+    english_name: "Unknown Language (ccp-Cakm)",
+    iso639_two_letter: "ccp",
+    iso639_three_letter: "ccp",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Locale (ccp-Cakm-BD)
+pub const LANG_CCP_CAKM_BD: &LanguageId = &LanguageId {
+    name: "ccp-Cakm-BD",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ccp-Cakm-BD)",
+    iso639_two_letter: "ccp",
+    iso639_three_letter: "ccp",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Locale (ccp-Cakm-IN)
+pub const LANG_CCP_CAKM_IN: &LanguageId = &LanguageId {
+    name: "ccp-Cakm-IN",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ccp-Cakm-IN)",
+    iso639_two_letter: "ccp",
+    iso639_three_letter: "ccp",
+    windows_three_letter: "ZZZ",
+};
+
+/// Chechen (Russia)
+pub const LANG_CE_RU: &LanguageId = &LanguageId {
+    name: "ce-RU",
+    lcid: 0x1000,
+    english_name: "Chechen (Russia)",
+    iso639_two_letter: "ce",
+    iso639_three_letter: "che",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Language (ceb)
+pub const LANG_CEB: &LanguageId = &LanguageId {
+    name: "ceb",
+    lcid: 0x1000,
+    english_name: "Unknown Language (ceb)",
+    iso639_two_letter: "ceb",
+    iso639_three_letter: "ceb",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Language (ceb-Latn)
+pub const LANG_CEB_LATN: &LanguageId = &LanguageId {
+    name: "ceb-Latn",
+    lcid: 0x1000,
+    english_name: "Unknown Language (ceb-Latn)",
+    iso639_two_letter: "ceb",
+    iso639_three_letter: "ceb",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Locale (ceb-Latn-PH)
+pub const LANG_CEB_LATN_PH: &LanguageId = &LanguageId {
+    name: "ceb-Latn-PH",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ceb-Latn-PH)",
+    iso639_two_letter: "ceb",
+    iso639_three_letter: "ceb",
+    windows_three_letter: "ZZZ",
+};
+
+/// Chiga
+pub const LANG_CGG: &LanguageId = &LanguageId {
+    name: "cgg",
+    lcid: 0x1000,
+    english_name: "Chiga",
+    iso639_two_letter: "cgg",
+    iso639_three_letter: "cgg",
+    windows_three_letter: "ZZZ",
+};
+
+/// Chiga (Uganda)
+pub const LANG_CGG_UG: &LanguageId = &LanguageId {
+    name: "cgg-UG",
+    lcid: 0x1000,
+    english_name: "Chiga (Uganda)",
+    iso639_two_letter: "cgg",
+    iso639_three_letter: "cgg",
+    windows_three_letter: "ZZZ",
+};
+
+/// Church Slavic (Russia)
+pub const LANG_CU_RU: &LanguageId = &LanguageId {
+    name: "cu-RU",
+    lcid: 0x1000,
+    english_name: "Church Slavic (Russia)",
+    iso639_two_letter: "cu",
+    iso639_three_letter: "chu",
+    windows_three_letter: "ZZZ",
+};
+
+/// Danish (Greenland)
+pub const LANG_DA_GL: &LanguageId = &LanguageId {
+    name: "da-GL",
+    lcid: 0x1000,
+    english_name: "Danish (Greenland)",
+    iso639_two_letter: "da",
+    iso639_three_letter: "dan",
+    windows_three_letter: "ZZZ",
+};
+
+/// Taita
+pub const LANG_DAV: &LanguageId = &LanguageId {
+    name: "dav",
+    lcid: 0x1000,
+    english_name: "Taita",
+    iso639_two_letter: "dav",
+    iso639_three_letter: "dav",
+    windows_three_letter: "ZZZ",
+};
+
+/// Taita (Kenya)
+pub const LANG_DAV_KE: &LanguageId = &LanguageId {
+    name: "dav-KE",
+    lcid: 0x1000,
+    english_name: "Taita (Kenya)",
+    iso639_two_letter: "dav",
+    iso639_three_letter: "dav",
+    windows_three_letter: "ZZZ",
+};
+
+/// German (Belgium)
+pub const LANG_DE_BE: &LanguageId = &LanguageId {
+    name: "de-BE",
+    lcid: 0x1000,
+    english_name: "German (Belgium)",
+    iso639_two_letter: "de",
+    iso639_three_letter: "deu",
+    windows_three_letter: "ZZZ",
+};
+
+/// German (Italy)
+pub const LANG_DE_IT: &LanguageId = &LanguageId {
+    name: "de-IT",
+    lcid: 0x1000,
+    english_name: "German (Italy)",
+    iso639_two_letter: "de",
+    iso639_three_letter: "deu",
+    windows_three_letter: "ZZZ",
+};
+
+/// Zarma
+pub const LANG_DJE: &LanguageId = &LanguageId {
+    name: "dje",
+    lcid: 0x1000,
+    english_name: "Zarma",
+    iso639_two_letter: "dje",
+    iso639_three_letter: "dje",
+    windows_three_letter: "ZZZ",
+};
+
+/// Zarma (Niger)
+pub const LANG_DJE_NE: &LanguageId = &LanguageId {
+    name: "dje-NE",
+    lcid: 0x1000,
+    english_name: "Zarma (Niger)",
+    iso639_two_letter: "dje",
+    iso639_three_letter: "dje",
+    windows_three_letter: "ZZZ",
+};
+
+/// Duala
+pub const LANG_DUA: &LanguageId = &LanguageId {
+    name: "dua",
+    lcid: 0x1000,
+    english_name: "Duala",
+    iso639_two_letter: "dua",
+    iso639_three_letter: "dua",
+    windows_three_letter: "ZZZ",
+};
+
+/// Duala (Cameroon)
+pub const LANG_DUA_CM: &LanguageId = &LanguageId {
+    name: "dua-CM",
+    lcid: 0x1000,
+    english_name: "Duala (Cameroon)",
+    iso639_two_letter: "dua",
+    iso639_three_letter: "dua",
+    windows_three_letter: "ZZZ",
+};
+
+/// Jola-Fonyi
+pub const LANG_DYO: &LanguageId = &LanguageId {
+    name: "dyo",
+    lcid: 0x1000,
+    english_name: "Jola-Fonyi",
+    iso639_two_letter: "dyo",
+    iso639_three_letter: "dyo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Jola-Fonyi (Senegal)
+pub const LANG_DYO_SN: &LanguageId = &LanguageId {
+    name: "dyo-SN",
+    lcid: 0x1000,
+    english_name: "Jola-Fonyi (Senegal)",
+    iso639_two_letter: "dyo",
+    iso639_three_letter: "dyo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Dzongkha
+pub const LANG_DZ: &LanguageId = &LanguageId {
+    name: "dz",
+    lcid: 0x1000,
+    english_name: "Dzongkha",
+    iso639_two_letter: "dz",
+    iso639_three_letter: "dzo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Embu
+pub const LANG_EBU: &LanguageId = &LanguageId {
+    name: "ebu",
+    lcid: 0x1000,
+    english_name: "Embu",
+    iso639_two_letter: "ebu",
+    iso639_three_letter: "ebu",
+    windows_three_letter: "ZZZ",
+};
+
+/// Embu (Kenya)
+pub const LANG_EBU_KE: &LanguageId = &LanguageId {
+    name: "ebu-KE",
+    lcid: 0x1000,
+    english_name: "Embu (Kenya)",
+    iso639_two_letter: "ebu",
+    iso639_three_letter: "ebu",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ewe
+pub const LANG_EE: &LanguageId = &LanguageId {
+    name: "ee",
+    lcid: 0x1000,
+    english_name: "Ewe",
+    iso639_two_letter: "ee",
+    iso639_three_letter: "ewe",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ewe (Ghana)
+pub const LANG_EE_GH: &LanguageId = &LanguageId {
+    name: "ee-GH",
+    lcid: 0x1000,
+    english_name: "Ewe (Ghana)",
+    iso639_two_letter: "ee",
+    iso639_three_letter: "ewe",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ewe (Togo)
+pub const LANG_EE_TG: &LanguageId = &LanguageId {
+    name: "ee-TG",
+    lcid: 0x1000,
+    english_name: "Ewe (Togo)",
+    iso639_two_letter: "ee",
+    iso639_three_letter: "ewe",
+    windows_three_letter: "ZZZ",
+};
+
+/// Greek (Cyprus)
+pub const LANG_EL_CY: &LanguageId = &LanguageId {
+    name: "el-CY",
+    lcid: 0x1000,
+    english_name: "Greek (Cyprus)",
+    iso639_two_letter: "el",
+    iso639_three_letter: "ell",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (World)
+pub const LANG_EN_001: &LanguageId = &LanguageId {
+    name: "en-001",
+    lcid: 0x1000,
+    english_name: "English (World)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Meru (Kenya)
-pub const LANG_MER_KE: &LanguageId = &LanguageId {
-    name: "mer-KE",
+/// English (Europe)
+pub const LANG_EN_150: &LanguageId = &LanguageId {
+    name: "en-150",
     lcid: 0x1000,
-    english_name: "Meru (Kenya)",
-    iso639_two_letter: "mer",
-    iso639_three_letter: "mer",
+    english_name: "English (Europe)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// English (Micronesia)
-pub const LANG_EN_FM: &LanguageId = &LanguageId {
-    name: "en-FM",
+/// English (Antigua and Barbuda)
+pub const LANG_EN_AG: &LanguageId = &LanguageId {
+    name: "en-AG",
     lcid: 0x1000,
-    english_name: "English (Micronesia)",
+    english_name: "English (Antigua and Barbuda)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Anguilla)
+pub const LANG_EN_AI: &LanguageId = &LanguageId {
+    name: "en-AI",
+    lcid: 0x1000,
+    english_name: "English (Anguilla)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (American Samoa)
+pub const LANG_EN_AS: &LanguageId = &LanguageId {
+    name: "en-AS",
+    lcid: 0x1000,
+    english_name: "English (American Samoa)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Austria)
+pub const LANG_EN_AT: &LanguageId = &LanguageId {
+    name: "en-AT",
+    lcid: 0x1000,
+    english_name: "English (Austria)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Barbados)
+pub const LANG_EN_BB: &LanguageId = &LanguageId {
+    name: "en-BB",
+    lcid: 0x1000,
+    english_name: "English (Barbados)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Belgium)
+pub const LANG_EN_BE: &LanguageId = &LanguageId {
+    name: "en-BE",
+    lcid: 0x1000,
+    english_name: "English (Belgium)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
@@ -5440,593 +3760,43 @@ pub const LANG_EN_BI: &LanguageId = &LanguageId {
     windows_three_letter: "ZZZ",
 };
 
-/// Samburu (Kenya)
-pub const LANG_SAQ_KE: &LanguageId = &LanguageId {
-    name: "saq-KE",
+/// English (Bermuda)
+pub const LANG_EN_BM: &LanguageId = &LanguageId {
+    name: "en-BM",
     lcid: 0x1000,
-    english_name: "Samburu (Kenya)",
-    iso639_two_letter: "saq",
-    iso639_three_letter: "saq",
-    windows_three_letter: "ZZZ",
-};
-
-/// Arabic (Palestinian Authority)
-pub const LANG_AR_PS: &LanguageId = &LanguageId {
-    name: "ar-PS",
-    lcid: 0x1000,
-    english_name: "Arabic (Palestinian Authority)",
-    iso639_two_letter: "ar",
-    iso639_three_letter: "ara",
-    windows_three_letter: "ZZZ",
-};
-
-/// Walser (Switzerland)
-pub const LANG_WAE_CH: &LanguageId = &LanguageId {
-    name: "wae-CH",
-    lcid: 0x1000,
-    english_name: "Walser (Switzerland)",
-    iso639_two_letter: "wae",
-    iso639_three_letter: "wae",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Cayman Islands)
-pub const LANG_EN_KY: &LanguageId = &LanguageId {
-    name: "en-KY",
-    lcid: 0x1000,
-    english_name: "English (Cayman Islands)",
+    english_name: "English (Bermuda)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Kalenjin
-pub const LANG_KLN: &LanguageId = &LanguageId {
-    name: "kln",
+/// English (Bahamas)
+pub const LANG_EN_BS: &LanguageId = &LanguageId {
+    name: "en-BS",
     lcid: 0x1000,
-    english_name: "Kalenjin",
-    iso639_two_letter: "kln",
-    iso639_three_letter: "kln",
-    windows_three_letter: "ZZZ",
-};
-
-/// Teso (Uganda)
-pub const LANG_TEO_UG: &LanguageId = &LanguageId {
-    name: "teo-UG",
-    lcid: 0x1000,
-    english_name: "Teso (Uganda)",
-    iso639_two_letter: "teo",
-    iso639_three_letter: "teo",
-    windows_three_letter: "ZZZ",
-};
-
-/// Sango
-pub const LANG_SG: &LanguageId = &LanguageId {
-    name: "sg",
-    lcid: 0x1000,
-    english_name: "Sango",
-    iso639_two_letter: "sg",
-    iso639_three_letter: "sag",
-    windows_three_letter: "ZZZ",
-};
-
-/// Lingala
-pub const LANG_LN: &LanguageId = &LanguageId {
-    name: "ln",
-    lcid: 0x1000,
-    english_name: "Lingala",
-    iso639_two_letter: "ln",
-    iso639_three_letter: "lin",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Madagascar)
-pub const LANG_FR_MG: &LanguageId = &LanguageId {
-    name: "fr-MG",
-    lcid: 0x1000,
-    english_name: "French (Madagascar)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Guinea)
-pub const LANG_FR_GN: &LanguageId = &LanguageId {
-    name: "fr-GN",
-    lcid: 0x1000,
-    english_name: "French (Guinea)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Mazanderani (Iran)
-pub const LANG_MZN_IR: &LanguageId = &LanguageId {
-    name: "mzn-IR",
-    lcid: 0x1000,
-    english_name: "Mazanderani (Iran)",
-    iso639_two_letter: "mzn",
-    iso639_three_letter: "mzn",
-    windows_three_letter: "ZZZ",
-};
-
-/// Tachelhit
-pub const LANG_SHI: &LanguageId = &LanguageId {
-    name: "shi",
-    lcid: 0x1000,
-    english_name: "Tachelhit",
-    iso639_two_letter: "shi",
-    iso639_three_letter: "shi",
-    windows_three_letter: "ZZZ",
-};
-
-/// Jola-Fonyi
-pub const LANG_DYO: &LanguageId = &LanguageId {
-    name: "dyo",
-    lcid: 0x1000,
-    english_name: "Jola-Fonyi",
-    iso639_two_letter: "dyo",
-    iso639_three_letter: "dyo",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Niger)
-pub const LANG_FR_NE: &LanguageId = &LanguageId {
-    name: "fr-NE",
-    lcid: 0x1000,
-    english_name: "French (Niger)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Portuguese (Guinea-Bissau)
-pub const LANG_PT_GW: &LanguageId = &LanguageId {
-    name: "pt-GW",
-    lcid: 0x1000,
-    english_name: "Portuguese (Guinea-Bissau)",
-    iso639_two_letter: "pt",
-    iso639_three_letter: "por",
-    windows_three_letter: "ZZZ",
-};
-
-/// Wolaytta (Ethiopia)
-pub const LANG_WAL_ET: &LanguageId = &LanguageId {
-    name: "wal-ET",
-    lcid: 0x1000,
-    english_name: "Wolaytta (Ethiopia)",
-    iso639_two_letter: "wal",
-    iso639_three_letter: "wal",
-    windows_three_letter: "ZZZ",
-};
-
-/// Tachelhit (Latin, Morocco)
-pub const LANG_SHI_LATN_MA: &LanguageId = &LanguageId {
-    name: "shi-Latn-MA",
-    lcid: 0x1000,
-    english_name: "Tachelhit (Latin, Morocco)",
-    iso639_two_letter: "shi",
-    iso639_three_letter: "shi",
-    windows_three_letter: "ZZZ",
-};
-
-/// Ewondo (Cameroon)
-pub const LANG_EWO_CM: &LanguageId = &LanguageId {
-    name: "ewo-CM",
-    lcid: 0x1000,
-    english_name: "Ewondo (Cameroon)",
-    iso639_two_letter: "ewo",
-    iso639_three_letter: "ewo",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Saint Martin)
-pub const LANG_FR_MF: &LanguageId = &LanguageId {
-    name: "fr-MF",
-    lcid: 0x1000,
-    english_name: "French (Saint Martin)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Ossetic (Russia)
-pub const LANG_OS_RU: &LanguageId = &LanguageId {
-    name: "os-RU",
-    lcid: 0x1000,
-    english_name: "Ossetic (Russia)",
-    iso639_two_letter: "os",
-    iso639_three_letter: "oss",
-    windows_three_letter: "ZZZ",
-};
-
-/// Bafia (Cameroon)
-pub const LANG_KSF_CM: &LanguageId = &LanguageId {
-    name: "ksf-CM",
-    lcid: 0x1000,
-    english_name: "Bafia (Cameroon)",
-    iso639_two_letter: "ksf",
-    iso639_three_letter: "ksf",
-    windows_three_letter: "ZZZ",
-};
-
-/// Ewe
-pub const LANG_EE: &LanguageId = &LanguageId {
-    name: "ee",
-    lcid: 0x1000,
-    english_name: "Ewe",
-    iso639_two_letter: "ee",
-    iso639_three_letter: "ewe",
-    windows_three_letter: "ZZZ",
-};
-
-/// Duala
-pub const LANG_DUA: &LanguageId = &LanguageId {
-    name: "dua",
-    lcid: 0x1000,
-    english_name: "Duala",
-    iso639_two_letter: "dua",
-    iso639_three_letter: "dua",
-    windows_three_letter: "ZZZ",
-};
-
-/// North Ndebele (Zimbabwe)
-pub const LANG_ND_ZW: &LanguageId = &LanguageId {
-    name: "nd-ZW",
-    lcid: 0x1000,
-    english_name: "North Ndebele (Zimbabwe)",
-    iso639_two_letter: "nd",
-    iso639_three_letter: "nde",
-    windows_three_letter: "ZZZ",
-};
-
-/// Bodo
-pub const LANG_BRX: &LanguageId = &LanguageId {
-    name: "brx",
-    lcid: 0x1000,
-    english_name: "Bodo",
-    iso639_two_letter: "brx",
-    iso639_three_letter: "brx",
-    windows_three_letter: "ZZZ",
-};
-
-/// Machame (Tanzania)
-pub const LANG_JMC_TZ: &LanguageId = &LanguageId {
-    name: "jmc-TZ",
-    lcid: 0x1000,
-    english_name: "Machame (Tanzania)",
-    iso639_two_letter: "jmc",
-    iso639_three_letter: "jmc",
-    windows_three_letter: "ZZZ",
-};
-
-/// Portuguese (Switzerland)
-pub const LANG_PT_CH: &LanguageId = &LanguageId {
-    name: "pt-CH",
-    lcid: 0x1000,
-    english_name: "Portuguese (Switzerland)",
-    iso639_two_letter: "pt",
-    iso639_three_letter: "por",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Language (ccp-Cakm)
-pub const LANG_CCP_CAKM: &LanguageId = &LanguageId {
-    name: "ccp-Cakm",
-    lcid: 0x1000,
-    english_name: "Unknown Language (ccp-Cakm)",
-    iso639_two_letter: "ccp",
-    iso639_three_letter: "ccp",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Mauritania)
-pub const LANG_FR_MR: &LanguageId = &LanguageId {
-    name: "fr-MR",
-    lcid: 0x1000,
-    english_name: "French (Mauritania)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (French Polynesia)
-pub const LANG_FR_PF: &LanguageId = &LanguageId {
-    name: "fr-PF",
-    lcid: 0x1000,
-    english_name: "French (French Polynesia)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Malagasy
-pub const LANG_MG: &LanguageId = &LanguageId {
-    name: "mg",
-    lcid: 0x1000,
-    english_name: "Malagasy",
-    iso639_two_letter: "mg",
-    iso639_three_letter: "mlg",
-    windows_three_letter: "MLG",
-};
-
-/// Tongan (Tonga)
-pub const LANG_TO_TO: &LanguageId = &LanguageId {
-    name: "to-TO",
-    lcid: 0x1000,
-    english_name: "Tongan (Tonga)",
-    iso639_two_letter: "to",
-    iso639_three_letter: "ton",
-    windows_three_letter: "ZZZ",
-};
-
-/// Javanese (Indonesia)
-pub const LANG_JV_LATN_ID: &LanguageId = &LanguageId {
-    name: "jv-Latn-ID",
-    lcid: 0x1000,
-    english_name: "Javanese (Indonesia)",
-    iso639_two_letter: "jv",
-    iso639_three_letter: "jav",
-    windows_three_letter: "JAV",
-};
-
-/// English (Belgium)
-pub const LANG_EN_BE: &LanguageId = &LanguageId {
-    name: "en-BE",
-    lcid: 0x1000,
-    english_name: "English (Belgium)",
+    english_name: "English (Bahamas)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Gusii (Kenya)
-pub const LANG_GUZ_KE: &LanguageId = &LanguageId {
-    name: "guz-KE",
+/// English (Botswana)
+pub const LANG_EN_BW: &LanguageId = &LanguageId {
+    name: "en-BW",
     lcid: 0x1000,
-    english_name: "Gusii (Kenya)",
-    iso639_two_letter: "guz",
-    iso639_three_letter: "guz",
-    windows_three_letter: "ZZZ",
-};
-
-/// Teso (Kenya)
-pub const LANG_TEO_KE: &LanguageId = &LanguageId {
-    name: "teo-KE",
-    lcid: 0x1000,
-    english_name: "Teso (Kenya)",
-    iso639_two_letter: "teo",
-    iso639_three_letter: "teo",
-    windows_three_letter: "ZZZ",
-};
-
-/// Albanian (Macedonia, FYRO)
-pub const LANG_SQ_MK: &LanguageId = &LanguageId {
-    name: "sq-MK",
-    lcid: 0x1000,
-    english_name: "Albanian (Macedonia, FYRO)",
-    iso639_two_letter: "sq",
-    iso639_three_letter: "sqi",
-    windows_three_letter: "ZZZ",
-};
-
-/// Ossetic
-pub const LANG_OS: &LanguageId = &LanguageId {
-    name: "os",
-    lcid: 0x1000,
-    english_name: "Ossetic",
-    iso639_two_letter: "os",
-    iso639_three_letter: "oss",
-    windows_three_letter: "ZZZ",
-};
-
-/// Italian (San Marino)
-pub const LANG_IT_SM: &LanguageId = &LanguageId {
-    name: "it-SM",
-    lcid: 0x1000,
-    english_name: "Italian (San Marino)",
-    iso639_two_letter: "it",
-    iso639_three_letter: "ita",
-    windows_three_letter: "ZZZ",
-};
-
-/// Wolaytta
-pub const LANG_WAL: &LanguageId = &LanguageId {
-    name: "wal",
-    lcid: 0x1000,
-    english_name: "Wolaytta",
-    iso639_two_letter: "wal",
-    iso639_three_letter: "wal",
-    windows_three_letter: "ZZZ",
-};
-
-/// Colognian
-pub const LANG_KSH: &LanguageId = &LanguageId {
-    name: "ksh",
-    lcid: 0x1000,
-    english_name: "Colognian",
-    iso639_two_letter: "ksh",
-    iso639_three_letter: "ksh",
-    windows_three_letter: "ZZZ",
-};
-
-/// Vai (Vai, Liberia)
-pub const LANG_VAI_VAII_LR: &LanguageId = &LanguageId {
-    name: "vai-Vaii-LR",
-    lcid: 0x1000,
-    english_name: "Vai (Vai, Liberia)",
-    iso639_two_letter: "vai",
-    iso639_three_letter: "vai",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (French Guiana)
-pub const LANG_FR_GF: &LanguageId = &LanguageId {
-    name: "fr-GF",
-    lcid: 0x1000,
-    english_name: "French (French Guiana)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Norfolk Island)
-pub const LANG_EN_NF: &LanguageId = &LanguageId {
-    name: "en-NF",
-    lcid: 0x1000,
-    english_name: "English (Norfolk Island)",
+    english_name: "English (Botswana)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Luba-Katanga
-pub const LANG_LU: &LanguageId = &LanguageId {
-    name: "lu",
+/// English (Cocos (Keeling) Islands)
+pub const LANG_EN_CC: &LanguageId = &LanguageId {
+    name: "en-CC",
     lcid: 0x1000,
-    english_name: "Luba-Katanga",
-    iso639_two_letter: "lu",
-    iso639_three_letter: "lub",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Kenya)
-pub const LANG_EN_KE: &LanguageId = &LanguageId {
-    name: "en-KE",
-    lcid: 0x1000,
-    english_name: "English (Kenya)",
+    english_name: "English (Cocos (Keeling) Islands)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ff-Latn-MR)
-pub const LANG_FF_LATN_MR: &LanguageId = &LanguageId {
-    name: "ff-Latn-MR",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ff-Latn-MR)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Kiribati)
-pub const LANG_EN_KI: &LanguageId = &LanguageId {
-    name: "en-KI",
-    lcid: 0x1000,
-    english_name: "English (Kiribati)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kiswahili (Tanzania)
-pub const LANG_SW_TZ: &LanguageId = &LanguageId {
-    name: "sw-TZ",
-    lcid: 0x1000,
-    english_name: "Kiswahili (Tanzania)",
-    iso639_two_letter: "sw",
-    iso639_three_letter: "swa",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Rwanda)
-pub const LANG_FR_RW: &LanguageId = &LanguageId {
-    name: "fr-RW",
-    lcid: 0x1000,
-    english_name: "French (Rwanda)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Ewe (Togo)
-pub const LANG_EE_TG: &LanguageId = &LanguageId {
-    name: "ee-TG",
-    lcid: 0x1000,
-    english_name: "Ewe (Togo)",
-    iso639_two_letter: "ee",
-    iso639_three_letter: "ewe",
-    windows_three_letter: "ZZZ",
-};
-
-/// Interlingua (France)
-pub const LANG_IA_FR: &LanguageId = &LanguageId {
-    name: "ia-FR",
-    lcid: 0x1000,
-    english_name: "Interlingua (France)",
-    iso639_two_letter: "ia",
-    iso639_three_letter: "ina",
-    windows_three_letter: "ZZZ",
-};
-
-/// South Ndebele
-pub const LANG_NR: &LanguageId = &LanguageId {
-    name: "nr",
-    lcid: 0x1000,
-    english_name: "South Ndebele",
-    iso639_two_letter: "nr",
-    iso639_three_letter: "nbl",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Tanzania)
-pub const LANG_EN_TZ: &LanguageId = &LanguageId {
-    name: "en-TZ",
-    lcid: 0x1000,
-    english_name: "English (Tanzania)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Montserrat)
-pub const LANG_EN_MS: &LanguageId = &LanguageId {
-    name: "en-MS",
-    lcid: 0x1000,
-    english_name: "English (Montserrat)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Language (ceb)
-pub const LANG_CEB: &LanguageId = &LanguageId {
-    name: "ceb",
-    lcid: 0x1000,
-    english_name: "Unknown Language (ceb)",
-    iso639_two_letter: "ceb",
-    iso639_three_letter: "ceb",
-    windows_three_letter: "ZZZ",
-};
-
-/// Saho
-pub const LANG_SSY: &LanguageId = &LanguageId {
-    name: "ssy",
-    lcid: 0x1000,
-    english_name: "Saho",
-    iso639_two_letter: "ssy",
-    iso639_three_letter: "ssy",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Namibia)
-pub const LANG_EN_NA: &LanguageId = &LanguageId {
-    name: "en-NA",
-    lcid: 0x1000,
-    english_name: "English (Namibia)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Greek (Cyprus)
-pub const LANG_EL_CY: &LanguageId = &LanguageId {
-    name: "el-CY",
-    lcid: 0x1000,
-    english_name: "Greek (Cyprus)",
-    iso639_two_letter: "el",
-    iso639_three_letter: "ell",
     windows_three_letter: "ZZZ",
 };
 
@@ -6040,821 +3810,51 @@ pub const LANG_EN_CH: &LanguageId = &LanguageId {
     windows_three_letter: "ZZZ",
 };
 
-/// Langi
-pub const LANG_LAG: &LanguageId = &LanguageId {
-    name: "lag",
+/// English (Cook Islands)
+pub const LANG_EN_CK: &LanguageId = &LanguageId {
+    name: "en-CK",
     lcid: 0x1000,
-    english_name: "Langi",
-    iso639_two_letter: "lag",
-    iso639_three_letter: "lag",
-    windows_three_letter: "ZZZ",
-};
-
-/// Norwegian Bokmål (Svalbard and Jan Mayen)
-pub const LANG_NB_SJ: &LanguageId = &LanguageId {
-    name: "nb-SJ",
-    lcid: 0x1000,
-    english_name: "Norwegian Bokmål (Svalbard and Jan Mayen)",
-    iso639_two_letter: "nb",
-    iso639_three_letter: "nob",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Pitcairn Islands)
-pub const LANG_EN_PN: &LanguageId = &LanguageId {
-    name: "en-PN",
-    lcid: 0x1000,
-    english_name: "English (Pitcairn Islands)",
+    english_name: "English (Cook Islands)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Rombo (Tanzania)
-pub const LANG_ROF_TZ: &LanguageId = &LanguageId {
-    name: "rof-TZ",
+/// English (Cameroon)
+pub const LANG_EN_CM: &LanguageId = &LanguageId {
+    name: "en-CM",
     lcid: 0x1000,
-    english_name: "Rombo (Tanzania)",
-    iso639_two_letter: "rof",
-    iso639_three_letter: "rof",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Tunisia)
-pub const LANG_FR_TN: &LanguageId = &LanguageId {
-    name: "fr-TN",
-    lcid: 0x1000,
-    english_name: "French (Tunisia)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Metaʼ
-pub const LANG_MGO: &LanguageId = &LanguageId {
-    name: "mgo",
-    lcid: 0x1000,
-    english_name: "Metaʼ",
-    iso639_two_letter: "mgo",
-    iso639_three_letter: "mgo",
-    windows_three_letter: "ZZZ",
-};
-
-/// Sesotho (Lesotho)
-pub const LANG_ST_LS: &LanguageId = &LanguageId {
-    name: "st-LS",
-    lcid: 0x1000,
-    english_name: "Sesotho (Lesotho)",
-    iso639_two_letter: "st",
-    iso639_three_letter: "sot",
-    windows_three_letter: "ZZZ",
-};
-
-/// Dutch (Aruba)
-pub const LANG_NL_AW: &LanguageId = &LanguageId {
-    name: "nl-AW",
-    lcid: 0x1000,
-    english_name: "Dutch (Aruba)",
-    iso639_two_letter: "nl",
-    iso639_three_letter: "nld",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Liberia)
-pub const LANG_EN_LR: &LanguageId = &LanguageId {
-    name: "en-LR",
-    lcid: 0x1000,
-    english_name: "English (Liberia)",
+    english_name: "English (Cameroon)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// English (Nauru)
-pub const LANG_EN_NR: &LanguageId = &LanguageId {
-    name: "en-NR",
+/// English (Christmas Island)
+pub const LANG_EN_CX: &LanguageId = &LanguageId {
+    name: "en-CX",
     lcid: 0x1000,
-    english_name: "English (Nauru)",
+    english_name: "English (Christmas Island)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// English (U.S. Outlying Islands)
-pub const LANG_EN_UM: &LanguageId = &LanguageId {
-    name: "en-UM",
+/// English (Cyprus)
+pub const LANG_EN_CY: &LanguageId = &LanguageId {
+    name: "en-CY",
     lcid: 0x1000,
-    english_name: "English (U.S. Outlying Islands)",
+    english_name: "English (Cyprus)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Shambala (Tanzania)
-pub const LANG_KSB_TZ: &LanguageId = &LanguageId {
-    name: "ksb-TZ",
-    lcid: 0x1000,
-    english_name: "Shambala (Tanzania)",
-    iso639_two_letter: "ksb",
-    iso639_three_letter: "ksb",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Dominica)
-pub const LANG_EN_DM: &LanguageId = &LanguageId {
-    name: "en-DM",
-    lcid: 0x1000,
-    english_name: "English (Dominica)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Bafia
-pub const LANG_KSF: &LanguageId = &LanguageId {
-    name: "ksf",
-    lcid: 0x1000,
-    english_name: "Bafia",
-    iso639_two_letter: "ksf",
-    iso639_three_letter: "ksf",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kiswahili (Uganda)
-pub const LANG_SW_UG: &LanguageId = &LanguageId {
-    name: "sw-UG",
-    lcid: 0x1000,
-    english_name: "Kiswahili (Uganda)",
-    iso639_two_letter: "sw",
-    iso639_three_letter: "swa",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Netherlands)
-pub const LANG_EN_NL: &LanguageId = &LanguageId {
-    name: "en-NL",
-    lcid: 0x1000,
-    english_name: "English (Netherlands)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Spanish (Philippines)
-pub const LANG_ES_PH: &LanguageId = &LanguageId {
-    name: "es-PH",
-    lcid: 0x1000,
-    english_name: "Spanish (Philippines)",
-    iso639_two_letter: "es",
-    iso639_three_letter: "spa",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ff-Latn-LR)
-pub const LANG_FF_LATN_LR: &LanguageId = &LanguageId {
-    name: "ff-Latn-LR",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ff-Latn-LR)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
-    windows_three_letter: "FUL",
-};
-
-/// Makonde
-pub const LANG_KDE: &LanguageId = &LanguageId {
-    name: "kde",
-    lcid: 0x1000,
-    english_name: "Makonde",
-    iso639_two_letter: "kde",
-    iso639_three_letter: "kde",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Gambia)
-pub const LANG_EN_GM: &LanguageId = &LanguageId {
-    name: "en-GM",
-    lcid: 0x1000,
-    english_name: "English (Gambia)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Afar (Djibouti)
-pub const LANG_AA_DJ: &LanguageId = &LanguageId {
-    name: "aa-DJ",
-    lcid: 0x1000,
-    english_name: "Afar (Djibouti)",
-    iso639_two_letter: "aa",
-    iso639_three_letter: "aar",
-    windows_three_letter: "ZZZ",
-};
-
-/// Sangu (Tanzania)
-pub const LANG_SBP_TZ: &LanguageId = &LanguageId {
-    name: "sbp-TZ",
-    lcid: 0x1000,
-    english_name: "Sangu (Tanzania)",
-    iso639_two_letter: "sbp",
-    iso639_three_letter: "sbp",
-    windows_three_letter: "ZZZ",
-};
-
-/// Teso
-pub const LANG_TEO: &LanguageId = &LanguageId {
-    name: "teo",
-    lcid: 0x1000,
-    english_name: "Teso",
-    iso639_two_letter: "teo",
-    iso639_three_letter: "teo",
-    windows_three_letter: "ZZZ",
-};
-
-/// Catalan (France)
-pub const LANG_CA_FR: &LanguageId = &LanguageId {
-    name: "ca-FR",
-    lcid: 0x1000,
-    english_name: "Catalan (France)",
-    iso639_two_letter: "ca",
-    iso639_three_letter: "cat",
-    windows_three_letter: "ZZZ",
-};
-
-/// Rombo
-pub const LANG_ROF: &LanguageId = &LanguageId {
-    name: "rof",
-    lcid: 0x1000,
-    english_name: "Rombo",
-    iso639_two_letter: "rof",
-    iso639_three_letter: "rof",
-    windows_three_letter: "ZZZ",
-};
-
-/// Makhuwa-Meetto (Mozambique)
-pub const LANG_MGH_MZ: &LanguageId = &LanguageId {
-    name: "mgh-MZ",
-    lcid: 0x1000,
-    english_name: "Makhuwa-Meetto (Mozambique)",
-    iso639_two_letter: "mgh",
-    iso639_three_letter: "mgh",
-    windows_three_letter: "ZZZ",
-};
-
-/// Luyia
-pub const LANG_LUY: &LanguageId = &LanguageId {
-    name: "luy",
-    lcid: 0x1000,
-    english_name: "Luyia",
-    iso639_two_letter: "luy",
-    iso639_three_letter: "luy",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ff-Latn-BF)
-pub const LANG_FF_LATN_BF: &LanguageId = &LanguageId {
-    name: "ff-Latn-BF",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ff-Latn-BF)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
-    windows_three_letter: "FUL",
-};
-
-/// Bamanankan
-pub const LANG_BM: &LanguageId = &LanguageId {
-    name: "bm",
-    lcid: 0x1000,
-    english_name: "Bamanankan",
-    iso639_two_letter: "bm",
-    iso639_three_letter: "bam",
-    windows_three_letter: "ZZZ",
-};
-
-/// Shambala
-pub const LANG_KSB: &LanguageId = &LanguageId {
-    name: "ksb",
-    lcid: 0x1000,
-    english_name: "Shambala",
-    iso639_two_letter: "ksb",
-    iso639_three_letter: "ksb",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Chad)
-pub const LANG_FR_TD: &LanguageId = &LanguageId {
-    name: "fr-TD",
-    lcid: 0x1000,
-    english_name: "French (Chad)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Vanuatu)
-pub const LANG_EN_VU: &LanguageId = &LanguageId {
-    name: "en-VU",
-    lcid: 0x1000,
-    english_name: "English (Vanuatu)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Asu (Tanzania)
-pub const LANG_ASA_TZ: &LanguageId = &LanguageId {
-    name: "asa-TZ",
-    lcid: 0x1000,
-    english_name: "Asu (Tanzania)",
-    iso639_two_letter: "asa",
-    iso639_three_letter: "asa",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Burkina Faso)
-pub const LANG_FR_BF: &LanguageId = &LanguageId {
-    name: "fr-BF",
-    lcid: 0x1000,
-    english_name: "French (Burkina Faso)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Swiss German (Liechtenstein)
-pub const LANG_GSW_LI: &LanguageId = &LanguageId {
-    name: "gsw-LI",
-    lcid: 0x1000,
-    english_name: "Swiss German (Liechtenstein)",
-    iso639_two_letter: "gsw",
-    iso639_three_letter: "gsw",
-    windows_three_letter: "ZZZ",
-};
-
-/// Standard Moroccan Tamazight
-pub const LANG_ZGH: &LanguageId = &LanguageId {
-    name: "zgh",
-    lcid: 0x1000,
-    english_name: "Standard Moroccan Tamazight",
-    iso639_two_letter: "zgh",
-    iso639_three_letter: "zgh",
-    windows_three_letter: "ZHG",
-};
-
-/// Dutch (Curaçao)
-pub const LANG_NL_CW: &LanguageId = &LanguageId {
-    name: "nl-CW",
-    lcid: 0x1000,
-    english_name: "Dutch (Curaçao)",
-    iso639_two_letter: "nl",
-    iso639_three_letter: "nld",
-    windows_three_letter: "ZZZ",
-};
-
-/// Shona (Latin, Zimbabwe)
-pub const LANG_SN_LATN_ZW: &LanguageId = &LanguageId {
-    name: "sn-Latn-ZW",
-    lcid: 0x1000,
-    english_name: "Shona (Latin, Zimbabwe)",
-    iso639_two_letter: "sn",
-    iso639_three_letter: "sna",
-    windows_three_letter: "SNA",
-};
-
-/// Ngomba (Cameroon)
-pub const LANG_JGO_CM: &LanguageId = &LanguageId {
-    name: "jgo-CM",
-    lcid: 0x1000,
-    english_name: "Ngomba (Cameroon)",
-    iso639_two_letter: "jgo",
-    iso639_three_letter: "jgo",
-    windows_three_letter: "ZZZ",
-};
-
-/// Catalan (Andorra)
-pub const LANG_CA_AD: &LanguageId = &LanguageId {
-    name: "ca-AD",
-    lcid: 0x1000,
-    english_name: "Catalan (Andorra)",
-    iso639_two_letter: "ca",
-    iso639_three_letter: "cat",
-    windows_three_letter: "ZZZ",
-};
-
-/// Tasawaq
-pub const LANG_TWQ: &LanguageId = &LanguageId {
-    name: "twq",
-    lcid: 0x1000,
-    english_name: "Tasawaq",
-    iso639_two_letter: "twq",
-    iso639_three_letter: "twq",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Macao SAR)
-pub const LANG_EN_MO: &LanguageId = &LanguageId {
-    name: "en-MO",
-    lcid: 0x1000,
-    english_name: "English (Macao SAR)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Vunjo
-pub const LANG_VUN: &LanguageId = &LanguageId {
-    name: "vun",
-    lcid: 0x1000,
-    english_name: "Vunjo",
-    iso639_two_letter: "vun",
-    iso639_three_letter: "vun",
-    windows_three_letter: "ZZZ",
-};
-
-/// Northern Luri (Iran)
-pub const LANG_LRC_IR: &LanguageId = &LanguageId {
-    name: "lrc-IR",
-    lcid: 0x1000,
-    english_name: "Northern Luri (Iran)",
-    iso639_two_letter: "lrc",
-    iso639_three_letter: "lrc",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Central African Republic)
-pub const LANG_FR_CF: &LanguageId = &LanguageId {
-    name: "fr-CF",
-    lcid: 0x1000,
-    english_name: "French (Central African Republic)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Masai (Kenya)
-pub const LANG_MAS_KE: &LanguageId = &LanguageId {
-    name: "mas-KE",
-    lcid: 0x1000,
-    english_name: "Masai (Kenya)",
-    iso639_two_letter: "mas",
-    iso639_three_letter: "mas",
-    windows_three_letter: "ZZZ",
-};
-
-/// Esperanto
-pub const LANG_EO: &LanguageId = &LanguageId {
-    name: "eo",
-    lcid: 0x1000,
-    english_name: "Esperanto",
-    iso639_two_letter: "eo",
-    iso639_three_letter: "epo",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Bermuda)
-pub const LANG_EN_BM: &LanguageId = &LanguageId {
-    name: "en-BM",
-    lcid: 0x1000,
-    english_name: "English (Bermuda)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Masai
-pub const LANG_MAS: &LanguageId = &LanguageId {
-    name: "mas",
-    lcid: 0x1000,
-    english_name: "Masai",
-    iso639_two_letter: "mas",
-    iso639_three_letter: "mas",
-    windows_three_letter: "ZZZ",
-};
-
-/// Afar
-pub const LANG_AA: &LanguageId = &LanguageId {
-    name: "aa",
-    lcid: 0x1000,
-    english_name: "Afar",
-    iso639_two_letter: "aa",
-    iso639_three_letter: "aar",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ff-Latn-GW)
-pub const LANG_FF_LATN_GW: &LanguageId = &LanguageId {
-    name: "ff-Latn-GW",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ff-Latn-GW)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
-    windows_three_letter: "FUL",
-};
-
-/// Fulah (Guinea)
-pub const LANG_FF_GN: &LanguageId = &LanguageId {
-    name: "ff-GN",
-    lcid: 0x1000,
-    english_name: "Fulah (Guinea)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
-    windows_three_letter: "ZZZ",
-};
-
-/// Zarma
-pub const LANG_DJE: &LanguageId = &LanguageId {
-    name: "dje",
-    lcid: 0x1000,
-    english_name: "Zarma",
-    iso639_two_letter: "dje",
-    iso639_three_letter: "dje",
-    windows_three_letter: "ZZZ",
-};
-
-/// Bodo (India)
-pub const LANG_BRX_IN: &LanguageId = &LanguageId {
-    name: "brx-IN",
-    lcid: 0x1000,
-    english_name: "Bodo (India)",
-    iso639_two_letter: "brx",
-    iso639_three_letter: "brx",
-    windows_three_letter: "ZZZ",
-};
-
-/// Embu
-pub const LANG_EBU: &LanguageId = &LanguageId {
-    name: "ebu",
-    lcid: 0x1000,
-    english_name: "Embu",
-    iso639_two_letter: "ebu",
-    iso639_three_letter: "ebu",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Malawi)
-pub const LANG_EN_MW: &LanguageId = &LanguageId {
-    name: "en-MW",
-    lcid: 0x1000,
-    english_name: "English (Malawi)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Saint Kitts and Nevis)
-pub const LANG_EN_KN: &LanguageId = &LanguageId {
-    name: "en-KN",
-    lcid: 0x1000,
-    english_name: "English (Saint Kitts and Nevis)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Uzbek (Perso-Arabic, Afghanistan)
-pub const LANG_UZ_ARAB_AF: &LanguageId = &LanguageId {
-    name: "uz-Arab-AF",
-    lcid: 0x1000,
-    english_name: "Uzbek (Perso-Arabic, Afghanistan)",
-    iso639_two_letter: "uz",
-    iso639_three_letter: "uzb",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kwasio (Cameroon)
-pub const LANG_NMG_CM: &LanguageId = &LanguageId {
-    name: "nmg-CM",
-    lcid: 0x1000,
-    english_name: "Kwasio (Cameroon)",
-    iso639_two_letter: "nmg",
-    iso639_three_letter: "nmg",
-    windows_three_letter: "ZZZ",
-};
-
-/// Dutch (Suriname)
-pub const LANG_NL_SR: &LanguageId = &LanguageId {
-    name: "nl-SR",
-    lcid: 0x1000,
-    english_name: "Dutch (Suriname)",
-    iso639_two_letter: "nl",
-    iso639_three_letter: "nld",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Falkland Islands)
-pub const LANG_EN_FK: &LanguageId = &LanguageId {
-    name: "en-FK",
-    lcid: 0x1000,
-    english_name: "English (Falkland Islands)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (New Caledonia)
-pub const LANG_FR_NC: &LanguageId = &LanguageId {
-    name: "fr-NC",
-    lcid: 0x1000,
-    english_name: "French (New Caledonia)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Chiga (Uganda)
-pub const LANG_CGG_UG: &LanguageId = &LanguageId {
-    name: "cgg-UG",
-    lcid: 0x1000,
-    english_name: "Chiga (Uganda)",
-    iso639_two_letter: "cgg",
-    iso639_three_letter: "cgg",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kabyle (Algeria)
-pub const LANG_KAB_DZ: &LanguageId = &LanguageId {
-    name: "kab-DZ",
-    lcid: 0x1000,
-    english_name: "Kabyle (Algeria)",
-    iso639_two_letter: "kab",
-    iso639_three_letter: "kab",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Sierra Leone)
-pub const LANG_EN_SL: &LanguageId = &LanguageId {
-    name: "en-SL",
-    lcid: 0x1000,
-    english_name: "English (Sierra Leone)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Walser
-pub const LANG_WAE: &LanguageId = &LanguageId {
-    name: "wae",
-    lcid: 0x1000,
-    english_name: "Walser",
-    iso639_two_letter: "wae",
-    iso639_three_letter: "wae",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Finland)
-pub const LANG_EN_FI: &LanguageId = &LanguageId {
-    name: "en-FI",
-    lcid: 0x1000,
-    english_name: "English (Finland)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Russian (Kyrgyzstan)
-pub const LANG_RU_KG: &LanguageId = &LanguageId {
-    name: "ru-KG",
-    lcid: 0x1000,
-    english_name: "Russian (Kyrgyzstan)",
-    iso639_two_letter: "ru",
-    iso639_three_letter: "rus",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Slovenia)
-pub const LANG_EN_SI: &LanguageId = &LanguageId {
-    name: "en-SI",
-    lcid: 0x1000,
-    english_name: "English (Slovenia)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kikuyu
-pub const LANG_KI: &LanguageId = &LanguageId {
-    name: "ki",
-    lcid: 0x1000,
-    english_name: "Kikuyu",
-    iso639_two_letter: "ki",
-    iso639_three_letter: "kik",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Papua New Guinea)
-pub const LANG_EN_PG: &LanguageId = &LanguageId {
-    name: "en-PG",
-    lcid: 0x1000,
-    english_name: "English (Papua New Guinea)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// siSwati (South Africa)
-pub const LANG_SS_ZA: &LanguageId = &LanguageId {
-    name: "ss-ZA",
-    lcid: 0x1000,
-    english_name: "siSwati (South Africa)",
-    iso639_two_letter: "ss",
-    iso639_three_letter: "ssw",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Tokelau)
-pub const LANG_EN_TK: &LanguageId = &LanguageId {
-    name: "en-TK",
-    lcid: 0x1000,
-    english_name: "English (Tokelau)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Low German (Germany)
-pub const LANG_NDS_DE: &LanguageId = &LanguageId {
-    name: "nds-DE",
-    lcid: 0x1000,
-    english_name: "Low German (Germany)",
-    iso639_two_letter: "nds",
-    iso639_three_letter: "nds",
-    windows_three_letter: "ZZZ",
-};
-
-/// French (Mauritius)
-pub const LANG_FR_MU: &LanguageId = &LanguageId {
-    name: "fr-MU",
-    lcid: 0x1000,
-    english_name: "French (Mauritius)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// Faroese (Denmark)
-pub const LANG_FO_DK: &LanguageId = &LanguageId {
-    name: "fo-DK",
-    lcid: 0x1000,
-    english_name: "Faroese (Denmark)",
-    iso639_two_letter: "fo",
-    iso639_three_letter: "fao",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Northern Mariana Islands)
-pub const LANG_EN_MP: &LanguageId = &LanguageId {
-    name: "en-MP",
-    lcid: 0x1000,
-    english_name: "English (Northern Mariana Islands)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Sudan)
-pub const LANG_EN_SD: &LanguageId = &LanguageId {
-    name: "en-SD",
-    lcid: 0x1000,
-    english_name: "English (Sudan)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Tonga)
-pub const LANG_EN_TO: &LanguageId = &LanguageId {
-    name: "en-TO",
-    lcid: 0x1000,
-    english_name: "English (Tonga)",
-    iso639_two_letter: "en",
-    iso639_three_letter: "eng",
-    windows_three_letter: "ZZZ",
-};
-
-/// Nama
-pub const LANG_NAQ: &LanguageId = &LanguageId {
-    name: "naq",
-    lcid: 0x1000,
-    english_name: "Nama",
-    iso639_two_letter: "naq",
-    iso639_three_letter: "naq",
-    windows_three_letter: "ZZZ",
-};
-
-/// Unknown Locale (ff-Latn-GM)
-pub const LANG_FF_LATN_GM: &LanguageId = &LanguageId {
-    name: "ff-Latn-GM",
-    lcid: 0x1000,
-    english_name: "Unknown Locale (ff-Latn-GM)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
-    windows_three_letter: "FUL",
-};
-
-/// English (Bahamas)
-pub const LANG_EN_BS: &LanguageId = &LanguageId {
-    name: "en-BS",
-    lcid: 0x1000,
-    english_name: "English (Bahamas)",
+/// English (Germany)
+pub const LANG_EN_DE: &LanguageId = &LanguageId {
+    name: "en-DE",
+    lcid: 0x1000,
+    english_name: "English (Germany)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
@@ -6870,131 +3870,231 @@ pub const LANG_EN_DK: &LanguageId = &LanguageId {
     windows_three_letter: "ZZZ",
 };
 
-/// Portuguese (Timor-Leste)
-pub const LANG_PT_TL: &LanguageId = &LanguageId {
-    name: "pt-TL",
+/// English (Dominica)
+pub const LANG_EN_DM: &LanguageId = &LanguageId {
+    name: "en-DM",
     lcid: 0x1000,
-    english_name: "Portuguese (Timor-Leste)",
-    iso639_two_letter: "pt",
-    iso639_three_letter: "por",
-    windows_three_letter: "ZZZ",
-};
-
-/// Kabuverdianu (Cabo Verde)
-pub const LANG_KEA_CV: &LanguageId = &LanguageId {
-    name: "kea-CV",
-    lcid: 0x1000,
-    english_name: "Kabuverdianu (Cabo Verde)",
-    iso639_two_letter: "kea",
-    iso639_three_letter: "kea",
-    windows_three_letter: "ZZZ",
-};
-
-/// Javanese
-pub const LANG_JV_LATN: &LanguageId = &LanguageId {
-    name: "jv-Latn",
-    lcid: 0x1000,
-    english_name: "Javanese",
-    iso639_two_letter: "jv",
-    iso639_three_letter: "jav",
-    windows_three_letter: "JAV",
-};
-
-/// Nama (Namibia)
-pub const LANG_NAQ_NA: &LanguageId = &LanguageId {
-    name: "naq-NA",
-    lcid: 0x1000,
-    english_name: "Nama (Namibia)",
-    iso639_two_letter: "naq",
-    iso639_three_letter: "naq",
-    windows_three_letter: "ZZZ",
-};
-
-/// Vai (Latin, Liberia)
-pub const LANG_VAI_LATN_LR: &LanguageId = &LanguageId {
-    name: "vai-Latn-LR",
-    lcid: 0x1000,
-    english_name: "Vai (Latin, Liberia)",
-    iso639_two_letter: "vai",
-    iso639_three_letter: "vai",
-    windows_three_letter: "ZZZ",
-};
-
-/// Mundang (Cameroon)
-pub const LANG_MUA_CM: &LanguageId = &LanguageId {
-    name: "mua-CM",
-    lcid: 0x1000,
-    english_name: "Mundang (Cameroon)",
-    iso639_two_letter: "mua",
-    iso639_three_letter: "mua",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Puerto Rico)
-pub const LANG_EN_PR: &LanguageId = &LanguageId {
-    name: "en-PR",
-    lcid: 0x1000,
-    english_name: "English (Puerto Rico)",
+    english_name: "English (Dominica)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// French (Congo)
-pub const LANG_FR_CG: &LanguageId = &LanguageId {
-    name: "fr-CG",
+/// English (Eritrea)
+pub const LANG_EN_ER: &LanguageId = &LanguageId {
+    name: "en-ER",
     lcid: 0x1000,
-    english_name: "French (Congo)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
+    english_name: "English (Eritrea)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Fulah (Nigeria)
-pub const LANG_FF_NG: &LanguageId = &LanguageId {
-    name: "ff-NG",
+/// English (Finland)
+pub const LANG_EN_FI: &LanguageId = &LanguageId {
+    name: "en-FI",
     lcid: 0x1000,
-    english_name: "Fulah (Nigeria)",
-    iso639_two_letter: "ff",
-    iso639_three_letter: "ful",
+    english_name: "English (Finland)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Standard Moroccan Tamazight (Tifinagh, Morocco)
-pub const LANG_ZGH_TFNG_MA: &LanguageId = &LanguageId {
-    name: "zgh-Tfng-MA",
+/// English (Fiji)
+pub const LANG_EN_FJ: &LanguageId = &LanguageId {
+    name: "en-FJ",
     lcid: 0x1000,
-    english_name: "Standard Moroccan Tamazight (Tifinagh, Morocco)",
-    iso639_two_letter: "zgh",
-    iso639_three_letter: "zgh",
-    windows_three_letter: "ZHG",
-};
-
-/// Ewe (Ghana)
-pub const LANG_EE_GH: &LanguageId = &LanguageId {
-    name: "ee-GH",
-    lcid: 0x1000,
-    english_name: "Ewe (Ghana)",
-    iso639_two_letter: "ee",
-    iso639_three_letter: "ewe",
+    english_name: "English (Fiji)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Basaa (Cameroon)
-pub const LANG_BAS_CM: &LanguageId = &LanguageId {
-    name: "bas-CM",
+/// English (Falkland Islands)
+pub const LANG_EN_FK: &LanguageId = &LanguageId {
+    name: "en-FK",
     lcid: 0x1000,
-    english_name: "Basaa (Cameroon)",
-    iso639_two_letter: "bas",
-    iso639_three_letter: "bas",
+    english_name: "English (Falkland Islands)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// English (Sint Maarten)
-pub const LANG_EN_SX: &LanguageId = &LanguageId {
-    name: "en-SX",
+/// English (Micronesia)
+pub const LANG_EN_FM: &LanguageId = &LanguageId {
+    name: "en-FM",
     lcid: 0x1000,
-    english_name: "English (Sint Maarten)",
+    english_name: "English (Micronesia)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Grenada)
+pub const LANG_EN_GD: &LanguageId = &LanguageId {
+    name: "en-GD",
+    lcid: 0x1000,
+    english_name: "English (Grenada)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Guernsey)
+pub const LANG_EN_GG: &LanguageId = &LanguageId {
+    name: "en-GG",
+    lcid: 0x1000,
+    english_name: "English (Guernsey)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Ghana)
+pub const LANG_EN_GH: &LanguageId = &LanguageId {
+    name: "en-GH",
+    lcid: 0x1000,
+    english_name: "English (Ghana)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Gibraltar)
+pub const LANG_EN_GI: &LanguageId = &LanguageId {
+    name: "en-GI",
+    lcid: 0x1000,
+    english_name: "English (Gibraltar)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Gambia)
+pub const LANG_EN_GM: &LanguageId = &LanguageId {
+    name: "en-GM",
+    lcid: 0x1000,
+    english_name: "English (Gambia)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Guam)
+pub const LANG_EN_GU: &LanguageId = &LanguageId {
+    name: "en-GU",
+    lcid: 0x1000,
+    english_name: "English (Guam)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Guyana)
+pub const LANG_EN_GY: &LanguageId = &LanguageId {
+    name: "en-GY",
+    lcid: 0x1000,
+    english_name: "English (Guyana)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Israel)
+pub const LANG_EN_IL: &LanguageId = &LanguageId {
+    name: "en-IL",
+    lcid: 0x1000,
+    english_name: "English (Israel)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Isle of Man)
+pub const LANG_EN_IM: &LanguageId = &LanguageId {
+    name: "en-IM",
+    lcid: 0x1000,
+    english_name: "English (Isle of Man)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (British Indian Ocean Territory)
+pub const LANG_EN_IO: &LanguageId = &LanguageId {
+    name: "en-IO",
+    lcid: 0x1000,
+    english_name: "English (British Indian Ocean Territory)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Jersey)
+pub const LANG_EN_JE: &LanguageId = &LanguageId {
+    name: "en-JE",
+    lcid: 0x1000,
+    english_name: "English (Jersey)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Kenya)
+pub const LANG_EN_KE: &LanguageId = &LanguageId {
+    name: "en-KE",
+    lcid: 0x1000,
+    english_name: "English (Kenya)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Kiribati)
+pub const LANG_EN_KI: &LanguageId = &LanguageId {
+    name: "en-KI",
+    lcid: 0x1000,
+    english_name: "English (Kiribati)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Saint Kitts and Nevis)
+pub const LANG_EN_KN: &LanguageId = &LanguageId {
+    name: "en-KN",
+    lcid: 0x1000,
+    english_name: "English (Saint Kitts and Nevis)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Cayman Islands)
+pub const LANG_EN_KY: &LanguageId = &LanguageId {
+    name: "en-KY",
+    lcid: 0x1000,
+    english_name: "English (Cayman Islands)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Saint Lucia)
+pub const LANG_EN_LC: &LanguageId = &LanguageId {
+    name: "en-LC",
+    lcid: 0x1000,
+    english_name: "English (Saint Lucia)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Liberia)
+pub const LANG_EN_LR: &LanguageId = &LanguageId {
+    name: "en-LR",
+    lcid: 0x1000,
+    english_name: "English (Liberia)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
@@ -7010,73 +4110,273 @@ pub const LANG_EN_LS: &LanguageId = &LanguageId {
     windows_three_letter: "ZZZ",
 };
 
-/// Tachelhit (Latin)
-pub const LANG_SHI_LATN: &LanguageId = &LanguageId {
-    name: "shi-Latn",
+/// English (Madagascar)
+pub const LANG_EN_MG: &LanguageId = &LanguageId {
+    name: "en-MG",
     lcid: 0x1000,
-    english_name: "Tachelhit (Latin)",
-    iso639_two_letter: "shi",
-    iso639_three_letter: "shi",
+    english_name: "English (Madagascar)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Sango (Central African Republic)
-pub const LANG_SG_CF: &LanguageId = &LanguageId {
-    name: "sg-CF",
+/// English (Marshall Islands)
+pub const LANG_EN_MH: &LanguageId = &LanguageId {
+    name: "en-MH",
     lcid: 0x1000,
-    english_name: "Sango (Central African Republic)",
-    iso639_two_letter: "sg",
-    iso639_three_letter: "sag",
+    english_name: "English (Marshall Islands)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Low German
-pub const LANG_NDS: &LanguageId = &LanguageId {
-    name: "nds",
+/// English (Macao SAR)
+pub const LANG_EN_MO: &LanguageId = &LanguageId {
+    name: "en-MO",
     lcid: 0x1000,
-    english_name: "Low German",
-    iso639_two_letter: "nds",
-    iso639_three_letter: "nds",
+    english_name: "English (Macao SAR)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Unknown Locale (ps-PK)
-pub const LANG_PS_PK: &LanguageId = &LanguageId {
-    name: "ps-PK",
+/// English (Northern Mariana Islands)
+pub const LANG_EN_MP: &LanguageId = &LanguageId {
+    name: "en-MP",
     lcid: 0x1000,
-    english_name: "Unknown Locale (ps-PK)",
-    iso639_two_letter: "ps",
-    iso639_three_letter: "pus",
-    windows_three_letter: "PAS",
-};
-
-/// Shona
-pub const LANG_SN: &LanguageId = &LanguageId {
-    name: "sn",
-    lcid: 0x1000,
-    english_name: "Shona",
-    iso639_two_letter: "sn",
-    iso639_three_letter: "sna",
-    windows_three_letter: "SNA",
-};
-
-/// Ngomba
-pub const LANG_JGO: &LanguageId = &LanguageId {
-    name: "jgo",
-    lcid: 0x1000,
-    english_name: "Ngomba",
-    iso639_two_letter: "jgo",
-    iso639_three_letter: "jgo",
+    english_name: "English (Northern Mariana Islands)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// French (Equatorial Guinea)
-pub const LANG_FR_GQ: &LanguageId = &LanguageId {
-    name: "fr-GQ",
+/// English (Montserrat)
+pub const LANG_EN_MS: &LanguageId = &LanguageId {
+    name: "en-MS",
     lcid: 0x1000,
-    english_name: "French (Equatorial Guinea)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
+    english_name: "English (Montserrat)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Malta)
+pub const LANG_EN_MT: &LanguageId = &LanguageId {
+    name: "en-MT",
+    lcid: 0x1000,
+    english_name: "English (Malta)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Mauritius)
+pub const LANG_EN_MU: &LanguageId = &LanguageId {
+    name: "en-MU",
+    lcid: 0x1000,
+    english_name: "English (Mauritius)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Malawi)
+pub const LANG_EN_MW: &LanguageId = &LanguageId {
+    name: "en-MW",
+    lcid: 0x1000,
+    english_name: "English (Malawi)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Namibia)
+pub const LANG_EN_NA: &LanguageId = &LanguageId {
+    name: "en-NA",
+    lcid: 0x1000,
+    english_name: "English (Namibia)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Norfolk Island)
+pub const LANG_EN_NF: &LanguageId = &LanguageId {
+    name: "en-NF",
+    lcid: 0x1000,
+    english_name: "English (Norfolk Island)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Nigeria)
+pub const LANG_EN_NG: &LanguageId = &LanguageId {
+    name: "en-NG",
+    lcid: 0x1000,
+    english_name: "English (Nigeria)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Netherlands)
+pub const LANG_EN_NL: &LanguageId = &LanguageId {
+    name: "en-NL",
+    lcid: 0x1000,
+    english_name: "English (Netherlands)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Nauru)
+pub const LANG_EN_NR: &LanguageId = &LanguageId {
+    name: "en-NR",
+    lcid: 0x1000,
+    english_name: "English (Nauru)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Niue)
+pub const LANG_EN_NU: &LanguageId = &LanguageId {
+    name: "en-NU",
+    lcid: 0x1000,
+    english_name: "English (Niue)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Papua New Guinea)
+pub const LANG_EN_PG: &LanguageId = &LanguageId {
+    name: "en-PG",
+    lcid: 0x1000,
+    english_name: "English (Papua New Guinea)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Pakistan)
+pub const LANG_EN_PK: &LanguageId = &LanguageId {
+    name: "en-PK",
+    lcid: 0x1000,
+    english_name: "English (Pakistan)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Pitcairn Islands)
+pub const LANG_EN_PN: &LanguageId = &LanguageId {
+    name: "en-PN",
+    lcid: 0x1000,
+    english_name: "English (Pitcairn Islands)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Puerto Rico)
+pub const LANG_EN_PR: &LanguageId = &LanguageId {
+    name: "en-PR",
+    lcid: 0x1000,
+    english_name: "English (Puerto Rico)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Palau)
+pub const LANG_EN_PW: &LanguageId = &LanguageId {
+    name: "en-PW",
+    lcid: 0x1000,
+    english_name: "English (Palau)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Rwanda)
+pub const LANG_EN_RW: &LanguageId = &LanguageId {
+    name: "en-RW",
+    lcid: 0x1000,
+    english_name: "English (Rwanda)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Solomon Islands)
+pub const LANG_EN_SB: &LanguageId = &LanguageId {
+    name: "en-SB",
+    lcid: 0x1000,
+    english_name: "English (Solomon Islands)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Seychelles)
+pub const LANG_EN_SC: &LanguageId = &LanguageId {
+    name: "en-SC",
+    lcid: 0x1000,
+    english_name: "English (Seychelles)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Sudan)
+pub const LANG_EN_SD: &LanguageId = &LanguageId {
+    name: "en-SD",
+    lcid: 0x1000,
+    english_name: "English (Sudan)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Sweden)
+pub const LANG_EN_SE: &LanguageId = &LanguageId {
+    name: "en-SE",
+    lcid: 0x1000,
+    english_name: "English (Sweden)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (St Helena, Ascension, Tristan da Cunha)
+pub const LANG_EN_SH: &LanguageId = &LanguageId {
+    name: "en-SH",
+    lcid: 0x1000,
+    english_name: "English (St Helena, Ascension, Tristan da Cunha)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Slovenia)
+pub const LANG_EN_SI: &LanguageId = &LanguageId {
+    name: "en-SI",
+    lcid: 0x1000,
+    english_name: "English (Slovenia)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Sierra Leone)
+pub const LANG_EN_SL: &LanguageId = &LanguageId {
+    name: "en-SL",
+    lcid: 0x1000,
+    english_name: "English (Sierra Leone)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
@@ -7090,53 +4390,93 @@ pub const LANG_EN_SS: &LanguageId = &LanguageId {
     windows_three_letter: "ZZZ",
 };
 
-/// French (Burundi)
-pub const LANG_FR_BI: &LanguageId = &LanguageId {
-    name: "fr-BI",
+/// English (Sint Maarten)
+pub const LANG_EN_SX: &LanguageId = &LanguageId {
+    name: "en-SX",
     lcid: 0x1000,
-    english_name: "French (Burundi)",
-    iso639_two_letter: "fr",
-    iso639_three_letter: "fra",
-    windows_three_letter: "ZZZ",
-};
-
-/// English (Antigua and Barbuda)
-pub const LANG_EN_AG: &LanguageId = &LanguageId {
-    name: "en-AG",
-    lcid: 0x1000,
-    english_name: "English (Antigua and Barbuda)",
+    english_name: "English (Sint Maarten)",
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Luyia (Kenya)
-pub const LANG_LUY_KE: &LanguageId = &LanguageId {
-    name: "luy-KE",
+/// English (Swaziland)
+pub const LANG_EN_SZ: &LanguageId = &LanguageId {
+    name: "en-SZ",
     lcid: 0x1000,
-    english_name: "Luyia (Kenya)",
-    iso639_two_letter: "luy",
-    iso639_three_letter: "luy",
+    english_name: "English (Swaziland)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Arabic (Eritrea)
-pub const LANG_AR_ER: &LanguageId = &LanguageId {
-    name: "ar-ER",
+/// English (Turks and Caicos Islands)
+pub const LANG_EN_TC: &LanguageId = &LanguageId {
+    name: "en-TC",
     lcid: 0x1000,
-    english_name: "Arabic (Eritrea)",
-    iso639_two_letter: "ar",
-    iso639_three_letter: "ara",
+    english_name: "English (Turks and Caicos Islands)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
-/// Korean (North Korea)
-pub const LANG_KO_KP: &LanguageId = &LanguageId {
-    name: "ko-KP",
+/// English (Tokelau)
+pub const LANG_EN_TK: &LanguageId = &LanguageId {
+    name: "en-TK",
     lcid: 0x1000,
-    english_name: "Korean (North Korea)",
-    iso639_two_letter: "ko",
-    iso639_three_letter: "kor",
+    english_name: "English (Tokelau)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Tonga)
+pub const LANG_EN_TO: &LanguageId = &LanguageId {
+    name: "en-TO",
+    lcid: 0x1000,
+    english_name: "English (Tonga)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Tuvalu)
+pub const LANG_EN_TV: &LanguageId = &LanguageId {
+    name: "en-TV",
+    lcid: 0x1000,
+    english_name: "English (Tuvalu)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Tanzania)
+pub const LANG_EN_TZ: &LanguageId = &LanguageId {
+    name: "en-TZ",
+    lcid: 0x1000,
+    english_name: "English (Tanzania)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Uganda)
+pub const LANG_EN_UG: &LanguageId = &LanguageId {
+    name: "en-UG",
+    lcid: 0x1000,
+    english_name: "English (Uganda)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (U.S. Outlying Islands)
+pub const LANG_EN_UM: &LanguageId = &LanguageId {
+    name: "en-UM",
+    lcid: 0x1000,
+    english_name: "English (U.S. Outlying Islands)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
 };
 
@@ -7150,6 +4490,2186 @@ pub const LANG_EN_VC: &LanguageId = &LanguageId {
     windows_three_letter: "ZZZ",
 };
 
+/// English (British Virgin Islands)
+pub const LANG_EN_VG: &LanguageId = &LanguageId {
+    name: "en-VG",
+    lcid: 0x1000,
+    english_name: "English (British Virgin Islands)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (U.S. Virgin Islands)
+pub const LANG_EN_VI: &LanguageId = &LanguageId {
+    name: "en-VI",
+    lcid: 0x1000,
+    english_name: "English (U.S. Virgin Islands)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Vanuatu)
+pub const LANG_EN_VU: &LanguageId = &LanguageId {
+    name: "en-VU",
+    lcid: 0x1000,
+    english_name: "English (Vanuatu)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Samoa)
+pub const LANG_EN_WS: &LanguageId = &LanguageId {
+    name: "en-WS",
+    lcid: 0x1000,
+    english_name: "English (Samoa)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// English (Zambia)
+pub const LANG_EN_ZM: &LanguageId = &LanguageId {
+    name: "en-ZM",
+    lcid: 0x1000,
+    english_name: "English (Zambia)",
+    iso639_two_letter: "en",
+    iso639_three_letter: "eng",
+    windows_three_letter: "ZZZ",
+};
+
+/// Esperanto
+pub const LANG_EO: &LanguageId = &LanguageId {
+    name: "eo",
+    lcid: 0x1000,
+    english_name: "Esperanto",
+    iso639_two_letter: "eo",
+    iso639_three_letter: "epo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Esperanto (World)
+pub const LANG_EO_001: &LanguageId = &LanguageId {
+    name: "eo-001",
+    lcid: 0x1000,
+    english_name: "Esperanto (World)",
+    iso639_two_letter: "eo",
+    iso639_three_letter: "epo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Spanish (Brazil)
+pub const LANG_ES_BR: &LanguageId = &LanguageId {
+    name: "es-BR",
+    lcid: 0x1000,
+    english_name: "Spanish (Brazil)",
+    iso639_two_letter: "es",
+    iso639_three_letter: "spa",
+    windows_three_letter: "ZZZ",
+};
+
+/// Spanish (Belize)
+pub const LANG_ES_BZ: &LanguageId = &LanguageId {
+    name: "es-BZ",
+    lcid: 0x1000,
+    english_name: "Spanish (Belize)",
+    iso639_two_letter: "es",
+    iso639_three_letter: "spa",
+    windows_three_letter: "ZZZ",
+};
+
+/// Spanish (Equatorial Guinea)
+pub const LANG_ES_GQ: &LanguageId = &LanguageId {
+    name: "es-GQ",
+    lcid: 0x1000,
+    english_name: "Spanish (Equatorial Guinea)",
+    iso639_two_letter: "es",
+    iso639_three_letter: "spa",
+    windows_three_letter: "ZZZ",
+};
+
+/// Spanish (Philippines)
+pub const LANG_ES_PH: &LanguageId = &LanguageId {
+    name: "es-PH",
+    lcid: 0x1000,
+    english_name: "Spanish (Philippines)",
+    iso639_two_letter: "es",
+    iso639_three_letter: "spa",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ewondo
+pub const LANG_EWO: &LanguageId = &LanguageId {
+    name: "ewo",
+    lcid: 0x1000,
+    english_name: "Ewondo",
+    iso639_two_letter: "ewo",
+    iso639_three_letter: "ewo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ewondo (Cameroon)
+pub const LANG_EWO_CM: &LanguageId = &LanguageId {
+    name: "ewo-CM",
+    lcid: 0x1000,
+    english_name: "Ewondo (Cameroon)",
+    iso639_two_letter: "ewo",
+    iso639_three_letter: "ewo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Dari (Afghanistan)
+pub const LANG_FA_AF: &LanguageId = &LanguageId {
+    name: "fa-AF",
+    lcid: 0x1000,
+    english_name: "Dari (Afghanistan)",
+    iso639_two_letter: "prs",
+    iso639_three_letter: "prs",
+    windows_three_letter: "PRS",
+};
+
+/// Fulah (Cameroon)
+pub const LANG_FF_CM: &LanguageId = &LanguageId {
+    name: "ff-CM",
+    lcid: 0x1000,
+    english_name: "Fulah (Cameroon)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "ZZZ",
+};
+
+/// Fulah (Guinea)
+pub const LANG_FF_GN: &LanguageId = &LanguageId {
+    name: "ff-GN",
+    lcid: 0x1000,
+    english_name: "Fulah (Guinea)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Locale (ff-Latn-BF)
+pub const LANG_FF_LATN_BF: &LanguageId = &LanguageId {
+    name: "ff-Latn-BF",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ff-Latn-BF)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "FUL",
+};
+
+/// Unknown Locale (ff-Latn-CM)
+pub const LANG_FF_LATN_CM: &LanguageId = &LanguageId {
+    name: "ff-Latn-CM",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ff-Latn-CM)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Locale (ff-Latn-GH)
+pub const LANG_FF_LATN_GH: &LanguageId = &LanguageId {
+    name: "ff-Latn-GH",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ff-Latn-GH)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "FUL",
+};
+
+/// Unknown Locale (ff-Latn-GM)
+pub const LANG_FF_LATN_GM: &LanguageId = &LanguageId {
+    name: "ff-Latn-GM",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ff-Latn-GM)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "FUL",
+};
+
+/// Unknown Locale (ff-Latn-GN)
+pub const LANG_FF_LATN_GN: &LanguageId = &LanguageId {
+    name: "ff-Latn-GN",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ff-Latn-GN)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Locale (ff-Latn-GW)
+pub const LANG_FF_LATN_GW: &LanguageId = &LanguageId {
+    name: "ff-Latn-GW",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ff-Latn-GW)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "FUL",
+};
+
+/// Unknown Locale (ff-Latn-LR)
+pub const LANG_FF_LATN_LR: &LanguageId = &LanguageId {
+    name: "ff-Latn-LR",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ff-Latn-LR)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "FUL",
+};
+
+/// Unknown Locale (ff-Latn-MR)
+pub const LANG_FF_LATN_MR: &LanguageId = &LanguageId {
+    name: "ff-Latn-MR",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ff-Latn-MR)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Locale (ff-Latn-NE)
+pub const LANG_FF_LATN_NE: &LanguageId = &LanguageId {
+    name: "ff-Latn-NE",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ff-Latn-NE)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "FUL",
+};
+
+/// Unknown Locale (ff-Latn-NG)
+pub const LANG_FF_LATN_NG: &LanguageId = &LanguageId {
+    name: "ff-Latn-NG",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ff-Latn-NG)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Locale (ff-Latn-SL)
+pub const LANG_FF_LATN_SL: &LanguageId = &LanguageId {
+    name: "ff-Latn-SL",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ff-Latn-SL)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "FUL",
+};
+
+/// Fulah (Mauritania)
+pub const LANG_FF_MR: &LanguageId = &LanguageId {
+    name: "ff-MR",
+    lcid: 0x1000,
+    english_name: "Fulah (Mauritania)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "ZZZ",
+};
+
+/// Fulah (Nigeria)
+pub const LANG_FF_NG: &LanguageId = &LanguageId {
+    name: "ff-NG",
+    lcid: 0x1000,
+    english_name: "Fulah (Nigeria)",
+    iso639_two_letter: "ff",
+    iso639_three_letter: "ful",
+    windows_three_letter: "ZZZ",
+};
+
+/// Faroese (Denmark)
+pub const LANG_FO_DK: &LanguageId = &LanguageId {
+    name: "fo-DK",
+    lcid: 0x1000,
+    english_name: "Faroese (Denmark)",
+    iso639_two_letter: "fo",
+    iso639_three_letter: "fao",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Burkina Faso)
+pub const LANG_FR_BF: &LanguageId = &LanguageId {
+    name: "fr-BF",
+    lcid: 0x1000,
+    english_name: "French (Burkina Faso)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Burundi)
+pub const LANG_FR_BI: &LanguageId = &LanguageId {
+    name: "fr-BI",
+    lcid: 0x1000,
+    english_name: "French (Burundi)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Benin)
+pub const LANG_FR_BJ: &LanguageId = &LanguageId {
+    name: "fr-BJ",
+    lcid: 0x1000,
+    english_name: "French (Benin)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Saint Barthélemy)
+pub const LANG_FR_BL: &LanguageId = &LanguageId {
+    name: "fr-BL",
+    lcid: 0x1000,
+    english_name: "French (Saint Barthélemy)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Central African Republic)
+pub const LANG_FR_CF: &LanguageId = &LanguageId {
+    name: "fr-CF",
+    lcid: 0x1000,
+    english_name: "French (Central African Republic)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Congo)
+pub const LANG_FR_CG: &LanguageId = &LanguageId {
+    name: "fr-CG",
+    lcid: 0x1000,
+    english_name: "French (Congo)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Djibouti)
+pub const LANG_FR_DJ: &LanguageId = &LanguageId {
+    name: "fr-DJ",
+    lcid: 0x1000,
+    english_name: "French (Djibouti)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Algeria)
+pub const LANG_FR_DZ: &LanguageId = &LanguageId {
+    name: "fr-DZ",
+    lcid: 0x1000,
+    english_name: "French (Algeria)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Gabon)
+pub const LANG_FR_GA: &LanguageId = &LanguageId {
+    name: "fr-GA",
+    lcid: 0x1000,
+    english_name: "French (Gabon)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (French Guiana)
+pub const LANG_FR_GF: &LanguageId = &LanguageId {
+    name: "fr-GF",
+    lcid: 0x1000,
+    english_name: "French (French Guiana)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Guinea)
+pub const LANG_FR_GN: &LanguageId = &LanguageId {
+    name: "fr-GN",
+    lcid: 0x1000,
+    english_name: "French (Guinea)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Guadeloupe)
+pub const LANG_FR_GP: &LanguageId = &LanguageId {
+    name: "fr-GP",
+    lcid: 0x1000,
+    english_name: "French (Guadeloupe)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Equatorial Guinea)
+pub const LANG_FR_GQ: &LanguageId = &LanguageId {
+    name: "fr-GQ",
+    lcid: 0x1000,
+    english_name: "French (Equatorial Guinea)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Comoros)
+pub const LANG_FR_KM: &LanguageId = &LanguageId {
+    name: "fr-KM",
+    lcid: 0x1000,
+    english_name: "French (Comoros)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Saint Martin)
+pub const LANG_FR_MF: &LanguageId = &LanguageId {
+    name: "fr-MF",
+    lcid: 0x1000,
+    english_name: "French (Saint Martin)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Madagascar)
+pub const LANG_FR_MG: &LanguageId = &LanguageId {
+    name: "fr-MG",
+    lcid: 0x1000,
+    english_name: "French (Madagascar)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Martinique)
+pub const LANG_FR_MQ: &LanguageId = &LanguageId {
+    name: "fr-MQ",
+    lcid: 0x1000,
+    english_name: "French (Martinique)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Mauritania)
+pub const LANG_FR_MR: &LanguageId = &LanguageId {
+    name: "fr-MR",
+    lcid: 0x1000,
+    english_name: "French (Mauritania)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Mauritius)
+pub const LANG_FR_MU: &LanguageId = &LanguageId {
+    name: "fr-MU",
+    lcid: 0x1000,
+    english_name: "French (Mauritius)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (New Caledonia)
+pub const LANG_FR_NC: &LanguageId = &LanguageId {
+    name: "fr-NC",
+    lcid: 0x1000,
+    english_name: "French (New Caledonia)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Niger)
+pub const LANG_FR_NE: &LanguageId = &LanguageId {
+    name: "fr-NE",
+    lcid: 0x1000,
+    english_name: "French (Niger)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (French Polynesia)
+pub const LANG_FR_PF: &LanguageId = &LanguageId {
+    name: "fr-PF",
+    lcid: 0x1000,
+    english_name: "French (French Polynesia)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Saint Pierre and Miquelon)
+pub const LANG_FR_PM: &LanguageId = &LanguageId {
+    name: "fr-PM",
+    lcid: 0x1000,
+    english_name: "French (Saint Pierre and Miquelon)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Rwanda)
+pub const LANG_FR_RW: &LanguageId = &LanguageId {
+    name: "fr-RW",
+    lcid: 0x1000,
+    english_name: "French (Rwanda)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Seychelles)
+pub const LANG_FR_SC: &LanguageId = &LanguageId {
+    name: "fr-SC",
+    lcid: 0x1000,
+    english_name: "French (Seychelles)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Syria)
+pub const LANG_FR_SY: &LanguageId = &LanguageId {
+    name: "fr-SY",
+    lcid: 0x1000,
+    english_name: "French (Syria)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Chad)
+pub const LANG_FR_TD: &LanguageId = &LanguageId {
+    name: "fr-TD",
+    lcid: 0x1000,
+    english_name: "French (Chad)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Togo)
+pub const LANG_FR_TG: &LanguageId = &LanguageId {
+    name: "fr-TG",
+    lcid: 0x1000,
+    english_name: "French (Togo)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Tunisia)
+pub const LANG_FR_TN: &LanguageId = &LanguageId {
+    name: "fr-TN",
+    lcid: 0x1000,
+    english_name: "French (Tunisia)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Vanuatu)
+pub const LANG_FR_VU: &LanguageId = &LanguageId {
+    name: "fr-VU",
+    lcid: 0x1000,
+    english_name: "French (Vanuatu)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Wallis and Futuna)
+pub const LANG_FR_WF: &LanguageId = &LanguageId {
+    name: "fr-WF",
+    lcid: 0x1000,
+    english_name: "French (Wallis and Futuna)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// French (Mayotte)
+pub const LANG_FR_YT: &LanguageId = &LanguageId {
+    name: "fr-YT",
+    lcid: 0x1000,
+    english_name: "French (Mayotte)",
+    iso639_two_letter: "fr",
+    iso639_three_letter: "fra",
+    windows_three_letter: "ZZZ",
+};
+
+/// Friulian
+pub const LANG_FUR: &LanguageId = &LanguageId {
+    name: "fur",
+    lcid: 0x1000,
+    english_name: "Friulian",
+    iso639_two_letter: "fur",
+    iso639_three_letter: "fur",
+    windows_three_letter: "ZZZ",
+};
+
+/// Friulian (Italy)
+pub const LANG_FUR_IT: &LanguageId = &LanguageId {
+    name: "fur-IT",
+    lcid: 0x1000,
+    english_name: "Friulian (Italy)",
+    iso639_two_letter: "fur",
+    iso639_three_letter: "fur",
+    windows_three_letter: "ZZZ",
+};
+
+/// Swiss German (Switzerland)
+pub const LANG_GSW_CH: &LanguageId = &LanguageId {
+    name: "gsw-CH",
+    lcid: 0x1000,
+    english_name: "Swiss German (Switzerland)",
+    iso639_two_letter: "gsw",
+    iso639_three_letter: "gsw",
+    windows_three_letter: "ZZZ",
+};
+
+/// Swiss German (Liechtenstein)
+pub const LANG_GSW_LI: &LanguageId = &LanguageId {
+    name: "gsw-LI",
+    lcid: 0x1000,
+    english_name: "Swiss German (Liechtenstein)",
+    iso639_two_letter: "gsw",
+    iso639_three_letter: "gsw",
+    windows_three_letter: "ZZZ",
+};
+
+/// Gusii
+pub const LANG_GUZ: &LanguageId = &LanguageId {
+    name: "guz",
+    lcid: 0x1000,
+    english_name: "Gusii",
+    iso639_two_letter: "guz",
+    iso639_three_letter: "guz",
+    windows_three_letter: "ZZZ",
+};
+
+/// Gusii (Kenya)
+pub const LANG_GUZ_KE: &LanguageId = &LanguageId {
+    name: "guz-KE",
+    lcid: 0x1000,
+    english_name: "Gusii (Kenya)",
+    iso639_two_letter: "guz",
+    iso639_three_letter: "guz",
+    windows_three_letter: "ZZZ",
+};
+
+/// Manx
+pub const LANG_GV: &LanguageId = &LanguageId {
+    name: "gv",
+    lcid: 0x1000,
+    english_name: "Manx",
+    iso639_two_letter: "gv",
+    iso639_three_letter: "glv",
+    windows_three_letter: "ZZZ",
+};
+
+/// Manx (Isle of Man)
+pub const LANG_GV_IM: &LanguageId = &LanguageId {
+    name: "gv-IM",
+    lcid: 0x1000,
+    english_name: "Manx (Isle of Man)",
+    iso639_two_letter: "gv",
+    iso639_three_letter: "glv",
+    windows_three_letter: "ZZZ",
+};
+
+/// Hausa (Latin, Ghana)
+pub const LANG_HA_LATN_GH: &LanguageId = &LanguageId {
+    name: "ha-Latn-GH",
+    lcid: 0x1000,
+    english_name: "Hausa (Latin, Ghana)",
+    iso639_two_letter: "ha",
+    iso639_three_letter: "hau",
+    windows_three_letter: "ZZZ",
+};
+
+/// Hausa (Latin, Niger)
+pub const LANG_HA_LATN_NE: &LanguageId = &LanguageId {
+    name: "ha-Latn-NE",
+    lcid: 0x1000,
+    english_name: "Hausa (Latin, Niger)",
+    iso639_two_letter: "ha",
+    iso639_three_letter: "hau",
+    windows_three_letter: "ZZZ",
+};
+
+/// Interlingua
+pub const LANG_IA: &LanguageId = &LanguageId {
+    name: "ia",
+    lcid: 0x1000,
+    english_name: "Interlingua",
+    iso639_two_letter: "ia",
+    iso639_three_letter: "ina",
+    windows_three_letter: "ZZZ",
+};
+
+/// Interlingua (World)
+pub const LANG_IA_001: &LanguageId = &LanguageId {
+    name: "ia-001",
+    lcid: 0x1000,
+    english_name: "Interlingua (World)",
+    iso639_two_letter: "ia",
+    iso639_three_letter: "ina",
+    windows_three_letter: "ZZZ",
+};
+
+/// Interlingua (France)
+pub const LANG_IA_FR: &LanguageId = &LanguageId {
+    name: "ia-FR",
+    lcid: 0x1000,
+    english_name: "Interlingua (France)",
+    iso639_two_letter: "ia",
+    iso639_three_letter: "ina",
+    windows_three_letter: "ZZZ",
+};
+
+/// Italian (San Marino)
+pub const LANG_IT_SM: &LanguageId = &LanguageId {
+    name: "it-SM",
+    lcid: 0x1000,
+    english_name: "Italian (San Marino)",
+    iso639_two_letter: "it",
+    iso639_three_letter: "ita",
+    windows_three_letter: "ZZZ",
+};
+
+/// Italian (Vatican City)
+pub const LANG_IT_VA: &LanguageId = &LanguageId {
+    name: "it-VA",
+    lcid: 0x1000,
+    english_name: "Italian (Vatican City)",
+    iso639_two_letter: "it",
+    iso639_three_letter: "ita",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ngomba
+pub const LANG_JGO: &LanguageId = &LanguageId {
+    name: "jgo",
+    lcid: 0x1000,
+    english_name: "Ngomba",
+    iso639_two_letter: "jgo",
+    iso639_three_letter: "jgo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ngomba (Cameroon)
+pub const LANG_JGO_CM: &LanguageId = &LanguageId {
+    name: "jgo-CM",
+    lcid: 0x1000,
+    english_name: "Ngomba (Cameroon)",
+    iso639_two_letter: "jgo",
+    iso639_three_letter: "jgo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Machame
+pub const LANG_JMC: &LanguageId = &LanguageId {
+    name: "jmc",
+    lcid: 0x1000,
+    english_name: "Machame",
+    iso639_two_letter: "jmc",
+    iso639_three_letter: "jmc",
+    windows_three_letter: "ZZZ",
+};
+
+/// Machame (Tanzania)
+pub const LANG_JMC_TZ: &LanguageId = &LanguageId {
+    name: "jmc-TZ",
+    lcid: 0x1000,
+    english_name: "Machame (Tanzania)",
+    iso639_two_letter: "jmc",
+    iso639_three_letter: "jmc",
+    windows_three_letter: "ZZZ",
+};
+
+/// Javanese
+pub const LANG_JV: &LanguageId = &LanguageId {
+    name: "jv",
+    lcid: 0x1000,
+    english_name: "Javanese",
+    iso639_two_letter: "jv",
+    iso639_three_letter: "jav",
+    windows_three_letter: "JAV",
+};
+
+/// Javanese
+pub const LANG_JV_LATN: &LanguageId = &LanguageId {
+    name: "jv-Latn",
+    lcid: 0x1000,
+    english_name: "Javanese",
+    iso639_two_letter: "jv",
+    iso639_three_letter: "jav",
+    windows_three_letter: "JAV",
+};
+
+/// Javanese (Indonesia)
+pub const LANG_JV_LATN_ID: &LanguageId = &LanguageId {
+    name: "jv-Latn-ID",
+    lcid: 0x1000,
+    english_name: "Javanese (Indonesia)",
+    iso639_two_letter: "jv",
+    iso639_three_letter: "jav",
+    windows_three_letter: "JAV",
+};
+
+/// Kabyle
+pub const LANG_KAB: &LanguageId = &LanguageId {
+    name: "kab",
+    lcid: 0x1000,
+    english_name: "Kabyle",
+    iso639_two_letter: "kab",
+    iso639_three_letter: "kab",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kabyle (Algeria)
+pub const LANG_KAB_DZ: &LanguageId = &LanguageId {
+    name: "kab-DZ",
+    lcid: 0x1000,
+    english_name: "Kabyle (Algeria)",
+    iso639_two_letter: "kab",
+    iso639_three_letter: "kab",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kamba
+pub const LANG_KAM: &LanguageId = &LanguageId {
+    name: "kam",
+    lcid: 0x1000,
+    english_name: "Kamba",
+    iso639_two_letter: "kam",
+    iso639_three_letter: "kam",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kamba (Kenya)
+pub const LANG_KAM_KE: &LanguageId = &LanguageId {
+    name: "kam-KE",
+    lcid: 0x1000,
+    english_name: "Kamba (Kenya)",
+    iso639_two_letter: "kam",
+    iso639_three_letter: "kam",
+    windows_three_letter: "ZZZ",
+};
+
+/// Makonde
+pub const LANG_KDE: &LanguageId = &LanguageId {
+    name: "kde",
+    lcid: 0x1000,
+    english_name: "Makonde",
+    iso639_two_letter: "kde",
+    iso639_three_letter: "kde",
+    windows_three_letter: "ZZZ",
+};
+
+/// Makonde (Tanzania)
+pub const LANG_KDE_TZ: &LanguageId = &LanguageId {
+    name: "kde-TZ",
+    lcid: 0x1000,
+    english_name: "Makonde (Tanzania)",
+    iso639_two_letter: "kde",
+    iso639_three_letter: "kde",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kabuverdianu
+pub const LANG_KEA: &LanguageId = &LanguageId {
+    name: "kea",
+    lcid: 0x1000,
+    english_name: "Kabuverdianu",
+    iso639_two_letter: "kea",
+    iso639_three_letter: "kea",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kabuverdianu (Cabo Verde)
+pub const LANG_KEA_CV: &LanguageId = &LanguageId {
+    name: "kea-CV",
+    lcid: 0x1000,
+    english_name: "Kabuverdianu (Cabo Verde)",
+    iso639_two_letter: "kea",
+    iso639_three_letter: "kea",
+    windows_three_letter: "ZZZ",
+};
+
+/// Koyra Chiini
+pub const LANG_KHQ: &LanguageId = &LanguageId {
+    name: "khq",
+    lcid: 0x1000,
+    english_name: "Koyra Chiini",
+    iso639_two_letter: "khq",
+    iso639_three_letter: "khq",
+    windows_three_letter: "ZZZ",
+};
+
+/// Koyra Chiini (Mali)
+pub const LANG_KHQ_ML: &LanguageId = &LanguageId {
+    name: "khq-ML",
+    lcid: 0x1000,
+    english_name: "Koyra Chiini (Mali)",
+    iso639_two_letter: "khq",
+    iso639_three_letter: "khq",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kikuyu
+pub const LANG_KI: &LanguageId = &LanguageId {
+    name: "ki",
+    lcid: 0x1000,
+    english_name: "Kikuyu",
+    iso639_two_letter: "ki",
+    iso639_three_letter: "kik",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kikuyu (Kenya)
+pub const LANG_KI_KE: &LanguageId = &LanguageId {
+    name: "ki-KE",
+    lcid: 0x1000,
+    english_name: "Kikuyu (Kenya)",
+    iso639_two_letter: "ki",
+    iso639_three_letter: "kik",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kako
+pub const LANG_KKJ: &LanguageId = &LanguageId {
+    name: "kkj",
+    lcid: 0x1000,
+    english_name: "Kako",
+    iso639_two_letter: "kkj",
+    iso639_three_letter: "kkj",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kako (Cameroon)
+pub const LANG_KKJ_CM: &LanguageId = &LanguageId {
+    name: "kkj-CM",
+    lcid: 0x1000,
+    english_name: "Kako (Cameroon)",
+    iso639_two_letter: "kkj",
+    iso639_three_letter: "kkj",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kalenjin
+pub const LANG_KLN: &LanguageId = &LanguageId {
+    name: "kln",
+    lcid: 0x1000,
+    english_name: "Kalenjin",
+    iso639_two_letter: "kln",
+    iso639_three_letter: "kln",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kalenjin (Kenya)
+pub const LANG_KLN_KE: &LanguageId = &LanguageId {
+    name: "kln-KE",
+    lcid: 0x1000,
+    english_name: "Kalenjin (Kenya)",
+    iso639_two_letter: "kln",
+    iso639_three_letter: "kln",
+    windows_three_letter: "ZZZ",
+};
+
+/// Korean (North Korea)
+pub const LANG_KO_KP: &LanguageId = &LanguageId {
+    name: "ko-KP",
+    lcid: 0x1000,
+    english_name: "Korean (North Korea)",
+    iso639_two_letter: "ko",
+    iso639_three_letter: "kor",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kashmiri (Perso-Arabic)
+pub const LANG_KS_ARAB_IN: &LanguageId = &LanguageId {
+    name: "ks-Arab-IN",
+    lcid: 0x1000,
+    english_name: "Kashmiri (Perso-Arabic)",
+    iso639_two_letter: "ks",
+    iso639_three_letter: "kas",
+    windows_three_letter: "ZZZ",
+};
+
+/// Shambala
+pub const LANG_KSB: &LanguageId = &LanguageId {
+    name: "ksb",
+    lcid: 0x1000,
+    english_name: "Shambala",
+    iso639_two_letter: "ksb",
+    iso639_three_letter: "ksb",
+    windows_three_letter: "ZZZ",
+};
+
+/// Shambala (Tanzania)
+pub const LANG_KSB_TZ: &LanguageId = &LanguageId {
+    name: "ksb-TZ",
+    lcid: 0x1000,
+    english_name: "Shambala (Tanzania)",
+    iso639_two_letter: "ksb",
+    iso639_three_letter: "ksb",
+    windows_three_letter: "ZZZ",
+};
+
+/// Bafia
+pub const LANG_KSF: &LanguageId = &LanguageId {
+    name: "ksf",
+    lcid: 0x1000,
+    english_name: "Bafia",
+    iso639_two_letter: "ksf",
+    iso639_three_letter: "ksf",
+    windows_three_letter: "ZZZ",
+};
+
+/// Bafia (Cameroon)
+pub const LANG_KSF_CM: &LanguageId = &LanguageId {
+    name: "ksf-CM",
+    lcid: 0x1000,
+    english_name: "Bafia (Cameroon)",
+    iso639_two_letter: "ksf",
+    iso639_three_letter: "ksf",
+    windows_three_letter: "ZZZ",
+};
+
+/// Colognian
+pub const LANG_KSH: &LanguageId = &LanguageId {
+    name: "ksh",
+    lcid: 0x1000,
+    english_name: "Colognian",
+    iso639_two_letter: "ksh",
+    iso639_three_letter: "ksh",
+    windows_three_letter: "ZZZ",
+};
+
+/// Colognian (Germany)
+pub const LANG_KSH_DE: &LanguageId = &LanguageId {
+    name: "ksh-DE",
+    lcid: 0x1000,
+    english_name: "Colognian (Germany)",
+    iso639_two_letter: "ksh",
+    iso639_three_letter: "ksh",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kurdish (Perso-Arabic, Iran)
+pub const LANG_KU_ARAB_IR: &LanguageId = &LanguageId {
+    name: "ku-Arab-IR",
+    lcid: 0x1000,
+    english_name: "Kurdish (Perso-Arabic, Iran)",
+    iso639_two_letter: "ku",
+    iso639_three_letter: "kur",
+    windows_three_letter: "ZZZ",
+};
+
+/// Cornish
+pub const LANG_KW: &LanguageId = &LanguageId {
+    name: "kw",
+    lcid: 0x1000,
+    english_name: "Cornish",
+    iso639_two_letter: "kw",
+    iso639_three_letter: "cor",
+    windows_three_letter: "ZZZ",
+};
+
+/// Cornish (United Kingdom)
+pub const LANG_KW_GB: &LanguageId = &LanguageId {
+    name: "kw-GB",
+    lcid: 0x1000,
+    english_name: "Cornish (United Kingdom)",
+    iso639_two_letter: "kw",
+    iso639_three_letter: "cor",
+    windows_three_letter: "ZZZ",
+};
+
+/// Langi
+pub const LANG_LAG: &LanguageId = &LanguageId {
+    name: "lag",
+    lcid: 0x1000,
+    english_name: "Langi",
+    iso639_two_letter: "lag",
+    iso639_three_letter: "lag",
+    windows_three_letter: "ZZZ",
+};
+
+/// Langi (Tanzania)
+pub const LANG_LAG_TZ: &LanguageId = &LanguageId {
+    name: "lag-TZ",
+    lcid: 0x1000,
+    english_name: "Langi (Tanzania)",
+    iso639_two_letter: "lag",
+    iso639_three_letter: "lag",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ganda
+pub const LANG_LG: &LanguageId = &LanguageId {
+    name: "lg",
+    lcid: 0x1000,
+    english_name: "Ganda",
+    iso639_two_letter: "lg",
+    iso639_three_letter: "lug",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ganda (Uganda)
+pub const LANG_LG_UG: &LanguageId = &LanguageId {
+    name: "lg-UG",
+    lcid: 0x1000,
+    english_name: "Ganda (Uganda)",
+    iso639_two_letter: "lg",
+    iso639_three_letter: "lug",
+    windows_three_letter: "ZZZ",
+};
+
+/// Lakota
+pub const LANG_LKT: &LanguageId = &LanguageId {
+    name: "lkt",
+    lcid: 0x1000,
+    english_name: "Lakota",
+    iso639_two_letter: "lkt",
+    iso639_three_letter: "lkt",
+    windows_three_letter: "ZZZ",
+};
+
+/// Lakota (United States)
+pub const LANG_LKT_US: &LanguageId = &LanguageId {
+    name: "lkt-US",
+    lcid: 0x1000,
+    english_name: "Lakota (United States)",
+    iso639_two_letter: "lkt",
+    iso639_three_letter: "lkt",
+    windows_three_letter: "ZZZ",
+};
+
+/// Lingala
+pub const LANG_LN: &LanguageId = &LanguageId {
+    name: "ln",
+    lcid: 0x1000,
+    english_name: "Lingala",
+    iso639_two_letter: "ln",
+    iso639_three_letter: "lin",
+    windows_three_letter: "ZZZ",
+};
+
+/// Lingala (Angola)
+pub const LANG_LN_AO: &LanguageId = &LanguageId {
+    name: "ln-AO",
+    lcid: 0x1000,
+    english_name: "Lingala (Angola)",
+    iso639_two_letter: "ln",
+    iso639_three_letter: "lin",
+    windows_three_letter: "ZZZ",
+};
+
+/// Lingala (Congo DRC)
+pub const LANG_LN_CD: &LanguageId = &LanguageId {
+    name: "ln-CD",
+    lcid: 0x1000,
+    english_name: "Lingala (Congo DRC)",
+    iso639_two_letter: "ln",
+    iso639_three_letter: "lin",
+    windows_three_letter: "ZZZ",
+};
+
+/// Lingala (Central African Republic)
+pub const LANG_LN_CF: &LanguageId = &LanguageId {
+    name: "ln-CF",
+    lcid: 0x1000,
+    english_name: "Lingala (Central African Republic)",
+    iso639_two_letter: "ln",
+    iso639_three_letter: "lin",
+    windows_three_letter: "ZZZ",
+};
+
+/// Lingala (Congo)
+pub const LANG_LN_CG: &LanguageId = &LanguageId {
+    name: "ln-CG",
+    lcid: 0x1000,
+    english_name: "Lingala (Congo)",
+    iso639_two_letter: "ln",
+    iso639_three_letter: "lin",
+    windows_three_letter: "ZZZ",
+};
+
+/// Northern Luri (Iraq)
+pub const LANG_LRC_IQ: &LanguageId = &LanguageId {
+    name: "lrc-IQ",
+    lcid: 0x1000,
+    english_name: "Northern Luri (Iraq)",
+    iso639_two_letter: "lrc",
+    iso639_three_letter: "lrc",
+    windows_three_letter: "ZZZ",
+};
+
+/// Northern Luri (Iran)
+pub const LANG_LRC_IR: &LanguageId = &LanguageId {
+    name: "lrc-IR",
+    lcid: 0x1000,
+    english_name: "Northern Luri (Iran)",
+    iso639_two_letter: "lrc",
+    iso639_three_letter: "lrc",
+    windows_three_letter: "ZZZ",
+};
+
+/// Luba-Katanga
+pub const LANG_LU: &LanguageId = &LanguageId {
+    name: "lu",
+    lcid: 0x1000,
+    english_name: "Luba-Katanga",
+    iso639_two_letter: "lu",
+    iso639_three_letter: "lub",
+    windows_three_letter: "ZZZ",
+};
+
+/// Luba-Katanga (Congo DRC)
+pub const LANG_LU_CD: &LanguageId = &LanguageId {
+    name: "lu-CD",
+    lcid: 0x1000,
+    english_name: "Luba-Katanga (Congo DRC)",
+    iso639_two_letter: "lu",
+    iso639_three_letter: "lub",
+    windows_three_letter: "ZZZ",
+};
+
+/// Luo
+pub const LANG_LUO: &LanguageId = &LanguageId {
+    name: "luo",
+    lcid: 0x1000,
+    english_name: "Luo",
+    iso639_two_letter: "luo",
+    iso639_three_letter: "luo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Luo (Kenya)
+pub const LANG_LUO_KE: &LanguageId = &LanguageId {
+    name: "luo-KE",
+    lcid: 0x1000,
+    english_name: "Luo (Kenya)",
+    iso639_two_letter: "luo",
+    iso639_three_letter: "luo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Luyia
+pub const LANG_LUY: &LanguageId = &LanguageId {
+    name: "luy",
+    lcid: 0x1000,
+    english_name: "Luyia",
+    iso639_two_letter: "luy",
+    iso639_three_letter: "luy",
+    windows_three_letter: "ZZZ",
+};
+
+/// Luyia (Kenya)
+pub const LANG_LUY_KE: &LanguageId = &LanguageId {
+    name: "luy-KE",
+    lcid: 0x1000,
+    english_name: "Luyia (Kenya)",
+    iso639_two_letter: "luy",
+    iso639_three_letter: "luy",
+    windows_three_letter: "ZZZ",
+};
+
+/// Masai
+pub const LANG_MAS: &LanguageId = &LanguageId {
+    name: "mas",
+    lcid: 0x1000,
+    english_name: "Masai",
+    iso639_two_letter: "mas",
+    iso639_three_letter: "mas",
+    windows_three_letter: "ZZZ",
+};
+
+/// Masai (Kenya)
+pub const LANG_MAS_KE: &LanguageId = &LanguageId {
+    name: "mas-KE",
+    lcid: 0x1000,
+    english_name: "Masai (Kenya)",
+    iso639_two_letter: "mas",
+    iso639_three_letter: "mas",
+    windows_three_letter: "ZZZ",
+};
+
+/// Masai (Tanzania)
+pub const LANG_MAS_TZ: &LanguageId = &LanguageId {
+    name: "mas-TZ",
+    lcid: 0x1000,
+    english_name: "Masai (Tanzania)",
+    iso639_two_letter: "mas",
+    iso639_three_letter: "mas",
+    windows_three_letter: "ZZZ",
+};
+
+/// Meru
+pub const LANG_MER: &LanguageId = &LanguageId {
+    name: "mer",
+    lcid: 0x1000,
+    english_name: "Meru",
+    iso639_two_letter: "mer",
+    iso639_three_letter: "mer",
+    windows_three_letter: "ZZZ",
+};
+
+/// Meru (Kenya)
+pub const LANG_MER_KE: &LanguageId = &LanguageId {
+    name: "mer-KE",
+    lcid: 0x1000,
+    english_name: "Meru (Kenya)",
+    iso639_two_letter: "mer",
+    iso639_three_letter: "mer",
+    windows_three_letter: "ZZZ",
+};
+
+/// Morisyen
+pub const LANG_MFE: &LanguageId = &LanguageId {
+    name: "mfe",
+    lcid: 0x1000,
+    english_name: "Morisyen",
+    iso639_two_letter: "mfe",
+    iso639_three_letter: "mfe",
+    windows_three_letter: "ZZZ",
+};
+
+/// Morisyen (Mauritius)
+pub const LANG_MFE_MU: &LanguageId = &LanguageId {
+    name: "mfe-MU",
+    lcid: 0x1000,
+    english_name: "Morisyen (Mauritius)",
+    iso639_two_letter: "mfe",
+    iso639_three_letter: "mfe",
+    windows_three_letter: "ZZZ",
+};
+
+/// Malagasy
+pub const LANG_MG: &LanguageId = &LanguageId {
+    name: "mg",
+    lcid: 0x1000,
+    english_name: "Malagasy",
+    iso639_two_letter: "mg",
+    iso639_three_letter: "mlg",
+    windows_three_letter: "MLG",
+};
+
+/// Malagasy (Madagascar)
+pub const LANG_MG_MG: &LanguageId = &LanguageId {
+    name: "mg-MG",
+    lcid: 0x1000,
+    english_name: "Malagasy (Madagascar)",
+    iso639_two_letter: "mg",
+    iso639_three_letter: "mlg",
+    windows_three_letter: "MLG",
+};
+
+/// Makhuwa-Meetto
+pub const LANG_MGH: &LanguageId = &LanguageId {
+    name: "mgh",
+    lcid: 0x1000,
+    english_name: "Makhuwa-Meetto",
+    iso639_two_letter: "mgh",
+    iso639_three_letter: "mgh",
+    windows_three_letter: "ZZZ",
+};
+
+/// Makhuwa-Meetto (Mozambique)
+pub const LANG_MGH_MZ: &LanguageId = &LanguageId {
+    name: "mgh-MZ",
+    lcid: 0x1000,
+    english_name: "Makhuwa-Meetto (Mozambique)",
+    iso639_two_letter: "mgh",
+    iso639_three_letter: "mgh",
+    windows_three_letter: "ZZZ",
+};
+
+/// Metaʼ
+pub const LANG_MGO: &LanguageId = &LanguageId {
+    name: "mgo",
+    lcid: 0x1000,
+    english_name: "Metaʼ",
+    iso639_two_letter: "mgo",
+    iso639_three_letter: "mgo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Metaʼ (Cameroon)
+pub const LANG_MGO_CM: &LanguageId = &LanguageId {
+    name: "mgo-CM",
+    lcid: 0x1000,
+    english_name: "Metaʼ (Cameroon)",
+    iso639_two_letter: "mgo",
+    iso639_three_letter: "mgo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Mundang
+pub const LANG_MUA: &LanguageId = &LanguageId {
+    name: "mua",
+    lcid: 0x1000,
+    english_name: "Mundang",
+    iso639_two_letter: "mua",
+    iso639_three_letter: "mua",
+    windows_three_letter: "ZZZ",
+};
+
+/// Mundang (Cameroon)
+pub const LANG_MUA_CM: &LanguageId = &LanguageId {
+    name: "mua-CM",
+    lcid: 0x1000,
+    english_name: "Mundang (Cameroon)",
+    iso639_two_letter: "mua",
+    iso639_three_letter: "mua",
+    windows_three_letter: "ZZZ",
+};
+
+/// Mazanderani (Iran)
+pub const LANG_MZN_IR: &LanguageId = &LanguageId {
+    name: "mzn-IR",
+    lcid: 0x1000,
+    english_name: "Mazanderani (Iran)",
+    iso639_two_letter: "mzn",
+    iso639_three_letter: "mzn",
+    windows_three_letter: "ZZZ",
+};
+
+/// Nama
+pub const LANG_NAQ: &LanguageId = &LanguageId {
+    name: "naq",
+    lcid: 0x1000,
+    english_name: "Nama",
+    iso639_two_letter: "naq",
+    iso639_three_letter: "naq",
+    windows_three_letter: "ZZZ",
+};
+
+/// Nama (Namibia)
+pub const LANG_NAQ_NA: &LanguageId = &LanguageId {
+    name: "naq-NA",
+    lcid: 0x1000,
+    english_name: "Nama (Namibia)",
+    iso639_two_letter: "naq",
+    iso639_three_letter: "naq",
+    windows_three_letter: "ZZZ",
+};
+
+/// Norwegian Bokmål (Svalbard and Jan Mayen)
+pub const LANG_NB_SJ: &LanguageId = &LanguageId {
+    name: "nb-SJ",
+    lcid: 0x1000,
+    english_name: "Norwegian Bokmål (Svalbard and Jan Mayen)",
+    iso639_two_letter: "nb",
+    iso639_three_letter: "nob",
+    windows_three_letter: "ZZZ",
+};
+
+/// North Ndebele
+pub const LANG_ND: &LanguageId = &LanguageId {
+    name: "nd",
+    lcid: 0x1000,
+    english_name: "North Ndebele",
+    iso639_two_letter: "nd",
+    iso639_three_letter: "nde",
+    windows_three_letter: "ZZZ",
+};
+
+/// North Ndebele (Zimbabwe)
+pub const LANG_ND_ZW: &LanguageId = &LanguageId {
+    name: "nd-ZW",
+    lcid: 0x1000,
+    english_name: "North Ndebele (Zimbabwe)",
+    iso639_two_letter: "nd",
+    iso639_three_letter: "nde",
+    windows_three_letter: "ZZZ",
+};
+
+/// Low German
+pub const LANG_NDS: &LanguageId = &LanguageId {
+    name: "nds",
+    lcid: 0x1000,
+    english_name: "Low German",
+    iso639_two_letter: "nds",
+    iso639_three_letter: "nds",
+    windows_three_letter: "ZZZ",
+};
+
+/// Low German (Germany)
+pub const LANG_NDS_DE: &LanguageId = &LanguageId {
+    name: "nds-DE",
+    lcid: 0x1000,
+    english_name: "Low German (Germany)",
+    iso639_two_letter: "nds",
+    iso639_three_letter: "nds",
+    windows_three_letter: "ZZZ",
+};
+
+/// Low German (Netherlands)
+pub const LANG_NDS_NL: &LanguageId = &LanguageId {
+    name: "nds-NL",
+    lcid: 0x1000,
+    english_name: "Low German (Netherlands)",
+    iso639_two_letter: "nds",
+    iso639_three_letter: "nds",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Language (ngo)
+pub const LANG_NGO: &LanguageId = &LanguageId {
+    name: "ngo",
+    lcid: 0x1000,
+    english_name: "Unknown Language (ngo)",
+    iso639_two_letter: "ngo",
+    iso639_three_letter: "ngo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Locale (ngo-GN)
+pub const LANG_NGO_GN: &LanguageId = &LanguageId {
+    name: "ngo-GN",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ngo-GN)",
+    iso639_two_letter: "ngo",
+    iso639_three_letter: "ngo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Dutch (Aruba)
+pub const LANG_NL_AW: &LanguageId = &LanguageId {
+    name: "nl-AW",
+    lcid: 0x1000,
+    english_name: "Dutch (Aruba)",
+    iso639_two_letter: "nl",
+    iso639_three_letter: "nld",
+    windows_three_letter: "ZZZ",
+};
+
+/// Dutch (Bonaire, Sint Eustatius and Saba)
+pub const LANG_NL_BQ: &LanguageId = &LanguageId {
+    name: "nl-BQ",
+    lcid: 0x1000,
+    english_name: "Dutch (Bonaire, Sint Eustatius and Saba)",
+    iso639_two_letter: "nl",
+    iso639_three_letter: "nld",
+    windows_three_letter: "ZZZ",
+};
+
+/// Dutch (Curaçao)
+pub const LANG_NL_CW: &LanguageId = &LanguageId {
+    name: "nl-CW",
+    lcid: 0x1000,
+    english_name: "Dutch (Curaçao)",
+    iso639_two_letter: "nl",
+    iso639_three_letter: "nld",
+    windows_three_letter: "ZZZ",
+};
+
+/// Dutch (Suriname)
+pub const LANG_NL_SR: &LanguageId = &LanguageId {
+    name: "nl-SR",
+    lcid: 0x1000,
+    english_name: "Dutch (Suriname)",
+    iso639_two_letter: "nl",
+    iso639_three_letter: "nld",
+    windows_three_letter: "ZZZ",
+};
+
+/// Dutch (Sint Maarten)
+pub const LANG_NL_SX: &LanguageId = &LanguageId {
+    name: "nl-SX",
+    lcid: 0x1000,
+    english_name: "Dutch (Sint Maarten)",
+    iso639_two_letter: "nl",
+    iso639_three_letter: "nld",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kwasio
+pub const LANG_NMG: &LanguageId = &LanguageId {
+    name: "nmg",
+    lcid: 0x1000,
+    english_name: "Kwasio",
+    iso639_two_letter: "nmg",
+    iso639_three_letter: "nmg",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kwasio (Cameroon)
+pub const LANG_NMG_CM: &LanguageId = &LanguageId {
+    name: "nmg-CM",
+    lcid: 0x1000,
+    english_name: "Kwasio (Cameroon)",
+    iso639_two_letter: "nmg",
+    iso639_three_letter: "nmg",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ngiemboon
+pub const LANG_NNH: &LanguageId = &LanguageId {
+    name: "nnh",
+    lcid: 0x1000,
+    english_name: "Ngiemboon",
+    iso639_two_letter: "nnh",
+    iso639_three_letter: "nnh",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ngiemboon (Cameroon)
+pub const LANG_NNH_CM: &LanguageId = &LanguageId {
+    name: "nnh-CM",
+    lcid: 0x1000,
+    english_name: "Ngiemboon (Cameroon)",
+    iso639_two_letter: "nnh",
+    iso639_three_letter: "nnh",
+    windows_three_letter: "ZZZ",
+};
+
+/// South Ndebele
+pub const LANG_NR: &LanguageId = &LanguageId {
+    name: "nr",
+    lcid: 0x1000,
+    english_name: "South Ndebele",
+    iso639_two_letter: "nr",
+    iso639_three_letter: "nbl",
+    windows_three_letter: "ZZZ",
+};
+
+/// South Ndebele (South Africa)
+pub const LANG_NR_ZA: &LanguageId = &LanguageId {
+    name: "nr-ZA",
+    lcid: 0x1000,
+    english_name: "South Ndebele (South Africa)",
+    iso639_two_letter: "nr",
+    iso639_three_letter: "nbl",
+    windows_three_letter: "ZZZ",
+};
+
+/// Nuer
+pub const LANG_NUS: &LanguageId = &LanguageId {
+    name: "nus",
+    lcid: 0x1000,
+    english_name: "Nuer",
+    iso639_two_letter: "nus",
+    iso639_three_letter: "nus",
+    windows_three_letter: "ZZZ",
+};
+
+/// Nuer (South Sudan)
+pub const LANG_NUS_SD: &LanguageId = &LanguageId {
+    name: "nus-SD",
+    lcid: 0x1000,
+    english_name: "Nuer (South Sudan)",
+    iso639_two_letter: "nus",
+    iso639_three_letter: "nus",
+    windows_three_letter: "ZZZ",
+};
+
+/// Nuer (South Sudan)
+pub const LANG_NUS_SS: &LanguageId = &LanguageId {
+    name: "nus-SS",
+    lcid: 0x1000,
+    english_name: "Nuer (South Sudan)",
+    iso639_two_letter: "nus",
+    iso639_three_letter: "nus",
+    windows_three_letter: "ZZZ",
+};
+
+/// Nyankole
+pub const LANG_NYN: &LanguageId = &LanguageId {
+    name: "nyn",
+    lcid: 0x1000,
+    english_name: "Nyankole",
+    iso639_two_letter: "nyn",
+    iso639_three_letter: "nyn",
+    windows_three_letter: "ZZZ",
+};
+
+/// Nyankole (Uganda)
+pub const LANG_NYN_UG: &LanguageId = &LanguageId {
+    name: "nyn-UG",
+    lcid: 0x1000,
+    english_name: "Nyankole (Uganda)",
+    iso639_two_letter: "nyn",
+    iso639_three_letter: "nyn",
+    windows_three_letter: "ZZZ",
+};
+
+/// Oromo (Kenya)
+pub const LANG_OM_KE: &LanguageId = &LanguageId {
+    name: "om-KE",
+    lcid: 0x1000,
+    english_name: "Oromo (Kenya)",
+    iso639_two_letter: "om",
+    iso639_three_letter: "orm",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ossetic
+pub const LANG_OS: &LanguageId = &LanguageId {
+    name: "os",
+    lcid: 0x1000,
+    english_name: "Ossetic",
+    iso639_two_letter: "os",
+    iso639_three_letter: "oss",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ossetic (Georgia)
+pub const LANG_OS_GE: &LanguageId = &LanguageId {
+    name: "os-GE",
+    lcid: 0x1000,
+    english_name: "Ossetic (Georgia)",
+    iso639_two_letter: "os",
+    iso639_three_letter: "oss",
+    windows_three_letter: "ZZZ",
+};
+
+/// Ossetic (Russia)
+pub const LANG_OS_RU: &LanguageId = &LanguageId {
+    name: "os-RU",
+    lcid: 0x1000,
+    english_name: "Ossetic (Russia)",
+    iso639_two_letter: "os",
+    iso639_three_letter: "oss",
+    windows_three_letter: "ZZZ",
+};
+
+/// Prussian (World)
+pub const LANG_PRG_001: &LanguageId = &LanguageId {
+    name: "prg-001",
+    lcid: 0x1000,
+    english_name: "Prussian (World)",
+    iso639_two_letter: "prg",
+    iso639_three_letter: "prg",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Locale (ps-PK)
+pub const LANG_PS_PK: &LanguageId = &LanguageId {
+    name: "ps-PK",
+    lcid: 0x1000,
+    english_name: "Unknown Locale (ps-PK)",
+    iso639_two_letter: "ps",
+    iso639_three_letter: "pus",
+    windows_three_letter: "PAS",
+};
+
+/// Portuguese (Angola)
+pub const LANG_PT_AO: &LanguageId = &LanguageId {
+    name: "pt-AO",
+    lcid: 0x1000,
+    english_name: "Portuguese (Angola)",
+    iso639_two_letter: "pt",
+    iso639_three_letter: "por",
+    windows_three_letter: "PTA",
+};
+
+/// Portuguese (Switzerland)
+pub const LANG_PT_CH: &LanguageId = &LanguageId {
+    name: "pt-CH",
+    lcid: 0x1000,
+    english_name: "Portuguese (Switzerland)",
+    iso639_two_letter: "pt",
+    iso639_three_letter: "por",
+    windows_three_letter: "ZZZ",
+};
+
+/// Portuguese (Cabo Verde)
+pub const LANG_PT_CV: &LanguageId = &LanguageId {
+    name: "pt-CV",
+    lcid: 0x1000,
+    english_name: "Portuguese (Cabo Verde)",
+    iso639_two_letter: "pt",
+    iso639_three_letter: "por",
+    windows_three_letter: "ZZZ",
+};
+
+/// Portuguese (Equatorial Guinea)
+pub const LANG_PT_GQ: &LanguageId = &LanguageId {
+    name: "pt-GQ",
+    lcid: 0x1000,
+    english_name: "Portuguese (Equatorial Guinea)",
+    iso639_two_letter: "pt",
+    iso639_three_letter: "por",
+    windows_three_letter: "ZZZ",
+};
+
+/// Portuguese (Guinea-Bissau)
+pub const LANG_PT_GW: &LanguageId = &LanguageId {
+    name: "pt-GW",
+    lcid: 0x1000,
+    english_name: "Portuguese (Guinea-Bissau)",
+    iso639_two_letter: "pt",
+    iso639_three_letter: "por",
+    windows_three_letter: "ZZZ",
+};
+
+/// Portuguese (Luxembourg)
+pub const LANG_PT_LU: &LanguageId = &LanguageId {
+    name: "pt-LU",
+    lcid: 0x1000,
+    english_name: "Portuguese (Luxembourg)",
+    iso639_two_letter: "pt",
+    iso639_three_letter: "por",
+    windows_three_letter: "ZZZ",
+};
+
+/// Portuguese (Macao SAR)
+pub const LANG_PT_MO: &LanguageId = &LanguageId {
+    name: "pt-MO",
+    lcid: 0x1000,
+    english_name: "Portuguese (Macao SAR)",
+    iso639_two_letter: "pt",
+    iso639_three_letter: "por",
+    windows_three_letter: "ZZZ",
+};
+
+/// Portuguese (Mozambique)
+pub const LANG_PT_MZ: &LanguageId = &LanguageId {
+    name: "pt-MZ",
+    lcid: 0x1000,
+    english_name: "Portuguese (Mozambique)",
+    iso639_two_letter: "pt",
+    iso639_three_letter: "por",
+    windows_three_letter: "ZZZ",
+};
+
+/// Portuguese (São Tomé and Príncipe)
+pub const LANG_PT_ST: &LanguageId = &LanguageId {
+    name: "pt-ST",
+    lcid: 0x1000,
+    english_name: "Portuguese (São Tomé and Príncipe)",
+    iso639_two_letter: "pt",
+    iso639_three_letter: "por",
+    windows_three_letter: "ZZZ",
+};
+
+/// Portuguese (Timor-Leste)
+pub const LANG_PT_TL: &LanguageId = &LanguageId {
+    name: "pt-TL",
+    lcid: 0x1000,
+    english_name: "Portuguese (Timor-Leste)",
+    iso639_two_letter: "pt",
+    iso639_three_letter: "por",
+    windows_three_letter: "ZZZ",
+};
+
+/// Rundi
+pub const LANG_RN: &LanguageId = &LanguageId {
+    name: "rn",
+    lcid: 0x1000,
+    english_name: "Rundi",
+    iso639_two_letter: "rn",
+    iso639_three_letter: "run",
+    windows_three_letter: "ZZZ",
+};
+
+/// Rundi (Burundi)
+pub const LANG_RN_BI: &LanguageId = &LanguageId {
+    name: "rn-BI",
+    lcid: 0x1000,
+    english_name: "Rundi (Burundi)",
+    iso639_two_letter: "rn",
+    iso639_three_letter: "run",
+    windows_three_letter: "ZZZ",
+};
+
+/// Rombo
+pub const LANG_ROF: &LanguageId = &LanguageId {
+    name: "rof",
+    lcid: 0x1000,
+    english_name: "Rombo",
+    iso639_two_letter: "rof",
+    iso639_three_letter: "rof",
+    windows_three_letter: "ZZZ",
+};
+
+/// Rombo (Tanzania)
+pub const LANG_ROF_TZ: &LanguageId = &LanguageId {
+    name: "rof-TZ",
+    lcid: 0x1000,
+    english_name: "Rombo (Tanzania)",
+    iso639_two_letter: "rof",
+    iso639_three_letter: "rof",
+    windows_three_letter: "ZZZ",
+};
+
+/// Russian (Belarus)
+pub const LANG_RU_BY: &LanguageId = &LanguageId {
+    name: "ru-BY",
+    lcid: 0x1000,
+    english_name: "Russian (Belarus)",
+    iso639_two_letter: "ru",
+    iso639_three_letter: "rus",
+    windows_three_letter: "ZZZ",
+};
+
+/// Russian (Kyrgyzstan)
+pub const LANG_RU_KG: &LanguageId = &LanguageId {
+    name: "ru-KG",
+    lcid: 0x1000,
+    english_name: "Russian (Kyrgyzstan)",
+    iso639_two_letter: "ru",
+    iso639_three_letter: "rus",
+    windows_three_letter: "ZZZ",
+};
+
+/// Russian (Kazakhstan)
+pub const LANG_RU_KZ: &LanguageId = &LanguageId {
+    name: "ru-KZ",
+    lcid: 0x1000,
+    english_name: "Russian (Kazakhstan)",
+    iso639_two_letter: "ru",
+    iso639_three_letter: "rus",
+    windows_three_letter: "ZZZ",
+};
+
+/// Russian (Ukraine)
+pub const LANG_RU_UA: &LanguageId = &LanguageId {
+    name: "ru-UA",
+    lcid: 0x1000,
+    english_name: "Russian (Ukraine)",
+    iso639_two_letter: "ru",
+    iso639_three_letter: "rus",
+    windows_three_letter: "ZZZ",
+};
+
+/// Rwa
+pub const LANG_RWK: &LanguageId = &LanguageId {
+    name: "rwk",
+    lcid: 0x1000,
+    english_name: "Rwa",
+    iso639_two_letter: "rwk",
+    iso639_three_letter: "rwk",
+    windows_three_letter: "ZZZ",
+};
+
+/// Rwa (Tanzania)
+pub const LANG_RWK_TZ: &LanguageId = &LanguageId {
+    name: "rwk-TZ",
+    lcid: 0x1000,
+    english_name: "Rwa (Tanzania)",
+    iso639_two_letter: "rwk",
+    iso639_three_letter: "rwk",
+    windows_three_letter: "ZZZ",
+};
+
+/// Samburu
+pub const LANG_SAQ: &LanguageId = &LanguageId {
+    name: "saq",
+    lcid: 0x1000,
+    english_name: "Samburu",
+    iso639_two_letter: "saq",
+    iso639_three_letter: "saq",
+    windows_three_letter: "ZZZ",
+};
+
+/// Samburu (Kenya)
+pub const LANG_SAQ_KE: &LanguageId = &LanguageId {
+    name: "saq-KE",
+    lcid: 0x1000,
+    english_name: "Samburu (Kenya)",
+    iso639_two_letter: "saq",
+    iso639_three_letter: "saq",
+    windows_three_letter: "ZZZ",
+};
+
+/// Sangu
+pub const LANG_SBP: &LanguageId = &LanguageId {
+    name: "sbp",
+    lcid: 0x1000,
+    english_name: "Sangu",
+    iso639_two_letter: "sbp",
+    iso639_three_letter: "sbp",
+    windows_three_letter: "ZZZ",
+};
+
+/// Sangu (Tanzania)
+pub const LANG_SBP_TZ: &LanguageId = &LanguageId {
+    name: "sbp-TZ",
+    lcid: 0x1000,
+    english_name: "Sangu (Tanzania)",
+    iso639_two_letter: "sbp",
+    iso639_three_letter: "sbp",
+    windows_three_letter: "ZZZ",
+};
+
+/// Sena
+pub const LANG_SEH: &LanguageId = &LanguageId {
+    name: "seh",
+    lcid: 0x1000,
+    english_name: "Sena",
+    iso639_two_letter: "seh",
+    iso639_three_letter: "seh",
+    windows_three_letter: "ZZZ",
+};
+
+/// Sena (Mozambique)
+pub const LANG_SEH_MZ: &LanguageId = &LanguageId {
+    name: "seh-MZ",
+    lcid: 0x1000,
+    english_name: "Sena (Mozambique)",
+    iso639_two_letter: "seh",
+    iso639_three_letter: "seh",
+    windows_three_letter: "ZZZ",
+};
+
+/// Koyraboro Senni
+pub const LANG_SES: &LanguageId = &LanguageId {
+    name: "ses",
+    lcid: 0x1000,
+    english_name: "Koyraboro Senni",
+    iso639_two_letter: "ses",
+    iso639_three_letter: "ses",
+    windows_three_letter: "ZZZ",
+};
+
+/// Koyraboro Senni (Mali)
+pub const LANG_SES_ML: &LanguageId = &LanguageId {
+    name: "ses-ML",
+    lcid: 0x1000,
+    english_name: "Koyraboro Senni (Mali)",
+    iso639_two_letter: "ses",
+    iso639_three_letter: "ses",
+    windows_three_letter: "ZZZ",
+};
+
+/// Sango
+pub const LANG_SG: &LanguageId = &LanguageId {
+    name: "sg",
+    lcid: 0x1000,
+    english_name: "Sango",
+    iso639_two_letter: "sg",
+    iso639_three_letter: "sag",
+    windows_three_letter: "ZZZ",
+};
+
+/// Sango (Central African Republic)
+pub const LANG_SG_CF: &LanguageId = &LanguageId {
+    name: "sg-CF",
+    lcid: 0x1000,
+    english_name: "Sango (Central African Republic)",
+    iso639_two_letter: "sg",
+    iso639_three_letter: "sag",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tachelhit
+pub const LANG_SHI: &LanguageId = &LanguageId {
+    name: "shi",
+    lcid: 0x1000,
+    english_name: "Tachelhit",
+    iso639_two_letter: "shi",
+    iso639_three_letter: "shi",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tachelhit (Latin)
+pub const LANG_SHI_LATN: &LanguageId = &LanguageId {
+    name: "shi-Latn",
+    lcid: 0x1000,
+    english_name: "Tachelhit (Latin)",
+    iso639_two_letter: "shi",
+    iso639_three_letter: "shi",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tachelhit (Latin, Morocco)
+pub const LANG_SHI_LATN_MA: &LanguageId = &LanguageId {
+    name: "shi-Latn-MA",
+    lcid: 0x1000,
+    english_name: "Tachelhit (Latin, Morocco)",
+    iso639_two_letter: "shi",
+    iso639_three_letter: "shi",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tachelhit (Tifinagh)
+pub const LANG_SHI_TFNG: &LanguageId = &LanguageId {
+    name: "shi-Tfng",
+    lcid: 0x1000,
+    english_name: "Tachelhit (Tifinagh)",
+    iso639_two_letter: "shi",
+    iso639_three_letter: "shi",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tachelhit (Tifinagh, Morocco)
+pub const LANG_SHI_TFNG_MA: &LanguageId = &LanguageId {
+    name: "shi-Tfng-MA",
+    lcid: 0x1000,
+    english_name: "Tachelhit (Tifinagh, Morocco)",
+    iso639_two_letter: "shi",
+    iso639_three_letter: "shi",
+    windows_three_letter: "ZZZ",
+};
+
+/// Shona
+pub const LANG_SN: &LanguageId = &LanguageId {
+    name: "sn",
+    lcid: 0x1000,
+    english_name: "Shona",
+    iso639_two_letter: "sn",
+    iso639_three_letter: "sna",
+    windows_three_letter: "SNA",
+};
+
+/// Shona (Latin)
+pub const LANG_SN_LATN: &LanguageId = &LanguageId {
+    name: "sn-Latn",
+    lcid: 0x1000,
+    english_name: "Shona (Latin)",
+    iso639_two_letter: "sn",
+    iso639_three_letter: "sna",
+    windows_three_letter: "SNA",
+};
+
+/// Shona (Latin, Zimbabwe)
+pub const LANG_SN_LATN_ZW: &LanguageId = &LanguageId {
+    name: "sn-Latn-ZW",
+    lcid: 0x1000,
+    english_name: "Shona (Latin, Zimbabwe)",
+    iso639_two_letter: "sn",
+    iso639_three_letter: "sna",
+    windows_three_letter: "SNA",
+};
+
+/// Somali (Djibouti)
+pub const LANG_SO_DJ: &LanguageId = &LanguageId {
+    name: "so-DJ",
+    lcid: 0x1000,
+    english_name: "Somali (Djibouti)",
+    iso639_two_letter: "so",
+    iso639_three_letter: "som",
+    windows_three_letter: "ZZZ",
+};
+
+/// Somali (Ethiopia)
+pub const LANG_SO_ET: &LanguageId = &LanguageId {
+    name: "so-ET",
+    lcid: 0x1000,
+    english_name: "Somali (Ethiopia)",
+    iso639_two_letter: "so",
+    iso639_three_letter: "som",
+    windows_three_letter: "ZZZ",
+};
+
 /// Somali (Kenya)
 pub const LANG_SO_KE: &LanguageId = &LanguageId {
     name: "so-KE",
@@ -7158,6 +6678,486 @@ pub const LANG_SO_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "so",
     iso639_three_letter: "som",
     windows_three_letter: "ZZZ",
+};
+
+/// Albanian (Macedonia, FYRO)
+pub const LANG_SQ_MK: &LanguageId = &LanguageId {
+    name: "sq-MK",
+    lcid: 0x1000,
+    english_name: "Albanian (Macedonia, FYRO)",
+    iso639_two_letter: "sq",
+    iso639_three_letter: "sqi",
+    windows_three_letter: "ZZZ",
+};
+
+/// siSwati
+pub const LANG_SS: &LanguageId = &LanguageId {
+    name: "ss",
+    lcid: 0x1000,
+    english_name: "siSwati",
+    iso639_two_letter: "ss",
+    iso639_three_letter: "ssw",
+    windows_three_letter: "ZZZ",
+};
+
+/// siSwati (Swaziland)
+pub const LANG_SS_SZ: &LanguageId = &LanguageId {
+    name: "ss-SZ",
+    lcid: 0x1000,
+    english_name: "siSwati (Swaziland)",
+    iso639_two_letter: "ss",
+    iso639_three_letter: "ssw",
+    windows_three_letter: "ZZZ",
+};
+
+/// siSwati (South Africa)
+pub const LANG_SS_ZA: &LanguageId = &LanguageId {
+    name: "ss-ZA",
+    lcid: 0x1000,
+    english_name: "siSwati (South Africa)",
+    iso639_two_letter: "ss",
+    iso639_three_letter: "ssw",
+    windows_three_letter: "ZZZ",
+};
+
+/// Saho
+pub const LANG_SSY: &LanguageId = &LanguageId {
+    name: "ssy",
+    lcid: 0x1000,
+    english_name: "Saho",
+    iso639_two_letter: "ssy",
+    iso639_three_letter: "ssy",
+    windows_three_letter: "ZZZ",
+};
+
+/// Saho (Eritrea)
+pub const LANG_SSY_ER: &LanguageId = &LanguageId {
+    name: "ssy-ER",
+    lcid: 0x1000,
+    english_name: "Saho (Eritrea)",
+    iso639_two_letter: "ssy",
+    iso639_three_letter: "ssy",
+    windows_three_letter: "ZZZ",
+};
+
+/// Sesotho (Lesotho)
+pub const LANG_ST_LS: &LanguageId = &LanguageId {
+    name: "st-LS",
+    lcid: 0x1000,
+    english_name: "Sesotho (Lesotho)",
+    iso639_two_letter: "st",
+    iso639_three_letter: "sot",
+    windows_three_letter: "ZZZ",
+};
+
+/// Swedish (Åland Islands)
+pub const LANG_SV_AX: &LanguageId = &LanguageId {
+    name: "sv-AX",
+    lcid: 0x1000,
+    english_name: "Swedish (Åland Islands)",
+    iso639_two_letter: "sv",
+    iso639_three_letter: "swe",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kiswahili (Tanzania)
+pub const LANG_SW_TZ: &LanguageId = &LanguageId {
+    name: "sw-TZ",
+    lcid: 0x1000,
+    english_name: "Kiswahili (Tanzania)",
+    iso639_two_letter: "sw",
+    iso639_three_letter: "swa",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kiswahili (Uganda)
+pub const LANG_SW_UG: &LanguageId = &LanguageId {
+    name: "sw-UG",
+    lcid: 0x1000,
+    english_name: "Kiswahili (Uganda)",
+    iso639_two_letter: "sw",
+    iso639_three_letter: "swa",
+    windows_three_letter: "ZZZ",
+};
+
+/// Unknown Language (swc)
+pub const LANG_SWC: &LanguageId = &LanguageId {
+    name: "swc",
+    lcid: 0x1000,
+    english_name: "Unknown Language (swc)",
+    iso639_two_letter: "swc",
+    iso639_three_letter: "swc",
+    windows_three_letter: "ZZZ",
+};
+
+/// Kiswahili (Congo DRC)
+pub const LANG_SWC_CD: &LanguageId = &LanguageId {
+    name: "swc-CD",
+    lcid: 0x1000,
+    english_name: "Kiswahili (Congo DRC)",
+    iso639_two_letter: "sw",
+    iso639_three_letter: "swa",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tamil (Malaysia)
+pub const LANG_TA_MY: &LanguageId = &LanguageId {
+    name: "ta-MY",
+    lcid: 0x1000,
+    english_name: "Tamil (Malaysia)",
+    iso639_two_letter: "ta",
+    iso639_three_letter: "tam",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tamil (Singapore)
+pub const LANG_TA_SG: &LanguageId = &LanguageId {
+    name: "ta-SG",
+    lcid: 0x1000,
+    english_name: "Tamil (Singapore)",
+    iso639_two_letter: "ta",
+    iso639_three_letter: "tam",
+    windows_three_letter: "ZZZ",
+};
+
+/// Teso
+pub const LANG_TEO: &LanguageId = &LanguageId {
+    name: "teo",
+    lcid: 0x1000,
+    english_name: "Teso",
+    iso639_two_letter: "teo",
+    iso639_three_letter: "teo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Teso (Kenya)
+pub const LANG_TEO_KE: &LanguageId = &LanguageId {
+    name: "teo-KE",
+    lcid: 0x1000,
+    english_name: "Teso (Kenya)",
+    iso639_two_letter: "teo",
+    iso639_three_letter: "teo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Teso (Uganda)
+pub const LANG_TEO_UG: &LanguageId = &LanguageId {
+    name: "teo-UG",
+    lcid: 0x1000,
+    english_name: "Teso (Uganda)",
+    iso639_two_letter: "teo",
+    iso639_three_letter: "teo",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tigre
+pub const LANG_TIG: &LanguageId = &LanguageId {
+    name: "tig",
+    lcid: 0x1000,
+    english_name: "Tigre",
+    iso639_two_letter: "tig",
+    iso639_three_letter: "tig",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tigre (Eritrea)
+pub const LANG_TIG_ER: &LanguageId = &LanguageId {
+    name: "tig-ER",
+    lcid: 0x1000,
+    english_name: "Tigre (Eritrea)",
+    iso639_two_letter: "tig",
+    iso639_three_letter: "tig",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tongan
+pub const LANG_TO: &LanguageId = &LanguageId {
+    name: "to",
+    lcid: 0x1000,
+    english_name: "Tongan",
+    iso639_two_letter: "to",
+    iso639_three_letter: "ton",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tongan (Tonga)
+pub const LANG_TO_TO: &LanguageId = &LanguageId {
+    name: "to-TO",
+    lcid: 0x1000,
+    english_name: "Tongan (Tonga)",
+    iso639_two_letter: "to",
+    iso639_three_letter: "ton",
+    windows_three_letter: "ZZZ",
+};
+
+/// Turkish (Cyprus)
+pub const LANG_TR_CY: &LanguageId = &LanguageId {
+    name: "tr-CY",
+    lcid: 0x1000,
+    english_name: "Turkish (Cyprus)",
+    iso639_two_letter: "tr",
+    iso639_three_letter: "tur",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tasawaq
+pub const LANG_TWQ: &LanguageId = &LanguageId {
+    name: "twq",
+    lcid: 0x1000,
+    english_name: "Tasawaq",
+    iso639_two_letter: "twq",
+    iso639_three_letter: "twq",
+    windows_three_letter: "ZZZ",
+};
+
+/// Tasawaq (Niger)
+pub const LANG_TWQ_NE: &LanguageId = &LanguageId {
+    name: "twq-NE",
+    lcid: 0x1000,
+    english_name: "Tasawaq (Niger)",
+    iso639_two_letter: "twq",
+    iso639_three_letter: "twq",
+    windows_three_letter: "ZZZ",
+};
+
+/// Central Atlas Tamazight (Latin, Morocco)
+pub const LANG_TZM_LATN_MA: &LanguageId = &LanguageId {
+    name: "tzm-Latn-MA",
+    lcid: 0x1000,
+    english_name: "Central Atlas Tamazight (Latin, Morocco)",
+    iso639_two_letter: "tzm",
+    iso639_three_letter: "tzm",
+    windows_three_letter: "ZZZ",
+};
+
+/// Uzbek (Perso-Arabic)
+pub const LANG_UZ_ARAB: &LanguageId = &LanguageId {
+    name: "uz-Arab",
+    lcid: 0x1000,
+    english_name: "Uzbek (Perso-Arabic)",
+    iso639_two_letter: "uz",
+    iso639_three_letter: "uzb",
+    windows_three_letter: "ZZZ",
+};
+
+/// Uzbek (Perso-Arabic, Afghanistan)
+pub const LANG_UZ_ARAB_AF: &LanguageId = &LanguageId {
+    name: "uz-Arab-AF",
+    lcid: 0x1000,
+    english_name: "Uzbek (Perso-Arabic, Afghanistan)",
+    iso639_two_letter: "uz",
+    iso639_three_letter: "uzb",
+    windows_three_letter: "ZZZ",
+};
+
+/// Vai
+pub const LANG_VAI: &LanguageId = &LanguageId {
+    name: "vai",
+    lcid: 0x1000,
+    english_name: "Vai",
+    iso639_two_letter: "vai",
+    iso639_three_letter: "vai",
+    windows_three_letter: "ZZZ",
+};
+
+/// Vai (Latin)
+pub const LANG_VAI_LATN: &LanguageId = &LanguageId {
+    name: "vai-Latn",
+    lcid: 0x1000,
+    english_name: "Vai (Latin)",
+    iso639_two_letter: "vai",
+    iso639_three_letter: "vai",
+    windows_three_letter: "ZZZ",
+};
+
+/// Vai (Latin, Liberia)
+pub const LANG_VAI_LATN_LR: &LanguageId = &LanguageId {
+    name: "vai-Latn-LR",
+    lcid: 0x1000,
+    english_name: "Vai (Latin, Liberia)",
+    iso639_two_letter: "vai",
+    iso639_three_letter: "vai",
+    windows_three_letter: "ZZZ",
+};
+
+/// Vai (Vai)
+pub const LANG_VAI_VAII: &LanguageId = &LanguageId {
+    name: "vai-Vaii",
+    lcid: 0x1000,
+    english_name: "Vai (Vai)",
+    iso639_two_letter: "vai",
+    iso639_three_letter: "vai",
+    windows_three_letter: "ZZZ",
+};
+
+/// Vai (Vai, Liberia)
+pub const LANG_VAI_VAII_LR: &LanguageId = &LanguageId {
+    name: "vai-Vaii-LR",
+    lcid: 0x1000,
+    english_name: "Vai (Vai, Liberia)",
+    iso639_two_letter: "vai",
+    iso639_three_letter: "vai",
+    windows_three_letter: "ZZZ",
+};
+
+/// Volapük
+pub const LANG_VO: &LanguageId = &LanguageId {
+    name: "vo",
+    lcid: 0x1000,
+    english_name: "Volapük",
+    iso639_two_letter: "vo",
+    iso639_three_letter: "vol",
+    windows_three_letter: "ZZZ",
+};
+
+/// Volapük (World)
+pub const LANG_VO_001: &LanguageId = &LanguageId {
+    name: "vo-001",
+    lcid: 0x1000,
+    english_name: "Volapük (World)",
+    iso639_two_letter: "vo",
+    iso639_three_letter: "vol",
+    windows_three_letter: "ZZZ",
+};
+
+/// Vunjo
+pub const LANG_VUN: &LanguageId = &LanguageId {
+    name: "vun",
+    lcid: 0x1000,
+    english_name: "Vunjo",
+    iso639_two_letter: "vun",
+    iso639_three_letter: "vun",
+    windows_three_letter: "ZZZ",
+};
+
+/// Vunjo (Tanzania)
+pub const LANG_VUN_TZ: &LanguageId = &LanguageId {
+    name: "vun-TZ",
+    lcid: 0x1000,
+    english_name: "Vunjo (Tanzania)",
+    iso639_two_letter: "vun",
+    iso639_three_letter: "vun",
+    windows_three_letter: "ZZZ",
+};
+
+/// Walser
+pub const LANG_WAE: &LanguageId = &LanguageId {
+    name: "wae",
+    lcid: 0x1000,
+    english_name: "Walser",
+    iso639_two_letter: "wae",
+    iso639_three_letter: "wae",
+    windows_three_letter: "ZZZ",
+};
+
+/// Walser (Switzerland)
+pub const LANG_WAE_CH: &LanguageId = &LanguageId {
+    name: "wae-CH",
+    lcid: 0x1000,
+    english_name: "Walser (Switzerland)",
+    iso639_two_letter: "wae",
+    iso639_three_letter: "wae",
+    windows_three_letter: "ZZZ",
+};
+
+/// Wolaytta
+pub const LANG_WAL: &LanguageId = &LanguageId {
+    name: "wal",
+    lcid: 0x1000,
+    english_name: "Wolaytta",
+    iso639_two_letter: "wal",
+    iso639_three_letter: "wal",
+    windows_three_letter: "ZZZ",
+};
+
+/// Wolaytta (Ethiopia)
+pub const LANG_WAL_ET: &LanguageId = &LanguageId {
+    name: "wal-ET",
+    lcid: 0x1000,
+    english_name: "Wolaytta (Ethiopia)",
+    iso639_two_letter: "wal",
+    iso639_three_letter: "wal",
+    windows_three_letter: "ZZZ",
+};
+
+/// Soga
+pub const LANG_XOG: &LanguageId = &LanguageId {
+    name: "xog",
+    lcid: 0x1000,
+    english_name: "Soga",
+    iso639_two_letter: "xog",
+    iso639_three_letter: "xog",
+    windows_three_letter: "ZZZ",
+};
+
+/// Soga (Uganda)
+pub const LANG_XOG_UG: &LanguageId = &LanguageId {
+    name: "xog-UG",
+    lcid: 0x1000,
+    english_name: "Soga (Uganda)",
+    iso639_two_letter: "xog",
+    iso639_three_letter: "xog",
+    windows_three_letter: "ZZZ",
+};
+
+/// Yangben
+pub const LANG_YAV: &LanguageId = &LanguageId {
+    name: "yav",
+    lcid: 0x1000,
+    english_name: "Yangben",
+    iso639_two_letter: "yav",
+    iso639_three_letter: "yav",
+    windows_three_letter: "ZZZ",
+};
+
+/// Yangben (Cameroon)
+pub const LANG_YAV_CM: &LanguageId = &LanguageId {
+    name: "yav-CM",
+    lcid: 0x1000,
+    english_name: "Yangben (Cameroon)",
+    iso639_two_letter: "yav",
+    iso639_three_letter: "yav",
+    windows_three_letter: "ZZZ",
+};
+
+/// Yoruba (Benin)
+pub const LANG_YO_BJ: &LanguageId = &LanguageId {
+    name: "yo-BJ",
+    lcid: 0x1000,
+    english_name: "Yoruba (Benin)",
+    iso639_two_letter: "yo",
+    iso639_three_letter: "yor",
+    windows_three_letter: "ZZZ",
+};
+
+/// Standard Moroccan Tamazight
+pub const LANG_ZGH: &LanguageId = &LanguageId {
+    name: "zgh",
+    lcid: 0x1000,
+    english_name: "Standard Moroccan Tamazight",
+    iso639_two_letter: "zgh",
+    iso639_three_letter: "zgh",
+    windows_three_letter: "ZHG",
+};
+
+/// Standard Moroccan Tamazight (Tifinagh)
+pub const LANG_ZGH_TFNG: &LanguageId = &LanguageId {
+    name: "zgh-Tfng",
+    lcid: 0x1000,
+    english_name: "Standard Moroccan Tamazight (Tifinagh)",
+    iso639_two_letter: "zgh",
+    iso639_three_letter: "zgh",
+    windows_three_letter: "ZHG",
+};
+
+/// Standard Moroccan Tamazight (Tifinagh, Morocco)
+pub const LANG_ZGH_TFNG_MA: &LanguageId = &LanguageId {
+    name: "zgh-Tfng-MA",
+    lcid: 0x1000,
+    english_name: "Standard Moroccan Tamazight (Tifinagh, Morocco)",
+    iso639_two_letter: "zgh",
+    iso639_three_letter: "zgh",
+    windows_three_letter: "ZHG",
 };
 
 /// Arabic (Libya)
@@ -8249,6 +8249,7 @@ pub const LANG_KU_ARAB: &LanguageId = &LanguageId {
     iso639_three_letter: "kur",
     windows_three_letter: "KUR",
 };
+
 
 macro_rules! parse_lcid {
     ($value:expr) => {
@@ -9605,3 +9606,4 @@ macro_rules! parse_name {
         }
     };
 }
+

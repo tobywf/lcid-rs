@@ -52,6 +52,8 @@ revision, pin this crate accordingly.
 
 ### [0.1.1] - unreleased
 
+* Codegen: Sort languages by LCID and name, so the generated code is stable for
+  languages that share an LCID (`0x1000` ones)
 * Move `LanguageId` constants to a module, to avoid cluttering the crate namespace
 
 ### [0.1.0] - 2021-06-06

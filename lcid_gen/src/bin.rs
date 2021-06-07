@@ -27,7 +27,7 @@ fn dump_ci(
     culture_infos: HashMap<String, CultureInfo>,
 ) -> String {
     let mut culture_infos: Vec<_> = culture_infos.into_iter().collect();
-    culture_infos.sort_by_key(|item| item.1.lcid);
+    culture_infos.sort_by_cached_key(|item| (item.1.lcid, item.1.name.to_owned()));
 
     let mut ci_dump = String::new();
     for (name, ci) in culture_infos {
