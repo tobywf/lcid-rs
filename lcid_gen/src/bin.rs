@@ -165,7 +165,11 @@ fn parse_ms_lcid<P: AsRef<Path>>(
     let ci_dump = dump_ci(&identifiers, culture_infos);
 
     write_to_file(out_path, |file| {
-        write!(file, "{}\n{}\n{}\n", &ci_dump, &lookup_lcid, &lookup_name)
+        write!(
+            file,
+            "use crate::LanguageId;\n\n{}\n{}\n{}\n",
+            &ci_dump, &lookup_lcid, &lookup_name
+        )
     })
     .expect("Failed to write string");
 }
@@ -175,5 +179,5 @@ fn main() {
     let named = lcid_gen::read_named("lcid_gen/ms-lcid-14-1-named.json");
     let culture_infos = lcid_gen::read_culture_info("lcid_gen/culture-infos.json");
 
-    parse_ms_lcid(numbered, named, culture_infos, "src/gen.rs");
+    parse_ms_lcid(numbered, named, culture_infos, "src/constants.rs");
 }

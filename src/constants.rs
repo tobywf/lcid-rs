@@ -1,3 +1,5 @@
+use crate::LanguageId;
+
 /// Arabic
 pub const LANG_AR: &LanguageId = &LanguageId {
     name: "ar",
@@ -8248,7 +8250,6 @@ pub const LANG_KU_ARAB: &LanguageId = &LanguageId {
     windows_three_letter: "KUR",
 };
 
-
 macro_rules! parse_lcid {
     ($value:expr) => {
         match $value {
@@ -9604,4 +9605,3 @@ macro_rules! parse_name {
         }
     };
 }
-

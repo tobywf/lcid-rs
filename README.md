@@ -50,6 +50,10 @@ revision, pin this crate accordingly.
 
 ## Changelog
 
+### [0.1.1] - unreleased
+
+* Move `LanguageId` constants to a module, to avoid cluttering the crate namespace
+
 ### [0.1.0] - 2021-06-06
 
 * Initial release

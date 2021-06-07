@@ -23,6 +23,9 @@
 //! [`BCP 47`]: https://tools.ietf.org/rfc/bcp/bcp47.txt
 //! [`System.Globalization.CultureInfo`]: https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo
 //! [`MS-LCID`]: https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f
+#[macro_use]
+pub mod constants;
+
 use std::convert::TryFrom;
 use thiserror::Error;
 
@@ -80,8 +83,6 @@ pub struct LanguageId {
     /// A three-letter code for the language used in the Windows API.
     pub windows_three_letter: &'static str,
 }
-
-include!("gen.rs");
 
 const PRIMARY_LANG_ID_MASK: u32 = 0x3ff;
 const SUB_LANG_ID_MASK: u32 = 0x3f;
@@ -144,6 +145,7 @@ impl TryFrom<u32> for &'static LanguageId {
         // language ID is 16 bits (0-15), primary and sub language ID combined
 
         // Generated from JSON
+        use constants::*;
         parse_lcid!(value)
     }
 }
@@ -155,6 +157,7 @@ impl TryFrom<&str> for &'static LanguageId {
     /// error if the name is unknown or reserved.
     fn try_from(value: &str) -> std::result::Result<Self, Self::Error> {
         // Generated from JSON
+        use constants::*;
         parse_name!(value)
     }
 }
