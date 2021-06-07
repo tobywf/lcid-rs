@@ -25,11 +25,15 @@ fn name_to_ident(tag: &str) -> String {
 fn dump_ci(
     identifiers: &HashMap<String, String>,
     culture_infos: HashMap<String, CultureInfo>,
-) -> String {
+) -> (String, String) {
     let mut culture_infos: Vec<_> = culture_infos.into_iter().collect();
     culture_infos.sort_by_cached_key(|item| (item.1.lcid, item.1.name.to_owned()));
 
     let mut ci_dump = String::new();
+
+    let mut lcid_consts = String::new();
+    lcid_consts.push_str("pub mod lcid {\n");
+
     for (name, ci) in culture_infos {
         let identifier = identifiers.get(&name).expect("Identifier not found");
         ci_dump.push_str(&format!("/// {}\n", ci.english_name));
@@ -55,8 +59,16 @@ fn dump_ci(
         ));
 
         ci_dump.push_str("};\n\n");
+
+        lcid_consts.push_str(&format!(
+            "    pub const {}: u32 = {:#06X};\n",
+            identifier.replace("LANG_", "LCID_"), ci.lcid
+        ));
     }
-    ci_dump
+
+    lcid_consts.push_str("}\n");
+
+    (ci_dump, lcid_consts)
 }
 
 const NAMED_LCID: u32 = 0x1000;
@@ -162,13 +174,13 @@ fn parse_ms_lcid<P: AsRef<Path>>(
     lookup_name.push_str("    };\n");
     lookup_name.push_str("}\n");
 
-    let ci_dump = dump_ci(&identifiers, culture_infos);
+    let (ci_dump, lcid_consts) = dump_ci(&identifiers, culture_infos);
 
     write_to_file(out_path, |file| {
         write!(
             file,
-            "use crate::LanguageId;\n\n{}\n{}\n{}\n",
-            &ci_dump, &lookup_lcid, &lookup_name
+            "use crate::LanguageId;\n\n{}{}\n{}\n{}",
+            &ci_dump, &lookup_lcid, &lookup_name, &lcid_consts
         )
     })
     .expect("Failed to write string");
