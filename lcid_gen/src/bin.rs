@@ -62,7 +62,8 @@ fn dump_ci(
 
         lcid_consts.push_str(&format!(
             "    pub const {}: u32 = {:#06X};\n",
-            identifier.replace("LANG_", "LCID_"), ci.lcid
+            identifier.replace("LANG_", "LCID_"),
+            ci.lcid
         ));
     }
 

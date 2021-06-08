@@ -33,6 +33,8 @@ pub struct CultureInfo {
     pub iso639_three_letter: String,
     #[serde(rename = "ThreeLetterWindowsLanguageName")]
     pub windows_three_letter: String,
+    #[serde(rename = "ANSICodePage")]
+    pub ansi_code_page: u32,
 }
 
 macro_rules! read_json {
@@ -176,7 +178,8 @@ mod tests {
                 "EnglishName": "FooBar",
                 "TwoLetterISOLanguageName": "fo",
                 "ThreeLetterISOLanguageName": "foo",
-                "ThreeLetterWindowsLanguageName": "FOO"
+                "ThreeLetterWindowsLanguageName": "FOO",
+                "ANSICodePage": 1252
             }
         }"#,
         );
@@ -192,6 +195,7 @@ mod tests {
                     iso639_two_letter: "fo".to_owned(),
                     iso639_three_letter: "foo".to_owned(),
                     windows_three_letter: "FOO".to_owned(),
+                    ansi_code_page: 1252,
                 }
             )]
         );
@@ -208,7 +212,8 @@ mod tests {
                 "EnglishName": "FooBar",
                 "TwoLetterISOLanguageName": "fo",
                 "ThreeLetterISOLanguageName": "foo",
-                "ThreeLetterWindowsLanguageName": "FOO"
+                "ThreeLetterWindowsLanguageName": "FOO",
+                "ANSICodePage": 1252
             }
         }"#,
         );

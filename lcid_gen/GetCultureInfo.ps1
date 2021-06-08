@@ -100,9 +100,10 @@ $EN_AE = @{
     ThreeLetterISOLanguageName="eng";
     ThreeLetterWindowsLanguageName="ENU";
     EnglishName="English (United Arab Emirates)";
+    ANSICodePage=1252;
 };
 
-$culture_infos = @{};
+$culture_infos = [ordered]@{};
 
 $numbered = (Get-Content ".\ms-lcid-14-1-numbered.json" | ConvertFrom-Json);
 $named = (Get-Content ".\ms-lcid-14-1-named.json" | ConvertFrom-Json);
@@ -121,15 +122,20 @@ foreach ($value in $numbered) {
 
     # CultureInfo from LCID can fail
     try {
-        $lcid_ci = New-Object System.Globalization.CultureInfo $lcid | Select-Object $props;
+        $ci = New-Object System.Globalization.CultureInfo $lcid;
+        $lcid_code_page = $ci.TextInfo.ANSICodePage;
+        $lcid_ci = $ci | Select-Object $props;
     }
     catch [System.Globalization.CultureNotFoundException] {
         Write-Warning "$($lcid_hex)/$($name) - Unsupported LCID";
         $lcid_ci = $null;
+        $lcid_code_page = 0;
     }
     # CultureInfo from name/IETF tag doesn't fail, and will try and produce
     # best-effort information (e.g. zz => LCID: 4096, EnglishName: Unknown Language (zz))
-    $name_ci = New-Object System.Globalization.CultureInfo $name | Select-Object $props;
+    $ci = New-Object System.Globalization.CultureInfo $name;
+    $name_code_page = $ci.TextInfo.ANSICodePage;
+    $name_ci = $ci | Select-Object $props;
 
     # Validation
     if ($lcid_ci -ne $null) {
@@ -149,6 +155,10 @@ foreach ($value in $numbered) {
         }
     }
 
+    if ($lcid_code_page -ne $name_code_page) {
+        Write-Warning "$($lcid_hex)/$($name) - Code page mismatch: $($lcid_code_page) != $($name_code_page)";
+    }
+
     # fix-up: 0x0086/qut
     if ($lcid -eq $QUT_LCID) {
         $name_ci.Name = $QUT_NAME;
@@ -164,6 +174,8 @@ foreach ($value in $numbered) {
         $name_ci = $EN_AE;
     }
 
+    $name_ci | Add-Member -MemberType NoteProperty -Name 'ANSICodePage' -Value $name_code_page;
+
     # Final consistency check
     if ($lcid -ne $name_ci.LCID) {
         Write-Error "$($lcid_hex)/$($name) - Name mismatch: LCID $($lcid) != $($name_ci.LCID)";
@@ -171,7 +183,7 @@ foreach ($value in $numbered) {
     if ($name -ne $name_ci.Name) {
         Write-Error "$($lcid_hex)/$($name) - Name mismatch: Name '$($name)' != '$($name_ci.Name)'";
     }
-    if ($culture_infos.ContainsKey($name)) {
+    if ($culture_infos.Contains($name)) {
         Write-Error "$($lcid_hex)/$($name) - Already defined";
     }
 
@@ -191,7 +203,9 @@ $SWC_CD_NAME = "swc-CD";
 foreach ($name in $named) {
     # CultureInfo from name/IETF tag doesn't fail, and will try and produce
     # best-effort information (e.g. zz => LCID: 4096, EnglishName: Unknown Language (zz))
-    $name_ci = New-Object System.Globalization.CultureInfo $name | Select-Object $props;
+    $ci = New-Object System.Globalization.CultureInfo $name;
+    $name_code_page = $ci.TextInfo.ANSICodePage;
+    $name_ci = $ci | Select-Object $props;
 
     # Validation
     if ($name -ne $name_ci.Name) {
@@ -227,6 +241,8 @@ foreach ($name in $named) {
         $name_ci.Name = $SWC_CD_NAME;
     }
 
+    $name_ci | Add-Member -MemberType NoteProperty -Name 'ANSICodePage' -Value $name_code_page;
+
     # Final consistency check
     if ($name -ne $name_ci.Name) {
         Write-Error "$($NAMED_LCID)/$($name) - Name mismatch: Name '$($name)' != '$($name_ci.Name)'";
@@ -234,7 +250,7 @@ foreach ($name in $named) {
     if ($NAMED_LCID -ne $name_ci.LCID) {
         Write-Error "$($NAMED_LCID)/$($name) - Name mismatch: LCID $($NAMED_LCID) != $($name_ci.LCID)";
     }
-    if ($culture_infos.ContainsKey($name)) {
+    if ($culture_infos.Contains($name)) {
         Write-Error "$($NAMED_LCID)/$($name) - Already defined";
     }
 
