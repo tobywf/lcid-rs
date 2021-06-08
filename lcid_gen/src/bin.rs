@@ -33,6 +33,10 @@ fn dump_ci(
 
     let mut lcid_consts = String::new();
     lcid_consts.push_str("pub mod lcid {\n");
+    lcid_consts.push_str(
+        "    //! Contains constant LCIDs corresponding to the full language information\n",
+    );
+    lcid_consts.push_str("    //! in the parent module, for easy use in e.g. match statements.\n");
 
     for (name, ci) in culture_infos {
         let identifier = identifiers.get(&name).expect("Identifier not found");
@@ -57,9 +61,25 @@ fn dump_ci(
             "    windows_three_letter: \"{}\",\n",
             ci.windows_three_letter
         ));
+        if ci.ansi_code_page == 0 {
+            ci_dump.push_str("    ansi_code_page: None,\n");
+        } else {
+            let cp = match ci.ansi_code_page {
+                932 => "ShiftJIS".to_owned(),
+                936 => "GB2312".to_owned(),
+                949 => "KsC5601".to_owned(),
+                950 => "Big5".to_owned(),
+                cp => format!("Windows{}", cp),
+            };
+            ci_dump.push_str(&format!(
+                "    ansi_code_page: Some(AnsiCodePage::{}),\n",
+                &cp
+            ));
+        }
 
         ci_dump.push_str("};\n\n");
 
+        lcid_consts.push_str(&format!("    /// {}\n", ci.english_name));
         lcid_consts.push_str(&format!(
             "    pub const {}: u32 = {:#06X};\n",
             identifier.replace("LANG_", "LCID_"),
@@ -177,11 +197,15 @@ fn parse_ms_lcid<P: AsRef<Path>>(
 
     let (ci_dump, lcid_consts) = dump_ci(&identifiers, culture_infos);
 
+    let mut header = String::new();
+    header.push_str("//! Contains all defined [`LanguageId`] returned by the lookups.\n");
+    header.push_str("use crate::{AnsiCodePage, LanguageId};\n");
+
     write_to_file(out_path, |file| {
         write!(
             file,
-            "use crate::LanguageId;\n\n{}{}\n{}\n{}",
-            &ci_dump, &lookup_lcid, &lookup_name, &lcid_consts
+            "{}\n{}{}\n{}\n{}",
+            &header, &ci_dump, &lookup_lcid, &lookup_name, &lcid_consts
         )
     })
     .expect("Failed to write string");

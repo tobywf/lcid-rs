@@ -1,4 +1,5 @@
-use crate::LanguageId;
+//! Contains all defined [`LanguageId`] returned by the lookups.
+use crate::{AnsiCodePage, LanguageId};
 
 /// Arabic
 pub const LANG_AR: &LanguageId = &LanguageId {
@@ -8,6 +9,7 @@ pub const LANG_AR: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARA",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Bulgarian
@@ -18,6 +20,7 @@ pub const LANG_BG: &LanguageId = &LanguageId {
     iso639_two_letter: "bg",
     iso639_three_letter: "bul",
     windows_three_letter: "BGR",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Catalan
@@ -28,6 +31,7 @@ pub const LANG_CA: &LanguageId = &LanguageId {
     iso639_two_letter: "ca",
     iso639_three_letter: "cat",
     windows_three_letter: "CAT",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Chinese (Simplified)
@@ -38,6 +42,7 @@ pub const LANG_ZH_HANS: &LanguageId = &LanguageId {
     iso639_two_letter: "zh",
     iso639_three_letter: "zho",
     windows_three_letter: "CHS",
+    ansi_code_page: Some(AnsiCodePage::GB2312),
 };
 
 /// Czech
@@ -48,6 +53,7 @@ pub const LANG_CS: &LanguageId = &LanguageId {
     iso639_two_letter: "cs",
     iso639_three_letter: "ces",
     windows_three_letter: "CSY",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Danish
@@ -58,6 +64,7 @@ pub const LANG_DA: &LanguageId = &LanguageId {
     iso639_two_letter: "da",
     iso639_three_letter: "dan",
     windows_three_letter: "DAN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// German
@@ -68,6 +75,7 @@ pub const LANG_DE: &LanguageId = &LanguageId {
     iso639_two_letter: "de",
     iso639_three_letter: "deu",
     windows_three_letter: "DEU",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Greek
@@ -78,6 +86,7 @@ pub const LANG_EL: &LanguageId = &LanguageId {
     iso639_two_letter: "el",
     iso639_three_letter: "ell",
     windows_three_letter: "ELL",
+    ansi_code_page: Some(AnsiCodePage::Windows1253),
 };
 
 /// English
@@ -88,6 +97,7 @@ pub const LANG_EN: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENU",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish
@@ -98,6 +108,7 @@ pub const LANG_ES: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESP",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Finnish
@@ -108,6 +119,7 @@ pub const LANG_FI: &LanguageId = &LanguageId {
     iso639_two_letter: "fi",
     iso639_three_letter: "fin",
     windows_three_letter: "FIN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French
@@ -118,6 +130,7 @@ pub const LANG_FR: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Hebrew
@@ -128,6 +141,7 @@ pub const LANG_HE: &LanguageId = &LanguageId {
     iso639_two_letter: "he",
     iso639_three_letter: "heb",
     windows_three_letter: "HEB",
+    ansi_code_page: Some(AnsiCodePage::Windows1255),
 };
 
 /// Hungarian
@@ -138,6 +152,7 @@ pub const LANG_HU: &LanguageId = &LanguageId {
     iso639_two_letter: "hu",
     iso639_three_letter: "hun",
     windows_three_letter: "HUN",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Icelandic
@@ -148,6 +163,7 @@ pub const LANG_IS: &LanguageId = &LanguageId {
     iso639_two_letter: "is",
     iso639_three_letter: "isl",
     windows_three_letter: "ISL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Italian
@@ -158,6 +174,7 @@ pub const LANG_IT: &LanguageId = &LanguageId {
     iso639_two_letter: "it",
     iso639_three_letter: "ita",
     windows_three_letter: "ITA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Japanese
@@ -168,6 +185,7 @@ pub const LANG_JA: &LanguageId = &LanguageId {
     iso639_two_letter: "ja",
     iso639_three_letter: "jpn",
     windows_three_letter: "JPN",
+    ansi_code_page: Some(AnsiCodePage::ShiftJIS),
 };
 
 /// Korean
@@ -178,6 +196,7 @@ pub const LANG_KO: &LanguageId = &LanguageId {
     iso639_two_letter: "ko",
     iso639_three_letter: "kor",
     windows_three_letter: "KOR",
+    ansi_code_page: Some(AnsiCodePage::KsC5601),
 };
 
 /// Dutch
@@ -188,6 +207,7 @@ pub const LANG_NL: &LanguageId = &LanguageId {
     iso639_two_letter: "nl",
     iso639_three_letter: "nld",
     windows_three_letter: "NLD",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Norwegian
@@ -198,6 +218,7 @@ pub const LANG_NO: &LanguageId = &LanguageId {
     iso639_two_letter: "nb",
     iso639_three_letter: "nob",
     windows_three_letter: "NOR",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Polish
@@ -208,6 +229,7 @@ pub const LANG_PL: &LanguageId = &LanguageId {
     iso639_two_letter: "pl",
     iso639_three_letter: "pol",
     windows_three_letter: "PLK",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Portuguese
@@ -218,6 +240,7 @@ pub const LANG_PT: &LanguageId = &LanguageId {
     iso639_two_letter: "pt",
     iso639_three_letter: "por",
     windows_three_letter: "PTB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Romansh
@@ -228,6 +251,7 @@ pub const LANG_RM: &LanguageId = &LanguageId {
     iso639_two_letter: "rm",
     iso639_three_letter: "roh",
     windows_three_letter: "RMC",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Romanian
@@ -238,6 +262,7 @@ pub const LANG_RO: &LanguageId = &LanguageId {
     iso639_two_letter: "ro",
     iso639_three_letter: "ron",
     windows_three_letter: "ROM",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Russian
@@ -248,6 +273,7 @@ pub const LANG_RU: &LanguageId = &LanguageId {
     iso639_two_letter: "ru",
     iso639_three_letter: "rus",
     windows_three_letter: "RUS",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Croatian
@@ -258,6 +284,7 @@ pub const LANG_HR: &LanguageId = &LanguageId {
     iso639_two_letter: "hr",
     iso639_three_letter: "hrv",
     windows_three_letter: "HRV",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Slovak
@@ -268,6 +295,7 @@ pub const LANG_SK: &LanguageId = &LanguageId {
     iso639_two_letter: "sk",
     iso639_three_letter: "slk",
     windows_three_letter: "SKY",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Albanian
@@ -278,6 +306,7 @@ pub const LANG_SQ: &LanguageId = &LanguageId {
     iso639_two_letter: "sq",
     iso639_three_letter: "sqi",
     windows_three_letter: "SQI",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Swedish
@@ -288,6 +317,7 @@ pub const LANG_SV: &LanguageId = &LanguageId {
     iso639_two_letter: "sv",
     iso639_three_letter: "swe",
     windows_three_letter: "SVE",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Thai
@@ -298,6 +328,7 @@ pub const LANG_TH: &LanguageId = &LanguageId {
     iso639_two_letter: "th",
     iso639_three_letter: "tha",
     windows_three_letter: "THA",
+    ansi_code_page: Some(AnsiCodePage::Windows874),
 };
 
 /// Turkish
@@ -308,6 +339,7 @@ pub const LANG_TR: &LanguageId = &LanguageId {
     iso639_two_letter: "tr",
     iso639_three_letter: "tur",
     windows_three_letter: "TRK",
+    ansi_code_page: Some(AnsiCodePage::Windows1254),
 };
 
 /// Urdu
@@ -318,6 +350,7 @@ pub const LANG_UR: &LanguageId = &LanguageId {
     iso639_two_letter: "ur",
     iso639_three_letter: "urd",
     windows_three_letter: "URD",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Indonesian
@@ -328,6 +361,7 @@ pub const LANG_ID: &LanguageId = &LanguageId {
     iso639_two_letter: "id",
     iso639_three_letter: "ind",
     windows_three_letter: "IND",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Ukrainian
@@ -338,6 +372,7 @@ pub const LANG_UK: &LanguageId = &LanguageId {
     iso639_two_letter: "uk",
     iso639_three_letter: "ukr",
     windows_three_letter: "UKR",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Belarusian
@@ -348,6 +383,7 @@ pub const LANG_BE: &LanguageId = &LanguageId {
     iso639_two_letter: "be",
     iso639_three_letter: "bel",
     windows_three_letter: "BEL",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Slovenian
@@ -358,6 +394,7 @@ pub const LANG_SL: &LanguageId = &LanguageId {
     iso639_two_letter: "sl",
     iso639_three_letter: "slv",
     windows_three_letter: "SLV",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Estonian
@@ -368,6 +405,7 @@ pub const LANG_ET: &LanguageId = &LanguageId {
     iso639_two_letter: "et",
     iso639_three_letter: "est",
     windows_three_letter: "ETI",
+    ansi_code_page: Some(AnsiCodePage::Windows1257),
 };
 
 /// Latvian
@@ -378,6 +416,7 @@ pub const LANG_LV: &LanguageId = &LanguageId {
     iso639_two_letter: "lv",
     iso639_three_letter: "lav",
     windows_three_letter: "LVI",
+    ansi_code_page: Some(AnsiCodePage::Windows1257),
 };
 
 /// Lithuanian
@@ -388,6 +427,7 @@ pub const LANG_LT: &LanguageId = &LanguageId {
     iso639_two_letter: "lt",
     iso639_three_letter: "lit",
     windows_three_letter: "LTH",
+    ansi_code_page: Some(AnsiCodePage::Windows1257),
 };
 
 /// Tajik
@@ -398,6 +438,7 @@ pub const LANG_TG: &LanguageId = &LanguageId {
     iso639_two_letter: "tg",
     iso639_three_letter: "tgk",
     windows_three_letter: "TAJ",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Persian
@@ -408,6 +449,7 @@ pub const LANG_FA: &LanguageId = &LanguageId {
     iso639_two_letter: "fa",
     iso639_three_letter: "fas",
     windows_three_letter: "FAR",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Vietnamese
@@ -418,6 +460,7 @@ pub const LANG_VI: &LanguageId = &LanguageId {
     iso639_two_letter: "vi",
     iso639_three_letter: "vie",
     windows_three_letter: "VIT",
+    ansi_code_page: Some(AnsiCodePage::Windows1258),
 };
 
 /// Armenian
@@ -428,6 +471,7 @@ pub const LANG_HY: &LanguageId = &LanguageId {
     iso639_two_letter: "hy",
     iso639_three_letter: "hye",
     windows_three_letter: "HYE",
+    ansi_code_page: None,
 };
 
 /// Azerbaijani
@@ -438,6 +482,7 @@ pub const LANG_AZ: &LanguageId = &LanguageId {
     iso639_two_letter: "az",
     iso639_three_letter: "aze",
     windows_three_letter: "AZE",
+    ansi_code_page: Some(AnsiCodePage::Windows1254),
 };
 
 /// Basque
@@ -448,6 +493,7 @@ pub const LANG_EU: &LanguageId = &LanguageId {
     iso639_two_letter: "eu",
     iso639_three_letter: "eus",
     windows_three_letter: "EUQ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Upper Sorbian
@@ -458,6 +504,7 @@ pub const LANG_HSB: &LanguageId = &LanguageId {
     iso639_two_letter: "hsb",
     iso639_three_letter: "hsb",
     windows_three_letter: "HSB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Macedonian
@@ -468,6 +515,7 @@ pub const LANG_MK: &LanguageId = &LanguageId {
     iso639_two_letter: "mk",
     iso639_three_letter: "mkd",
     windows_three_letter: "MKI",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Sesotho
@@ -478,6 +526,7 @@ pub const LANG_ST: &LanguageId = &LanguageId {
     iso639_two_letter: "st",
     iso639_three_letter: "sot",
     windows_three_letter: "SOT",
+    ansi_code_page: None,
 };
 
 /// Tsonga
@@ -488,6 +537,7 @@ pub const LANG_TS: &LanguageId = &LanguageId {
     iso639_two_letter: "ts",
     iso639_three_letter: "tso",
     windows_three_letter: "TSO",
+    ansi_code_page: None,
 };
 
 /// Setswana
@@ -498,6 +548,7 @@ pub const LANG_TN: &LanguageId = &LanguageId {
     iso639_two_letter: "tn",
     iso639_three_letter: "tsn",
     windows_three_letter: "TSN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Venda
@@ -508,6 +559,7 @@ pub const LANG_VE: &LanguageId = &LanguageId {
     iso639_two_letter: "ve",
     iso639_three_letter: "ven",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// isiXhosa
@@ -518,6 +570,7 @@ pub const LANG_XH: &LanguageId = &LanguageId {
     iso639_two_letter: "xh",
     iso639_three_letter: "xho",
     windows_three_letter: "XHO",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// isiZulu
@@ -528,6 +581,7 @@ pub const LANG_ZU: &LanguageId = &LanguageId {
     iso639_two_letter: "zu",
     iso639_three_letter: "zul",
     windows_three_letter: "ZUL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Afrikaans
@@ -538,6 +592,7 @@ pub const LANG_AF: &LanguageId = &LanguageId {
     iso639_two_letter: "af",
     iso639_three_letter: "afr",
     windows_three_letter: "AFK",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Georgian
@@ -548,6 +603,7 @@ pub const LANG_KA: &LanguageId = &LanguageId {
     iso639_two_letter: "ka",
     iso639_three_letter: "kat",
     windows_three_letter: "KAT",
+    ansi_code_page: None,
 };
 
 /// Faroese
@@ -558,6 +614,7 @@ pub const LANG_FO: &LanguageId = &LanguageId {
     iso639_two_letter: "fo",
     iso639_three_letter: "fao",
     windows_three_letter: "FOS",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Hindi
@@ -568,6 +625,7 @@ pub const LANG_HI: &LanguageId = &LanguageId {
     iso639_two_letter: "hi",
     iso639_three_letter: "hin",
     windows_three_letter: "HIN",
+    ansi_code_page: None,
 };
 
 /// Maltese
@@ -578,6 +636,7 @@ pub const LANG_MT: &LanguageId = &LanguageId {
     iso639_two_letter: "mt",
     iso639_three_letter: "mlt",
     windows_three_letter: "MLT",
+    ansi_code_page: None,
 };
 
 /// Northern Sami
@@ -588,6 +647,7 @@ pub const LANG_SE: &LanguageId = &LanguageId {
     iso639_two_letter: "se",
     iso639_three_letter: "sme",
     windows_three_letter: "SME",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Irish
@@ -598,6 +658,7 @@ pub const LANG_GA: &LanguageId = &LanguageId {
     iso639_two_letter: "ga",
     iso639_three_letter: "gle",
     windows_three_letter: "IRE",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Malay
@@ -608,6 +669,7 @@ pub const LANG_MS: &LanguageId = &LanguageId {
     iso639_two_letter: "ms",
     iso639_three_letter: "msa",
     windows_three_letter: "MSL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Kazakh
@@ -618,6 +680,7 @@ pub const LANG_KK: &LanguageId = &LanguageId {
     iso639_two_letter: "kk",
     iso639_three_letter: "kaz",
     windows_three_letter: "KKZ",
+    ansi_code_page: None,
 };
 
 /// Kyrgyz
@@ -628,6 +691,7 @@ pub const LANG_KY: &LanguageId = &LanguageId {
     iso639_two_letter: "ky",
     iso639_three_letter: "kir",
     windows_three_letter: "KYR",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Kiswahili
@@ -638,6 +702,7 @@ pub const LANG_SW: &LanguageId = &LanguageId {
     iso639_two_letter: "sw",
     iso639_three_letter: "swa",
     windows_three_letter: "SWK",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Turkmen
@@ -648,6 +713,7 @@ pub const LANG_TK: &LanguageId = &LanguageId {
     iso639_two_letter: "tk",
     iso639_three_letter: "tuk",
     windows_three_letter: "TUK",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Uzbek
@@ -658,6 +724,7 @@ pub const LANG_UZ: &LanguageId = &LanguageId {
     iso639_two_letter: "uz",
     iso639_three_letter: "uzb",
     windows_three_letter: "UZB",
+    ansi_code_page: Some(AnsiCodePage::Windows1254),
 };
 
 /// Tatar
@@ -668,6 +735,7 @@ pub const LANG_TT: &LanguageId = &LanguageId {
     iso639_two_letter: "tt",
     iso639_three_letter: "tat",
     windows_three_letter: "TTT",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Bangla
@@ -678,6 +746,7 @@ pub const LANG_BN: &LanguageId = &LanguageId {
     iso639_two_letter: "bn",
     iso639_three_letter: "ben",
     windows_three_letter: "BNB",
+    ansi_code_page: None,
 };
 
 /// Punjabi
@@ -688,6 +757,7 @@ pub const LANG_PA: &LanguageId = &LanguageId {
     iso639_two_letter: "pa",
     iso639_three_letter: "pan",
     windows_three_letter: "PAN",
+    ansi_code_page: None,
 };
 
 /// Gujarati
@@ -698,6 +768,7 @@ pub const LANG_GU: &LanguageId = &LanguageId {
     iso639_two_letter: "gu",
     iso639_three_letter: "guj",
     windows_three_letter: "GUJ",
+    ansi_code_page: None,
 };
 
 /// Odia
@@ -708,6 +779,7 @@ pub const LANG_OR: &LanguageId = &LanguageId {
     iso639_two_letter: "or",
     iso639_three_letter: "ori",
     windows_three_letter: "ORI",
+    ansi_code_page: None,
 };
 
 /// Tamil
@@ -718,6 +790,7 @@ pub const LANG_TA: &LanguageId = &LanguageId {
     iso639_two_letter: "ta",
     iso639_three_letter: "tam",
     windows_three_letter: "TAI",
+    ansi_code_page: None,
 };
 
 /// Telugu
@@ -728,6 +801,7 @@ pub const LANG_TE: &LanguageId = &LanguageId {
     iso639_two_letter: "te",
     iso639_three_letter: "tel",
     windows_three_letter: "TEL",
+    ansi_code_page: None,
 };
 
 /// Kannada
@@ -738,6 +812,7 @@ pub const LANG_KN: &LanguageId = &LanguageId {
     iso639_two_letter: "kn",
     iso639_three_letter: "kan",
     windows_three_letter: "KDI",
+    ansi_code_page: None,
 };
 
 /// Malayalam
@@ -748,6 +823,7 @@ pub const LANG_ML: &LanguageId = &LanguageId {
     iso639_two_letter: "ml",
     iso639_three_letter: "mal",
     windows_three_letter: "MYM",
+    ansi_code_page: None,
 };
 
 /// Assamese
@@ -758,6 +834,7 @@ pub const LANG_AS: &LanguageId = &LanguageId {
     iso639_two_letter: "as",
     iso639_three_letter: "asm",
     windows_three_letter: "ASM",
+    ansi_code_page: None,
 };
 
 /// Marathi
@@ -768,6 +845,7 @@ pub const LANG_MR: &LanguageId = &LanguageId {
     iso639_two_letter: "mr",
     iso639_three_letter: "mar",
     windows_three_letter: "MAR",
+    ansi_code_page: None,
 };
 
 /// Sanskrit
@@ -778,6 +856,7 @@ pub const LANG_SA: &LanguageId = &LanguageId {
     iso639_two_letter: "sa",
     iso639_three_letter: "san",
     windows_three_letter: "SAN",
+    ansi_code_page: None,
 };
 
 /// Mongolian
@@ -788,6 +867,7 @@ pub const LANG_MN: &LanguageId = &LanguageId {
     iso639_two_letter: "mn",
     iso639_three_letter: "mon",
     windows_three_letter: "MON",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Tibetan
@@ -798,6 +878,7 @@ pub const LANG_BO: &LanguageId = &LanguageId {
     iso639_two_letter: "bo",
     iso639_three_letter: "bod",
     windows_three_letter: "BOB",
+    ansi_code_page: None,
 };
 
 /// Welsh
@@ -808,6 +889,7 @@ pub const LANG_CY: &LanguageId = &LanguageId {
     iso639_two_letter: "cy",
     iso639_three_letter: "cym",
     windows_three_letter: "CYM",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Khmer
@@ -818,6 +900,7 @@ pub const LANG_KM: &LanguageId = &LanguageId {
     iso639_two_letter: "km",
     iso639_three_letter: "khm",
     windows_three_letter: "KHM",
+    ansi_code_page: None,
 };
 
 /// Lao
@@ -828,6 +911,7 @@ pub const LANG_LO: &LanguageId = &LanguageId {
     iso639_two_letter: "lo",
     iso639_three_letter: "lao",
     windows_three_letter: "LAO",
+    ansi_code_page: None,
 };
 
 /// Burmese
@@ -838,6 +922,7 @@ pub const LANG_MY: &LanguageId = &LanguageId {
     iso639_two_letter: "my",
     iso639_three_letter: "mya",
     windows_three_letter: "MYA",
+    ansi_code_page: None,
 };
 
 /// Galician
@@ -848,6 +933,7 @@ pub const LANG_GL: &LanguageId = &LanguageId {
     iso639_two_letter: "gl",
     iso639_three_letter: "glg",
     windows_three_letter: "GLC",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Konkani
@@ -858,6 +944,7 @@ pub const LANG_KOK: &LanguageId = &LanguageId {
     iso639_two_letter: "kok",
     iso639_three_letter: "kok",
     windows_three_letter: "KNK",
+    ansi_code_page: None,
 };
 
 /// Sindhi
@@ -868,6 +955,7 @@ pub const LANG_SD: &LanguageId = &LanguageId {
     iso639_two_letter: "sd",
     iso639_three_letter: "snd",
     windows_three_letter: "SIP",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Syriac
@@ -878,6 +966,7 @@ pub const LANG_SYR: &LanguageId = &LanguageId {
     iso639_two_letter: "syr",
     iso639_three_letter: "syr",
     windows_three_letter: "SYR",
+    ansi_code_page: None,
 };
 
 /// Sinhala
@@ -888,6 +977,7 @@ pub const LANG_SI: &LanguageId = &LanguageId {
     iso639_two_letter: "si",
     iso639_three_letter: "sin",
     windows_three_letter: "SIN",
+    ansi_code_page: None,
 };
 
 /// Cherokee
@@ -898,6 +988,7 @@ pub const LANG_CHR: &LanguageId = &LanguageId {
     iso639_two_letter: "chr",
     iso639_three_letter: "chr",
     windows_three_letter: "CRE",
+    ansi_code_page: None,
 };
 
 /// Inuktitut
@@ -908,6 +999,7 @@ pub const LANG_IU: &LanguageId = &LanguageId {
     iso639_two_letter: "iu",
     iso639_three_letter: "iku",
     windows_three_letter: "IUK",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Amharic
@@ -918,6 +1010,7 @@ pub const LANG_AM: &LanguageId = &LanguageId {
     iso639_two_letter: "am",
     iso639_three_letter: "amh",
     windows_three_letter: "AMH",
+    ansi_code_page: None,
 };
 
 /// Central Atlas Tamazight
@@ -928,6 +1021,7 @@ pub const LANG_TZM: &LanguageId = &LanguageId {
     iso639_two_letter: "tzm",
     iso639_three_letter: "tzm",
     windows_three_letter: "TZA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Kashmiri
@@ -938,6 +1032,7 @@ pub const LANG_KS: &LanguageId = &LanguageId {
     iso639_two_letter: "ks",
     iso639_three_letter: "kas",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Nepali
@@ -948,6 +1043,7 @@ pub const LANG_NE: &LanguageId = &LanguageId {
     iso639_two_letter: "ne",
     iso639_three_letter: "nep",
     windows_three_letter: "NEP",
+    ansi_code_page: None,
 };
 
 /// Western Frisian
@@ -958,6 +1054,7 @@ pub const LANG_FY: &LanguageId = &LanguageId {
     iso639_two_letter: "fy",
     iso639_three_letter: "fry",
     windows_three_letter: "FYN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Pashto
@@ -968,6 +1065,7 @@ pub const LANG_PS: &LanguageId = &LanguageId {
     iso639_two_letter: "ps",
     iso639_three_letter: "pus",
     windows_three_letter: "PAS",
+    ansi_code_page: None,
 };
 
 /// Filipino
@@ -978,6 +1076,7 @@ pub const LANG_FIL: &LanguageId = &LanguageId {
     iso639_two_letter: "fil",
     iso639_three_letter: "fil",
     windows_three_letter: "FPO",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Divehi
@@ -988,6 +1087,7 @@ pub const LANG_DV: &LanguageId = &LanguageId {
     iso639_two_letter: "dv",
     iso639_three_letter: "div",
     windows_three_letter: "DIV",
+    ansi_code_page: None,
 };
 
 /// Fulah
@@ -998,6 +1098,7 @@ pub const LANG_FF: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "FUL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Hausa
@@ -1008,6 +1109,7 @@ pub const LANG_HA: &LanguageId = &LanguageId {
     iso639_two_letter: "ha",
     iso639_three_letter: "hau",
     windows_three_letter: "HAU",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Yoruba
@@ -1018,6 +1120,7 @@ pub const LANG_YO: &LanguageId = &LanguageId {
     iso639_two_letter: "yo",
     iso639_three_letter: "yor",
     windows_three_letter: "YOR",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Quechua
@@ -1028,6 +1131,7 @@ pub const LANG_QUZ: &LanguageId = &LanguageId {
     iso639_two_letter: "quz",
     iso639_three_letter: "qub",
     windows_three_letter: "QUB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Sesotho sa Leboa
@@ -1038,6 +1142,7 @@ pub const LANG_NSO: &LanguageId = &LanguageId {
     iso639_two_letter: "nso",
     iso639_three_letter: "nso",
     windows_three_letter: "NSO",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Bashkir
@@ -1048,6 +1153,7 @@ pub const LANG_BA: &LanguageId = &LanguageId {
     iso639_two_letter: "ba",
     iso639_three_letter: "bak",
     windows_three_letter: "BAS",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Luxembourgish
@@ -1058,6 +1164,7 @@ pub const LANG_LB: &LanguageId = &LanguageId {
     iso639_two_letter: "lb",
     iso639_three_letter: "ltz",
     windows_three_letter: "LBX",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Greenlandic
@@ -1068,6 +1175,7 @@ pub const LANG_KL: &LanguageId = &LanguageId {
     iso639_two_letter: "kl",
     iso639_three_letter: "kal",
     windows_three_letter: "KAL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Igbo
@@ -1078,6 +1186,7 @@ pub const LANG_IG: &LanguageId = &LanguageId {
     iso639_two_letter: "ig",
     iso639_three_letter: "ibo",
     windows_three_letter: "IBO",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Oromo
@@ -1088,6 +1197,7 @@ pub const LANG_OM: &LanguageId = &LanguageId {
     iso639_two_letter: "om",
     iso639_three_letter: "orm",
     windows_three_letter: "ORM",
+    ansi_code_page: None,
 };
 
 /// Tigrinya
@@ -1098,6 +1208,7 @@ pub const LANG_TI: &LanguageId = &LanguageId {
     iso639_two_letter: "ti",
     iso639_three_letter: "tir",
     windows_three_letter: "TIR",
+    ansi_code_page: None,
 };
 
 /// Guarani
@@ -1108,6 +1219,7 @@ pub const LANG_GN: &LanguageId = &LanguageId {
     iso639_two_letter: "gn",
     iso639_three_letter: "grn",
     windows_three_letter: "GRN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Hawaiian
@@ -1118,6 +1230,7 @@ pub const LANG_HAW: &LanguageId = &LanguageId {
     iso639_two_letter: "haw",
     iso639_three_letter: "haw",
     windows_three_letter: "HAW",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Yi
@@ -1128,6 +1241,7 @@ pub const LANG_II: &LanguageId = &LanguageId {
     iso639_two_letter: "ii",
     iso639_three_letter: "iii",
     windows_three_letter: "III",
+    ansi_code_page: None,
 };
 
 /// Mapudungun
@@ -1138,6 +1252,7 @@ pub const LANG_ARN: &LanguageId = &LanguageId {
     iso639_two_letter: "arn",
     iso639_three_letter: "arn",
     windows_three_letter: "MPD",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Mohawk
@@ -1148,6 +1263,7 @@ pub const LANG_MOH: &LanguageId = &LanguageId {
     iso639_two_letter: "moh",
     iso639_three_letter: "moh",
     windows_three_letter: "MWK",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Breton
@@ -1158,6 +1274,7 @@ pub const LANG_BR: &LanguageId = &LanguageId {
     iso639_two_letter: "br",
     iso639_three_letter: "bre",
     windows_three_letter: "BRE",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Invariant Language (Invariant Country)
@@ -1168,6 +1285,7 @@ pub const LANG_INVARIANT: &LanguageId = &LanguageId {
     iso639_two_letter: "iv",
     iso639_three_letter: "ivl",
     windows_three_letter: "IVL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Uyghur
@@ -1178,6 +1296,7 @@ pub const LANG_UG: &LanguageId = &LanguageId {
     iso639_two_letter: "ug",
     iso639_three_letter: "uig",
     windows_three_letter: "UIG",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Maori
@@ -1188,6 +1307,7 @@ pub const LANG_MI: &LanguageId = &LanguageId {
     iso639_two_letter: "mi",
     iso639_three_letter: "mri",
     windows_three_letter: "MRI",
+    ansi_code_page: None,
 };
 
 /// Occitan
@@ -1198,6 +1318,7 @@ pub const LANG_OC: &LanguageId = &LanguageId {
     iso639_two_letter: "oc",
     iso639_three_letter: "oci",
     windows_three_letter: "OCI",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Corsican
@@ -1208,6 +1329,7 @@ pub const LANG_CO: &LanguageId = &LanguageId {
     iso639_two_letter: "co",
     iso639_three_letter: "cos",
     windows_three_letter: "COS",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Swiss German
@@ -1218,6 +1340,7 @@ pub const LANG_GSW: &LanguageId = &LanguageId {
     iso639_two_letter: "gsw",
     iso639_three_letter: "gsw",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Sakha
@@ -1228,6 +1351,7 @@ pub const LANG_SAH: &LanguageId = &LanguageId {
     iso639_two_letter: "sah",
     iso639_three_letter: "sah",
     windows_three_letter: "SAH",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// K'iche'
@@ -1238,6 +1362,7 @@ pub const LANG_QUT: &LanguageId = &LanguageId {
     iso639_two_letter: "quc",
     iso639_three_letter: "quc",
     windows_three_letter: "QUT",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Kinyarwanda
@@ -1248,6 +1373,7 @@ pub const LANG_RW: &LanguageId = &LanguageId {
     iso639_two_letter: "rw",
     iso639_three_letter: "kin",
     windows_three_letter: "KIN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Wolof
@@ -1258,6 +1384,7 @@ pub const LANG_WO: &LanguageId = &LanguageId {
     iso639_two_letter: "wo",
     iso639_three_letter: "wol",
     windows_three_letter: "WOL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Dari
@@ -1268,6 +1395,7 @@ pub const LANG_PRS: &LanguageId = &LanguageId {
     iso639_two_letter: "prs",
     iso639_three_letter: "prs",
     windows_three_letter: "PRS",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Scottish Gaelic
@@ -1278,6 +1406,7 @@ pub const LANG_GD: &LanguageId = &LanguageId {
     iso639_two_letter: "gd",
     iso639_three_letter: "gla",
     windows_three_letter: "GLA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Central Kurdish
@@ -1288,6 +1417,7 @@ pub const LANG_KU: &LanguageId = &LanguageId {
     iso639_two_letter: "ku",
     iso639_three_letter: "kur",
     windows_three_letter: "KUR",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Arabic (Saudi Arabia)
@@ -1298,6 +1428,7 @@ pub const LANG_AR_SA: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARA",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Bulgarian (Bulgaria)
@@ -1308,6 +1439,7 @@ pub const LANG_BG_BG: &LanguageId = &LanguageId {
     iso639_two_letter: "bg",
     iso639_three_letter: "bul",
     windows_three_letter: "BGR",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Catalan (Catalan)
@@ -1318,6 +1450,7 @@ pub const LANG_CA_ES: &LanguageId = &LanguageId {
     iso639_two_letter: "ca",
     iso639_three_letter: "cat",
     windows_three_letter: "CAT",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Chinese (Traditional, Taiwan)
@@ -1328,6 +1461,7 @@ pub const LANG_ZH_TW: &LanguageId = &LanguageId {
     iso639_two_letter: "zh",
     iso639_three_letter: "zho",
     windows_three_letter: "CHT",
+    ansi_code_page: Some(AnsiCodePage::Big5),
 };
 
 /// Czech (Czechia)
@@ -1338,6 +1472,7 @@ pub const LANG_CS_CZ: &LanguageId = &LanguageId {
     iso639_two_letter: "cs",
     iso639_three_letter: "ces",
     windows_three_letter: "CSY",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Danish (Denmark)
@@ -1348,6 +1483,7 @@ pub const LANG_DA_DK: &LanguageId = &LanguageId {
     iso639_two_letter: "da",
     iso639_three_letter: "dan",
     windows_three_letter: "DAN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// German (Germany)
@@ -1358,6 +1494,7 @@ pub const LANG_DE_DE: &LanguageId = &LanguageId {
     iso639_two_letter: "de",
     iso639_three_letter: "deu",
     windows_three_letter: "DEU",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Greek (Greece)
@@ -1368,6 +1505,7 @@ pub const LANG_EL_GR: &LanguageId = &LanguageId {
     iso639_two_letter: "el",
     iso639_three_letter: "ell",
     windows_three_letter: "ELL",
+    ansi_code_page: Some(AnsiCodePage::Windows1253),
 };
 
 /// English (United States)
@@ -1378,6 +1516,7 @@ pub const LANG_EN_US: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENU",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Spain, Traditional Sort)
@@ -1388,6 +1527,7 @@ pub const LANG_ES_ES_TRADNL: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESP",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Finnish (Finland)
@@ -1398,6 +1538,7 @@ pub const LANG_FI_FI: &LanguageId = &LanguageId {
     iso639_two_letter: "fi",
     iso639_three_letter: "fin",
     windows_three_letter: "FIN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (France)
@@ -1408,6 +1549,7 @@ pub const LANG_FR_FR: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Hebrew (Israel)
@@ -1418,6 +1560,7 @@ pub const LANG_HE_IL: &LanguageId = &LanguageId {
     iso639_two_letter: "he",
     iso639_three_letter: "heb",
     windows_three_letter: "HEB",
+    ansi_code_page: Some(AnsiCodePage::Windows1255),
 };
 
 /// Hungarian (Hungary)
@@ -1428,6 +1571,7 @@ pub const LANG_HU_HU: &LanguageId = &LanguageId {
     iso639_two_letter: "hu",
     iso639_three_letter: "hun",
     windows_three_letter: "HUN",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Icelandic (Iceland)
@@ -1438,6 +1582,7 @@ pub const LANG_IS_IS: &LanguageId = &LanguageId {
     iso639_two_letter: "is",
     iso639_three_letter: "isl",
     windows_three_letter: "ISL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Italian (Italy)
@@ -1448,6 +1593,7 @@ pub const LANG_IT_IT: &LanguageId = &LanguageId {
     iso639_two_letter: "it",
     iso639_three_letter: "ita",
     windows_three_letter: "ITA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Japanese (Japan)
@@ -1458,6 +1604,7 @@ pub const LANG_JA_JP: &LanguageId = &LanguageId {
     iso639_two_letter: "ja",
     iso639_three_letter: "jpn",
     windows_three_letter: "JPN",
+    ansi_code_page: Some(AnsiCodePage::ShiftJIS),
 };
 
 /// Korean (Korea)
@@ -1468,6 +1615,7 @@ pub const LANG_KO_KR: &LanguageId = &LanguageId {
     iso639_two_letter: "ko",
     iso639_three_letter: "kor",
     windows_three_letter: "KOR",
+    ansi_code_page: Some(AnsiCodePage::KsC5601),
 };
 
 /// Dutch (Netherlands)
@@ -1478,6 +1626,7 @@ pub const LANG_NL_NL: &LanguageId = &LanguageId {
     iso639_two_letter: "nl",
     iso639_three_letter: "nld",
     windows_three_letter: "NLD",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Norwegian Bokmål (Norway)
@@ -1488,6 +1637,7 @@ pub const LANG_NB_NO: &LanguageId = &LanguageId {
     iso639_two_letter: "nb",
     iso639_three_letter: "nob",
     windows_three_letter: "NOR",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Polish (Poland)
@@ -1498,6 +1648,7 @@ pub const LANG_PL_PL: &LanguageId = &LanguageId {
     iso639_two_letter: "pl",
     iso639_three_letter: "pol",
     windows_three_letter: "PLK",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Portuguese (Brazil)
@@ -1508,6 +1659,7 @@ pub const LANG_PT_BR: &LanguageId = &LanguageId {
     iso639_two_letter: "pt",
     iso639_three_letter: "por",
     windows_three_letter: "PTB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Romansh (Switzerland)
@@ -1518,6 +1670,7 @@ pub const LANG_RM_CH: &LanguageId = &LanguageId {
     iso639_two_letter: "rm",
     iso639_three_letter: "roh",
     windows_three_letter: "RMC",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Romanian (Romania)
@@ -1528,6 +1681,7 @@ pub const LANG_RO_RO: &LanguageId = &LanguageId {
     iso639_two_letter: "ro",
     iso639_three_letter: "ron",
     windows_three_letter: "ROM",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Russian (Russia)
@@ -1538,6 +1692,7 @@ pub const LANG_RU_RU: &LanguageId = &LanguageId {
     iso639_two_letter: "ru",
     iso639_three_letter: "rus",
     windows_three_letter: "RUS",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Croatian (Croatia)
@@ -1548,6 +1703,7 @@ pub const LANG_HR_HR: &LanguageId = &LanguageId {
     iso639_two_letter: "hr",
     iso639_three_letter: "hrv",
     windows_three_letter: "HRV",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Slovak (Slovakia)
@@ -1558,6 +1714,7 @@ pub const LANG_SK_SK: &LanguageId = &LanguageId {
     iso639_two_letter: "sk",
     iso639_three_letter: "slk",
     windows_three_letter: "SKY",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Albanian (Albania)
@@ -1568,6 +1725,7 @@ pub const LANG_SQ_AL: &LanguageId = &LanguageId {
     iso639_two_letter: "sq",
     iso639_three_letter: "sqi",
     windows_three_letter: "SQI",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Swedish (Sweden)
@@ -1578,6 +1736,7 @@ pub const LANG_SV_SE: &LanguageId = &LanguageId {
     iso639_two_letter: "sv",
     iso639_three_letter: "swe",
     windows_three_letter: "SVE",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Thai (Thailand)
@@ -1588,6 +1747,7 @@ pub const LANG_TH_TH: &LanguageId = &LanguageId {
     iso639_two_letter: "th",
     iso639_three_letter: "tha",
     windows_three_letter: "THA",
+    ansi_code_page: Some(AnsiCodePage::Windows874),
 };
 
 /// Turkish (Turkey)
@@ -1598,6 +1758,7 @@ pub const LANG_TR_TR: &LanguageId = &LanguageId {
     iso639_two_letter: "tr",
     iso639_three_letter: "tur",
     windows_three_letter: "TRK",
+    ansi_code_page: Some(AnsiCodePage::Windows1254),
 };
 
 /// Urdu (Pakistan)
@@ -1608,6 +1769,7 @@ pub const LANG_UR_PK: &LanguageId = &LanguageId {
     iso639_two_letter: "ur",
     iso639_three_letter: "urd",
     windows_three_letter: "URD",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Indonesian (Indonesia)
@@ -1618,6 +1780,7 @@ pub const LANG_ID_ID: &LanguageId = &LanguageId {
     iso639_two_letter: "id",
     iso639_three_letter: "ind",
     windows_three_letter: "IND",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Ukrainian (Ukraine)
@@ -1628,6 +1791,7 @@ pub const LANG_UK_UA: &LanguageId = &LanguageId {
     iso639_two_letter: "uk",
     iso639_three_letter: "ukr",
     windows_three_letter: "UKR",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Belarusian (Belarus)
@@ -1638,6 +1802,7 @@ pub const LANG_BE_BY: &LanguageId = &LanguageId {
     iso639_two_letter: "be",
     iso639_three_letter: "bel",
     windows_three_letter: "BEL",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Slovenian (Slovenia)
@@ -1648,6 +1813,7 @@ pub const LANG_SL_SI: &LanguageId = &LanguageId {
     iso639_two_letter: "sl",
     iso639_three_letter: "slv",
     windows_three_letter: "SLV",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Estonian (Estonia)
@@ -1658,6 +1824,7 @@ pub const LANG_ET_EE: &LanguageId = &LanguageId {
     iso639_two_letter: "et",
     iso639_three_letter: "est",
     windows_three_letter: "ETI",
+    ansi_code_page: Some(AnsiCodePage::Windows1257),
 };
 
 /// Latvian (Latvia)
@@ -1668,6 +1835,7 @@ pub const LANG_LV_LV: &LanguageId = &LanguageId {
     iso639_two_letter: "lv",
     iso639_three_letter: "lav",
     windows_three_letter: "LVI",
+    ansi_code_page: Some(AnsiCodePage::Windows1257),
 };
 
 /// Lithuanian (Lithuania)
@@ -1678,6 +1846,7 @@ pub const LANG_LT_LT: &LanguageId = &LanguageId {
     iso639_two_letter: "lt",
     iso639_three_letter: "lit",
     windows_three_letter: "LTH",
+    ansi_code_page: Some(AnsiCodePage::Windows1257),
 };
 
 /// Tajik (Cyrillic, Tajikistan)
@@ -1688,6 +1857,7 @@ pub const LANG_TG_CYRL_TJ: &LanguageId = &LanguageId {
     iso639_two_letter: "tg",
     iso639_three_letter: "tgk",
     windows_three_letter: "TAJ",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Persian (Iran)
@@ -1698,6 +1868,7 @@ pub const LANG_FA_IR: &LanguageId = &LanguageId {
     iso639_two_letter: "fa",
     iso639_three_letter: "fas",
     windows_three_letter: "FAR",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Vietnamese (Vietnam)
@@ -1708,6 +1879,7 @@ pub const LANG_VI_VN: &LanguageId = &LanguageId {
     iso639_two_letter: "vi",
     iso639_three_letter: "vie",
     windows_three_letter: "VIT",
+    ansi_code_page: Some(AnsiCodePage::Windows1258),
 };
 
 /// Armenian (Armenia)
@@ -1718,6 +1890,7 @@ pub const LANG_HY_AM: &LanguageId = &LanguageId {
     iso639_two_letter: "hy",
     iso639_three_letter: "hye",
     windows_three_letter: "HYE",
+    ansi_code_page: None,
 };
 
 /// Azerbaijani (Latin, Azerbaijan)
@@ -1728,6 +1901,7 @@ pub const LANG_AZ_LATN_AZ: &LanguageId = &LanguageId {
     iso639_two_letter: "az",
     iso639_three_letter: "aze",
     windows_three_letter: "AZE",
+    ansi_code_page: Some(AnsiCodePage::Windows1254),
 };
 
 /// Basque (Basque)
@@ -1738,6 +1912,7 @@ pub const LANG_EU_ES: &LanguageId = &LanguageId {
     iso639_two_letter: "eu",
     iso639_three_letter: "eus",
     windows_three_letter: "EUQ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Upper Sorbian (Germany)
@@ -1748,6 +1923,7 @@ pub const LANG_HSB_DE: &LanguageId = &LanguageId {
     iso639_two_letter: "hsb",
     iso639_three_letter: "hsb",
     windows_three_letter: "HSB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Macedonian (Macedonia, FYRO)
@@ -1758,6 +1934,7 @@ pub const LANG_MK_MK: &LanguageId = &LanguageId {
     iso639_two_letter: "mk",
     iso639_three_letter: "mkd",
     windows_three_letter: "MKI",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Sesotho (South Africa)
@@ -1768,6 +1945,7 @@ pub const LANG_ST_ZA: &LanguageId = &LanguageId {
     iso639_two_letter: "st",
     iso639_three_letter: "sot",
     windows_three_letter: "SOT",
+    ansi_code_page: None,
 };
 
 /// Xitsonga (South Africa)
@@ -1778,6 +1956,7 @@ pub const LANG_TS_ZA: &LanguageId = &LanguageId {
     iso639_two_letter: "ts",
     iso639_three_letter: "tso",
     windows_three_letter: "TSO",
+    ansi_code_page: None,
 };
 
 /// Setswana (South Africa)
@@ -1788,6 +1967,7 @@ pub const LANG_TN_ZA: &LanguageId = &LanguageId {
     iso639_two_letter: "tn",
     iso639_three_letter: "tsn",
     windows_three_letter: "TSN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Venda (South Africa)
@@ -1798,6 +1978,7 @@ pub const LANG_VE_ZA: &LanguageId = &LanguageId {
     iso639_two_letter: "ve",
     iso639_three_letter: "ven",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// isiXhosa (South Africa)
@@ -1808,6 +1989,7 @@ pub const LANG_XH_ZA: &LanguageId = &LanguageId {
     iso639_two_letter: "xh",
     iso639_three_letter: "xho",
     windows_three_letter: "XHO",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// isiZulu (South Africa)
@@ -1818,6 +2000,7 @@ pub const LANG_ZU_ZA: &LanguageId = &LanguageId {
     iso639_two_letter: "zu",
     iso639_three_letter: "zul",
     windows_three_letter: "ZUL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Afrikaans (South Africa)
@@ -1828,6 +2011,7 @@ pub const LANG_AF_ZA: &LanguageId = &LanguageId {
     iso639_two_letter: "af",
     iso639_three_letter: "afr",
     windows_three_letter: "AFK",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Georgian (Georgia)
@@ -1838,6 +2022,7 @@ pub const LANG_KA_GE: &LanguageId = &LanguageId {
     iso639_two_letter: "ka",
     iso639_three_letter: "kat",
     windows_three_letter: "KAT",
+    ansi_code_page: None,
 };
 
 /// Faroese (Faroe Islands)
@@ -1848,6 +2033,7 @@ pub const LANG_FO_FO: &LanguageId = &LanguageId {
     iso639_two_letter: "fo",
     iso639_three_letter: "fao",
     windows_three_letter: "FOS",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Hindi (India)
@@ -1858,6 +2044,7 @@ pub const LANG_HI_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "hi",
     iso639_three_letter: "hin",
     windows_three_letter: "HIN",
+    ansi_code_page: None,
 };
 
 /// Maltese (Malta)
@@ -1868,6 +2055,7 @@ pub const LANG_MT_MT: &LanguageId = &LanguageId {
     iso639_two_letter: "mt",
     iso639_three_letter: "mlt",
     windows_three_letter: "MLT",
+    ansi_code_page: None,
 };
 
 /// Sami, Northern (Norway)
@@ -1878,6 +2066,7 @@ pub const LANG_SE_NO: &LanguageId = &LanguageId {
     iso639_two_letter: "se",
     iso639_three_letter: "sme",
     windows_three_letter: "SME",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Malay (Malaysia)
@@ -1888,6 +2077,7 @@ pub const LANG_MS_MY: &LanguageId = &LanguageId {
     iso639_two_letter: "ms",
     iso639_three_letter: "msa",
     windows_three_letter: "MSL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Kazakh (Kazakhstan)
@@ -1898,6 +2088,7 @@ pub const LANG_KK_KZ: &LanguageId = &LanguageId {
     iso639_two_letter: "kk",
     iso639_three_letter: "kaz",
     windows_three_letter: "KKZ",
+    ansi_code_page: None,
 };
 
 /// Kyrgyz (Kyrgyzstan)
@@ -1908,6 +2099,7 @@ pub const LANG_KY_KG: &LanguageId = &LanguageId {
     iso639_two_letter: "ky",
     iso639_three_letter: "kir",
     windows_three_letter: "KYR",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Kiswahili (Kenya)
@@ -1918,6 +2110,7 @@ pub const LANG_SW_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "sw",
     iso639_three_letter: "swa",
     windows_three_letter: "SWK",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Turkmen (Turkmenistan)
@@ -1928,6 +2121,7 @@ pub const LANG_TK_TM: &LanguageId = &LanguageId {
     iso639_two_letter: "tk",
     iso639_three_letter: "tuk",
     windows_three_letter: "TUK",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Uzbek (Latin, Uzbekistan)
@@ -1938,6 +2132,7 @@ pub const LANG_UZ_LATN_UZ: &LanguageId = &LanguageId {
     iso639_two_letter: "uz",
     iso639_three_letter: "uzb",
     windows_three_letter: "UZB",
+    ansi_code_page: Some(AnsiCodePage::Windows1254),
 };
 
 /// Tatar (Russia)
@@ -1948,6 +2143,7 @@ pub const LANG_TT_RU: &LanguageId = &LanguageId {
     iso639_two_letter: "tt",
     iso639_three_letter: "tat",
     windows_three_letter: "TTT",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Bangla (India)
@@ -1958,6 +2154,7 @@ pub const LANG_BN_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "bn",
     iso639_three_letter: "ben",
     windows_three_letter: "BNG",
+    ansi_code_page: None,
 };
 
 /// Punjabi (India)
@@ -1968,6 +2165,7 @@ pub const LANG_PA_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "pa",
     iso639_three_letter: "pan",
     windows_three_letter: "PAN",
+    ansi_code_page: None,
 };
 
 /// Gujarati (India)
@@ -1978,6 +2176,7 @@ pub const LANG_GU_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "gu",
     iso639_three_letter: "guj",
     windows_three_letter: "GUJ",
+    ansi_code_page: None,
 };
 
 /// Odia (India)
@@ -1988,6 +2187,7 @@ pub const LANG_OR_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "or",
     iso639_three_letter: "ori",
     windows_three_letter: "ORI",
+    ansi_code_page: None,
 };
 
 /// Tamil (India)
@@ -1998,6 +2198,7 @@ pub const LANG_TA_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "ta",
     iso639_three_letter: "tam",
     windows_three_letter: "TAI",
+    ansi_code_page: None,
 };
 
 /// Telugu (India)
@@ -2008,6 +2209,7 @@ pub const LANG_TE_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "te",
     iso639_three_letter: "tel",
     windows_three_letter: "TEL",
+    ansi_code_page: None,
 };
 
 /// Kannada (India)
@@ -2018,6 +2220,7 @@ pub const LANG_KN_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "kn",
     iso639_three_letter: "kan",
     windows_three_letter: "KDI",
+    ansi_code_page: None,
 };
 
 /// Malayalam (India)
@@ -2028,6 +2231,7 @@ pub const LANG_ML_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "ml",
     iso639_three_letter: "mal",
     windows_three_letter: "MYM",
+    ansi_code_page: None,
 };
 
 /// Assamese (India)
@@ -2038,6 +2242,7 @@ pub const LANG_AS_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "as",
     iso639_three_letter: "asm",
     windows_three_letter: "ASM",
+    ansi_code_page: None,
 };
 
 /// Marathi (India)
@@ -2048,6 +2253,7 @@ pub const LANG_MR_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "mr",
     iso639_three_letter: "mar",
     windows_three_letter: "MAR",
+    ansi_code_page: None,
 };
 
 /// Sanskrit (India)
@@ -2058,6 +2264,7 @@ pub const LANG_SA_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "sa",
     iso639_three_letter: "san",
     windows_three_letter: "SAN",
+    ansi_code_page: None,
 };
 
 /// Mongolian (Mongolia)
@@ -2068,6 +2275,7 @@ pub const LANG_MN_MN: &LanguageId = &LanguageId {
     iso639_two_letter: "mn",
     iso639_three_letter: "mon",
     windows_three_letter: "MNN",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Tibetan (China)
@@ -2078,6 +2286,7 @@ pub const LANG_BO_CN: &LanguageId = &LanguageId {
     iso639_two_letter: "bo",
     iso639_three_letter: "bod",
     windows_three_letter: "BOB",
+    ansi_code_page: None,
 };
 
 /// Welsh (United Kingdom)
@@ -2088,6 +2297,7 @@ pub const LANG_CY_GB: &LanguageId = &LanguageId {
     iso639_two_letter: "cy",
     iso639_three_letter: "cym",
     windows_three_letter: "CYM",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Khmer (Cambodia)
@@ -2098,6 +2308,7 @@ pub const LANG_KM_KH: &LanguageId = &LanguageId {
     iso639_two_letter: "km",
     iso639_three_letter: "khm",
     windows_three_letter: "KHM",
+    ansi_code_page: None,
 };
 
 /// Lao (Laos)
@@ -2108,6 +2319,7 @@ pub const LANG_LO_LA: &LanguageId = &LanguageId {
     iso639_two_letter: "lo",
     iso639_three_letter: "lao",
     windows_three_letter: "LAO",
+    ansi_code_page: None,
 };
 
 /// Burmese (Myanmar)
@@ -2118,6 +2330,7 @@ pub const LANG_MY_MM: &LanguageId = &LanguageId {
     iso639_two_letter: "my",
     iso639_three_letter: "mya",
     windows_three_letter: "MYA",
+    ansi_code_page: None,
 };
 
 /// Galician (Galician)
@@ -2128,6 +2341,7 @@ pub const LANG_GL_ES: &LanguageId = &LanguageId {
     iso639_two_letter: "gl",
     iso639_three_letter: "glg",
     windows_three_letter: "GLC",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Konkani (India)
@@ -2138,6 +2352,7 @@ pub const LANG_KOK_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "kok",
     iso639_three_letter: "kok",
     windows_three_letter: "KNK",
+    ansi_code_page: None,
 };
 
 /// Syriac (Syria)
@@ -2148,6 +2363,7 @@ pub const LANG_SYR_SY: &LanguageId = &LanguageId {
     iso639_two_letter: "syr",
     iso639_three_letter: "syr",
     windows_three_letter: "SYR",
+    ansi_code_page: None,
 };
 
 /// Sinhala (Sri Lanka)
@@ -2158,6 +2374,7 @@ pub const LANG_SI_LK: &LanguageId = &LanguageId {
     iso639_two_letter: "si",
     iso639_three_letter: "sin",
     windows_three_letter: "SIN",
+    ansi_code_page: None,
 };
 
 /// Cherokee (Cherokee, United States)
@@ -2168,6 +2385,7 @@ pub const LANG_CHR_CHER_US: &LanguageId = &LanguageId {
     iso639_two_letter: "chr",
     iso639_three_letter: "chr",
     windows_three_letter: "CRE",
+    ansi_code_page: None,
 };
 
 /// Inuktitut (Syllabics, Canada)
@@ -2178,6 +2396,7 @@ pub const LANG_IU_CANS_CA: &LanguageId = &LanguageId {
     iso639_two_letter: "iu",
     iso639_three_letter: "iku",
     windows_three_letter: "IUS",
+    ansi_code_page: None,
 };
 
 /// Amharic (Ethiopia)
@@ -2188,6 +2407,7 @@ pub const LANG_AM_ET: &LanguageId = &LanguageId {
     iso639_two_letter: "am",
     iso639_three_letter: "amh",
     windows_three_letter: "AMH",
+    ansi_code_page: None,
 };
 
 /// Kashmiri (Perso-Arabic)
@@ -2198,6 +2418,7 @@ pub const LANG_KS_ARAB: &LanguageId = &LanguageId {
     iso639_two_letter: "ks",
     iso639_three_letter: "kas",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Nepali (Nepal)
@@ -2208,6 +2429,7 @@ pub const LANG_NE_NP: &LanguageId = &LanguageId {
     iso639_two_letter: "ne",
     iso639_three_letter: "nep",
     windows_three_letter: "NEP",
+    ansi_code_page: None,
 };
 
 /// Western Frisian (Netherlands)
@@ -2218,6 +2440,7 @@ pub const LANG_FY_NL: &LanguageId = &LanguageId {
     iso639_two_letter: "fy",
     iso639_three_letter: "fry",
     windows_three_letter: "FYN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Pashto (Afghanistan)
@@ -2228,6 +2451,7 @@ pub const LANG_PS_AF: &LanguageId = &LanguageId {
     iso639_two_letter: "ps",
     iso639_three_letter: "pus",
     windows_three_letter: "PAS",
+    ansi_code_page: None,
 };
 
 /// Filipino (Philippines)
@@ -2238,6 +2462,7 @@ pub const LANG_FIL_PH: &LanguageId = &LanguageId {
     iso639_two_letter: "fil",
     iso639_three_letter: "fil",
     windows_three_letter: "FPO",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Divehi (Maldives)
@@ -2248,6 +2473,7 @@ pub const LANG_DV_MV: &LanguageId = &LanguageId {
     iso639_two_letter: "dv",
     iso639_three_letter: "div",
     windows_three_letter: "DIV",
+    ansi_code_page: None,
 };
 
 /// Hausa (Latin, Nigeria)
@@ -2258,6 +2484,7 @@ pub const LANG_HA_LATN_NG: &LanguageId = &LanguageId {
     iso639_two_letter: "ha",
     iso639_three_letter: "hau",
     windows_three_letter: "HAU",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Yoruba (Nigeria)
@@ -2268,6 +2495,7 @@ pub const LANG_YO_NG: &LanguageId = &LanguageId {
     iso639_two_letter: "yo",
     iso639_three_letter: "yor",
     windows_three_letter: "YOR",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Quechua (Bolivia)
@@ -2278,6 +2506,7 @@ pub const LANG_QUZ_BO: &LanguageId = &LanguageId {
     iso639_two_letter: "quz",
     iso639_three_letter: "qub",
     windows_three_letter: "QUB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Sesotho sa Leboa (South Africa)
@@ -2288,6 +2517,7 @@ pub const LANG_NSO_ZA: &LanguageId = &LanguageId {
     iso639_two_letter: "nso",
     iso639_three_letter: "nso",
     windows_three_letter: "NSO",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Bashkir (Russia)
@@ -2298,6 +2528,7 @@ pub const LANG_BA_RU: &LanguageId = &LanguageId {
     iso639_two_letter: "ba",
     iso639_three_letter: "bak",
     windows_three_letter: "BAS",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Luxembourgish (Luxembourg)
@@ -2308,6 +2539,7 @@ pub const LANG_LB_LU: &LanguageId = &LanguageId {
     iso639_two_letter: "lb",
     iso639_three_letter: "ltz",
     windows_three_letter: "LBX",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Greenlandic (Greenland)
@@ -2318,6 +2550,7 @@ pub const LANG_KL_GL: &LanguageId = &LanguageId {
     iso639_two_letter: "kl",
     iso639_three_letter: "kal",
     windows_three_letter: "KAL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Igbo (Nigeria)
@@ -2328,6 +2561,7 @@ pub const LANG_IG_NG: &LanguageId = &LanguageId {
     iso639_two_letter: "ig",
     iso639_three_letter: "ibo",
     windows_three_letter: "IBO",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Oromo (Ethiopia)
@@ -2338,6 +2572,7 @@ pub const LANG_OM_ET: &LanguageId = &LanguageId {
     iso639_two_letter: "om",
     iso639_three_letter: "orm",
     windows_three_letter: "ORM",
+    ansi_code_page: None,
 };
 
 /// Tigrinya (Ethiopia)
@@ -2348,6 +2583,7 @@ pub const LANG_TI_ET: &LanguageId = &LanguageId {
     iso639_two_letter: "ti",
     iso639_three_letter: "tir",
     windows_three_letter: "TIE",
+    ansi_code_page: None,
 };
 
 /// Guarani (Paraguay)
@@ -2358,6 +2594,7 @@ pub const LANG_GN_PY: &LanguageId = &LanguageId {
     iso639_two_letter: "gn",
     iso639_three_letter: "grn",
     windows_three_letter: "GRN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Hawaiian (United States)
@@ -2368,6 +2605,7 @@ pub const LANG_HAW_US: &LanguageId = &LanguageId {
     iso639_two_letter: "haw",
     iso639_three_letter: "haw",
     windows_three_letter: "HAW",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Somali (Somalia)
@@ -2378,6 +2616,7 @@ pub const LANG_SO_SO: &LanguageId = &LanguageId {
     iso639_two_letter: "so",
     iso639_three_letter: "som",
     windows_three_letter: "SOM",
+    ansi_code_page: None,
 };
 
 /// Yi (China)
@@ -2388,6 +2627,7 @@ pub const LANG_II_CN: &LanguageId = &LanguageId {
     iso639_two_letter: "ii",
     iso639_three_letter: "iii",
     windows_three_letter: "III",
+    ansi_code_page: None,
 };
 
 /// Mapudungun (Chile)
@@ -2398,6 +2638,7 @@ pub const LANG_ARN_CL: &LanguageId = &LanguageId {
     iso639_two_letter: "arn",
     iso639_three_letter: "arn",
     windows_three_letter: "MPD",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Mohawk (Mohawk)
@@ -2408,6 +2649,7 @@ pub const LANG_MOH_CA: &LanguageId = &LanguageId {
     iso639_two_letter: "moh",
     iso639_three_letter: "moh",
     windows_three_letter: "MWK",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Breton (France)
@@ -2418,6 +2660,7 @@ pub const LANG_BR_FR: &LanguageId = &LanguageId {
     iso639_two_letter: "br",
     iso639_three_letter: "bre",
     windows_three_letter: "BRE",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Uyghur (China)
@@ -2428,6 +2671,7 @@ pub const LANG_UG_CN: &LanguageId = &LanguageId {
     iso639_two_letter: "ug",
     iso639_three_letter: "uig",
     windows_three_letter: "UIG",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Maori (New Zealand)
@@ -2438,6 +2682,7 @@ pub const LANG_MI_NZ: &LanguageId = &LanguageId {
     iso639_two_letter: "mi",
     iso639_three_letter: "mri",
     windows_three_letter: "MRI",
+    ansi_code_page: None,
 };
 
 /// Occitan (France)
@@ -2448,6 +2693,7 @@ pub const LANG_OC_FR: &LanguageId = &LanguageId {
     iso639_two_letter: "oc",
     iso639_three_letter: "oci",
     windows_three_letter: "OCI",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Corsican (France)
@@ -2458,6 +2704,7 @@ pub const LANG_CO_FR: &LanguageId = &LanguageId {
     iso639_two_letter: "co",
     iso639_three_letter: "cos",
     windows_three_letter: "COS",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Alsatian (France)
@@ -2468,6 +2715,7 @@ pub const LANG_GSW_FR: &LanguageId = &LanguageId {
     iso639_two_letter: "gsw",
     iso639_three_letter: "gsw",
     windows_three_letter: "GSW",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Sakha (Russia)
@@ -2478,6 +2726,7 @@ pub const LANG_SAH_RU: &LanguageId = &LanguageId {
     iso639_two_letter: "sah",
     iso639_three_letter: "sah",
     windows_three_letter: "SAH",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Kinyarwanda (Rwanda)
@@ -2488,6 +2737,7 @@ pub const LANG_RW_RW: &LanguageId = &LanguageId {
     iso639_two_letter: "rw",
     iso639_three_letter: "kin",
     windows_three_letter: "KIN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Wolof (Senegal)
@@ -2498,6 +2748,7 @@ pub const LANG_WO_SN: &LanguageId = &LanguageId {
     iso639_two_letter: "wo",
     iso639_three_letter: "wol",
     windows_three_letter: "WOL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Dari (Afghanistan)
@@ -2508,6 +2759,7 @@ pub const LANG_PRS_AF: &LanguageId = &LanguageId {
     iso639_two_letter: "prs",
     iso639_three_letter: "prs",
     windows_three_letter: "PRS",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Scottish Gaelic (United Kingdom)
@@ -2518,6 +2770,7 @@ pub const LANG_GD_GB: &LanguageId = &LanguageId {
     iso639_two_letter: "gd",
     iso639_three_letter: "gla",
     windows_three_letter: "GLA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Central Kurdish (Iraq)
@@ -2528,6 +2781,7 @@ pub const LANG_KU_ARAB_IQ: &LanguageId = &LanguageId {
     iso639_two_letter: "ku",
     iso639_three_letter: "kur",
     windows_three_letter: "KUR",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Pseudo (Pseudo)
@@ -2538,6 +2792,7 @@ pub const LANG_QPS_PLOC: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENU",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Pseudo (Pseudo Asia)
@@ -2548,6 +2803,7 @@ pub const LANG_QPS_PLOCA: &LanguageId = &LanguageId {
     iso639_two_letter: "qps",
     iso639_three_letter: "jpn",
     windows_three_letter: "JPN",
+    ansi_code_page: Some(AnsiCodePage::ShiftJIS),
 };
 
 /// Arabic (Iraq)
@@ -2558,6 +2814,7 @@ pub const LANG_AR_IQ: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARI",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Valencian (Spain)
@@ -2568,6 +2825,7 @@ pub const LANG_CA_ES_VALENCIA: &LanguageId = &LanguageId {
     iso639_two_letter: "ca",
     iso639_three_letter: "cat",
     windows_three_letter: "VAL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Chinese (Simplified, China)
@@ -2578,6 +2836,7 @@ pub const LANG_ZH_CN: &LanguageId = &LanguageId {
     iso639_two_letter: "zh",
     iso639_three_letter: "zho",
     windows_three_letter: "CHS",
+    ansi_code_page: Some(AnsiCodePage::GB2312),
 };
 
 /// German (Switzerland)
@@ -2588,6 +2847,7 @@ pub const LANG_DE_CH: &LanguageId = &LanguageId {
     iso639_two_letter: "de",
     iso639_three_letter: "deu",
     windows_three_letter: "DES",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (United Kingdom)
@@ -2598,6 +2858,7 @@ pub const LANG_EN_GB: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENG",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Mexico)
@@ -2608,6 +2869,7 @@ pub const LANG_ES_MX: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESM",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Belgium)
@@ -2618,6 +2880,7 @@ pub const LANG_FR_BE: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Italian (Switzerland)
@@ -2628,6 +2891,7 @@ pub const LANG_IT_CH: &LanguageId = &LanguageId {
     iso639_two_letter: "it",
     iso639_three_letter: "ita",
     windows_three_letter: "ITS",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Dutch (Belgium)
@@ -2638,6 +2902,7 @@ pub const LANG_NL_BE: &LanguageId = &LanguageId {
     iso639_two_letter: "nl",
     iso639_three_letter: "nld",
     windows_three_letter: "NLB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Norwegian Nynorsk (Norway)
@@ -2648,6 +2913,7 @@ pub const LANG_NN_NO: &LanguageId = &LanguageId {
     iso639_two_letter: "nn",
     iso639_three_letter: "nno",
     windows_three_letter: "NON",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Portuguese (Portugal)
@@ -2658,6 +2924,7 @@ pub const LANG_PT_PT: &LanguageId = &LanguageId {
     iso639_two_letter: "pt",
     iso639_three_letter: "por",
     windows_three_letter: "PTG",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Romanian (Moldova)
@@ -2668,6 +2935,7 @@ pub const LANG_RO_MD: &LanguageId = &LanguageId {
     iso639_two_letter: "ro",
     iso639_three_letter: "ron",
     windows_three_letter: "ROD",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Russian (Moldova)
@@ -2678,6 +2946,7 @@ pub const LANG_RU_MD: &LanguageId = &LanguageId {
     iso639_two_letter: "ru",
     iso639_three_letter: "rus",
     windows_three_letter: "RUM",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Serbian (Latin, Serbia and Montenegro (Former))
@@ -2688,6 +2957,7 @@ pub const LANG_SR_LATN_CS: &LanguageId = &LanguageId {
     iso639_two_letter: "sr",
     iso639_three_letter: "srp",
     windows_three_letter: "SRL",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Swedish (Finland)
@@ -2698,6 +2968,7 @@ pub const LANG_SV_FI: &LanguageId = &LanguageId {
     iso639_two_letter: "sv",
     iso639_three_letter: "swe",
     windows_three_letter: "SVF",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Urdu (India)
@@ -2708,6 +2979,7 @@ pub const LANG_UR_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "ur",
     iso639_three_letter: "urd",
     windows_three_letter: "URI",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Lower Sorbian (Germany)
@@ -2718,6 +2990,7 @@ pub const LANG_DSB_DE: &LanguageId = &LanguageId {
     iso639_two_letter: "dsb",
     iso639_three_letter: "dsb",
     windows_three_letter: "DSB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Setswana (Botswana)
@@ -2728,6 +3001,7 @@ pub const LANG_TN_BW: &LanguageId = &LanguageId {
     iso639_two_letter: "tn",
     iso639_three_letter: "tsn",
     windows_three_letter: "TSB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Sami, Northern (Sweden)
@@ -2738,6 +3012,7 @@ pub const LANG_SE_SE: &LanguageId = &LanguageId {
     iso639_two_letter: "se",
     iso639_three_letter: "sme",
     windows_three_letter: "SMF",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Irish (Ireland)
@@ -2748,6 +3023,7 @@ pub const LANG_GA_IE: &LanguageId = &LanguageId {
     iso639_two_letter: "ga",
     iso639_three_letter: "gle",
     windows_three_letter: "IRE",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Malay (Brunei)
@@ -2758,6 +3034,7 @@ pub const LANG_MS_BN: &LanguageId = &LanguageId {
     iso639_two_letter: "ms",
     iso639_three_letter: "msa",
     windows_three_letter: "MSB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Bangla (Bangladesh)
@@ -2768,6 +3045,7 @@ pub const LANG_BN_BD: &LanguageId = &LanguageId {
     iso639_two_letter: "bn",
     iso639_three_letter: "ben",
     windows_three_letter: "BNB",
+    ansi_code_page: None,
 };
 
 /// Punjabi (Pakistan)
@@ -2778,6 +3056,7 @@ pub const LANG_PA_ARAB_PK: &LanguageId = &LanguageId {
     iso639_two_letter: "pa",
     iso639_three_letter: "pan",
     windows_three_letter: "PAP",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Tamil (Sri Lanka)
@@ -2788,6 +3067,7 @@ pub const LANG_TA_LK: &LanguageId = &LanguageId {
     iso639_two_letter: "ta",
     iso639_three_letter: "tam",
     windows_three_letter: "TAM",
+    ansi_code_page: None,
 };
 
 /// Sindhi (Pakistan)
@@ -2798,6 +3078,7 @@ pub const LANG_SD_ARAB_PK: &LanguageId = &LanguageId {
     iso639_two_letter: "sd",
     iso639_three_letter: "snd",
     windows_three_letter: "SIP",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Inuktitut (Latin, Canada)
@@ -2808,6 +3089,7 @@ pub const LANG_IU_LATN_CA: &LanguageId = &LanguageId {
     iso639_two_letter: "iu",
     iso639_three_letter: "iku",
     windows_three_letter: "IUK",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Central Atlas Tamazight (Latin, Algeria)
@@ -2818,6 +3100,7 @@ pub const LANG_TZM_LATN_DZ: &LanguageId = &LanguageId {
     iso639_two_letter: "tzm",
     iso639_three_letter: "tzm",
     windows_three_letter: "TZA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Nepali (India)
@@ -2828,6 +3111,7 @@ pub const LANG_NE_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "ne",
     iso639_three_letter: "nep",
     windows_three_letter: "NEI",
+    ansi_code_page: None,
 };
 
 /// Fulah (Latin, Senegal)
@@ -2838,6 +3122,7 @@ pub const LANG_FF_LATN_SN: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "FUL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Quichua (Ecuador)
@@ -2848,6 +3133,7 @@ pub const LANG_QUZ_EC: &LanguageId = &LanguageId {
     iso639_two_letter: "quz",
     iso639_three_letter: "que",
     windows_three_letter: "QUE",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Tigrinya (Eritrea)
@@ -2858,6 +3144,7 @@ pub const LANG_TI_ER: &LanguageId = &LanguageId {
     iso639_two_letter: "ti",
     iso639_three_letter: "tir",
     windows_three_letter: "TIR",
+    ansi_code_page: None,
 };
 
 /// Pseudo (Pseudo Mirrored)
@@ -2868,6 +3155,7 @@ pub const LANG_QPS_PLOCM: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARA",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Arabic (Egypt)
@@ -2878,6 +3166,7 @@ pub const LANG_AR_EG: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARE",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Chinese (Traditional, Hong Kong SAR)
@@ -2888,6 +3177,7 @@ pub const LANG_ZH_HK: &LanguageId = &LanguageId {
     iso639_two_letter: "zh",
     iso639_three_letter: "zho",
     windows_three_letter: "ZHH",
+    ansi_code_page: Some(AnsiCodePage::Big5),
 };
 
 /// German (Austria)
@@ -2898,6 +3188,7 @@ pub const LANG_DE_AT: &LanguageId = &LanguageId {
     iso639_two_letter: "de",
     iso639_three_letter: "deu",
     windows_three_letter: "DEA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Australia)
@@ -2908,6 +3199,7 @@ pub const LANG_EN_AU: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Spain, International Sort)
@@ -2918,6 +3210,7 @@ pub const LANG_ES_ES: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Canada)
@@ -2928,6 +3221,7 @@ pub const LANG_FR_CA: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRC",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Serbian (Cyrillic, Serbia and Montenegro (Former))
@@ -2938,6 +3232,7 @@ pub const LANG_SR_CYRL_CS: &LanguageId = &LanguageId {
     iso639_two_letter: "sr",
     iso639_three_letter: "srp",
     windows_three_letter: "SRB",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Sami, Northern (Finland)
@@ -2948,6 +3243,7 @@ pub const LANG_SE_FI: &LanguageId = &LanguageId {
     iso639_two_letter: "se",
     iso639_three_letter: "sme",
     windows_three_letter: "SMG",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Mongolian (Traditional Mongolian, Mongolia)
@@ -2958,6 +3254,7 @@ pub const LANG_MN_MONG_MN: &LanguageId = &LanguageId {
     iso639_two_letter: "mn",
     iso639_three_letter: "mon",
     windows_three_letter: "MNM",
+    ansi_code_page: None,
 };
 
 /// Dzongkha (Bhutan)
@@ -2968,6 +3265,7 @@ pub const LANG_DZ_BT: &LanguageId = &LanguageId {
     iso639_two_letter: "dz",
     iso639_three_letter: "dzo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Quechua (Peru)
@@ -2978,6 +3276,7 @@ pub const LANG_QUZ_PE: &LanguageId = &LanguageId {
     iso639_two_letter: "quz",
     iso639_three_letter: "qup",
     windows_three_letter: "QUP",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Afar
@@ -2988,6 +3287,7 @@ pub const LANG_AA: &LanguageId = &LanguageId {
     iso639_two_letter: "aa",
     iso639_three_letter: "aar",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Afar (Djibouti)
@@ -2998,6 +3298,7 @@ pub const LANG_AA_DJ: &LanguageId = &LanguageId {
     iso639_two_letter: "aa",
     iso639_three_letter: "aar",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Afar (Eritrea)
@@ -3008,6 +3309,7 @@ pub const LANG_AA_ER: &LanguageId = &LanguageId {
     iso639_two_letter: "aa",
     iso639_three_letter: "aar",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Afar (Ethiopia)
@@ -3018,6 +3320,7 @@ pub const LANG_AA_ET: &LanguageId = &LanguageId {
     iso639_two_letter: "aa",
     iso639_three_letter: "aar",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Afrikaans (Namibia)
@@ -3028,6 +3331,7 @@ pub const LANG_AF_NA: &LanguageId = &LanguageId {
     iso639_two_letter: "af",
     iso639_three_letter: "afr",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Aghem
@@ -3038,6 +3342,7 @@ pub const LANG_AGQ: &LanguageId = &LanguageId {
     iso639_two_letter: "agq",
     iso639_three_letter: "agq",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Aghem (Cameroon)
@@ -3048,6 +3353,7 @@ pub const LANG_AGQ_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "agq",
     iso639_three_letter: "agq",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Akan
@@ -3058,6 +3364,7 @@ pub const LANG_AK: &LanguageId = &LanguageId {
     iso639_two_letter: "ak",
     iso639_three_letter: "aka",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Akan (Ghana)
@@ -3068,6 +3375,7 @@ pub const LANG_AK_GH: &LanguageId = &LanguageId {
     iso639_two_letter: "ak",
     iso639_three_letter: "aka",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Arabic (World)
@@ -3078,6 +3386,7 @@ pub const LANG_AR_001: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Arabic (Djibouti)
@@ -3088,6 +3397,7 @@ pub const LANG_AR_DJ: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Arabic (Eritrea)
@@ -3098,6 +3408,7 @@ pub const LANG_AR_ER: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Arabic (Israel)
@@ -3108,6 +3419,7 @@ pub const LANG_AR_IL: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Arabic (Comoros)
@@ -3118,6 +3430,7 @@ pub const LANG_AR_KM: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Arabic (Mauritania)
@@ -3128,6 +3441,7 @@ pub const LANG_AR_MR: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Arabic (Palestinian Authority)
@@ -3138,6 +3452,7 @@ pub const LANG_AR_PS: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Arabic (Sudan)
@@ -3148,6 +3463,7 @@ pub const LANG_AR_SD: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Arabic (Somalia)
@@ -3158,6 +3474,7 @@ pub const LANG_AR_SO: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Arabic (South Sudan)
@@ -3168,6 +3485,7 @@ pub const LANG_AR_SS: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Arabic (Chad)
@@ -3178,6 +3496,7 @@ pub const LANG_AR_TD: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Asu
@@ -3188,6 +3507,7 @@ pub const LANG_ASA: &LanguageId = &LanguageId {
     iso639_two_letter: "asa",
     iso639_three_letter: "asa",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Asu (Tanzania)
@@ -3198,6 +3518,7 @@ pub const LANG_ASA_TZ: &LanguageId = &LanguageId {
     iso639_two_letter: "asa",
     iso639_three_letter: "asa",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Asturian
@@ -3208,6 +3529,7 @@ pub const LANG_AST: &LanguageId = &LanguageId {
     iso639_two_letter: "ast",
     iso639_three_letter: "ast",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Asturian (Spain)
@@ -3218,6 +3540,7 @@ pub const LANG_AST_ES: &LanguageId = &LanguageId {
     iso639_two_letter: "ast",
     iso639_three_letter: "ast",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Basaa
@@ -3228,6 +3551,7 @@ pub const LANG_BAS: &LanguageId = &LanguageId {
     iso639_two_letter: "bas",
     iso639_three_letter: "bas",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Basaa (Cameroon)
@@ -3238,6 +3562,7 @@ pub const LANG_BAS_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "bas",
     iso639_three_letter: "bas",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Bemba
@@ -3248,6 +3573,7 @@ pub const LANG_BEM: &LanguageId = &LanguageId {
     iso639_two_letter: "bem",
     iso639_three_letter: "bem",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Bemba (Zambia)
@@ -3258,6 +3584,7 @@ pub const LANG_BEM_ZM: &LanguageId = &LanguageId {
     iso639_two_letter: "bem",
     iso639_three_letter: "bem",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Bena
@@ -3268,6 +3595,7 @@ pub const LANG_BEZ: &LanguageId = &LanguageId {
     iso639_two_letter: "bez",
     iso639_three_letter: "bez",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Bena (Tanzania)
@@ -3278,6 +3606,7 @@ pub const LANG_BEZ_TZ: &LanguageId = &LanguageId {
     iso639_two_letter: "bez",
     iso639_three_letter: "bez",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Bamanankan
@@ -3288,6 +3617,7 @@ pub const LANG_BM: &LanguageId = &LanguageId {
     iso639_two_letter: "bm",
     iso639_three_letter: "bam",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Bamanankan (Latin, Mali)
@@ -3298,6 +3628,7 @@ pub const LANG_BM_ML: &LanguageId = &LanguageId {
     iso639_two_letter: "bm",
     iso639_three_letter: "bam",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Tibetan (India)
@@ -3308,6 +3639,7 @@ pub const LANG_BO_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "bo",
     iso639_three_letter: "bod",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Bodo
@@ -3318,6 +3650,7 @@ pub const LANG_BRX: &LanguageId = &LanguageId {
     iso639_two_letter: "brx",
     iso639_three_letter: "brx",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Bodo (India)
@@ -3328,6 +3661,7 @@ pub const LANG_BRX_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "brx",
     iso639_three_letter: "brx",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Blin
@@ -3338,6 +3672,7 @@ pub const LANG_BYN: &LanguageId = &LanguageId {
     iso639_two_letter: "byn",
     iso639_three_letter: "byn",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Blin (Eritrea)
@@ -3348,6 +3683,7 @@ pub const LANG_BYN_ER: &LanguageId = &LanguageId {
     iso639_two_letter: "byn",
     iso639_three_letter: "byn",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Catalan (Andorra)
@@ -3358,6 +3694,7 @@ pub const LANG_CA_AD: &LanguageId = &LanguageId {
     iso639_two_letter: "ca",
     iso639_three_letter: "cat",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Catalan (France)
@@ -3368,6 +3705,7 @@ pub const LANG_CA_FR: &LanguageId = &LanguageId {
     iso639_two_letter: "ca",
     iso639_three_letter: "cat",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Catalan (Italy)
@@ -3378,6 +3716,7 @@ pub const LANG_CA_IT: &LanguageId = &LanguageId {
     iso639_two_letter: "ca",
     iso639_three_letter: "cat",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Language (ccp)
@@ -3388,6 +3727,7 @@ pub const LANG_CCP: &LanguageId = &LanguageId {
     iso639_two_letter: "ccp",
     iso639_three_letter: "ccp",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Language (ccp-Cakm)
@@ -3398,6 +3738,7 @@ pub const LANG_CCP_CAKM: &LanguageId = &LanguageId {
     iso639_two_letter: "ccp",
     iso639_three_letter: "ccp",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ccp-Cakm-BD)
@@ -3408,6 +3749,7 @@ pub const LANG_CCP_CAKM_BD: &LanguageId = &LanguageId {
     iso639_two_letter: "ccp",
     iso639_three_letter: "ccp",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ccp-Cakm-IN)
@@ -3418,6 +3760,7 @@ pub const LANG_CCP_CAKM_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "ccp",
     iso639_three_letter: "ccp",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Chechen (Russia)
@@ -3428,6 +3771,7 @@ pub const LANG_CE_RU: &LanguageId = &LanguageId {
     iso639_two_letter: "ce",
     iso639_three_letter: "che",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Unknown Language (ceb)
@@ -3438,6 +3782,7 @@ pub const LANG_CEB: &LanguageId = &LanguageId {
     iso639_two_letter: "ceb",
     iso639_three_letter: "ceb",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Language (ceb-Latn)
@@ -3448,6 +3793,7 @@ pub const LANG_CEB_LATN: &LanguageId = &LanguageId {
     iso639_two_letter: "ceb",
     iso639_three_letter: "ceb",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ceb-Latn-PH)
@@ -3458,6 +3804,7 @@ pub const LANG_CEB_LATN_PH: &LanguageId = &LanguageId {
     iso639_two_letter: "ceb",
     iso639_three_letter: "ceb",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Chiga
@@ -3468,6 +3815,7 @@ pub const LANG_CGG: &LanguageId = &LanguageId {
     iso639_two_letter: "cgg",
     iso639_three_letter: "cgg",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Chiga (Uganda)
@@ -3478,6 +3826,7 @@ pub const LANG_CGG_UG: &LanguageId = &LanguageId {
     iso639_two_letter: "cgg",
     iso639_three_letter: "cgg",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Church Slavic (Russia)
@@ -3488,6 +3837,7 @@ pub const LANG_CU_RU: &LanguageId = &LanguageId {
     iso639_two_letter: "cu",
     iso639_three_letter: "chu",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Danish (Greenland)
@@ -3498,6 +3848,7 @@ pub const LANG_DA_GL: &LanguageId = &LanguageId {
     iso639_two_letter: "da",
     iso639_three_letter: "dan",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Taita
@@ -3508,6 +3859,7 @@ pub const LANG_DAV: &LanguageId = &LanguageId {
     iso639_two_letter: "dav",
     iso639_three_letter: "dav",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Taita (Kenya)
@@ -3518,6 +3870,7 @@ pub const LANG_DAV_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "dav",
     iso639_three_letter: "dav",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// German (Belgium)
@@ -3528,6 +3881,7 @@ pub const LANG_DE_BE: &LanguageId = &LanguageId {
     iso639_two_letter: "de",
     iso639_three_letter: "deu",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// German (Italy)
@@ -3538,6 +3892,7 @@ pub const LANG_DE_IT: &LanguageId = &LanguageId {
     iso639_two_letter: "de",
     iso639_three_letter: "deu",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Zarma
@@ -3548,6 +3903,7 @@ pub const LANG_DJE: &LanguageId = &LanguageId {
     iso639_two_letter: "dje",
     iso639_three_letter: "dje",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Zarma (Niger)
@@ -3558,6 +3914,7 @@ pub const LANG_DJE_NE: &LanguageId = &LanguageId {
     iso639_two_letter: "dje",
     iso639_three_letter: "dje",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Duala
@@ -3568,6 +3925,7 @@ pub const LANG_DUA: &LanguageId = &LanguageId {
     iso639_two_letter: "dua",
     iso639_three_letter: "dua",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Duala (Cameroon)
@@ -3578,6 +3936,7 @@ pub const LANG_DUA_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "dua",
     iso639_three_letter: "dua",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Jola-Fonyi
@@ -3588,6 +3947,7 @@ pub const LANG_DYO: &LanguageId = &LanguageId {
     iso639_two_letter: "dyo",
     iso639_three_letter: "dyo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Jola-Fonyi (Senegal)
@@ -3598,6 +3958,7 @@ pub const LANG_DYO_SN: &LanguageId = &LanguageId {
     iso639_two_letter: "dyo",
     iso639_three_letter: "dyo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Dzongkha
@@ -3608,6 +3969,7 @@ pub const LANG_DZ: &LanguageId = &LanguageId {
     iso639_two_letter: "dz",
     iso639_three_letter: "dzo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Embu
@@ -3618,6 +3980,7 @@ pub const LANG_EBU: &LanguageId = &LanguageId {
     iso639_two_letter: "ebu",
     iso639_three_letter: "ebu",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Embu (Kenya)
@@ -3628,6 +3991,7 @@ pub const LANG_EBU_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "ebu",
     iso639_three_letter: "ebu",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Ewe
@@ -3638,6 +4002,7 @@ pub const LANG_EE: &LanguageId = &LanguageId {
     iso639_two_letter: "ee",
     iso639_three_letter: "ewe",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Ewe (Ghana)
@@ -3648,6 +4013,7 @@ pub const LANG_EE_GH: &LanguageId = &LanguageId {
     iso639_two_letter: "ee",
     iso639_three_letter: "ewe",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Ewe (Togo)
@@ -3658,6 +4024,7 @@ pub const LANG_EE_TG: &LanguageId = &LanguageId {
     iso639_two_letter: "ee",
     iso639_three_letter: "ewe",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Greek (Cyprus)
@@ -3668,6 +4035,7 @@ pub const LANG_EL_CY: &LanguageId = &LanguageId {
     iso639_two_letter: "el",
     iso639_three_letter: "ell",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1253),
 };
 
 /// English (World)
@@ -3678,6 +4046,7 @@ pub const LANG_EN_001: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Europe)
@@ -3688,6 +4057,7 @@ pub const LANG_EN_150: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// English (Antigua and Barbuda)
@@ -3698,6 +4068,7 @@ pub const LANG_EN_AG: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Anguilla)
@@ -3708,6 +4079,7 @@ pub const LANG_EN_AI: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (American Samoa)
@@ -3718,6 +4090,7 @@ pub const LANG_EN_AS: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Austria)
@@ -3728,6 +4101,7 @@ pub const LANG_EN_AT: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// English (Barbados)
@@ -3738,6 +4112,7 @@ pub const LANG_EN_BB: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Belgium)
@@ -3748,6 +4123,7 @@ pub const LANG_EN_BE: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Burundi)
@@ -3758,6 +4134,7 @@ pub const LANG_EN_BI: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// English (Bermuda)
@@ -3768,6 +4145,7 @@ pub const LANG_EN_BM: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Bahamas)
@@ -3778,6 +4156,7 @@ pub const LANG_EN_BS: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Botswana)
@@ -3788,6 +4167,7 @@ pub const LANG_EN_BW: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Cocos (Keeling) Islands)
@@ -3798,6 +4178,7 @@ pub const LANG_EN_CC: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Switzerland)
@@ -3808,6 +4189,7 @@ pub const LANG_EN_CH: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// English (Cook Islands)
@@ -3818,6 +4200,7 @@ pub const LANG_EN_CK: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Cameroon)
@@ -3828,6 +4211,7 @@ pub const LANG_EN_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Christmas Island)
@@ -3838,6 +4222,7 @@ pub const LANG_EN_CX: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Cyprus)
@@ -3848,6 +4233,7 @@ pub const LANG_EN_CY: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// English (Germany)
@@ -3858,6 +4244,7 @@ pub const LANG_EN_DE: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// English (Denmark)
@@ -3868,6 +4255,7 @@ pub const LANG_EN_DK: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// English (Dominica)
@@ -3878,6 +4266,7 @@ pub const LANG_EN_DM: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Eritrea)
@@ -3888,6 +4277,7 @@ pub const LANG_EN_ER: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Finland)
@@ -3898,6 +4288,7 @@ pub const LANG_EN_FI: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// English (Fiji)
@@ -3908,6 +4299,7 @@ pub const LANG_EN_FJ: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Falkland Islands)
@@ -3918,6 +4310,7 @@ pub const LANG_EN_FK: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Micronesia)
@@ -3928,6 +4321,7 @@ pub const LANG_EN_FM: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Grenada)
@@ -3938,6 +4332,7 @@ pub const LANG_EN_GD: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Guernsey)
@@ -3948,6 +4343,7 @@ pub const LANG_EN_GG: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Ghana)
@@ -3958,6 +4354,7 @@ pub const LANG_EN_GH: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Gibraltar)
@@ -3968,6 +4365,7 @@ pub const LANG_EN_GI: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Gambia)
@@ -3978,6 +4376,7 @@ pub const LANG_EN_GM: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Guam)
@@ -3988,6 +4387,7 @@ pub const LANG_EN_GU: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Guyana)
@@ -3998,6 +4398,7 @@ pub const LANG_EN_GY: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Israel)
@@ -4008,6 +4409,7 @@ pub const LANG_EN_IL: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// English (Isle of Man)
@@ -4018,6 +4420,7 @@ pub const LANG_EN_IM: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (British Indian Ocean Territory)
@@ -4028,6 +4431,7 @@ pub const LANG_EN_IO: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Jersey)
@@ -4038,6 +4442,7 @@ pub const LANG_EN_JE: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Kenya)
@@ -4048,6 +4453,7 @@ pub const LANG_EN_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Kiribati)
@@ -4058,6 +4464,7 @@ pub const LANG_EN_KI: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Saint Kitts and Nevis)
@@ -4068,6 +4475,7 @@ pub const LANG_EN_KN: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Cayman Islands)
@@ -4078,6 +4486,7 @@ pub const LANG_EN_KY: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Saint Lucia)
@@ -4088,6 +4497,7 @@ pub const LANG_EN_LC: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Liberia)
@@ -4098,6 +4508,7 @@ pub const LANG_EN_LR: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Lesotho)
@@ -4108,6 +4519,7 @@ pub const LANG_EN_LS: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Madagascar)
@@ -4118,6 +4530,7 @@ pub const LANG_EN_MG: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Marshall Islands)
@@ -4128,6 +4541,7 @@ pub const LANG_EN_MH: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Macao SAR)
@@ -4138,6 +4552,7 @@ pub const LANG_EN_MO: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Northern Mariana Islands)
@@ -4148,6 +4563,7 @@ pub const LANG_EN_MP: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Montserrat)
@@ -4158,6 +4574,7 @@ pub const LANG_EN_MS: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Malta)
@@ -4168,6 +4585,7 @@ pub const LANG_EN_MT: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Mauritius)
@@ -4178,6 +4596,7 @@ pub const LANG_EN_MU: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Malawi)
@@ -4188,6 +4607,7 @@ pub const LANG_EN_MW: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Namibia)
@@ -4198,6 +4618,7 @@ pub const LANG_EN_NA: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Norfolk Island)
@@ -4208,6 +4629,7 @@ pub const LANG_EN_NF: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Nigeria)
@@ -4218,6 +4640,7 @@ pub const LANG_EN_NG: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Netherlands)
@@ -4228,6 +4651,7 @@ pub const LANG_EN_NL: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// English (Nauru)
@@ -4238,6 +4662,7 @@ pub const LANG_EN_NR: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Niue)
@@ -4248,6 +4673,7 @@ pub const LANG_EN_NU: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Papua New Guinea)
@@ -4258,6 +4684,7 @@ pub const LANG_EN_PG: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Pakistan)
@@ -4268,6 +4695,7 @@ pub const LANG_EN_PK: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Pitcairn Islands)
@@ -4278,6 +4706,7 @@ pub const LANG_EN_PN: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Puerto Rico)
@@ -4288,6 +4717,7 @@ pub const LANG_EN_PR: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Palau)
@@ -4298,6 +4728,7 @@ pub const LANG_EN_PW: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Rwanda)
@@ -4308,6 +4739,7 @@ pub const LANG_EN_RW: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Solomon Islands)
@@ -4318,6 +4750,7 @@ pub const LANG_EN_SB: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Seychelles)
@@ -4328,6 +4761,7 @@ pub const LANG_EN_SC: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Sudan)
@@ -4338,6 +4772,7 @@ pub const LANG_EN_SD: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Sweden)
@@ -4348,6 +4783,7 @@ pub const LANG_EN_SE: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// English (St Helena, Ascension, Tristan da Cunha)
@@ -4358,6 +4794,7 @@ pub const LANG_EN_SH: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Slovenia)
@@ -4368,6 +4805,7 @@ pub const LANG_EN_SI: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// English (Sierra Leone)
@@ -4378,6 +4816,7 @@ pub const LANG_EN_SL: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (South Sudan)
@@ -4388,6 +4827,7 @@ pub const LANG_EN_SS: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Sint Maarten)
@@ -4398,6 +4838,7 @@ pub const LANG_EN_SX: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Swaziland)
@@ -4408,6 +4849,7 @@ pub const LANG_EN_SZ: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Turks and Caicos Islands)
@@ -4418,6 +4860,7 @@ pub const LANG_EN_TC: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Tokelau)
@@ -4428,6 +4871,7 @@ pub const LANG_EN_TK: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Tonga)
@@ -4438,6 +4882,7 @@ pub const LANG_EN_TO: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Tuvalu)
@@ -4448,6 +4893,7 @@ pub const LANG_EN_TV: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Tanzania)
@@ -4458,6 +4904,7 @@ pub const LANG_EN_TZ: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Uganda)
@@ -4468,6 +4915,7 @@ pub const LANG_EN_UG: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (U.S. Outlying Islands)
@@ -4478,6 +4926,7 @@ pub const LANG_EN_UM: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Saint Vincent and the Grenadines)
@@ -4488,6 +4937,7 @@ pub const LANG_EN_VC: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (British Virgin Islands)
@@ -4498,6 +4948,7 @@ pub const LANG_EN_VG: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (U.S. Virgin Islands)
@@ -4508,6 +4959,7 @@ pub const LANG_EN_VI: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Vanuatu)
@@ -4518,6 +4970,7 @@ pub const LANG_EN_VU: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Samoa)
@@ -4528,6 +4981,7 @@ pub const LANG_EN_WS: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Zambia)
@@ -4538,6 +4992,7 @@ pub const LANG_EN_ZM: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Esperanto
@@ -4548,6 +5003,7 @@ pub const LANG_EO: &LanguageId = &LanguageId {
     iso639_two_letter: "eo",
     iso639_three_letter: "epo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Esperanto (World)
@@ -4558,6 +5014,7 @@ pub const LANG_EO_001: &LanguageId = &LanguageId {
     iso639_two_letter: "eo",
     iso639_three_letter: "epo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Spanish (Brazil)
@@ -4568,6 +5025,7 @@ pub const LANG_ES_BR: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Spanish (Belize)
@@ -4578,6 +5036,7 @@ pub const LANG_ES_BZ: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Spanish (Equatorial Guinea)
@@ -4588,6 +5047,7 @@ pub const LANG_ES_GQ: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Philippines)
@@ -4598,6 +5058,7 @@ pub const LANG_ES_PH: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Ewondo
@@ -4608,6 +5069,7 @@ pub const LANG_EWO: &LanguageId = &LanguageId {
     iso639_two_letter: "ewo",
     iso639_three_letter: "ewo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Ewondo (Cameroon)
@@ -4618,6 +5080,7 @@ pub const LANG_EWO_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "ewo",
     iso639_three_letter: "ewo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Dari (Afghanistan)
@@ -4628,6 +5091,7 @@ pub const LANG_FA_AF: &LanguageId = &LanguageId {
     iso639_two_letter: "prs",
     iso639_three_letter: "prs",
     windows_three_letter: "PRS",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Fulah (Cameroon)
@@ -4638,6 +5102,7 @@ pub const LANG_FF_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Fulah (Guinea)
@@ -4648,6 +5113,7 @@ pub const LANG_FF_GN: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ff-Latn-BF)
@@ -4658,6 +5124,7 @@ pub const LANG_FF_LATN_BF: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "FUL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ff-Latn-CM)
@@ -4668,6 +5135,7 @@ pub const LANG_FF_LATN_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ff-Latn-GH)
@@ -4678,6 +5146,7 @@ pub const LANG_FF_LATN_GH: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "FUL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ff-Latn-GM)
@@ -4688,6 +5157,7 @@ pub const LANG_FF_LATN_GM: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "FUL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ff-Latn-GN)
@@ -4698,6 +5168,7 @@ pub const LANG_FF_LATN_GN: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ff-Latn-GW)
@@ -4708,6 +5179,7 @@ pub const LANG_FF_LATN_GW: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "FUL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ff-Latn-LR)
@@ -4718,6 +5190,7 @@ pub const LANG_FF_LATN_LR: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "FUL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ff-Latn-MR)
@@ -4728,6 +5201,7 @@ pub const LANG_FF_LATN_MR: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ff-Latn-NE)
@@ -4738,6 +5212,7 @@ pub const LANG_FF_LATN_NE: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "FUL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ff-Latn-NG)
@@ -4748,6 +5223,7 @@ pub const LANG_FF_LATN_NG: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ff-Latn-SL)
@@ -4758,6 +5234,7 @@ pub const LANG_FF_LATN_SL: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "FUL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Fulah (Mauritania)
@@ -4768,6 +5245,7 @@ pub const LANG_FF_MR: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Fulah (Nigeria)
@@ -4778,6 +5256,7 @@ pub const LANG_FF_NG: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Faroese (Denmark)
@@ -4788,6 +5267,7 @@ pub const LANG_FO_DK: &LanguageId = &LanguageId {
     iso639_two_letter: "fo",
     iso639_three_letter: "fao",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// French (Burkina Faso)
@@ -4798,6 +5278,7 @@ pub const LANG_FR_BF: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Burundi)
@@ -4808,6 +5289,7 @@ pub const LANG_FR_BI: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Benin)
@@ -4818,6 +5300,7 @@ pub const LANG_FR_BJ: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Saint Barthélemy)
@@ -4828,6 +5311,7 @@ pub const LANG_FR_BL: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Central African Republic)
@@ -4838,6 +5322,7 @@ pub const LANG_FR_CF: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Congo)
@@ -4848,6 +5333,7 @@ pub const LANG_FR_CG: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Djibouti)
@@ -4858,6 +5344,7 @@ pub const LANG_FR_DJ: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Algeria)
@@ -4868,6 +5355,7 @@ pub const LANG_FR_DZ: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Gabon)
@@ -4878,6 +5366,7 @@ pub const LANG_FR_GA: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (French Guiana)
@@ -4888,6 +5377,7 @@ pub const LANG_FR_GF: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Guinea)
@@ -4898,6 +5388,7 @@ pub const LANG_FR_GN: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Guadeloupe)
@@ -4908,6 +5399,7 @@ pub const LANG_FR_GP: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Equatorial Guinea)
@@ -4918,6 +5410,7 @@ pub const LANG_FR_GQ: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Comoros)
@@ -4928,6 +5421,7 @@ pub const LANG_FR_KM: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Saint Martin)
@@ -4938,6 +5432,7 @@ pub const LANG_FR_MF: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Madagascar)
@@ -4948,6 +5443,7 @@ pub const LANG_FR_MG: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Martinique)
@@ -4958,6 +5454,7 @@ pub const LANG_FR_MQ: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Mauritania)
@@ -4968,6 +5465,7 @@ pub const LANG_FR_MR: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Mauritius)
@@ -4978,6 +5476,7 @@ pub const LANG_FR_MU: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (New Caledonia)
@@ -4988,6 +5487,7 @@ pub const LANG_FR_NC: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Niger)
@@ -4998,6 +5498,7 @@ pub const LANG_FR_NE: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (French Polynesia)
@@ -5008,6 +5509,7 @@ pub const LANG_FR_PF: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Saint Pierre and Miquelon)
@@ -5018,6 +5520,7 @@ pub const LANG_FR_PM: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Rwanda)
@@ -5028,6 +5531,7 @@ pub const LANG_FR_RW: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Seychelles)
@@ -5038,6 +5542,7 @@ pub const LANG_FR_SC: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Syria)
@@ -5048,6 +5553,7 @@ pub const LANG_FR_SY: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Chad)
@@ -5058,6 +5564,7 @@ pub const LANG_FR_TD: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Togo)
@@ -5068,6 +5575,7 @@ pub const LANG_FR_TG: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Tunisia)
@@ -5078,6 +5586,7 @@ pub const LANG_FR_TN: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Vanuatu)
@@ -5088,6 +5597,7 @@ pub const LANG_FR_VU: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Wallis and Futuna)
@@ -5098,6 +5608,7 @@ pub const LANG_FR_WF: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Mayotte)
@@ -5108,6 +5619,7 @@ pub const LANG_FR_YT: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Friulian
@@ -5118,6 +5630,7 @@ pub const LANG_FUR: &LanguageId = &LanguageId {
     iso639_two_letter: "fur",
     iso639_three_letter: "fur",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Friulian (Italy)
@@ -5128,6 +5641,7 @@ pub const LANG_FUR_IT: &LanguageId = &LanguageId {
     iso639_two_letter: "fur",
     iso639_three_letter: "fur",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Swiss German (Switzerland)
@@ -5138,6 +5652,7 @@ pub const LANG_GSW_CH: &LanguageId = &LanguageId {
     iso639_two_letter: "gsw",
     iso639_three_letter: "gsw",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Swiss German (Liechtenstein)
@@ -5148,6 +5663,7 @@ pub const LANG_GSW_LI: &LanguageId = &LanguageId {
     iso639_two_letter: "gsw",
     iso639_three_letter: "gsw",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Gusii
@@ -5158,6 +5674,7 @@ pub const LANG_GUZ: &LanguageId = &LanguageId {
     iso639_two_letter: "guz",
     iso639_three_letter: "guz",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Gusii (Kenya)
@@ -5168,6 +5685,7 @@ pub const LANG_GUZ_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "guz",
     iso639_three_letter: "guz",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Manx
@@ -5178,6 +5696,7 @@ pub const LANG_GV: &LanguageId = &LanguageId {
     iso639_two_letter: "gv",
     iso639_three_letter: "glv",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Manx (Isle of Man)
@@ -5188,6 +5707,7 @@ pub const LANG_GV_IM: &LanguageId = &LanguageId {
     iso639_two_letter: "gv",
     iso639_three_letter: "glv",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Hausa (Latin, Ghana)
@@ -5198,6 +5718,7 @@ pub const LANG_HA_LATN_GH: &LanguageId = &LanguageId {
     iso639_two_letter: "ha",
     iso639_three_letter: "hau",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Hausa (Latin, Niger)
@@ -5208,6 +5729,7 @@ pub const LANG_HA_LATN_NE: &LanguageId = &LanguageId {
     iso639_two_letter: "ha",
     iso639_three_letter: "hau",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Interlingua
@@ -5218,6 +5740,7 @@ pub const LANG_IA: &LanguageId = &LanguageId {
     iso639_two_letter: "ia",
     iso639_three_letter: "ina",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Interlingua (World)
@@ -5228,6 +5751,7 @@ pub const LANG_IA_001: &LanguageId = &LanguageId {
     iso639_two_letter: "ia",
     iso639_three_letter: "ina",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Interlingua (France)
@@ -5238,6 +5762,7 @@ pub const LANG_IA_FR: &LanguageId = &LanguageId {
     iso639_two_letter: "ia",
     iso639_three_letter: "ina",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Italian (San Marino)
@@ -5248,6 +5773,7 @@ pub const LANG_IT_SM: &LanguageId = &LanguageId {
     iso639_two_letter: "it",
     iso639_three_letter: "ita",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Italian (Vatican City)
@@ -5258,6 +5784,7 @@ pub const LANG_IT_VA: &LanguageId = &LanguageId {
     iso639_two_letter: "it",
     iso639_three_letter: "ita",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Ngomba
@@ -5268,6 +5795,7 @@ pub const LANG_JGO: &LanguageId = &LanguageId {
     iso639_two_letter: "jgo",
     iso639_three_letter: "jgo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Ngomba (Cameroon)
@@ -5278,6 +5806,7 @@ pub const LANG_JGO_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "jgo",
     iso639_three_letter: "jgo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Machame
@@ -5288,6 +5817,7 @@ pub const LANG_JMC: &LanguageId = &LanguageId {
     iso639_two_letter: "jmc",
     iso639_three_letter: "jmc",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Machame (Tanzania)
@@ -5298,6 +5828,7 @@ pub const LANG_JMC_TZ: &LanguageId = &LanguageId {
     iso639_two_letter: "jmc",
     iso639_three_letter: "jmc",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Javanese
@@ -5308,6 +5839,7 @@ pub const LANG_JV: &LanguageId = &LanguageId {
     iso639_two_letter: "jv",
     iso639_three_letter: "jav",
     windows_three_letter: "JAV",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Javanese
@@ -5318,6 +5850,7 @@ pub const LANG_JV_LATN: &LanguageId = &LanguageId {
     iso639_two_letter: "jv",
     iso639_three_letter: "jav",
     windows_three_letter: "JAV",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Javanese (Indonesia)
@@ -5328,6 +5861,7 @@ pub const LANG_JV_LATN_ID: &LanguageId = &LanguageId {
     iso639_two_letter: "jv",
     iso639_three_letter: "jav",
     windows_three_letter: "JAV",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Kabyle
@@ -5338,6 +5872,7 @@ pub const LANG_KAB: &LanguageId = &LanguageId {
     iso639_two_letter: "kab",
     iso639_three_letter: "kab",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kabyle (Algeria)
@@ -5348,6 +5883,7 @@ pub const LANG_KAB_DZ: &LanguageId = &LanguageId {
     iso639_two_letter: "kab",
     iso639_three_letter: "kab",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kamba
@@ -5358,6 +5894,7 @@ pub const LANG_KAM: &LanguageId = &LanguageId {
     iso639_two_letter: "kam",
     iso639_three_letter: "kam",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kamba (Kenya)
@@ -5368,6 +5905,7 @@ pub const LANG_KAM_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "kam",
     iso639_three_letter: "kam",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Makonde
@@ -5378,6 +5916,7 @@ pub const LANG_KDE: &LanguageId = &LanguageId {
     iso639_two_letter: "kde",
     iso639_three_letter: "kde",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Makonde (Tanzania)
@@ -5388,6 +5927,7 @@ pub const LANG_KDE_TZ: &LanguageId = &LanguageId {
     iso639_two_letter: "kde",
     iso639_three_letter: "kde",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kabuverdianu
@@ -5398,6 +5938,7 @@ pub const LANG_KEA: &LanguageId = &LanguageId {
     iso639_two_letter: "kea",
     iso639_three_letter: "kea",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kabuverdianu (Cabo Verde)
@@ -5408,6 +5949,7 @@ pub const LANG_KEA_CV: &LanguageId = &LanguageId {
     iso639_two_letter: "kea",
     iso639_three_letter: "kea",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Koyra Chiini
@@ -5418,6 +5960,7 @@ pub const LANG_KHQ: &LanguageId = &LanguageId {
     iso639_two_letter: "khq",
     iso639_three_letter: "khq",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Koyra Chiini (Mali)
@@ -5428,6 +5971,7 @@ pub const LANG_KHQ_ML: &LanguageId = &LanguageId {
     iso639_two_letter: "khq",
     iso639_three_letter: "khq",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kikuyu
@@ -5438,6 +5982,7 @@ pub const LANG_KI: &LanguageId = &LanguageId {
     iso639_two_letter: "ki",
     iso639_three_letter: "kik",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kikuyu (Kenya)
@@ -5448,6 +5993,7 @@ pub const LANG_KI_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "ki",
     iso639_three_letter: "kik",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kako
@@ -5458,6 +6004,7 @@ pub const LANG_KKJ: &LanguageId = &LanguageId {
     iso639_two_letter: "kkj",
     iso639_three_letter: "kkj",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kako (Cameroon)
@@ -5468,6 +6015,7 @@ pub const LANG_KKJ_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "kkj",
     iso639_three_letter: "kkj",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kalenjin
@@ -5478,6 +6026,7 @@ pub const LANG_KLN: &LanguageId = &LanguageId {
     iso639_two_letter: "kln",
     iso639_three_letter: "kln",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kalenjin (Kenya)
@@ -5488,6 +6037,7 @@ pub const LANG_KLN_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "kln",
     iso639_three_letter: "kln",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Korean (North Korea)
@@ -5498,6 +6048,7 @@ pub const LANG_KO_KP: &LanguageId = &LanguageId {
     iso639_two_letter: "ko",
     iso639_three_letter: "kor",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kashmiri (Perso-Arabic)
@@ -5508,6 +6059,7 @@ pub const LANG_KS_ARAB_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "ks",
     iso639_three_letter: "kas",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Shambala
@@ -5518,6 +6070,7 @@ pub const LANG_KSB: &LanguageId = &LanguageId {
     iso639_two_letter: "ksb",
     iso639_three_letter: "ksb",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Shambala (Tanzania)
@@ -5528,6 +6081,7 @@ pub const LANG_KSB_TZ: &LanguageId = &LanguageId {
     iso639_two_letter: "ksb",
     iso639_three_letter: "ksb",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Bafia
@@ -5538,6 +6092,7 @@ pub const LANG_KSF: &LanguageId = &LanguageId {
     iso639_two_letter: "ksf",
     iso639_three_letter: "ksf",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Bafia (Cameroon)
@@ -5548,6 +6103,7 @@ pub const LANG_KSF_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "ksf",
     iso639_three_letter: "ksf",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Colognian
@@ -5558,6 +6114,7 @@ pub const LANG_KSH: &LanguageId = &LanguageId {
     iso639_two_letter: "ksh",
     iso639_three_letter: "ksh",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Colognian (Germany)
@@ -5568,6 +6125,7 @@ pub const LANG_KSH_DE: &LanguageId = &LanguageId {
     iso639_two_letter: "ksh",
     iso639_three_letter: "ksh",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kurdish (Perso-Arabic, Iran)
@@ -5578,6 +6136,7 @@ pub const LANG_KU_ARAB_IR: &LanguageId = &LanguageId {
     iso639_two_letter: "ku",
     iso639_three_letter: "kur",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Cornish
@@ -5588,6 +6147,7 @@ pub const LANG_KW: &LanguageId = &LanguageId {
     iso639_two_letter: "kw",
     iso639_three_letter: "cor",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Cornish (United Kingdom)
@@ -5598,6 +6158,7 @@ pub const LANG_KW_GB: &LanguageId = &LanguageId {
     iso639_two_letter: "kw",
     iso639_three_letter: "cor",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Langi
@@ -5608,6 +6169,7 @@ pub const LANG_LAG: &LanguageId = &LanguageId {
     iso639_two_letter: "lag",
     iso639_three_letter: "lag",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Langi (Tanzania)
@@ -5618,6 +6180,7 @@ pub const LANG_LAG_TZ: &LanguageId = &LanguageId {
     iso639_two_letter: "lag",
     iso639_three_letter: "lag",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Ganda
@@ -5628,6 +6191,7 @@ pub const LANG_LG: &LanguageId = &LanguageId {
     iso639_two_letter: "lg",
     iso639_three_letter: "lug",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Ganda (Uganda)
@@ -5638,6 +6202,7 @@ pub const LANG_LG_UG: &LanguageId = &LanguageId {
     iso639_two_letter: "lg",
     iso639_three_letter: "lug",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Lakota
@@ -5648,6 +6213,7 @@ pub const LANG_LKT: &LanguageId = &LanguageId {
     iso639_two_letter: "lkt",
     iso639_three_letter: "lkt",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Lakota (United States)
@@ -5658,6 +6224,7 @@ pub const LANG_LKT_US: &LanguageId = &LanguageId {
     iso639_two_letter: "lkt",
     iso639_three_letter: "lkt",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Lingala
@@ -5668,6 +6235,7 @@ pub const LANG_LN: &LanguageId = &LanguageId {
     iso639_two_letter: "ln",
     iso639_three_letter: "lin",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Lingala (Angola)
@@ -5678,6 +6246,7 @@ pub const LANG_LN_AO: &LanguageId = &LanguageId {
     iso639_two_letter: "ln",
     iso639_three_letter: "lin",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Lingala (Congo DRC)
@@ -5688,6 +6257,7 @@ pub const LANG_LN_CD: &LanguageId = &LanguageId {
     iso639_two_letter: "ln",
     iso639_three_letter: "lin",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Lingala (Central African Republic)
@@ -5698,6 +6268,7 @@ pub const LANG_LN_CF: &LanguageId = &LanguageId {
     iso639_two_letter: "ln",
     iso639_three_letter: "lin",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Lingala (Congo)
@@ -5708,6 +6279,7 @@ pub const LANG_LN_CG: &LanguageId = &LanguageId {
     iso639_two_letter: "ln",
     iso639_three_letter: "lin",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Northern Luri (Iraq)
@@ -5718,6 +6290,7 @@ pub const LANG_LRC_IQ: &LanguageId = &LanguageId {
     iso639_two_letter: "lrc",
     iso639_three_letter: "lrc",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Northern Luri (Iran)
@@ -5728,6 +6301,7 @@ pub const LANG_LRC_IR: &LanguageId = &LanguageId {
     iso639_two_letter: "lrc",
     iso639_three_letter: "lrc",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Luba-Katanga
@@ -5738,6 +6312,7 @@ pub const LANG_LU: &LanguageId = &LanguageId {
     iso639_two_letter: "lu",
     iso639_three_letter: "lub",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Luba-Katanga (Congo DRC)
@@ -5748,6 +6323,7 @@ pub const LANG_LU_CD: &LanguageId = &LanguageId {
     iso639_two_letter: "lu",
     iso639_three_letter: "lub",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Luo
@@ -5758,6 +6334,7 @@ pub const LANG_LUO: &LanguageId = &LanguageId {
     iso639_two_letter: "luo",
     iso639_three_letter: "luo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Luo (Kenya)
@@ -5768,6 +6345,7 @@ pub const LANG_LUO_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "luo",
     iso639_three_letter: "luo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Luyia
@@ -5778,6 +6356,7 @@ pub const LANG_LUY: &LanguageId = &LanguageId {
     iso639_two_letter: "luy",
     iso639_three_letter: "luy",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Luyia (Kenya)
@@ -5788,6 +6367,7 @@ pub const LANG_LUY_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "luy",
     iso639_three_letter: "luy",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Masai
@@ -5798,6 +6378,7 @@ pub const LANG_MAS: &LanguageId = &LanguageId {
     iso639_two_letter: "mas",
     iso639_three_letter: "mas",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Masai (Kenya)
@@ -5808,6 +6389,7 @@ pub const LANG_MAS_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "mas",
     iso639_three_letter: "mas",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Masai (Tanzania)
@@ -5818,6 +6400,7 @@ pub const LANG_MAS_TZ: &LanguageId = &LanguageId {
     iso639_two_letter: "mas",
     iso639_three_letter: "mas",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Meru
@@ -5828,6 +6411,7 @@ pub const LANG_MER: &LanguageId = &LanguageId {
     iso639_two_letter: "mer",
     iso639_three_letter: "mer",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Meru (Kenya)
@@ -5838,6 +6422,7 @@ pub const LANG_MER_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "mer",
     iso639_three_letter: "mer",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Morisyen
@@ -5848,6 +6433,7 @@ pub const LANG_MFE: &LanguageId = &LanguageId {
     iso639_two_letter: "mfe",
     iso639_three_letter: "mfe",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Morisyen (Mauritius)
@@ -5858,6 +6444,7 @@ pub const LANG_MFE_MU: &LanguageId = &LanguageId {
     iso639_two_letter: "mfe",
     iso639_three_letter: "mfe",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Malagasy
@@ -5868,6 +6455,7 @@ pub const LANG_MG: &LanguageId = &LanguageId {
     iso639_two_letter: "mg",
     iso639_three_letter: "mlg",
     windows_three_letter: "MLG",
+    ansi_code_page: None,
 };
 
 /// Malagasy (Madagascar)
@@ -5878,6 +6466,7 @@ pub const LANG_MG_MG: &LanguageId = &LanguageId {
     iso639_two_letter: "mg",
     iso639_three_letter: "mlg",
     windows_three_letter: "MLG",
+    ansi_code_page: None,
 };
 
 /// Makhuwa-Meetto
@@ -5888,6 +6477,7 @@ pub const LANG_MGH: &LanguageId = &LanguageId {
     iso639_two_letter: "mgh",
     iso639_three_letter: "mgh",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Makhuwa-Meetto (Mozambique)
@@ -5898,6 +6488,7 @@ pub const LANG_MGH_MZ: &LanguageId = &LanguageId {
     iso639_two_letter: "mgh",
     iso639_three_letter: "mgh",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Metaʼ
@@ -5908,6 +6499,7 @@ pub const LANG_MGO: &LanguageId = &LanguageId {
     iso639_two_letter: "mgo",
     iso639_three_letter: "mgo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Metaʼ (Cameroon)
@@ -5918,6 +6510,7 @@ pub const LANG_MGO_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "mgo",
     iso639_three_letter: "mgo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Mundang
@@ -5928,6 +6521,7 @@ pub const LANG_MUA: &LanguageId = &LanguageId {
     iso639_two_letter: "mua",
     iso639_three_letter: "mua",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Mundang (Cameroon)
@@ -5938,6 +6532,7 @@ pub const LANG_MUA_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "mua",
     iso639_three_letter: "mua",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Mazanderani (Iran)
@@ -5948,6 +6543,7 @@ pub const LANG_MZN_IR: &LanguageId = &LanguageId {
     iso639_two_letter: "mzn",
     iso639_three_letter: "mzn",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Nama
@@ -5958,6 +6554,7 @@ pub const LANG_NAQ: &LanguageId = &LanguageId {
     iso639_two_letter: "naq",
     iso639_three_letter: "naq",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Nama (Namibia)
@@ -5968,6 +6565,7 @@ pub const LANG_NAQ_NA: &LanguageId = &LanguageId {
     iso639_two_letter: "naq",
     iso639_three_letter: "naq",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Norwegian Bokmål (Svalbard and Jan Mayen)
@@ -5978,6 +6576,7 @@ pub const LANG_NB_SJ: &LanguageId = &LanguageId {
     iso639_two_letter: "nb",
     iso639_three_letter: "nob",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// North Ndebele
@@ -5988,6 +6587,7 @@ pub const LANG_ND: &LanguageId = &LanguageId {
     iso639_two_letter: "nd",
     iso639_three_letter: "nde",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// North Ndebele (Zimbabwe)
@@ -5998,6 +6598,7 @@ pub const LANG_ND_ZW: &LanguageId = &LanguageId {
     iso639_two_letter: "nd",
     iso639_three_letter: "nde",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Low German
@@ -6008,6 +6609,7 @@ pub const LANG_NDS: &LanguageId = &LanguageId {
     iso639_two_letter: "nds",
     iso639_three_letter: "nds",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Low German (Germany)
@@ -6018,6 +6620,7 @@ pub const LANG_NDS_DE: &LanguageId = &LanguageId {
     iso639_two_letter: "nds",
     iso639_three_letter: "nds",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Low German (Netherlands)
@@ -6028,6 +6631,7 @@ pub const LANG_NDS_NL: &LanguageId = &LanguageId {
     iso639_two_letter: "nds",
     iso639_three_letter: "nds",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Unknown Language (ngo)
@@ -6038,6 +6642,7 @@ pub const LANG_NGO: &LanguageId = &LanguageId {
     iso639_two_letter: "ngo",
     iso639_three_letter: "ngo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Locale (ngo-GN)
@@ -6048,6 +6653,7 @@ pub const LANG_NGO_GN: &LanguageId = &LanguageId {
     iso639_two_letter: "ngo",
     iso639_three_letter: "ngo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Dutch (Aruba)
@@ -6058,6 +6664,7 @@ pub const LANG_NL_AW: &LanguageId = &LanguageId {
     iso639_two_letter: "nl",
     iso639_three_letter: "nld",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Dutch (Bonaire, Sint Eustatius and Saba)
@@ -6068,6 +6675,7 @@ pub const LANG_NL_BQ: &LanguageId = &LanguageId {
     iso639_two_letter: "nl",
     iso639_three_letter: "nld",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Dutch (Curaçao)
@@ -6078,6 +6686,7 @@ pub const LANG_NL_CW: &LanguageId = &LanguageId {
     iso639_two_letter: "nl",
     iso639_three_letter: "nld",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Dutch (Suriname)
@@ -6088,6 +6697,7 @@ pub const LANG_NL_SR: &LanguageId = &LanguageId {
     iso639_two_letter: "nl",
     iso639_three_letter: "nld",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Dutch (Sint Maarten)
@@ -6098,6 +6708,7 @@ pub const LANG_NL_SX: &LanguageId = &LanguageId {
     iso639_two_letter: "nl",
     iso639_three_letter: "nld",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Kwasio
@@ -6108,6 +6719,7 @@ pub const LANG_NMG: &LanguageId = &LanguageId {
     iso639_two_letter: "nmg",
     iso639_three_letter: "nmg",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Kwasio (Cameroon)
@@ -6118,6 +6730,7 @@ pub const LANG_NMG_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "nmg",
     iso639_three_letter: "nmg",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Ngiemboon
@@ -6128,6 +6741,7 @@ pub const LANG_NNH: &LanguageId = &LanguageId {
     iso639_two_letter: "nnh",
     iso639_three_letter: "nnh",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Ngiemboon (Cameroon)
@@ -6138,6 +6752,7 @@ pub const LANG_NNH_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "nnh",
     iso639_three_letter: "nnh",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// South Ndebele
@@ -6148,6 +6763,7 @@ pub const LANG_NR: &LanguageId = &LanguageId {
     iso639_two_letter: "nr",
     iso639_three_letter: "nbl",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// South Ndebele (South Africa)
@@ -6158,6 +6774,7 @@ pub const LANG_NR_ZA: &LanguageId = &LanguageId {
     iso639_two_letter: "nr",
     iso639_three_letter: "nbl",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Nuer
@@ -6168,6 +6785,7 @@ pub const LANG_NUS: &LanguageId = &LanguageId {
     iso639_two_letter: "nus",
     iso639_three_letter: "nus",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Nuer (South Sudan)
@@ -6178,6 +6796,7 @@ pub const LANG_NUS_SD: &LanguageId = &LanguageId {
     iso639_two_letter: "nus",
     iso639_three_letter: "nus",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Nuer (South Sudan)
@@ -6188,6 +6807,7 @@ pub const LANG_NUS_SS: &LanguageId = &LanguageId {
     iso639_two_letter: "nus",
     iso639_three_letter: "nus",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Nyankole
@@ -6198,6 +6818,7 @@ pub const LANG_NYN: &LanguageId = &LanguageId {
     iso639_two_letter: "nyn",
     iso639_three_letter: "nyn",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Nyankole (Uganda)
@@ -6208,6 +6829,7 @@ pub const LANG_NYN_UG: &LanguageId = &LanguageId {
     iso639_two_letter: "nyn",
     iso639_three_letter: "nyn",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Oromo (Kenya)
@@ -6218,6 +6840,7 @@ pub const LANG_OM_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "om",
     iso639_three_letter: "orm",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Ossetic
@@ -6228,6 +6851,7 @@ pub const LANG_OS: &LanguageId = &LanguageId {
     iso639_two_letter: "os",
     iso639_three_letter: "oss",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Ossetic (Georgia)
@@ -6238,6 +6862,7 @@ pub const LANG_OS_GE: &LanguageId = &LanguageId {
     iso639_two_letter: "os",
     iso639_three_letter: "oss",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Ossetic (Russia)
@@ -6248,6 +6873,7 @@ pub const LANG_OS_RU: &LanguageId = &LanguageId {
     iso639_two_letter: "os",
     iso639_three_letter: "oss",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Prussian (World)
@@ -6258,6 +6884,7 @@ pub const LANG_PRG_001: &LanguageId = &LanguageId {
     iso639_two_letter: "prg",
     iso639_three_letter: "prg",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Unknown Locale (ps-PK)
@@ -6268,6 +6895,7 @@ pub const LANG_PS_PK: &LanguageId = &LanguageId {
     iso639_two_letter: "ps",
     iso639_three_letter: "pus",
     windows_three_letter: "PAS",
+    ansi_code_page: None,
 };
 
 /// Portuguese (Angola)
@@ -6278,6 +6906,7 @@ pub const LANG_PT_AO: &LanguageId = &LanguageId {
     iso639_two_letter: "pt",
     iso639_three_letter: "por",
     windows_three_letter: "PTA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Portuguese (Switzerland)
@@ -6288,6 +6917,7 @@ pub const LANG_PT_CH: &LanguageId = &LanguageId {
     iso639_two_letter: "pt",
     iso639_three_letter: "por",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Portuguese (Cabo Verde)
@@ -6298,6 +6928,7 @@ pub const LANG_PT_CV: &LanguageId = &LanguageId {
     iso639_two_letter: "pt",
     iso639_three_letter: "por",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Portuguese (Equatorial Guinea)
@@ -6308,6 +6939,7 @@ pub const LANG_PT_GQ: &LanguageId = &LanguageId {
     iso639_two_letter: "pt",
     iso639_three_letter: "por",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Portuguese (Guinea-Bissau)
@@ -6318,6 +6950,7 @@ pub const LANG_PT_GW: &LanguageId = &LanguageId {
     iso639_two_letter: "pt",
     iso639_three_letter: "por",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Portuguese (Luxembourg)
@@ -6328,6 +6961,7 @@ pub const LANG_PT_LU: &LanguageId = &LanguageId {
     iso639_two_letter: "pt",
     iso639_three_letter: "por",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Portuguese (Macao SAR)
@@ -6338,6 +6972,7 @@ pub const LANG_PT_MO: &LanguageId = &LanguageId {
     iso639_two_letter: "pt",
     iso639_three_letter: "por",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Portuguese (Mozambique)
@@ -6348,6 +6983,7 @@ pub const LANG_PT_MZ: &LanguageId = &LanguageId {
     iso639_two_letter: "pt",
     iso639_three_letter: "por",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Portuguese (São Tomé and Príncipe)
@@ -6358,6 +6994,7 @@ pub const LANG_PT_ST: &LanguageId = &LanguageId {
     iso639_two_letter: "pt",
     iso639_three_letter: "por",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Portuguese (Timor-Leste)
@@ -6368,6 +7005,7 @@ pub const LANG_PT_TL: &LanguageId = &LanguageId {
     iso639_two_letter: "pt",
     iso639_three_letter: "por",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Rundi
@@ -6378,6 +7016,7 @@ pub const LANG_RN: &LanguageId = &LanguageId {
     iso639_two_letter: "rn",
     iso639_three_letter: "run",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Rundi (Burundi)
@@ -6388,6 +7027,7 @@ pub const LANG_RN_BI: &LanguageId = &LanguageId {
     iso639_two_letter: "rn",
     iso639_three_letter: "run",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Rombo
@@ -6398,6 +7038,7 @@ pub const LANG_ROF: &LanguageId = &LanguageId {
     iso639_two_letter: "rof",
     iso639_three_letter: "rof",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Rombo (Tanzania)
@@ -6408,6 +7049,7 @@ pub const LANG_ROF_TZ: &LanguageId = &LanguageId {
     iso639_two_letter: "rof",
     iso639_three_letter: "rof",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Russian (Belarus)
@@ -6418,6 +7060,7 @@ pub const LANG_RU_BY: &LanguageId = &LanguageId {
     iso639_two_letter: "ru",
     iso639_three_letter: "rus",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Russian (Kyrgyzstan)
@@ -6428,6 +7071,7 @@ pub const LANG_RU_KG: &LanguageId = &LanguageId {
     iso639_two_letter: "ru",
     iso639_three_letter: "rus",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Russian (Kazakhstan)
@@ -6438,6 +7082,7 @@ pub const LANG_RU_KZ: &LanguageId = &LanguageId {
     iso639_two_letter: "ru",
     iso639_three_letter: "rus",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Russian (Ukraine)
@@ -6448,6 +7093,7 @@ pub const LANG_RU_UA: &LanguageId = &LanguageId {
     iso639_two_letter: "ru",
     iso639_three_letter: "rus",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Rwa
@@ -6458,6 +7104,7 @@ pub const LANG_RWK: &LanguageId = &LanguageId {
     iso639_two_letter: "rwk",
     iso639_three_letter: "rwk",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Rwa (Tanzania)
@@ -6468,6 +7115,7 @@ pub const LANG_RWK_TZ: &LanguageId = &LanguageId {
     iso639_two_letter: "rwk",
     iso639_three_letter: "rwk",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Samburu
@@ -6478,6 +7126,7 @@ pub const LANG_SAQ: &LanguageId = &LanguageId {
     iso639_two_letter: "saq",
     iso639_three_letter: "saq",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Samburu (Kenya)
@@ -6488,6 +7137,7 @@ pub const LANG_SAQ_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "saq",
     iso639_three_letter: "saq",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Sangu
@@ -6498,6 +7148,7 @@ pub const LANG_SBP: &LanguageId = &LanguageId {
     iso639_two_letter: "sbp",
     iso639_three_letter: "sbp",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Sangu (Tanzania)
@@ -6508,6 +7159,7 @@ pub const LANG_SBP_TZ: &LanguageId = &LanguageId {
     iso639_two_letter: "sbp",
     iso639_three_letter: "sbp",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Sena
@@ -6518,6 +7170,7 @@ pub const LANG_SEH: &LanguageId = &LanguageId {
     iso639_two_letter: "seh",
     iso639_three_letter: "seh",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Sena (Mozambique)
@@ -6528,6 +7181,7 @@ pub const LANG_SEH_MZ: &LanguageId = &LanguageId {
     iso639_two_letter: "seh",
     iso639_three_letter: "seh",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Koyraboro Senni
@@ -6538,6 +7192,7 @@ pub const LANG_SES: &LanguageId = &LanguageId {
     iso639_two_letter: "ses",
     iso639_three_letter: "ses",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Koyraboro Senni (Mali)
@@ -6548,6 +7203,7 @@ pub const LANG_SES_ML: &LanguageId = &LanguageId {
     iso639_two_letter: "ses",
     iso639_three_letter: "ses",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Sango
@@ -6558,6 +7214,7 @@ pub const LANG_SG: &LanguageId = &LanguageId {
     iso639_two_letter: "sg",
     iso639_three_letter: "sag",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Sango (Central African Republic)
@@ -6568,6 +7225,7 @@ pub const LANG_SG_CF: &LanguageId = &LanguageId {
     iso639_two_letter: "sg",
     iso639_three_letter: "sag",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Tachelhit
@@ -6578,6 +7236,7 @@ pub const LANG_SHI: &LanguageId = &LanguageId {
     iso639_two_letter: "shi",
     iso639_three_letter: "shi",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Tachelhit (Latin)
@@ -6588,6 +7247,7 @@ pub const LANG_SHI_LATN: &LanguageId = &LanguageId {
     iso639_two_letter: "shi",
     iso639_three_letter: "shi",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Tachelhit (Latin, Morocco)
@@ -6598,6 +7258,7 @@ pub const LANG_SHI_LATN_MA: &LanguageId = &LanguageId {
     iso639_two_letter: "shi",
     iso639_three_letter: "shi",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Tachelhit (Tifinagh)
@@ -6608,6 +7269,7 @@ pub const LANG_SHI_TFNG: &LanguageId = &LanguageId {
     iso639_two_letter: "shi",
     iso639_three_letter: "shi",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Tachelhit (Tifinagh, Morocco)
@@ -6618,6 +7280,7 @@ pub const LANG_SHI_TFNG_MA: &LanguageId = &LanguageId {
     iso639_two_letter: "shi",
     iso639_three_letter: "shi",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Shona
@@ -6628,6 +7291,7 @@ pub const LANG_SN: &LanguageId = &LanguageId {
     iso639_two_letter: "sn",
     iso639_three_letter: "sna",
     windows_three_letter: "SNA",
+    ansi_code_page: None,
 };
 
 /// Shona (Latin)
@@ -6638,6 +7302,7 @@ pub const LANG_SN_LATN: &LanguageId = &LanguageId {
     iso639_two_letter: "sn",
     iso639_three_letter: "sna",
     windows_three_letter: "SNA",
+    ansi_code_page: None,
 };
 
 /// Shona (Latin, Zimbabwe)
@@ -6648,6 +7313,7 @@ pub const LANG_SN_LATN_ZW: &LanguageId = &LanguageId {
     iso639_two_letter: "sn",
     iso639_three_letter: "sna",
     windows_three_letter: "SNA",
+    ansi_code_page: None,
 };
 
 /// Somali (Djibouti)
@@ -6658,6 +7324,7 @@ pub const LANG_SO_DJ: &LanguageId = &LanguageId {
     iso639_two_letter: "so",
     iso639_three_letter: "som",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Somali (Ethiopia)
@@ -6668,6 +7335,7 @@ pub const LANG_SO_ET: &LanguageId = &LanguageId {
     iso639_two_letter: "so",
     iso639_three_letter: "som",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Somali (Kenya)
@@ -6678,6 +7346,7 @@ pub const LANG_SO_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "so",
     iso639_three_letter: "som",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Albanian (Macedonia, FYRO)
@@ -6688,6 +7357,7 @@ pub const LANG_SQ_MK: &LanguageId = &LanguageId {
     iso639_two_letter: "sq",
     iso639_three_letter: "sqi",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// siSwati
@@ -6698,6 +7368,7 @@ pub const LANG_SS: &LanguageId = &LanguageId {
     iso639_two_letter: "ss",
     iso639_three_letter: "ssw",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// siSwati (Swaziland)
@@ -6708,6 +7379,7 @@ pub const LANG_SS_SZ: &LanguageId = &LanguageId {
     iso639_two_letter: "ss",
     iso639_three_letter: "ssw",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// siSwati (South Africa)
@@ -6718,6 +7390,7 @@ pub const LANG_SS_ZA: &LanguageId = &LanguageId {
     iso639_two_letter: "ss",
     iso639_three_letter: "ssw",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Saho
@@ -6728,6 +7401,7 @@ pub const LANG_SSY: &LanguageId = &LanguageId {
     iso639_two_letter: "ssy",
     iso639_three_letter: "ssy",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Saho (Eritrea)
@@ -6738,6 +7412,7 @@ pub const LANG_SSY_ER: &LanguageId = &LanguageId {
     iso639_two_letter: "ssy",
     iso639_three_letter: "ssy",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Sesotho (Lesotho)
@@ -6748,6 +7423,7 @@ pub const LANG_ST_LS: &LanguageId = &LanguageId {
     iso639_two_letter: "st",
     iso639_three_letter: "sot",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Swedish (Åland Islands)
@@ -6758,6 +7434,7 @@ pub const LANG_SV_AX: &LanguageId = &LanguageId {
     iso639_two_letter: "sv",
     iso639_three_letter: "swe",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Kiswahili (Tanzania)
@@ -6768,6 +7445,7 @@ pub const LANG_SW_TZ: &LanguageId = &LanguageId {
     iso639_two_letter: "sw",
     iso639_three_letter: "swa",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Kiswahili (Uganda)
@@ -6778,6 +7456,7 @@ pub const LANG_SW_UG: &LanguageId = &LanguageId {
     iso639_two_letter: "sw",
     iso639_three_letter: "swa",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Unknown Language (swc)
@@ -6788,6 +7467,7 @@ pub const LANG_SWC: &LanguageId = &LanguageId {
     iso639_two_letter: "swc",
     iso639_three_letter: "swc",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Kiswahili (Congo DRC)
@@ -6798,6 +7478,7 @@ pub const LANG_SWC_CD: &LanguageId = &LanguageId {
     iso639_two_letter: "sw",
     iso639_three_letter: "swa",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Tamil (Malaysia)
@@ -6808,6 +7489,7 @@ pub const LANG_TA_MY: &LanguageId = &LanguageId {
     iso639_two_letter: "ta",
     iso639_three_letter: "tam",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Tamil (Singapore)
@@ -6818,6 +7500,7 @@ pub const LANG_TA_SG: &LanguageId = &LanguageId {
     iso639_two_letter: "ta",
     iso639_three_letter: "tam",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Teso
@@ -6828,6 +7511,7 @@ pub const LANG_TEO: &LanguageId = &LanguageId {
     iso639_two_letter: "teo",
     iso639_three_letter: "teo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Teso (Kenya)
@@ -6838,6 +7522,7 @@ pub const LANG_TEO_KE: &LanguageId = &LanguageId {
     iso639_two_letter: "teo",
     iso639_three_letter: "teo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Teso (Uganda)
@@ -6848,6 +7533,7 @@ pub const LANG_TEO_UG: &LanguageId = &LanguageId {
     iso639_two_letter: "teo",
     iso639_three_letter: "teo",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Tigre
@@ -6858,6 +7544,7 @@ pub const LANG_TIG: &LanguageId = &LanguageId {
     iso639_two_letter: "tig",
     iso639_three_letter: "tig",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Tigre (Eritrea)
@@ -6868,6 +7555,7 @@ pub const LANG_TIG_ER: &LanguageId = &LanguageId {
     iso639_two_letter: "tig",
     iso639_three_letter: "tig",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Tongan
@@ -6878,6 +7566,7 @@ pub const LANG_TO: &LanguageId = &LanguageId {
     iso639_two_letter: "to",
     iso639_three_letter: "ton",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Tongan (Tonga)
@@ -6888,6 +7577,7 @@ pub const LANG_TO_TO: &LanguageId = &LanguageId {
     iso639_two_letter: "to",
     iso639_three_letter: "ton",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Turkish (Cyprus)
@@ -6898,6 +7588,7 @@ pub const LANG_TR_CY: &LanguageId = &LanguageId {
     iso639_two_letter: "tr",
     iso639_three_letter: "tur",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1254),
 };
 
 /// Tasawaq
@@ -6908,6 +7599,7 @@ pub const LANG_TWQ: &LanguageId = &LanguageId {
     iso639_two_letter: "twq",
     iso639_three_letter: "twq",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Tasawaq (Niger)
@@ -6918,6 +7610,7 @@ pub const LANG_TWQ_NE: &LanguageId = &LanguageId {
     iso639_two_letter: "twq",
     iso639_three_letter: "twq",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Central Atlas Tamazight (Latin, Morocco)
@@ -6928,6 +7621,7 @@ pub const LANG_TZM_LATN_MA: &LanguageId = &LanguageId {
     iso639_two_letter: "tzm",
     iso639_three_letter: "tzm",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Uzbek (Perso-Arabic)
@@ -6938,6 +7632,7 @@ pub const LANG_UZ_ARAB: &LanguageId = &LanguageId {
     iso639_two_letter: "uz",
     iso639_three_letter: "uzb",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Uzbek (Perso-Arabic, Afghanistan)
@@ -6948,6 +7643,7 @@ pub const LANG_UZ_ARAB_AF: &LanguageId = &LanguageId {
     iso639_two_letter: "uz",
     iso639_three_letter: "uzb",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Vai
@@ -6958,6 +7654,7 @@ pub const LANG_VAI: &LanguageId = &LanguageId {
     iso639_two_letter: "vai",
     iso639_three_letter: "vai",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Vai (Latin)
@@ -6968,6 +7665,7 @@ pub const LANG_VAI_LATN: &LanguageId = &LanguageId {
     iso639_two_letter: "vai",
     iso639_three_letter: "vai",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Vai (Latin, Liberia)
@@ -6978,6 +7676,7 @@ pub const LANG_VAI_LATN_LR: &LanguageId = &LanguageId {
     iso639_two_letter: "vai",
     iso639_three_letter: "vai",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Vai (Vai)
@@ -6988,6 +7687,7 @@ pub const LANG_VAI_VAII: &LanguageId = &LanguageId {
     iso639_two_letter: "vai",
     iso639_three_letter: "vai",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Vai (Vai, Liberia)
@@ -6998,6 +7698,7 @@ pub const LANG_VAI_VAII_LR: &LanguageId = &LanguageId {
     iso639_two_letter: "vai",
     iso639_three_letter: "vai",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Volapük
@@ -7008,6 +7709,7 @@ pub const LANG_VO: &LanguageId = &LanguageId {
     iso639_two_letter: "vo",
     iso639_three_letter: "vol",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Volapük (World)
@@ -7018,6 +7720,7 @@ pub const LANG_VO_001: &LanguageId = &LanguageId {
     iso639_two_letter: "vo",
     iso639_three_letter: "vol",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Vunjo
@@ -7028,6 +7731,7 @@ pub const LANG_VUN: &LanguageId = &LanguageId {
     iso639_two_letter: "vun",
     iso639_three_letter: "vun",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Vunjo (Tanzania)
@@ -7038,6 +7742,7 @@ pub const LANG_VUN_TZ: &LanguageId = &LanguageId {
     iso639_two_letter: "vun",
     iso639_three_letter: "vun",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Walser
@@ -7048,6 +7753,7 @@ pub const LANG_WAE: &LanguageId = &LanguageId {
     iso639_two_letter: "wae",
     iso639_three_letter: "wae",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Walser (Switzerland)
@@ -7058,6 +7764,7 @@ pub const LANG_WAE_CH: &LanguageId = &LanguageId {
     iso639_two_letter: "wae",
     iso639_three_letter: "wae",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Wolaytta
@@ -7068,6 +7775,7 @@ pub const LANG_WAL: &LanguageId = &LanguageId {
     iso639_two_letter: "wal",
     iso639_three_letter: "wal",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Wolaytta (Ethiopia)
@@ -7078,6 +7786,7 @@ pub const LANG_WAL_ET: &LanguageId = &LanguageId {
     iso639_two_letter: "wal",
     iso639_three_letter: "wal",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Soga
@@ -7088,6 +7797,7 @@ pub const LANG_XOG: &LanguageId = &LanguageId {
     iso639_two_letter: "xog",
     iso639_three_letter: "xog",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Soga (Uganda)
@@ -7098,6 +7808,7 @@ pub const LANG_XOG_UG: &LanguageId = &LanguageId {
     iso639_two_letter: "xog",
     iso639_three_letter: "xog",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Yangben
@@ -7108,6 +7819,7 @@ pub const LANG_YAV: &LanguageId = &LanguageId {
     iso639_two_letter: "yav",
     iso639_three_letter: "yav",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Yangben (Cameroon)
@@ -7118,6 +7830,7 @@ pub const LANG_YAV_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "yav",
     iso639_three_letter: "yav",
     windows_three_letter: "ZZZ",
+    ansi_code_page: None,
 };
 
 /// Yoruba (Benin)
@@ -7128,6 +7841,7 @@ pub const LANG_YO_BJ: &LanguageId = &LanguageId {
     iso639_two_letter: "yo",
     iso639_three_letter: "yor",
     windows_three_letter: "ZZZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Standard Moroccan Tamazight
@@ -7138,6 +7852,7 @@ pub const LANG_ZGH: &LanguageId = &LanguageId {
     iso639_two_letter: "zgh",
     iso639_three_letter: "zgh",
     windows_three_letter: "ZHG",
+    ansi_code_page: None,
 };
 
 /// Standard Moroccan Tamazight (Tifinagh)
@@ -7148,6 +7863,7 @@ pub const LANG_ZGH_TFNG: &LanguageId = &LanguageId {
     iso639_two_letter: "zgh",
     iso639_three_letter: "zgh",
     windows_three_letter: "ZHG",
+    ansi_code_page: None,
 };
 
 /// Standard Moroccan Tamazight (Tifinagh, Morocco)
@@ -7158,6 +7874,7 @@ pub const LANG_ZGH_TFNG_MA: &LanguageId = &LanguageId {
     iso639_two_letter: "zgh",
     iso639_three_letter: "zgh",
     windows_three_letter: "ZHG",
+    ansi_code_page: None,
 };
 
 /// Arabic (Libya)
@@ -7168,6 +7885,7 @@ pub const LANG_AR_LY: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARL",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Chinese (Simplified, Singapore)
@@ -7178,6 +7896,7 @@ pub const LANG_ZH_SG: &LanguageId = &LanguageId {
     iso639_two_letter: "zh",
     iso639_three_letter: "zho",
     windows_three_letter: "ZHI",
+    ansi_code_page: Some(AnsiCodePage::GB2312),
 };
 
 /// German (Luxembourg)
@@ -7188,6 +7907,7 @@ pub const LANG_DE_LU: &LanguageId = &LanguageId {
     iso639_two_letter: "de",
     iso639_three_letter: "deu",
     windows_three_letter: "DEL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Canada)
@@ -7198,6 +7918,7 @@ pub const LANG_EN_CA: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENC",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Guatemala)
@@ -7208,6 +7929,7 @@ pub const LANG_ES_GT: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESG",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Switzerland)
@@ -7218,6 +7940,7 @@ pub const LANG_FR_CH: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRS",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Croatian (Bosnia and Herzegovina)
@@ -7228,6 +7951,7 @@ pub const LANG_HR_BA: &LanguageId = &LanguageId {
     iso639_two_letter: "hr",
     iso639_three_letter: "hrv",
     windows_three_letter: "HRB",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Sami, Lule (Norway)
@@ -7238,6 +7962,7 @@ pub const LANG_SMJ_NO: &LanguageId = &LanguageId {
     iso639_two_letter: "smj",
     iso639_three_letter: "smj",
     windows_three_letter: "SMJ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Central Atlas Tamazight (Tifinagh, Morocco)
@@ -7248,6 +7973,7 @@ pub const LANG_TZM_TFNG_MA: &LanguageId = &LanguageId {
     iso639_two_letter: "tzm",
     iso639_three_letter: "tzm",
     windows_three_letter: "TZM",
+    ansi_code_page: None,
 };
 
 /// Arabic (Algeria)
@@ -7258,6 +7984,7 @@ pub const LANG_AR_DZ: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARG",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Chinese (Traditional, Macao SAR)
@@ -7268,6 +7995,7 @@ pub const LANG_ZH_MO: &LanguageId = &LanguageId {
     iso639_two_letter: "zh",
     iso639_three_letter: "zho",
     windows_three_letter: "ZHM",
+    ansi_code_page: Some(AnsiCodePage::Big5),
 };
 
 /// German (Liechtenstein)
@@ -7278,6 +8006,7 @@ pub const LANG_DE_LI: &LanguageId = &LanguageId {
     iso639_two_letter: "de",
     iso639_three_letter: "deu",
     windows_three_letter: "DEC",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (New Zealand)
@@ -7288,6 +8017,7 @@ pub const LANG_EN_NZ: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Costa Rica)
@@ -7298,6 +8028,7 @@ pub const LANG_ES_CR: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESC",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Luxembourg)
@@ -7308,6 +8039,7 @@ pub const LANG_FR_LU: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Bosnian (Latin, Bosnia and Herzegovina)
@@ -7318,6 +8050,7 @@ pub const LANG_BS_LATN_BA: &LanguageId = &LanguageId {
     iso639_two_letter: "bs",
     iso639_three_letter: "bos",
     windows_three_letter: "BSB",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Sami, Lule (Sweden)
@@ -7328,6 +8061,7 @@ pub const LANG_SMJ_SE: &LanguageId = &LanguageId {
     iso639_two_letter: "smj",
     iso639_three_letter: "smj",
     windows_three_letter: "SMK",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Arabic (Morocco)
@@ -7338,6 +8072,7 @@ pub const LANG_AR_MA: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARM",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// English (Ireland)
@@ -7348,6 +8083,7 @@ pub const LANG_EN_IE: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENI",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Panama)
@@ -7358,6 +8094,7 @@ pub const LANG_ES_PA: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Monaco)
@@ -7368,6 +8105,7 @@ pub const LANG_FR_MC: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRM",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Serbian (Latin, Bosnia and Herzegovina)
@@ -7378,6 +8116,7 @@ pub const LANG_SR_LATN_BA: &LanguageId = &LanguageId {
     iso639_two_letter: "sr",
     iso639_three_letter: "srp",
     windows_three_letter: "SRS",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Sami, Southern (Norway)
@@ -7388,6 +8127,7 @@ pub const LANG_SMA_NO: &LanguageId = &LanguageId {
     iso639_two_letter: "sma",
     iso639_three_letter: "sma",
     windows_three_letter: "SMA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Arabic (Tunisia)
@@ -7398,6 +8138,7 @@ pub const LANG_AR_TN: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ART",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// English (South Africa)
@@ -7408,6 +8149,7 @@ pub const LANG_EN_ZA: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENS",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Dominican Republic)
@@ -7418,6 +8160,7 @@ pub const LANG_ES_DO: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESD",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Serbian (Cyrillic, Bosnia and Herzegovina)
@@ -7428,6 +8171,7 @@ pub const LANG_SR_CYRL_BA: &LanguageId = &LanguageId {
     iso639_two_letter: "sr",
     iso639_three_letter: "srp",
     windows_three_letter: "SRN",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Sami, Southern (Sweden)
@@ -7438,6 +8182,7 @@ pub const LANG_SMA_SE: &LanguageId = &LanguageId {
     iso639_two_letter: "sma",
     iso639_three_letter: "sma",
     windows_three_letter: "SMB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Arabic (Oman)
@@ -7448,6 +8193,7 @@ pub const LANG_AR_OM: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARO",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// English (Jamaica)
@@ -7458,6 +8204,7 @@ pub const LANG_EN_JM: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENJ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Venezuela)
@@ -7468,6 +8215,7 @@ pub const LANG_ES_VE: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESV",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Réunion)
@@ -7478,6 +8226,7 @@ pub const LANG_FR_RE: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRR",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Bosnian (Cyrillic, Bosnia and Herzegovina)
@@ -7488,6 +8237,7 @@ pub const LANG_BS_CYRL_BA: &LanguageId = &LanguageId {
     iso639_two_letter: "bs",
     iso639_three_letter: "bos",
     windows_three_letter: "BSC",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Sami, Skolt (Finland)
@@ -7498,6 +8248,7 @@ pub const LANG_SMS_FI: &LanguageId = &LanguageId {
     iso639_two_letter: "sms",
     iso639_three_letter: "sms",
     windows_three_letter: "SMS",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Arabic (Yemen)
@@ -7508,6 +8259,7 @@ pub const LANG_AR_YE: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARY",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Spanish (Colombia)
@@ -7518,6 +8270,7 @@ pub const LANG_ES_CO: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESO",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French Congo (DRC)
@@ -7528,6 +8281,7 @@ pub const LANG_FR_CD: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRD",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Serbian (Latin, Serbia)
@@ -7538,6 +8292,7 @@ pub const LANG_SR_LATN_RS: &LanguageId = &LanguageId {
     iso639_two_letter: "sr",
     iso639_three_letter: "srp",
     windows_three_letter: "SRM",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Sami, Inari (Finland)
@@ -7548,6 +8303,7 @@ pub const LANG_SMN_FI: &LanguageId = &LanguageId {
     iso639_two_letter: "smn",
     iso639_three_letter: "smn",
     windows_three_letter: "SMN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Arabic (Syria)
@@ -7558,6 +8314,7 @@ pub const LANG_AR_SY: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARS",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// English (Belize)
@@ -7568,6 +8325,7 @@ pub const LANG_EN_BZ: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Peru)
@@ -7578,6 +8336,7 @@ pub const LANG_ES_PE: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESR",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Senegal)
@@ -7588,6 +8347,7 @@ pub const LANG_FR_SN: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Serbian (Cyrillic, Serbia)
@@ -7598,6 +8358,7 @@ pub const LANG_SR_CYRL_RS: &LanguageId = &LanguageId {
     iso639_two_letter: "sr",
     iso639_three_letter: "srp",
     windows_three_letter: "SRO",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Arabic (Jordan)
@@ -7608,6 +8369,7 @@ pub const LANG_AR_JO: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARJ",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// English (Trinidad and Tobago)
@@ -7618,6 +8380,7 @@ pub const LANG_EN_TT: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENT",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Argentina)
@@ -7628,6 +8391,7 @@ pub const LANG_ES_AR: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESS",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Cameroon)
@@ -7638,6 +8402,7 @@ pub const LANG_FR_CM: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRE",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Serbian (Latin, Montenegro)
@@ -7648,6 +8413,7 @@ pub const LANG_SR_LATN_ME: &LanguageId = &LanguageId {
     iso639_two_letter: "sr",
     iso639_three_letter: "srp",
     windows_three_letter: "SRP",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Arabic (Lebanon)
@@ -7658,6 +8424,7 @@ pub const LANG_AR_LB: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARB",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// English (Zimbabwe)
@@ -7668,6 +8435,7 @@ pub const LANG_EN_ZW: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENW",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Ecuador)
@@ -7678,6 +8446,7 @@ pub const LANG_ES_EC: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESF",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Côte d’Ivoire)
@@ -7688,6 +8457,7 @@ pub const LANG_FR_CI: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRI",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Serbian (Cyrillic, Montenegro)
@@ -7698,6 +8468,7 @@ pub const LANG_SR_CYRL_ME: &LanguageId = &LanguageId {
     iso639_two_letter: "sr",
     iso639_three_letter: "srp",
     windows_three_letter: "SRQ",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Arabic (Kuwait)
@@ -7708,6 +8479,7 @@ pub const LANG_AR_KW: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARK",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// English (Philippines)
@@ -7718,6 +8490,7 @@ pub const LANG_EN_PH: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENP",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Chile)
@@ -7728,6 +8501,7 @@ pub const LANG_ES_CL: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Mali)
@@ -7738,6 +8512,7 @@ pub const LANG_FR_ML: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRF",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Arabic (United Arab Emirates)
@@ -7748,6 +8523,7 @@ pub const LANG_AR_AE: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARU",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Spanish (Uruguay)
@@ -7758,6 +8534,7 @@ pub const LANG_ES_UY: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESY",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Morocco)
@@ -7768,6 +8545,7 @@ pub const LANG_FR_MA: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRO",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Arabic (Bahrain)
@@ -7778,6 +8556,7 @@ pub const LANG_AR_BH: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARH",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// English (Hong Kong SAR)
@@ -7788,6 +8567,7 @@ pub const LANG_EN_HK: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENH",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Paraguay)
@@ -7798,6 +8578,7 @@ pub const LANG_ES_PY: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESZ",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// French (Haiti)
@@ -7808,6 +8589,7 @@ pub const LANG_FR_HT: &LanguageId = &LanguageId {
     iso639_two_letter: "fr",
     iso639_three_letter: "fra",
     windows_three_letter: "FRH",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Arabic (Qatar)
@@ -7818,6 +8600,7 @@ pub const LANG_AR_QA: &LanguageId = &LanguageId {
     iso639_two_letter: "ar",
     iso639_three_letter: "ara",
     windows_three_letter: "ARQ",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// English (India)
@@ -7828,6 +8611,7 @@ pub const LANG_EN_IN: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Bolivia)
@@ -7838,6 +8622,7 @@ pub const LANG_ES_BO: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Malaysia)
@@ -7848,6 +8633,7 @@ pub const LANG_EN_MY: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENM",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (El Salvador)
@@ -7858,6 +8644,7 @@ pub const LANG_ES_SV: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESE",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (Singapore)
@@ -7868,6 +8655,7 @@ pub const LANG_EN_SG: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENE",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Honduras)
@@ -7878,6 +8666,7 @@ pub const LANG_ES_HN: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESH",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// English (United Arab Emirates)
@@ -7888,6 +8677,7 @@ pub const LANG_EN_AE: &LanguageId = &LanguageId {
     iso639_two_letter: "en",
     iso639_three_letter: "eng",
     windows_three_letter: "ENU",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Nicaragua)
@@ -7898,6 +8688,7 @@ pub const LANG_ES_NI: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESI",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Puerto Rico)
@@ -7908,6 +8699,7 @@ pub const LANG_ES_PR: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESU",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (United States)
@@ -7918,6 +8710,7 @@ pub const LANG_ES_US: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "EST",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Spanish (Cuba)
@@ -7928,6 +8721,7 @@ pub const LANG_ES_CU: &LanguageId = &LanguageId {
     iso639_two_letter: "es",
     iso639_three_letter: "spa",
     windows_three_letter: "ESK",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Bosnian (Cyrillic)
@@ -7938,6 +8732,7 @@ pub const LANG_BS_CYRL: &LanguageId = &LanguageId {
     iso639_two_letter: "bs",
     iso639_three_letter: "bos",
     windows_three_letter: "BSC",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Bosnian (Latin)
@@ -7948,6 +8743,7 @@ pub const LANG_BS_LATN: &LanguageId = &LanguageId {
     iso639_two_letter: "bs",
     iso639_three_letter: "bos",
     windows_three_letter: "BSB",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Serbian (Cyrillic)
@@ -7958,6 +8754,7 @@ pub const LANG_SR_CYRL: &LanguageId = &LanguageId {
     iso639_two_letter: "sr",
     iso639_three_letter: "srp",
     windows_three_letter: "SRO",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Serbian (Latin)
@@ -7968,6 +8765,7 @@ pub const LANG_SR_LATN: &LanguageId = &LanguageId {
     iso639_two_letter: "sr",
     iso639_three_letter: "srp",
     windows_three_letter: "SRM",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Sami (Inari)
@@ -7978,6 +8776,7 @@ pub const LANG_SMN: &LanguageId = &LanguageId {
     iso639_two_letter: "smn",
     iso639_three_letter: "smn",
     windows_three_letter: "SMN",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Azerbaijani (Cyrillic)
@@ -7988,6 +8787,7 @@ pub const LANG_AZ_CYRL: &LanguageId = &LanguageId {
     iso639_two_letter: "az",
     iso639_three_letter: "aze",
     windows_three_letter: "AZC",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Sami (Skolt)
@@ -7998,6 +8798,7 @@ pub const LANG_SMS: &LanguageId = &LanguageId {
     iso639_two_letter: "sms",
     iso639_three_letter: "sms",
     windows_three_letter: "SMS",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Chinese
@@ -8008,6 +8809,7 @@ pub const LANG_ZH: &LanguageId = &LanguageId {
     iso639_two_letter: "zh",
     iso639_three_letter: "zho",
     windows_three_letter: "CHS",
+    ansi_code_page: Some(AnsiCodePage::GB2312),
 };
 
 /// Norwegian Nynorsk
@@ -8018,6 +8820,7 @@ pub const LANG_NN: &LanguageId = &LanguageId {
     iso639_two_letter: "nn",
     iso639_three_letter: "nno",
     windows_three_letter: "NON",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Bosnian
@@ -8028,6 +8831,7 @@ pub const LANG_BS: &LanguageId = &LanguageId {
     iso639_two_letter: "bs",
     iso639_three_letter: "bos",
     windows_three_letter: "BSB",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Azerbaijani (Latin)
@@ -8038,6 +8842,7 @@ pub const LANG_AZ_LATN: &LanguageId = &LanguageId {
     iso639_two_letter: "az",
     iso639_three_letter: "aze",
     windows_three_letter: "AZE",
+    ansi_code_page: Some(AnsiCodePage::Windows1254),
 };
 
 /// Sami (Southern)
@@ -8048,6 +8853,7 @@ pub const LANG_SMA: &LanguageId = &LanguageId {
     iso639_two_letter: "sma",
     iso639_three_letter: "sma",
     windows_three_letter: "SMB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Uzbek (Cyrillic)
@@ -8058,6 +8864,7 @@ pub const LANG_UZ_CYRL: &LanguageId = &LanguageId {
     iso639_two_letter: "uz",
     iso639_three_letter: "uzb",
     windows_three_letter: "UZC",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Mongolian
@@ -8068,6 +8875,7 @@ pub const LANG_MN_CYRL: &LanguageId = &LanguageId {
     iso639_two_letter: "mn",
     iso639_three_letter: "mon",
     windows_three_letter: "MNN",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Inuktitut (Syllabics)
@@ -8078,6 +8886,7 @@ pub const LANG_IU_CANS: &LanguageId = &LanguageId {
     iso639_two_letter: "iu",
     iso639_three_letter: "iku",
     windows_three_letter: "IUS",
+    ansi_code_page: None,
 };
 
 /// Central Atlas Tamazight (Tifinagh)
@@ -8088,6 +8897,7 @@ pub const LANG_TZM_TFNG: &LanguageId = &LanguageId {
     iso639_two_letter: "tzm",
     iso639_three_letter: "tzm",
     windows_three_letter: "TZM",
+    ansi_code_page: None,
 };
 
 /// Chinese (Traditional)
@@ -8098,6 +8908,7 @@ pub const LANG_ZH_HANT: &LanguageId = &LanguageId {
     iso639_two_letter: "zh",
     iso639_three_letter: "zho",
     windows_three_letter: "CHT",
+    ansi_code_page: Some(AnsiCodePage::Big5),
 };
 
 /// Norwegian Bokmål
@@ -8108,6 +8919,7 @@ pub const LANG_NB: &LanguageId = &LanguageId {
     iso639_two_letter: "nb",
     iso639_three_letter: "nob",
     windows_three_letter: "NOR",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Serbian
@@ -8118,6 +8930,7 @@ pub const LANG_SR: &LanguageId = &LanguageId {
     iso639_two_letter: "sr",
     iso639_three_letter: "srp",
     windows_three_letter: "SRB",
+    ansi_code_page: Some(AnsiCodePage::Windows1250),
 };
 
 /// Tajik (Cyrillic)
@@ -8128,6 +8941,7 @@ pub const LANG_TG_CYRL: &LanguageId = &LanguageId {
     iso639_two_letter: "tg",
     iso639_three_letter: "tgk",
     windows_three_letter: "TAJ",
+    ansi_code_page: Some(AnsiCodePage::Windows1251),
 };
 
 /// Lower Sorbian
@@ -8138,6 +8952,7 @@ pub const LANG_DSB: &LanguageId = &LanguageId {
     iso639_two_letter: "dsb",
     iso639_three_letter: "dsb",
     windows_three_letter: "DSB",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Sami (Lule)
@@ -8148,6 +8963,7 @@ pub const LANG_SMJ: &LanguageId = &LanguageId {
     iso639_two_letter: "smj",
     iso639_three_letter: "smj",
     windows_three_letter: "SMK",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Uzbek (Latin)
@@ -8158,6 +8974,7 @@ pub const LANG_UZ_LATN: &LanguageId = &LanguageId {
     iso639_two_letter: "uz",
     iso639_three_letter: "uzb",
     windows_three_letter: "UZB",
+    ansi_code_page: Some(AnsiCodePage::Windows1254),
 };
 
 /// Punjabi
@@ -8168,6 +8985,7 @@ pub const LANG_PA_ARAB: &LanguageId = &LanguageId {
     iso639_two_letter: "pa",
     iso639_three_letter: "pan",
     windows_three_letter: "PAP",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Mongolian (Traditional Mongolian)
@@ -8178,6 +8996,7 @@ pub const LANG_MN_MONG: &LanguageId = &LanguageId {
     iso639_two_letter: "mn",
     iso639_three_letter: "mon",
     windows_three_letter: "MNG",
+    ansi_code_page: None,
 };
 
 /// Sindhi
@@ -8188,6 +9007,7 @@ pub const LANG_SD_ARAB: &LanguageId = &LanguageId {
     iso639_two_letter: "sd",
     iso639_three_letter: "snd",
     windows_three_letter: "SIP",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 /// Cherokee
@@ -8198,6 +9018,7 @@ pub const LANG_CHR_CHER: &LanguageId = &LanguageId {
     iso639_two_letter: "chr",
     iso639_three_letter: "chr",
     windows_three_letter: "CRE",
+    ansi_code_page: None,
 };
 
 /// Inuktitut (Latin)
@@ -8208,6 +9029,7 @@ pub const LANG_IU_LATN: &LanguageId = &LanguageId {
     iso639_two_letter: "iu",
     iso639_three_letter: "iku",
     windows_three_letter: "IUK",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Central Atlas Tamazight (Latin)
@@ -8218,6 +9040,7 @@ pub const LANG_TZM_LATN: &LanguageId = &LanguageId {
     iso639_two_letter: "tzm",
     iso639_three_letter: "tzm",
     windows_three_letter: "TZA",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Fulah
@@ -8228,6 +9051,7 @@ pub const LANG_FF_LATN: &LanguageId = &LanguageId {
     iso639_two_letter: "ff",
     iso639_three_letter: "ful",
     windows_three_letter: "FUL",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Hausa (Latin)
@@ -8238,6 +9062,7 @@ pub const LANG_HA_LATN: &LanguageId = &LanguageId {
     iso639_two_letter: "ha",
     iso639_three_letter: "hau",
     windows_three_letter: "HAU",
+    ansi_code_page: Some(AnsiCodePage::Windows1252),
 };
 
 /// Central Kurdish
@@ -8248,6 +9073,7 @@ pub const LANG_KU_ARAB: &LanguageId = &LanguageId {
     iso639_two_letter: "ku",
     iso639_three_letter: "kur",
     windows_three_letter: "KUR",
+    ansi_code_page: Some(AnsiCodePage::Windows1256),
 };
 
 macro_rules! parse_lcid {
@@ -9607,829 +10433,1656 @@ macro_rules! parse_name {
 }
 
 pub mod lcid {
+    //! Contains constant LCIDs corresponding to the full language information
+    //! in the parent module, for easy use in e.g. match statements.
+    /// Arabic
     pub const LCID_AR: u32 = 0x0001;
+    /// Bulgarian
     pub const LCID_BG: u32 = 0x0002;
+    /// Catalan
     pub const LCID_CA: u32 = 0x0003;
+    /// Chinese (Simplified)
     pub const LCID_ZH_HANS: u32 = 0x0004;
+    /// Czech
     pub const LCID_CS: u32 = 0x0005;
+    /// Danish
     pub const LCID_DA: u32 = 0x0006;
+    /// German
     pub const LCID_DE: u32 = 0x0007;
+    /// Greek
     pub const LCID_EL: u32 = 0x0008;
+    /// English
     pub const LCID_EN: u32 = 0x0009;
+    /// Spanish
     pub const LCID_ES: u32 = 0x000A;
+    /// Finnish
     pub const LCID_FI: u32 = 0x000B;
+    /// French
     pub const LCID_FR: u32 = 0x000C;
+    /// Hebrew
     pub const LCID_HE: u32 = 0x000D;
+    /// Hungarian
     pub const LCID_HU: u32 = 0x000E;
+    /// Icelandic
     pub const LCID_IS: u32 = 0x000F;
+    /// Italian
     pub const LCID_IT: u32 = 0x0010;
+    /// Japanese
     pub const LCID_JA: u32 = 0x0011;
+    /// Korean
     pub const LCID_KO: u32 = 0x0012;
+    /// Dutch
     pub const LCID_NL: u32 = 0x0013;
+    /// Norwegian
     pub const LCID_NO: u32 = 0x0014;
+    /// Polish
     pub const LCID_PL: u32 = 0x0015;
+    /// Portuguese
     pub const LCID_PT: u32 = 0x0016;
+    /// Romansh
     pub const LCID_RM: u32 = 0x0017;
+    /// Romanian
     pub const LCID_RO: u32 = 0x0018;
+    /// Russian
     pub const LCID_RU: u32 = 0x0019;
+    /// Croatian
     pub const LCID_HR: u32 = 0x001A;
+    /// Slovak
     pub const LCID_SK: u32 = 0x001B;
+    /// Albanian
     pub const LCID_SQ: u32 = 0x001C;
+    /// Swedish
     pub const LCID_SV: u32 = 0x001D;
+    /// Thai
     pub const LCID_TH: u32 = 0x001E;
+    /// Turkish
     pub const LCID_TR: u32 = 0x001F;
+    /// Urdu
     pub const LCID_UR: u32 = 0x0020;
+    /// Indonesian
     pub const LCID_ID: u32 = 0x0021;
+    /// Ukrainian
     pub const LCID_UK: u32 = 0x0022;
+    /// Belarusian
     pub const LCID_BE: u32 = 0x0023;
+    /// Slovenian
     pub const LCID_SL: u32 = 0x0024;
+    /// Estonian
     pub const LCID_ET: u32 = 0x0025;
+    /// Latvian
     pub const LCID_LV: u32 = 0x0026;
+    /// Lithuanian
     pub const LCID_LT: u32 = 0x0027;
+    /// Tajik
     pub const LCID_TG: u32 = 0x0028;
+    /// Persian
     pub const LCID_FA: u32 = 0x0029;
+    /// Vietnamese
     pub const LCID_VI: u32 = 0x002A;
+    /// Armenian
     pub const LCID_HY: u32 = 0x002B;
+    /// Azerbaijani
     pub const LCID_AZ: u32 = 0x002C;
+    /// Basque
     pub const LCID_EU: u32 = 0x002D;
+    /// Upper Sorbian
     pub const LCID_HSB: u32 = 0x002E;
+    /// Macedonian
     pub const LCID_MK: u32 = 0x002F;
+    /// Sesotho
     pub const LCID_ST: u32 = 0x0030;
+    /// Tsonga
     pub const LCID_TS: u32 = 0x0031;
+    /// Setswana
     pub const LCID_TN: u32 = 0x0032;
+    /// Venda
     pub const LCID_VE: u32 = 0x0033;
+    /// isiXhosa
     pub const LCID_XH: u32 = 0x0034;
+    /// isiZulu
     pub const LCID_ZU: u32 = 0x0035;
+    /// Afrikaans
     pub const LCID_AF: u32 = 0x0036;
+    /// Georgian
     pub const LCID_KA: u32 = 0x0037;
+    /// Faroese
     pub const LCID_FO: u32 = 0x0038;
+    /// Hindi
     pub const LCID_HI: u32 = 0x0039;
+    /// Maltese
     pub const LCID_MT: u32 = 0x003A;
+    /// Northern Sami
     pub const LCID_SE: u32 = 0x003B;
+    /// Irish
     pub const LCID_GA: u32 = 0x003C;
+    /// Malay
     pub const LCID_MS: u32 = 0x003E;
+    /// Kazakh
     pub const LCID_KK: u32 = 0x003F;
+    /// Kyrgyz
     pub const LCID_KY: u32 = 0x0040;
+    /// Kiswahili
     pub const LCID_SW: u32 = 0x0041;
+    /// Turkmen
     pub const LCID_TK: u32 = 0x0042;
+    /// Uzbek
     pub const LCID_UZ: u32 = 0x0043;
+    /// Tatar
     pub const LCID_TT: u32 = 0x0044;
+    /// Bangla
     pub const LCID_BN: u32 = 0x0045;
+    /// Punjabi
     pub const LCID_PA: u32 = 0x0046;
+    /// Gujarati
     pub const LCID_GU: u32 = 0x0047;
+    /// Odia
     pub const LCID_OR: u32 = 0x0048;
+    /// Tamil
     pub const LCID_TA: u32 = 0x0049;
+    /// Telugu
     pub const LCID_TE: u32 = 0x004A;
+    /// Kannada
     pub const LCID_KN: u32 = 0x004B;
+    /// Malayalam
     pub const LCID_ML: u32 = 0x004C;
+    /// Assamese
     pub const LCID_AS: u32 = 0x004D;
+    /// Marathi
     pub const LCID_MR: u32 = 0x004E;
+    /// Sanskrit
     pub const LCID_SA: u32 = 0x004F;
+    /// Mongolian
     pub const LCID_MN: u32 = 0x0050;
+    /// Tibetan
     pub const LCID_BO: u32 = 0x0051;
+    /// Welsh
     pub const LCID_CY: u32 = 0x0052;
+    /// Khmer
     pub const LCID_KM: u32 = 0x0053;
+    /// Lao
     pub const LCID_LO: u32 = 0x0054;
+    /// Burmese
     pub const LCID_MY: u32 = 0x0055;
+    /// Galician
     pub const LCID_GL: u32 = 0x0056;
+    /// Konkani
     pub const LCID_KOK: u32 = 0x0057;
+    /// Sindhi
     pub const LCID_SD: u32 = 0x0059;
+    /// Syriac
     pub const LCID_SYR: u32 = 0x005A;
+    /// Sinhala
     pub const LCID_SI: u32 = 0x005B;
+    /// Cherokee
     pub const LCID_CHR: u32 = 0x005C;
+    /// Inuktitut
     pub const LCID_IU: u32 = 0x005D;
+    /// Amharic
     pub const LCID_AM: u32 = 0x005E;
+    /// Central Atlas Tamazight
     pub const LCID_TZM: u32 = 0x005F;
+    /// Kashmiri
     pub const LCID_KS: u32 = 0x0060;
+    /// Nepali
     pub const LCID_NE: u32 = 0x0061;
+    /// Western Frisian
     pub const LCID_FY: u32 = 0x0062;
+    /// Pashto
     pub const LCID_PS: u32 = 0x0063;
+    /// Filipino
     pub const LCID_FIL: u32 = 0x0064;
+    /// Divehi
     pub const LCID_DV: u32 = 0x0065;
+    /// Fulah
     pub const LCID_FF: u32 = 0x0067;
+    /// Hausa
     pub const LCID_HA: u32 = 0x0068;
+    /// Yoruba
     pub const LCID_YO: u32 = 0x006A;
+    /// Quechua
     pub const LCID_QUZ: u32 = 0x006B;
+    /// Sesotho sa Leboa
     pub const LCID_NSO: u32 = 0x006C;
+    /// Bashkir
     pub const LCID_BA: u32 = 0x006D;
+    /// Luxembourgish
     pub const LCID_LB: u32 = 0x006E;
+    /// Greenlandic
     pub const LCID_KL: u32 = 0x006F;
+    /// Igbo
     pub const LCID_IG: u32 = 0x0070;
+    /// Oromo
     pub const LCID_OM: u32 = 0x0072;
+    /// Tigrinya
     pub const LCID_TI: u32 = 0x0073;
+    /// Guarani
     pub const LCID_GN: u32 = 0x0074;
+    /// Hawaiian
     pub const LCID_HAW: u32 = 0x0075;
+    /// Yi
     pub const LCID_II: u32 = 0x0078;
+    /// Mapudungun
     pub const LCID_ARN: u32 = 0x007A;
+    /// Mohawk
     pub const LCID_MOH: u32 = 0x007C;
+    /// Breton
     pub const LCID_BR: u32 = 0x007E;
+    /// Invariant Language (Invariant Country)
     pub const LCID_INVARIANT: u32 = 0x007F;
+    /// Uyghur
     pub const LCID_UG: u32 = 0x0080;
+    /// Maori
     pub const LCID_MI: u32 = 0x0081;
+    /// Occitan
     pub const LCID_OC: u32 = 0x0082;
+    /// Corsican
     pub const LCID_CO: u32 = 0x0083;
+    /// Swiss German
     pub const LCID_GSW: u32 = 0x0084;
+    /// Sakha
     pub const LCID_SAH: u32 = 0x0085;
+    /// K'iche'
     pub const LCID_QUT: u32 = 0x0086;
+    /// Kinyarwanda
     pub const LCID_RW: u32 = 0x0087;
+    /// Wolof
     pub const LCID_WO: u32 = 0x0088;
+    /// Dari
     pub const LCID_PRS: u32 = 0x008C;
+    /// Scottish Gaelic
     pub const LCID_GD: u32 = 0x0091;
+    /// Central Kurdish
     pub const LCID_KU: u32 = 0x0092;
+    /// Arabic (Saudi Arabia)
     pub const LCID_AR_SA: u32 = 0x0401;
+    /// Bulgarian (Bulgaria)
     pub const LCID_BG_BG: u32 = 0x0402;
+    /// Catalan (Catalan)
     pub const LCID_CA_ES: u32 = 0x0403;
+    /// Chinese (Traditional, Taiwan)
     pub const LCID_ZH_TW: u32 = 0x0404;
+    /// Czech (Czechia)
     pub const LCID_CS_CZ: u32 = 0x0405;
+    /// Danish (Denmark)
     pub const LCID_DA_DK: u32 = 0x0406;
+    /// German (Germany)
     pub const LCID_DE_DE: u32 = 0x0407;
+    /// Greek (Greece)
     pub const LCID_EL_GR: u32 = 0x0408;
+    /// English (United States)
     pub const LCID_EN_US: u32 = 0x0409;
+    /// Spanish (Spain, Traditional Sort)
     pub const LCID_ES_ES_TRADNL: u32 = 0x040A;
+    /// Finnish (Finland)
     pub const LCID_FI_FI: u32 = 0x040B;
+    /// French (France)
     pub const LCID_FR_FR: u32 = 0x040C;
+    /// Hebrew (Israel)
     pub const LCID_HE_IL: u32 = 0x040D;
+    /// Hungarian (Hungary)
     pub const LCID_HU_HU: u32 = 0x040E;
+    /// Icelandic (Iceland)
     pub const LCID_IS_IS: u32 = 0x040F;
+    /// Italian (Italy)
     pub const LCID_IT_IT: u32 = 0x0410;
+    /// Japanese (Japan)
     pub const LCID_JA_JP: u32 = 0x0411;
+    /// Korean (Korea)
     pub const LCID_KO_KR: u32 = 0x0412;
+    /// Dutch (Netherlands)
     pub const LCID_NL_NL: u32 = 0x0413;
+    /// Norwegian Bokmål (Norway)
     pub const LCID_NB_NO: u32 = 0x0414;
+    /// Polish (Poland)
     pub const LCID_PL_PL: u32 = 0x0415;
+    /// Portuguese (Brazil)
     pub const LCID_PT_BR: u32 = 0x0416;
+    /// Romansh (Switzerland)
     pub const LCID_RM_CH: u32 = 0x0417;
+    /// Romanian (Romania)
     pub const LCID_RO_RO: u32 = 0x0418;
+    /// Russian (Russia)
     pub const LCID_RU_RU: u32 = 0x0419;
+    /// Croatian (Croatia)
     pub const LCID_HR_HR: u32 = 0x041A;
+    /// Slovak (Slovakia)
     pub const LCID_SK_SK: u32 = 0x041B;
+    /// Albanian (Albania)
     pub const LCID_SQ_AL: u32 = 0x041C;
+    /// Swedish (Sweden)
     pub const LCID_SV_SE: u32 = 0x041D;
+    /// Thai (Thailand)
     pub const LCID_TH_TH: u32 = 0x041E;
+    /// Turkish (Turkey)
     pub const LCID_TR_TR: u32 = 0x041F;
+    /// Urdu (Pakistan)
     pub const LCID_UR_PK: u32 = 0x0420;
+    /// Indonesian (Indonesia)
     pub const LCID_ID_ID: u32 = 0x0421;
+    /// Ukrainian (Ukraine)
     pub const LCID_UK_UA: u32 = 0x0422;
+    /// Belarusian (Belarus)
     pub const LCID_BE_BY: u32 = 0x0423;
+    /// Slovenian (Slovenia)
     pub const LCID_SL_SI: u32 = 0x0424;
+    /// Estonian (Estonia)
     pub const LCID_ET_EE: u32 = 0x0425;
+    /// Latvian (Latvia)
     pub const LCID_LV_LV: u32 = 0x0426;
+    /// Lithuanian (Lithuania)
     pub const LCID_LT_LT: u32 = 0x0427;
+    /// Tajik (Cyrillic, Tajikistan)
     pub const LCID_TG_CYRL_TJ: u32 = 0x0428;
+    /// Persian (Iran)
     pub const LCID_FA_IR: u32 = 0x0429;
+    /// Vietnamese (Vietnam)
     pub const LCID_VI_VN: u32 = 0x042A;
+    /// Armenian (Armenia)
     pub const LCID_HY_AM: u32 = 0x042B;
+    /// Azerbaijani (Latin, Azerbaijan)
     pub const LCID_AZ_LATN_AZ: u32 = 0x042C;
+    /// Basque (Basque)
     pub const LCID_EU_ES: u32 = 0x042D;
+    /// Upper Sorbian (Germany)
     pub const LCID_HSB_DE: u32 = 0x042E;
+    /// Macedonian (Macedonia, FYRO)
     pub const LCID_MK_MK: u32 = 0x042F;
+    /// Sesotho (South Africa)
     pub const LCID_ST_ZA: u32 = 0x0430;
+    /// Xitsonga (South Africa)
     pub const LCID_TS_ZA: u32 = 0x0431;
+    /// Setswana (South Africa)
     pub const LCID_TN_ZA: u32 = 0x0432;
+    /// Venda (South Africa)
     pub const LCID_VE_ZA: u32 = 0x0433;
+    /// isiXhosa (South Africa)
     pub const LCID_XH_ZA: u32 = 0x0434;
+    /// isiZulu (South Africa)
     pub const LCID_ZU_ZA: u32 = 0x0435;
+    /// Afrikaans (South Africa)
     pub const LCID_AF_ZA: u32 = 0x0436;
+    /// Georgian (Georgia)
     pub const LCID_KA_GE: u32 = 0x0437;
+    /// Faroese (Faroe Islands)
     pub const LCID_FO_FO: u32 = 0x0438;
+    /// Hindi (India)
     pub const LCID_HI_IN: u32 = 0x0439;
+    /// Maltese (Malta)
     pub const LCID_MT_MT: u32 = 0x043A;
+    /// Sami, Northern (Norway)
     pub const LCID_SE_NO: u32 = 0x043B;
+    /// Malay (Malaysia)
     pub const LCID_MS_MY: u32 = 0x043E;
+    /// Kazakh (Kazakhstan)
     pub const LCID_KK_KZ: u32 = 0x043F;
+    /// Kyrgyz (Kyrgyzstan)
     pub const LCID_KY_KG: u32 = 0x0440;
+    /// Kiswahili (Kenya)
     pub const LCID_SW_KE: u32 = 0x0441;
+    /// Turkmen (Turkmenistan)
     pub const LCID_TK_TM: u32 = 0x0442;
+    /// Uzbek (Latin, Uzbekistan)
     pub const LCID_UZ_LATN_UZ: u32 = 0x0443;
+    /// Tatar (Russia)
     pub const LCID_TT_RU: u32 = 0x0444;
+    /// Bangla (India)
     pub const LCID_BN_IN: u32 = 0x0445;
+    /// Punjabi (India)
     pub const LCID_PA_IN: u32 = 0x0446;
+    /// Gujarati (India)
     pub const LCID_GU_IN: u32 = 0x0447;
+    /// Odia (India)
     pub const LCID_OR_IN: u32 = 0x0448;
+    /// Tamil (India)
     pub const LCID_TA_IN: u32 = 0x0449;
+    /// Telugu (India)
     pub const LCID_TE_IN: u32 = 0x044A;
+    /// Kannada (India)
     pub const LCID_KN_IN: u32 = 0x044B;
+    /// Malayalam (India)
     pub const LCID_ML_IN: u32 = 0x044C;
+    /// Assamese (India)
     pub const LCID_AS_IN: u32 = 0x044D;
+    /// Marathi (India)
     pub const LCID_MR_IN: u32 = 0x044E;
+    /// Sanskrit (India)
     pub const LCID_SA_IN: u32 = 0x044F;
+    /// Mongolian (Mongolia)
     pub const LCID_MN_MN: u32 = 0x0450;
+    /// Tibetan (China)
     pub const LCID_BO_CN: u32 = 0x0451;
+    /// Welsh (United Kingdom)
     pub const LCID_CY_GB: u32 = 0x0452;
+    /// Khmer (Cambodia)
     pub const LCID_KM_KH: u32 = 0x0453;
+    /// Lao (Laos)
     pub const LCID_LO_LA: u32 = 0x0454;
+    /// Burmese (Myanmar)
     pub const LCID_MY_MM: u32 = 0x0455;
+    /// Galician (Galician)
     pub const LCID_GL_ES: u32 = 0x0456;
+    /// Konkani (India)
     pub const LCID_KOK_IN: u32 = 0x0457;
+    /// Syriac (Syria)
     pub const LCID_SYR_SY: u32 = 0x045A;
+    /// Sinhala (Sri Lanka)
     pub const LCID_SI_LK: u32 = 0x045B;
+    /// Cherokee (Cherokee, United States)
     pub const LCID_CHR_CHER_US: u32 = 0x045C;
+    /// Inuktitut (Syllabics, Canada)
     pub const LCID_IU_CANS_CA: u32 = 0x045D;
+    /// Amharic (Ethiopia)
     pub const LCID_AM_ET: u32 = 0x045E;
+    /// Kashmiri (Perso-Arabic)
     pub const LCID_KS_ARAB: u32 = 0x0460;
+    /// Nepali (Nepal)
     pub const LCID_NE_NP: u32 = 0x0461;
+    /// Western Frisian (Netherlands)
     pub const LCID_FY_NL: u32 = 0x0462;
+    /// Pashto (Afghanistan)
     pub const LCID_PS_AF: u32 = 0x0463;
+    /// Filipino (Philippines)
     pub const LCID_FIL_PH: u32 = 0x0464;
+    /// Divehi (Maldives)
     pub const LCID_DV_MV: u32 = 0x0465;
+    /// Hausa (Latin, Nigeria)
     pub const LCID_HA_LATN_NG: u32 = 0x0468;
+    /// Yoruba (Nigeria)
     pub const LCID_YO_NG: u32 = 0x046A;
+    /// Quechua (Bolivia)
     pub const LCID_QUZ_BO: u32 = 0x046B;
+    /// Sesotho sa Leboa (South Africa)
     pub const LCID_NSO_ZA: u32 = 0x046C;
+    /// Bashkir (Russia)
     pub const LCID_BA_RU: u32 = 0x046D;
+    /// Luxembourgish (Luxembourg)
     pub const LCID_LB_LU: u32 = 0x046E;
+    /// Greenlandic (Greenland)
     pub const LCID_KL_GL: u32 = 0x046F;
+    /// Igbo (Nigeria)
     pub const LCID_IG_NG: u32 = 0x0470;
+    /// Oromo (Ethiopia)
     pub const LCID_OM_ET: u32 = 0x0472;
+    /// Tigrinya (Ethiopia)
     pub const LCID_TI_ET: u32 = 0x0473;
+    /// Guarani (Paraguay)
     pub const LCID_GN_PY: u32 = 0x0474;
+    /// Hawaiian (United States)
     pub const LCID_HAW_US: u32 = 0x0475;
+    /// Somali (Somalia)
     pub const LCID_SO_SO: u32 = 0x0477;
+    /// Yi (China)
     pub const LCID_II_CN: u32 = 0x0478;
+    /// Mapudungun (Chile)
     pub const LCID_ARN_CL: u32 = 0x047A;
+    /// Mohawk (Mohawk)
     pub const LCID_MOH_CA: u32 = 0x047C;
+    /// Breton (France)
     pub const LCID_BR_FR: u32 = 0x047E;
+    /// Uyghur (China)
     pub const LCID_UG_CN: u32 = 0x0480;
+    /// Maori (New Zealand)
     pub const LCID_MI_NZ: u32 = 0x0481;
+    /// Occitan (France)
     pub const LCID_OC_FR: u32 = 0x0482;
+    /// Corsican (France)
     pub const LCID_CO_FR: u32 = 0x0483;
+    /// Alsatian (France)
     pub const LCID_GSW_FR: u32 = 0x0484;
+    /// Sakha (Russia)
     pub const LCID_SAH_RU: u32 = 0x0485;
+    /// Kinyarwanda (Rwanda)
     pub const LCID_RW_RW: u32 = 0x0487;
+    /// Wolof (Senegal)
     pub const LCID_WO_SN: u32 = 0x0488;
+    /// Dari (Afghanistan)
     pub const LCID_PRS_AF: u32 = 0x048C;
+    /// Scottish Gaelic (United Kingdom)
     pub const LCID_GD_GB: u32 = 0x0491;
+    /// Central Kurdish (Iraq)
     pub const LCID_KU_ARAB_IQ: u32 = 0x0492;
+    /// Pseudo (Pseudo)
     pub const LCID_QPS_PLOC: u32 = 0x0501;
+    /// Pseudo (Pseudo Asia)
     pub const LCID_QPS_PLOCA: u32 = 0x05FE;
+    /// Arabic (Iraq)
     pub const LCID_AR_IQ: u32 = 0x0801;
+    /// Valencian (Spain)
     pub const LCID_CA_ES_VALENCIA: u32 = 0x0803;
+    /// Chinese (Simplified, China)
     pub const LCID_ZH_CN: u32 = 0x0804;
+    /// German (Switzerland)
     pub const LCID_DE_CH: u32 = 0x0807;
+    /// English (United Kingdom)
     pub const LCID_EN_GB: u32 = 0x0809;
+    /// Spanish (Mexico)
     pub const LCID_ES_MX: u32 = 0x080A;
+    /// French (Belgium)
     pub const LCID_FR_BE: u32 = 0x080C;
+    /// Italian (Switzerland)
     pub const LCID_IT_CH: u32 = 0x0810;
+    /// Dutch (Belgium)
     pub const LCID_NL_BE: u32 = 0x0813;
+    /// Norwegian Nynorsk (Norway)
     pub const LCID_NN_NO: u32 = 0x0814;
+    /// Portuguese (Portugal)
     pub const LCID_PT_PT: u32 = 0x0816;
+    /// Romanian (Moldova)
     pub const LCID_RO_MD: u32 = 0x0818;
+    /// Russian (Moldova)
     pub const LCID_RU_MD: u32 = 0x0819;
+    /// Serbian (Latin, Serbia and Montenegro (Former))
     pub const LCID_SR_LATN_CS: u32 = 0x081A;
+    /// Swedish (Finland)
     pub const LCID_SV_FI: u32 = 0x081D;
+    /// Urdu (India)
     pub const LCID_UR_IN: u32 = 0x0820;
+    /// Lower Sorbian (Germany)
     pub const LCID_DSB_DE: u32 = 0x082E;
+    /// Setswana (Botswana)
     pub const LCID_TN_BW: u32 = 0x0832;
+    /// Sami, Northern (Sweden)
     pub const LCID_SE_SE: u32 = 0x083B;
+    /// Irish (Ireland)
     pub const LCID_GA_IE: u32 = 0x083C;
+    /// Malay (Brunei)
     pub const LCID_MS_BN: u32 = 0x083E;
+    /// Bangla (Bangladesh)
     pub const LCID_BN_BD: u32 = 0x0845;
+    /// Punjabi (Pakistan)
     pub const LCID_PA_ARAB_PK: u32 = 0x0846;
+    /// Tamil (Sri Lanka)
     pub const LCID_TA_LK: u32 = 0x0849;
+    /// Sindhi (Pakistan)
     pub const LCID_SD_ARAB_PK: u32 = 0x0859;
+    /// Inuktitut (Latin, Canada)
     pub const LCID_IU_LATN_CA: u32 = 0x085D;
+    /// Central Atlas Tamazight (Latin, Algeria)
     pub const LCID_TZM_LATN_DZ: u32 = 0x085F;
+    /// Nepali (India)
     pub const LCID_NE_IN: u32 = 0x0861;
+    /// Fulah (Latin, Senegal)
     pub const LCID_FF_LATN_SN: u32 = 0x0867;
+    /// Quichua (Ecuador)
     pub const LCID_QUZ_EC: u32 = 0x086B;
+    /// Tigrinya (Eritrea)
     pub const LCID_TI_ER: u32 = 0x0873;
+    /// Pseudo (Pseudo Mirrored)
     pub const LCID_QPS_PLOCM: u32 = 0x09FF;
+    /// Arabic (Egypt)
     pub const LCID_AR_EG: u32 = 0x0C01;
+    /// Chinese (Traditional, Hong Kong SAR)
     pub const LCID_ZH_HK: u32 = 0x0C04;
+    /// German (Austria)
     pub const LCID_DE_AT: u32 = 0x0C07;
+    /// English (Australia)
     pub const LCID_EN_AU: u32 = 0x0C09;
+    /// Spanish (Spain, International Sort)
     pub const LCID_ES_ES: u32 = 0x0C0A;
+    /// French (Canada)
     pub const LCID_FR_CA: u32 = 0x0C0C;
+    /// Serbian (Cyrillic, Serbia and Montenegro (Former))
     pub const LCID_SR_CYRL_CS: u32 = 0x0C1A;
+    /// Sami, Northern (Finland)
     pub const LCID_SE_FI: u32 = 0x0C3B;
+    /// Mongolian (Traditional Mongolian, Mongolia)
     pub const LCID_MN_MONG_MN: u32 = 0x0C50;
+    /// Dzongkha (Bhutan)
     pub const LCID_DZ_BT: u32 = 0x0C51;
+    /// Quechua (Peru)
     pub const LCID_QUZ_PE: u32 = 0x0C6B;
+    /// Afar
     pub const LCID_AA: u32 = 0x1000;
+    /// Afar (Djibouti)
     pub const LCID_AA_DJ: u32 = 0x1000;
+    /// Afar (Eritrea)
     pub const LCID_AA_ER: u32 = 0x1000;
+    /// Afar (Ethiopia)
     pub const LCID_AA_ET: u32 = 0x1000;
+    /// Afrikaans (Namibia)
     pub const LCID_AF_NA: u32 = 0x1000;
+    /// Aghem
     pub const LCID_AGQ: u32 = 0x1000;
+    /// Aghem (Cameroon)
     pub const LCID_AGQ_CM: u32 = 0x1000;
+    /// Akan
     pub const LCID_AK: u32 = 0x1000;
+    /// Akan (Ghana)
     pub const LCID_AK_GH: u32 = 0x1000;
+    /// Arabic (World)
     pub const LCID_AR_001: u32 = 0x1000;
+    /// Arabic (Djibouti)
     pub const LCID_AR_DJ: u32 = 0x1000;
+    /// Arabic (Eritrea)
     pub const LCID_AR_ER: u32 = 0x1000;
+    /// Arabic (Israel)
     pub const LCID_AR_IL: u32 = 0x1000;
+    /// Arabic (Comoros)
     pub const LCID_AR_KM: u32 = 0x1000;
+    /// Arabic (Mauritania)
     pub const LCID_AR_MR: u32 = 0x1000;
+    /// Arabic (Palestinian Authority)
     pub const LCID_AR_PS: u32 = 0x1000;
+    /// Arabic (Sudan)
     pub const LCID_AR_SD: u32 = 0x1000;
+    /// Arabic (Somalia)
     pub const LCID_AR_SO: u32 = 0x1000;
+    /// Arabic (South Sudan)
     pub const LCID_AR_SS: u32 = 0x1000;
+    /// Arabic (Chad)
     pub const LCID_AR_TD: u32 = 0x1000;
+    /// Asu
     pub const LCID_ASA: u32 = 0x1000;
+    /// Asu (Tanzania)
     pub const LCID_ASA_TZ: u32 = 0x1000;
+    /// Asturian
     pub const LCID_AST: u32 = 0x1000;
+    /// Asturian (Spain)
     pub const LCID_AST_ES: u32 = 0x1000;
+    /// Basaa
     pub const LCID_BAS: u32 = 0x1000;
+    /// Basaa (Cameroon)
     pub const LCID_BAS_CM: u32 = 0x1000;
+    /// Bemba
     pub const LCID_BEM: u32 = 0x1000;
+    /// Bemba (Zambia)
     pub const LCID_BEM_ZM: u32 = 0x1000;
+    /// Bena
     pub const LCID_BEZ: u32 = 0x1000;
+    /// Bena (Tanzania)
     pub const LCID_BEZ_TZ: u32 = 0x1000;
+    /// Bamanankan
     pub const LCID_BM: u32 = 0x1000;
+    /// Bamanankan (Latin, Mali)
     pub const LCID_BM_ML: u32 = 0x1000;
+    /// Tibetan (India)
     pub const LCID_BO_IN: u32 = 0x1000;
+    /// Bodo
     pub const LCID_BRX: u32 = 0x1000;
+    /// Bodo (India)
     pub const LCID_BRX_IN: u32 = 0x1000;
+    /// Blin
     pub const LCID_BYN: u32 = 0x1000;
+    /// Blin (Eritrea)
     pub const LCID_BYN_ER: u32 = 0x1000;
+    /// Catalan (Andorra)
     pub const LCID_CA_AD: u32 = 0x1000;
+    /// Catalan (France)
     pub const LCID_CA_FR: u32 = 0x1000;
+    /// Catalan (Italy)
     pub const LCID_CA_IT: u32 = 0x1000;
+    /// Unknown Language (ccp)
     pub const LCID_CCP: u32 = 0x1000;
+    /// Unknown Language (ccp-Cakm)
     pub const LCID_CCP_CAKM: u32 = 0x1000;
+    /// Unknown Locale (ccp-Cakm-BD)
     pub const LCID_CCP_CAKM_BD: u32 = 0x1000;
+    /// Unknown Locale (ccp-Cakm-IN)
     pub const LCID_CCP_CAKM_IN: u32 = 0x1000;
+    /// Chechen (Russia)
     pub const LCID_CE_RU: u32 = 0x1000;
+    /// Unknown Language (ceb)
     pub const LCID_CEB: u32 = 0x1000;
+    /// Unknown Language (ceb-Latn)
     pub const LCID_CEB_LATN: u32 = 0x1000;
+    /// Unknown Locale (ceb-Latn-PH)
     pub const LCID_CEB_LATN_PH: u32 = 0x1000;
+    /// Chiga
     pub const LCID_CGG: u32 = 0x1000;
+    /// Chiga (Uganda)
     pub const LCID_CGG_UG: u32 = 0x1000;
+    /// Church Slavic (Russia)
     pub const LCID_CU_RU: u32 = 0x1000;
+    /// Danish (Greenland)
     pub const LCID_DA_GL: u32 = 0x1000;
+    /// Taita
     pub const LCID_DAV: u32 = 0x1000;
+    /// Taita (Kenya)
     pub const LCID_DAV_KE: u32 = 0x1000;
+    /// German (Belgium)
     pub const LCID_DE_BE: u32 = 0x1000;
+    /// German (Italy)
     pub const LCID_DE_IT: u32 = 0x1000;
+    /// Zarma
     pub const LCID_DJE: u32 = 0x1000;
+    /// Zarma (Niger)
     pub const LCID_DJE_NE: u32 = 0x1000;
+    /// Duala
     pub const LCID_DUA: u32 = 0x1000;
+    /// Duala (Cameroon)
     pub const LCID_DUA_CM: u32 = 0x1000;
+    /// Jola-Fonyi
     pub const LCID_DYO: u32 = 0x1000;
+    /// Jola-Fonyi (Senegal)
     pub const LCID_DYO_SN: u32 = 0x1000;
+    /// Dzongkha
     pub const LCID_DZ: u32 = 0x1000;
+    /// Embu
     pub const LCID_EBU: u32 = 0x1000;
+    /// Embu (Kenya)
     pub const LCID_EBU_KE: u32 = 0x1000;
+    /// Ewe
     pub const LCID_EE: u32 = 0x1000;
+    /// Ewe (Ghana)
     pub const LCID_EE_GH: u32 = 0x1000;
+    /// Ewe (Togo)
     pub const LCID_EE_TG: u32 = 0x1000;
+    /// Greek (Cyprus)
     pub const LCID_EL_CY: u32 = 0x1000;
+    /// English (World)
     pub const LCID_EN_001: u32 = 0x1000;
+    /// English (Europe)
     pub const LCID_EN_150: u32 = 0x1000;
+    /// English (Antigua and Barbuda)
     pub const LCID_EN_AG: u32 = 0x1000;
+    /// English (Anguilla)
     pub const LCID_EN_AI: u32 = 0x1000;
+    /// English (American Samoa)
     pub const LCID_EN_AS: u32 = 0x1000;
+    /// English (Austria)
     pub const LCID_EN_AT: u32 = 0x1000;
+    /// English (Barbados)
     pub const LCID_EN_BB: u32 = 0x1000;
+    /// English (Belgium)
     pub const LCID_EN_BE: u32 = 0x1000;
+    /// English (Burundi)
     pub const LCID_EN_BI: u32 = 0x1000;
+    /// English (Bermuda)
     pub const LCID_EN_BM: u32 = 0x1000;
+    /// English (Bahamas)
     pub const LCID_EN_BS: u32 = 0x1000;
+    /// English (Botswana)
     pub const LCID_EN_BW: u32 = 0x1000;
+    /// English (Cocos (Keeling) Islands)
     pub const LCID_EN_CC: u32 = 0x1000;
+    /// English (Switzerland)
     pub const LCID_EN_CH: u32 = 0x1000;
+    /// English (Cook Islands)
     pub const LCID_EN_CK: u32 = 0x1000;
+    /// English (Cameroon)
     pub const LCID_EN_CM: u32 = 0x1000;
+    /// English (Christmas Island)
     pub const LCID_EN_CX: u32 = 0x1000;
+    /// English (Cyprus)
     pub const LCID_EN_CY: u32 = 0x1000;
+    /// English (Germany)
     pub const LCID_EN_DE: u32 = 0x1000;
+    /// English (Denmark)
     pub const LCID_EN_DK: u32 = 0x1000;
+    /// English (Dominica)
     pub const LCID_EN_DM: u32 = 0x1000;
+    /// English (Eritrea)
     pub const LCID_EN_ER: u32 = 0x1000;
+    /// English (Finland)
     pub const LCID_EN_FI: u32 = 0x1000;
+    /// English (Fiji)
     pub const LCID_EN_FJ: u32 = 0x1000;
+    /// English (Falkland Islands)
     pub const LCID_EN_FK: u32 = 0x1000;
+    /// English (Micronesia)
     pub const LCID_EN_FM: u32 = 0x1000;
+    /// English (Grenada)
     pub const LCID_EN_GD: u32 = 0x1000;
+    /// English (Guernsey)
     pub const LCID_EN_GG: u32 = 0x1000;
+    /// English (Ghana)
     pub const LCID_EN_GH: u32 = 0x1000;
+    /// English (Gibraltar)
     pub const LCID_EN_GI: u32 = 0x1000;
+    /// English (Gambia)
     pub const LCID_EN_GM: u32 = 0x1000;
+    /// English (Guam)
     pub const LCID_EN_GU: u32 = 0x1000;
+    /// English (Guyana)
     pub const LCID_EN_GY: u32 = 0x1000;
+    /// English (Israel)
     pub const LCID_EN_IL: u32 = 0x1000;
+    /// English (Isle of Man)
     pub const LCID_EN_IM: u32 = 0x1000;
+    /// English (British Indian Ocean Territory)
     pub const LCID_EN_IO: u32 = 0x1000;
+    /// English (Jersey)
     pub const LCID_EN_JE: u32 = 0x1000;
+    /// English (Kenya)
     pub const LCID_EN_KE: u32 = 0x1000;
+    /// English (Kiribati)
     pub const LCID_EN_KI: u32 = 0x1000;
+    /// English (Saint Kitts and Nevis)
     pub const LCID_EN_KN: u32 = 0x1000;
+    /// English (Cayman Islands)
     pub const LCID_EN_KY: u32 = 0x1000;
+    /// English (Saint Lucia)
     pub const LCID_EN_LC: u32 = 0x1000;
+    /// English (Liberia)
     pub const LCID_EN_LR: u32 = 0x1000;
+    /// English (Lesotho)
     pub const LCID_EN_LS: u32 = 0x1000;
+    /// English (Madagascar)
     pub const LCID_EN_MG: u32 = 0x1000;
+    /// English (Marshall Islands)
     pub const LCID_EN_MH: u32 = 0x1000;
+    /// English (Macao SAR)
     pub const LCID_EN_MO: u32 = 0x1000;
+    /// English (Northern Mariana Islands)
     pub const LCID_EN_MP: u32 = 0x1000;
+    /// English (Montserrat)
     pub const LCID_EN_MS: u32 = 0x1000;
+    /// English (Malta)
     pub const LCID_EN_MT: u32 = 0x1000;
+    /// English (Mauritius)
     pub const LCID_EN_MU: u32 = 0x1000;
+    /// English (Malawi)
     pub const LCID_EN_MW: u32 = 0x1000;
+    /// English (Namibia)
     pub const LCID_EN_NA: u32 = 0x1000;
+    /// English (Norfolk Island)
     pub const LCID_EN_NF: u32 = 0x1000;
+    /// English (Nigeria)
     pub const LCID_EN_NG: u32 = 0x1000;
+    /// English (Netherlands)
     pub const LCID_EN_NL: u32 = 0x1000;
+    /// English (Nauru)
     pub const LCID_EN_NR: u32 = 0x1000;
+    /// English (Niue)
     pub const LCID_EN_NU: u32 = 0x1000;
+    /// English (Papua New Guinea)
     pub const LCID_EN_PG: u32 = 0x1000;
+    /// English (Pakistan)
     pub const LCID_EN_PK: u32 = 0x1000;
+    /// English (Pitcairn Islands)
     pub const LCID_EN_PN: u32 = 0x1000;
+    /// English (Puerto Rico)
     pub const LCID_EN_PR: u32 = 0x1000;
+    /// English (Palau)
     pub const LCID_EN_PW: u32 = 0x1000;
+    /// English (Rwanda)
     pub const LCID_EN_RW: u32 = 0x1000;
+    /// English (Solomon Islands)
     pub const LCID_EN_SB: u32 = 0x1000;
+    /// English (Seychelles)
     pub const LCID_EN_SC: u32 = 0x1000;
+    /// English (Sudan)
     pub const LCID_EN_SD: u32 = 0x1000;
+    /// English (Sweden)
     pub const LCID_EN_SE: u32 = 0x1000;
+    /// English (St Helena, Ascension, Tristan da Cunha)
     pub const LCID_EN_SH: u32 = 0x1000;
+    /// English (Slovenia)
     pub const LCID_EN_SI: u32 = 0x1000;
+    /// English (Sierra Leone)
     pub const LCID_EN_SL: u32 = 0x1000;
+    /// English (South Sudan)
     pub const LCID_EN_SS: u32 = 0x1000;
+    /// English (Sint Maarten)
     pub const LCID_EN_SX: u32 = 0x1000;
+    /// English (Swaziland)
     pub const LCID_EN_SZ: u32 = 0x1000;
+    /// English (Turks and Caicos Islands)
     pub const LCID_EN_TC: u32 = 0x1000;
+    /// English (Tokelau)
     pub const LCID_EN_TK: u32 = 0x1000;
+    /// English (Tonga)
     pub const LCID_EN_TO: u32 = 0x1000;
+    /// English (Tuvalu)
     pub const LCID_EN_TV: u32 = 0x1000;
+    /// English (Tanzania)
     pub const LCID_EN_TZ: u32 = 0x1000;
+    /// English (Uganda)
     pub const LCID_EN_UG: u32 = 0x1000;
+    /// English (U.S. Outlying Islands)
     pub const LCID_EN_UM: u32 = 0x1000;
+    /// English (Saint Vincent and the Grenadines)
     pub const LCID_EN_VC: u32 = 0x1000;
+    /// English (British Virgin Islands)
     pub const LCID_EN_VG: u32 = 0x1000;
+    /// English (U.S. Virgin Islands)
     pub const LCID_EN_VI: u32 = 0x1000;
+    /// English (Vanuatu)
     pub const LCID_EN_VU: u32 = 0x1000;
+    /// English (Samoa)
     pub const LCID_EN_WS: u32 = 0x1000;
+    /// English (Zambia)
     pub const LCID_EN_ZM: u32 = 0x1000;
+    /// Esperanto
     pub const LCID_EO: u32 = 0x1000;
+    /// Esperanto (World)
     pub const LCID_EO_001: u32 = 0x1000;
+    /// Spanish (Brazil)
     pub const LCID_ES_BR: u32 = 0x1000;
+    /// Spanish (Belize)
     pub const LCID_ES_BZ: u32 = 0x1000;
+    /// Spanish (Equatorial Guinea)
     pub const LCID_ES_GQ: u32 = 0x1000;
+    /// Spanish (Philippines)
     pub const LCID_ES_PH: u32 = 0x1000;
+    /// Ewondo
     pub const LCID_EWO: u32 = 0x1000;
+    /// Ewondo (Cameroon)
     pub const LCID_EWO_CM: u32 = 0x1000;
+    /// Dari (Afghanistan)
     pub const LCID_FA_AF: u32 = 0x1000;
+    /// Fulah (Cameroon)
     pub const LCID_FF_CM: u32 = 0x1000;
+    /// Fulah (Guinea)
     pub const LCID_FF_GN: u32 = 0x1000;
+    /// Unknown Locale (ff-Latn-BF)
     pub const LCID_FF_LATN_BF: u32 = 0x1000;
+    /// Unknown Locale (ff-Latn-CM)
     pub const LCID_FF_LATN_CM: u32 = 0x1000;
+    /// Unknown Locale (ff-Latn-GH)
     pub const LCID_FF_LATN_GH: u32 = 0x1000;
+    /// Unknown Locale (ff-Latn-GM)
     pub const LCID_FF_LATN_GM: u32 = 0x1000;
+    /// Unknown Locale (ff-Latn-GN)
     pub const LCID_FF_LATN_GN: u32 = 0x1000;
+    /// Unknown Locale (ff-Latn-GW)
     pub const LCID_FF_LATN_GW: u32 = 0x1000;
+    /// Unknown Locale (ff-Latn-LR)
     pub const LCID_FF_LATN_LR: u32 = 0x1000;
+    /// Unknown Locale (ff-Latn-MR)
     pub const LCID_FF_LATN_MR: u32 = 0x1000;
+    /// Unknown Locale (ff-Latn-NE)
     pub const LCID_FF_LATN_NE: u32 = 0x1000;
+    /// Unknown Locale (ff-Latn-NG)
     pub const LCID_FF_LATN_NG: u32 = 0x1000;
+    /// Unknown Locale (ff-Latn-SL)
     pub const LCID_FF_LATN_SL: u32 = 0x1000;
+    /// Fulah (Mauritania)
     pub const LCID_FF_MR: u32 = 0x1000;
+    /// Fulah (Nigeria)
     pub const LCID_FF_NG: u32 = 0x1000;
+    /// Faroese (Denmark)
     pub const LCID_FO_DK: u32 = 0x1000;
+    /// French (Burkina Faso)
     pub const LCID_FR_BF: u32 = 0x1000;
+    /// French (Burundi)
     pub const LCID_FR_BI: u32 = 0x1000;
+    /// French (Benin)
     pub const LCID_FR_BJ: u32 = 0x1000;
+    /// French (Saint Barthélemy)
     pub const LCID_FR_BL: u32 = 0x1000;
+    /// French (Central African Republic)
     pub const LCID_FR_CF: u32 = 0x1000;
+    /// French (Congo)
     pub const LCID_FR_CG: u32 = 0x1000;
+    /// French (Djibouti)
     pub const LCID_FR_DJ: u32 = 0x1000;
+    /// French (Algeria)
     pub const LCID_FR_DZ: u32 = 0x1000;
+    /// French (Gabon)
     pub const LCID_FR_GA: u32 = 0x1000;
+    /// French (French Guiana)
     pub const LCID_FR_GF: u32 = 0x1000;
+    /// French (Guinea)
     pub const LCID_FR_GN: u32 = 0x1000;
+    /// French (Guadeloupe)
     pub const LCID_FR_GP: u32 = 0x1000;
+    /// French (Equatorial Guinea)
     pub const LCID_FR_GQ: u32 = 0x1000;
+    /// French (Comoros)
     pub const LCID_FR_KM: u32 = 0x1000;
+    /// French (Saint Martin)
     pub const LCID_FR_MF: u32 = 0x1000;
+    /// French (Madagascar)
     pub const LCID_FR_MG: u32 = 0x1000;
+    /// French (Martinique)
     pub const LCID_FR_MQ: u32 = 0x1000;
+    /// French (Mauritania)
     pub const LCID_FR_MR: u32 = 0x1000;
+    /// French (Mauritius)
     pub const LCID_FR_MU: u32 = 0x1000;
+    /// French (New Caledonia)
     pub const LCID_FR_NC: u32 = 0x1000;
+    /// French (Niger)
     pub const LCID_FR_NE: u32 = 0x1000;
+    /// French (French Polynesia)
     pub const LCID_FR_PF: u32 = 0x1000;
+    /// French (Saint Pierre and Miquelon)
     pub const LCID_FR_PM: u32 = 0x1000;
+    /// French (Rwanda)
     pub const LCID_FR_RW: u32 = 0x1000;
+    /// French (Seychelles)
     pub const LCID_FR_SC: u32 = 0x1000;
+    /// French (Syria)
     pub const LCID_FR_SY: u32 = 0x1000;
+    /// French (Chad)
     pub const LCID_FR_TD: u32 = 0x1000;
+    /// French (Togo)
     pub const LCID_FR_TG: u32 = 0x1000;
+    /// French (Tunisia)
     pub const LCID_FR_TN: u32 = 0x1000;
+    /// French (Vanuatu)
     pub const LCID_FR_VU: u32 = 0x1000;
+    /// French (Wallis and Futuna)
     pub const LCID_FR_WF: u32 = 0x1000;
+    /// French (Mayotte)
     pub const LCID_FR_YT: u32 = 0x1000;
+    /// Friulian
     pub const LCID_FUR: u32 = 0x1000;
+    /// Friulian (Italy)
     pub const LCID_FUR_IT: u32 = 0x1000;
+    /// Swiss German (Switzerland)
     pub const LCID_GSW_CH: u32 = 0x1000;
+    /// Swiss German (Liechtenstein)
     pub const LCID_GSW_LI: u32 = 0x1000;
+    /// Gusii
     pub const LCID_GUZ: u32 = 0x1000;
+    /// Gusii (Kenya)
     pub const LCID_GUZ_KE: u32 = 0x1000;
+    /// Manx
     pub const LCID_GV: u32 = 0x1000;
+    /// Manx (Isle of Man)
     pub const LCID_GV_IM: u32 = 0x1000;
+    /// Hausa (Latin, Ghana)
     pub const LCID_HA_LATN_GH: u32 = 0x1000;
+    /// Hausa (Latin, Niger)
     pub const LCID_HA_LATN_NE: u32 = 0x1000;
+    /// Interlingua
     pub const LCID_IA: u32 = 0x1000;
+    /// Interlingua (World)
     pub const LCID_IA_001: u32 = 0x1000;
+    /// Interlingua (France)
     pub const LCID_IA_FR: u32 = 0x1000;
+    /// Italian (San Marino)
     pub const LCID_IT_SM: u32 = 0x1000;
+    /// Italian (Vatican City)
     pub const LCID_IT_VA: u32 = 0x1000;
+    /// Ngomba
     pub const LCID_JGO: u32 = 0x1000;
+    /// Ngomba (Cameroon)
     pub const LCID_JGO_CM: u32 = 0x1000;
+    /// Machame
     pub const LCID_JMC: u32 = 0x1000;
+    /// Machame (Tanzania)
     pub const LCID_JMC_TZ: u32 = 0x1000;
+    /// Javanese
     pub const LCID_JV: u32 = 0x1000;
+    /// Javanese
     pub const LCID_JV_LATN: u32 = 0x1000;
+    /// Javanese (Indonesia)
     pub const LCID_JV_LATN_ID: u32 = 0x1000;
+    /// Kabyle
     pub const LCID_KAB: u32 = 0x1000;
+    /// Kabyle (Algeria)
     pub const LCID_KAB_DZ: u32 = 0x1000;
+    /// Kamba
     pub const LCID_KAM: u32 = 0x1000;
+    /// Kamba (Kenya)
     pub const LCID_KAM_KE: u32 = 0x1000;
+    /// Makonde
     pub const LCID_KDE: u32 = 0x1000;
+    /// Makonde (Tanzania)
     pub const LCID_KDE_TZ: u32 = 0x1000;
+    /// Kabuverdianu
     pub const LCID_KEA: u32 = 0x1000;
+    /// Kabuverdianu (Cabo Verde)
     pub const LCID_KEA_CV: u32 = 0x1000;
+    /// Koyra Chiini
     pub const LCID_KHQ: u32 = 0x1000;
+    /// Koyra Chiini (Mali)
     pub const LCID_KHQ_ML: u32 = 0x1000;
+    /// Kikuyu
     pub const LCID_KI: u32 = 0x1000;
+    /// Kikuyu (Kenya)
     pub const LCID_KI_KE: u32 = 0x1000;
+    /// Kako
     pub const LCID_KKJ: u32 = 0x1000;
+    /// Kako (Cameroon)
     pub const LCID_KKJ_CM: u32 = 0x1000;
+    /// Kalenjin
     pub const LCID_KLN: u32 = 0x1000;
+    /// Kalenjin (Kenya)
     pub const LCID_KLN_KE: u32 = 0x1000;
+    /// Korean (North Korea)
     pub const LCID_KO_KP: u32 = 0x1000;
+    /// Kashmiri (Perso-Arabic)
     pub const LCID_KS_ARAB_IN: u32 = 0x1000;
+    /// Shambala
     pub const LCID_KSB: u32 = 0x1000;
+    /// Shambala (Tanzania)
     pub const LCID_KSB_TZ: u32 = 0x1000;
+    /// Bafia
     pub const LCID_KSF: u32 = 0x1000;
+    /// Bafia (Cameroon)
     pub const LCID_KSF_CM: u32 = 0x1000;
+    /// Colognian
     pub const LCID_KSH: u32 = 0x1000;
+    /// Colognian (Germany)
     pub const LCID_KSH_DE: u32 = 0x1000;
+    /// Kurdish (Perso-Arabic, Iran)
     pub const LCID_KU_ARAB_IR: u32 = 0x1000;
+    /// Cornish
     pub const LCID_KW: u32 = 0x1000;
+    /// Cornish (United Kingdom)
     pub const LCID_KW_GB: u32 = 0x1000;
+    /// Langi
     pub const LCID_LAG: u32 = 0x1000;
+    /// Langi (Tanzania)
     pub const LCID_LAG_TZ: u32 = 0x1000;
+    /// Ganda
     pub const LCID_LG: u32 = 0x1000;
+    /// Ganda (Uganda)
     pub const LCID_LG_UG: u32 = 0x1000;
+    /// Lakota
     pub const LCID_LKT: u32 = 0x1000;
+    /// Lakota (United States)
     pub const LCID_LKT_US: u32 = 0x1000;
+    /// Lingala
     pub const LCID_LN: u32 = 0x1000;
+    /// Lingala (Angola)
     pub const LCID_LN_AO: u32 = 0x1000;
+    /// Lingala (Congo DRC)
     pub const LCID_LN_CD: u32 = 0x1000;
+    /// Lingala (Central African Republic)
     pub const LCID_LN_CF: u32 = 0x1000;
+    /// Lingala (Congo)
     pub const LCID_LN_CG: u32 = 0x1000;
+    /// Northern Luri (Iraq)
     pub const LCID_LRC_IQ: u32 = 0x1000;
+    /// Northern Luri (Iran)
     pub const LCID_LRC_IR: u32 = 0x1000;
+    /// Luba-Katanga
     pub const LCID_LU: u32 = 0x1000;
+    /// Luba-Katanga (Congo DRC)
     pub const LCID_LU_CD: u32 = 0x1000;
+    /// Luo
     pub const LCID_LUO: u32 = 0x1000;
+    /// Luo (Kenya)
     pub const LCID_LUO_KE: u32 = 0x1000;
+    /// Luyia
     pub const LCID_LUY: u32 = 0x1000;
+    /// Luyia (Kenya)
     pub const LCID_LUY_KE: u32 = 0x1000;
+    /// Masai
     pub const LCID_MAS: u32 = 0x1000;
+    /// Masai (Kenya)
     pub const LCID_MAS_KE: u32 = 0x1000;
+    /// Masai (Tanzania)
     pub const LCID_MAS_TZ: u32 = 0x1000;
+    /// Meru
     pub const LCID_MER: u32 = 0x1000;
+    /// Meru (Kenya)
     pub const LCID_MER_KE: u32 = 0x1000;
+    /// Morisyen
     pub const LCID_MFE: u32 = 0x1000;
+    /// Morisyen (Mauritius)
     pub const LCID_MFE_MU: u32 = 0x1000;
+    /// Malagasy
     pub const LCID_MG: u32 = 0x1000;
+    /// Malagasy (Madagascar)
     pub const LCID_MG_MG: u32 = 0x1000;
+    /// Makhuwa-Meetto
     pub const LCID_MGH: u32 = 0x1000;
+    /// Makhuwa-Meetto (Mozambique)
     pub const LCID_MGH_MZ: u32 = 0x1000;
+    /// Metaʼ
     pub const LCID_MGO: u32 = 0x1000;
+    /// Metaʼ (Cameroon)
     pub const LCID_MGO_CM: u32 = 0x1000;
+    /// Mundang
     pub const LCID_MUA: u32 = 0x1000;
+    /// Mundang (Cameroon)
     pub const LCID_MUA_CM: u32 = 0x1000;
+    /// Mazanderani (Iran)
     pub const LCID_MZN_IR: u32 = 0x1000;
+    /// Nama
     pub const LCID_NAQ: u32 = 0x1000;
+    /// Nama (Namibia)
     pub const LCID_NAQ_NA: u32 = 0x1000;
+    /// Norwegian Bokmål (Svalbard and Jan Mayen)
     pub const LCID_NB_SJ: u32 = 0x1000;
+    /// North Ndebele
     pub const LCID_ND: u32 = 0x1000;
+    /// North Ndebele (Zimbabwe)
     pub const LCID_ND_ZW: u32 = 0x1000;
+    /// Low German
     pub const LCID_NDS: u32 = 0x1000;
+    /// Low German (Germany)
     pub const LCID_NDS_DE: u32 = 0x1000;
+    /// Low German (Netherlands)
     pub const LCID_NDS_NL: u32 = 0x1000;
+    /// Unknown Language (ngo)
     pub const LCID_NGO: u32 = 0x1000;
+    /// Unknown Locale (ngo-GN)
     pub const LCID_NGO_GN: u32 = 0x1000;
+    /// Dutch (Aruba)
     pub const LCID_NL_AW: u32 = 0x1000;
+    /// Dutch (Bonaire, Sint Eustatius and Saba)
     pub const LCID_NL_BQ: u32 = 0x1000;
+    /// Dutch (Curaçao)
     pub const LCID_NL_CW: u32 = 0x1000;
+    /// Dutch (Suriname)
     pub const LCID_NL_SR: u32 = 0x1000;
+    /// Dutch (Sint Maarten)
     pub const LCID_NL_SX: u32 = 0x1000;
+    /// Kwasio
     pub const LCID_NMG: u32 = 0x1000;
+    /// Kwasio (Cameroon)
     pub const LCID_NMG_CM: u32 = 0x1000;
+    /// Ngiemboon
     pub const LCID_NNH: u32 = 0x1000;
+    /// Ngiemboon (Cameroon)
     pub const LCID_NNH_CM: u32 = 0x1000;
+    /// South Ndebele
     pub const LCID_NR: u32 = 0x1000;
+    /// South Ndebele (South Africa)
     pub const LCID_NR_ZA: u32 = 0x1000;
+    /// Nuer
     pub const LCID_NUS: u32 = 0x1000;
+    /// Nuer (South Sudan)
     pub const LCID_NUS_SD: u32 = 0x1000;
+    /// Nuer (South Sudan)
     pub const LCID_NUS_SS: u32 = 0x1000;
+    /// Nyankole
     pub const LCID_NYN: u32 = 0x1000;
+    /// Nyankole (Uganda)
     pub const LCID_NYN_UG: u32 = 0x1000;
+    /// Oromo (Kenya)
     pub const LCID_OM_KE: u32 = 0x1000;
+    /// Ossetic
     pub const LCID_OS: u32 = 0x1000;
+    /// Ossetic (Georgia)
     pub const LCID_OS_GE: u32 = 0x1000;
+    /// Ossetic (Russia)
     pub const LCID_OS_RU: u32 = 0x1000;
+    /// Prussian (World)
     pub const LCID_PRG_001: u32 = 0x1000;
+    /// Unknown Locale (ps-PK)
     pub const LCID_PS_PK: u32 = 0x1000;
+    /// Portuguese (Angola)
     pub const LCID_PT_AO: u32 = 0x1000;
+    /// Portuguese (Switzerland)
     pub const LCID_PT_CH: u32 = 0x1000;
+    /// Portuguese (Cabo Verde)
     pub const LCID_PT_CV: u32 = 0x1000;
+    /// Portuguese (Equatorial Guinea)
     pub const LCID_PT_GQ: u32 = 0x1000;
+    /// Portuguese (Guinea-Bissau)
     pub const LCID_PT_GW: u32 = 0x1000;
+    /// Portuguese (Luxembourg)
     pub const LCID_PT_LU: u32 = 0x1000;
+    /// Portuguese (Macao SAR)
     pub const LCID_PT_MO: u32 = 0x1000;
+    /// Portuguese (Mozambique)
     pub const LCID_PT_MZ: u32 = 0x1000;
+    /// Portuguese (São Tomé and Príncipe)
     pub const LCID_PT_ST: u32 = 0x1000;
+    /// Portuguese (Timor-Leste)
     pub const LCID_PT_TL: u32 = 0x1000;
+    /// Rundi
     pub const LCID_RN: u32 = 0x1000;
+    /// Rundi (Burundi)
     pub const LCID_RN_BI: u32 = 0x1000;
+    /// Rombo
     pub const LCID_ROF: u32 = 0x1000;
+    /// Rombo (Tanzania)
     pub const LCID_ROF_TZ: u32 = 0x1000;
+    /// Russian (Belarus)
     pub const LCID_RU_BY: u32 = 0x1000;
+    /// Russian (Kyrgyzstan)
     pub const LCID_RU_KG: u32 = 0x1000;
+    /// Russian (Kazakhstan)
     pub const LCID_RU_KZ: u32 = 0x1000;
+    /// Russian (Ukraine)
     pub const LCID_RU_UA: u32 = 0x1000;
+    /// Rwa
     pub const LCID_RWK: u32 = 0x1000;
+    /// Rwa (Tanzania)
     pub const LCID_RWK_TZ: u32 = 0x1000;
+    /// Samburu
     pub const LCID_SAQ: u32 = 0x1000;
+    /// Samburu (Kenya)
     pub const LCID_SAQ_KE: u32 = 0x1000;
+    /// Sangu
     pub const LCID_SBP: u32 = 0x1000;
+    /// Sangu (Tanzania)
     pub const LCID_SBP_TZ: u32 = 0x1000;
+    /// Sena
     pub const LCID_SEH: u32 = 0x1000;
+    /// Sena (Mozambique)
     pub const LCID_SEH_MZ: u32 = 0x1000;
+    /// Koyraboro Senni
     pub const LCID_SES: u32 = 0x1000;
+    /// Koyraboro Senni (Mali)
     pub const LCID_SES_ML: u32 = 0x1000;
+    /// Sango
     pub const LCID_SG: u32 = 0x1000;
+    /// Sango (Central African Republic)
     pub const LCID_SG_CF: u32 = 0x1000;
+    /// Tachelhit
     pub const LCID_SHI: u32 = 0x1000;
+    /// Tachelhit (Latin)
     pub const LCID_SHI_LATN: u32 = 0x1000;
+    /// Tachelhit (Latin, Morocco)
     pub const LCID_SHI_LATN_MA: u32 = 0x1000;
+    /// Tachelhit (Tifinagh)
     pub const LCID_SHI_TFNG: u32 = 0x1000;
+    /// Tachelhit (Tifinagh, Morocco)
     pub const LCID_SHI_TFNG_MA: u32 = 0x1000;
+    /// Shona
     pub const LCID_SN: u32 = 0x1000;
+    /// Shona (Latin)
     pub const LCID_SN_LATN: u32 = 0x1000;
+    /// Shona (Latin, Zimbabwe)
     pub const LCID_SN_LATN_ZW: u32 = 0x1000;
+    /// Somali (Djibouti)
     pub const LCID_SO_DJ: u32 = 0x1000;
+    /// Somali (Ethiopia)
     pub const LCID_SO_ET: u32 = 0x1000;
+    /// Somali (Kenya)
     pub const LCID_SO_KE: u32 = 0x1000;
+    /// Albanian (Macedonia, FYRO)
     pub const LCID_SQ_MK: u32 = 0x1000;
+    /// siSwati
     pub const LCID_SS: u32 = 0x1000;
+    /// siSwati (Swaziland)
     pub const LCID_SS_SZ: u32 = 0x1000;
+    /// siSwati (South Africa)
     pub const LCID_SS_ZA: u32 = 0x1000;
+    /// Saho
     pub const LCID_SSY: u32 = 0x1000;
+    /// Saho (Eritrea)
     pub const LCID_SSY_ER: u32 = 0x1000;
+    /// Sesotho (Lesotho)
     pub const LCID_ST_LS: u32 = 0x1000;
+    /// Swedish (Åland Islands)
     pub const LCID_SV_AX: u32 = 0x1000;
+    /// Kiswahili (Tanzania)
     pub const LCID_SW_TZ: u32 = 0x1000;
+    /// Kiswahili (Uganda)
     pub const LCID_SW_UG: u32 = 0x1000;
+    /// Unknown Language (swc)
     pub const LCID_SWC: u32 = 0x1000;
+    /// Kiswahili (Congo DRC)
     pub const LCID_SWC_CD: u32 = 0x1000;
+    /// Tamil (Malaysia)
     pub const LCID_TA_MY: u32 = 0x1000;
+    /// Tamil (Singapore)
     pub const LCID_TA_SG: u32 = 0x1000;
+    /// Teso
     pub const LCID_TEO: u32 = 0x1000;
+    /// Teso (Kenya)
     pub const LCID_TEO_KE: u32 = 0x1000;
+    /// Teso (Uganda)
     pub const LCID_TEO_UG: u32 = 0x1000;
+    /// Tigre
     pub const LCID_TIG: u32 = 0x1000;
+    /// Tigre (Eritrea)
     pub const LCID_TIG_ER: u32 = 0x1000;
+    /// Tongan
     pub const LCID_TO: u32 = 0x1000;
+    /// Tongan (Tonga)
     pub const LCID_TO_TO: u32 = 0x1000;
+    /// Turkish (Cyprus)
     pub const LCID_TR_CY: u32 = 0x1000;
+    /// Tasawaq
     pub const LCID_TWQ: u32 = 0x1000;
+    /// Tasawaq (Niger)
     pub const LCID_TWQ_NE: u32 = 0x1000;
+    /// Central Atlas Tamazight (Latin, Morocco)
     pub const LCID_TZM_LATN_MA: u32 = 0x1000;
+    /// Uzbek (Perso-Arabic)
     pub const LCID_UZ_ARAB: u32 = 0x1000;
+    /// Uzbek (Perso-Arabic, Afghanistan)
     pub const LCID_UZ_ARAB_AF: u32 = 0x1000;
+    /// Vai
     pub const LCID_VAI: u32 = 0x1000;
+    /// Vai (Latin)
     pub const LCID_VAI_LATN: u32 = 0x1000;
+    /// Vai (Latin, Liberia)
     pub const LCID_VAI_LATN_LR: u32 = 0x1000;
+    /// Vai (Vai)
     pub const LCID_VAI_VAII: u32 = 0x1000;
+    /// Vai (Vai, Liberia)
     pub const LCID_VAI_VAII_LR: u32 = 0x1000;
+    /// Volapük
     pub const LCID_VO: u32 = 0x1000;
+    /// Volapük (World)
     pub const LCID_VO_001: u32 = 0x1000;
+    /// Vunjo
     pub const LCID_VUN: u32 = 0x1000;
+    /// Vunjo (Tanzania)
     pub const LCID_VUN_TZ: u32 = 0x1000;
+    /// Walser
     pub const LCID_WAE: u32 = 0x1000;
+    /// Walser (Switzerland)
     pub const LCID_WAE_CH: u32 = 0x1000;
+    /// Wolaytta
     pub const LCID_WAL: u32 = 0x1000;
+    /// Wolaytta (Ethiopia)
     pub const LCID_WAL_ET: u32 = 0x1000;
+    /// Soga
     pub const LCID_XOG: u32 = 0x1000;
+    /// Soga (Uganda)
     pub const LCID_XOG_UG: u32 = 0x1000;
+    /// Yangben
     pub const LCID_YAV: u32 = 0x1000;
+    /// Yangben (Cameroon)
     pub const LCID_YAV_CM: u32 = 0x1000;
+    /// Yoruba (Benin)
     pub const LCID_YO_BJ: u32 = 0x1000;
+    /// Standard Moroccan Tamazight
     pub const LCID_ZGH: u32 = 0x1000;
+    /// Standard Moroccan Tamazight (Tifinagh)
     pub const LCID_ZGH_TFNG: u32 = 0x1000;
+    /// Standard Moroccan Tamazight (Tifinagh, Morocco)
     pub const LCID_ZGH_TFNG_MA: u32 = 0x1000;
+    /// Arabic (Libya)
     pub const LCID_AR_LY: u32 = 0x1001;
+    /// Chinese (Simplified, Singapore)
     pub const LCID_ZH_SG: u32 = 0x1004;
+    /// German (Luxembourg)
     pub const LCID_DE_LU: u32 = 0x1007;
+    /// English (Canada)
     pub const LCID_EN_CA: u32 = 0x1009;
+    /// Spanish (Guatemala)
     pub const LCID_ES_GT: u32 = 0x100A;
+    /// French (Switzerland)
     pub const LCID_FR_CH: u32 = 0x100C;
+    /// Croatian (Bosnia and Herzegovina)
     pub const LCID_HR_BA: u32 = 0x101A;
+    /// Sami, Lule (Norway)
     pub const LCID_SMJ_NO: u32 = 0x103B;
+    /// Central Atlas Tamazight (Tifinagh, Morocco)
     pub const LCID_TZM_TFNG_MA: u32 = 0x105F;
+    /// Arabic (Algeria)
     pub const LCID_AR_DZ: u32 = 0x1401;
+    /// Chinese (Traditional, Macao SAR)
     pub const LCID_ZH_MO: u32 = 0x1404;
+    /// German (Liechtenstein)
     pub const LCID_DE_LI: u32 = 0x1407;
+    /// English (New Zealand)
     pub const LCID_EN_NZ: u32 = 0x1409;
+    /// Spanish (Costa Rica)
     pub const LCID_ES_CR: u32 = 0x140A;
+    /// French (Luxembourg)
     pub const LCID_FR_LU: u32 = 0x140C;
+    /// Bosnian (Latin, Bosnia and Herzegovina)
     pub const LCID_BS_LATN_BA: u32 = 0x141A;
+    /// Sami, Lule (Sweden)
     pub const LCID_SMJ_SE: u32 = 0x143B;
+    /// Arabic (Morocco)
     pub const LCID_AR_MA: u32 = 0x1801;
+    /// English (Ireland)
     pub const LCID_EN_IE: u32 = 0x1809;
+    /// Spanish (Panama)
     pub const LCID_ES_PA: u32 = 0x180A;
+    /// French (Monaco)
     pub const LCID_FR_MC: u32 = 0x180C;
+    /// Serbian (Latin, Bosnia and Herzegovina)
     pub const LCID_SR_LATN_BA: u32 = 0x181A;
+    /// Sami, Southern (Norway)
     pub const LCID_SMA_NO: u32 = 0x183B;
+    /// Arabic (Tunisia)
     pub const LCID_AR_TN: u32 = 0x1C01;
+    /// English (South Africa)
     pub const LCID_EN_ZA: u32 = 0x1C09;
+    /// Spanish (Dominican Republic)
     pub const LCID_ES_DO: u32 = 0x1C0A;
+    /// Serbian (Cyrillic, Bosnia and Herzegovina)
     pub const LCID_SR_CYRL_BA: u32 = 0x1C1A;
+    /// Sami, Southern (Sweden)
     pub const LCID_SMA_SE: u32 = 0x1C3B;
+    /// Arabic (Oman)
     pub const LCID_AR_OM: u32 = 0x2001;
+    /// English (Jamaica)
     pub const LCID_EN_JM: u32 = 0x2009;
+    /// Spanish (Venezuela)
     pub const LCID_ES_VE: u32 = 0x200A;
+    /// French (Réunion)
     pub const LCID_FR_RE: u32 = 0x200C;
+    /// Bosnian (Cyrillic, Bosnia and Herzegovina)
     pub const LCID_BS_CYRL_BA: u32 = 0x201A;
+    /// Sami, Skolt (Finland)
     pub const LCID_SMS_FI: u32 = 0x203B;
+    /// Arabic (Yemen)
     pub const LCID_AR_YE: u32 = 0x2401;
+    /// Spanish (Colombia)
     pub const LCID_ES_CO: u32 = 0x240A;
+    /// French Congo (DRC)
     pub const LCID_FR_CD: u32 = 0x240C;
+    /// Serbian (Latin, Serbia)
     pub const LCID_SR_LATN_RS: u32 = 0x241A;
+    /// Sami, Inari (Finland)
     pub const LCID_SMN_FI: u32 = 0x243B;
+    /// Arabic (Syria)
     pub const LCID_AR_SY: u32 = 0x2801;
+    /// English (Belize)
     pub const LCID_EN_BZ: u32 = 0x2809;
+    /// Spanish (Peru)
     pub const LCID_ES_PE: u32 = 0x280A;
+    /// French (Senegal)
     pub const LCID_FR_SN: u32 = 0x280C;
+    /// Serbian (Cyrillic, Serbia)
     pub const LCID_SR_CYRL_RS: u32 = 0x281A;
+    /// Arabic (Jordan)
     pub const LCID_AR_JO: u32 = 0x2C01;
+    /// English (Trinidad and Tobago)
     pub const LCID_EN_TT: u32 = 0x2C09;
+    /// Spanish (Argentina)
     pub const LCID_ES_AR: u32 = 0x2C0A;
+    /// French (Cameroon)
     pub const LCID_FR_CM: u32 = 0x2C0C;
+    /// Serbian (Latin, Montenegro)
     pub const LCID_SR_LATN_ME: u32 = 0x2C1A;
+    /// Arabic (Lebanon)
     pub const LCID_AR_LB: u32 = 0x3001;
+    /// English (Zimbabwe)
     pub const LCID_EN_ZW: u32 = 0x3009;
+    /// Spanish (Ecuador)
     pub const LCID_ES_EC: u32 = 0x300A;
+    /// French (Côte d’Ivoire)
     pub const LCID_FR_CI: u32 = 0x300C;
+    /// Serbian (Cyrillic, Montenegro)
     pub const LCID_SR_CYRL_ME: u32 = 0x301A;
+    /// Arabic (Kuwait)
     pub const LCID_AR_KW: u32 = 0x3401;
+    /// English (Philippines)
     pub const LCID_EN_PH: u32 = 0x3409;
+    /// Spanish (Chile)
     pub const LCID_ES_CL: u32 = 0x340A;
+    /// French (Mali)
     pub const LCID_FR_ML: u32 = 0x340C;
+    /// Arabic (United Arab Emirates)
     pub const LCID_AR_AE: u32 = 0x3801;
+    /// Spanish (Uruguay)
     pub const LCID_ES_UY: u32 = 0x380A;
+    /// French (Morocco)
     pub const LCID_FR_MA: u32 = 0x380C;
+    /// Arabic (Bahrain)
     pub const LCID_AR_BH: u32 = 0x3C01;
+    /// English (Hong Kong SAR)
     pub const LCID_EN_HK: u32 = 0x3C09;
+    /// Spanish (Paraguay)
     pub const LCID_ES_PY: u32 = 0x3C0A;
+    /// French (Haiti)
     pub const LCID_FR_HT: u32 = 0x3C0C;
+    /// Arabic (Qatar)
     pub const LCID_AR_QA: u32 = 0x4001;
+    /// English (India)
     pub const LCID_EN_IN: u32 = 0x4009;
+    /// Spanish (Bolivia)
     pub const LCID_ES_BO: u32 = 0x400A;
+    /// English (Malaysia)
     pub const LCID_EN_MY: u32 = 0x4409;
+    /// Spanish (El Salvador)
     pub const LCID_ES_SV: u32 = 0x440A;
+    /// English (Singapore)
     pub const LCID_EN_SG: u32 = 0x4809;
+    /// Spanish (Honduras)
     pub const LCID_ES_HN: u32 = 0x480A;
+    /// English (United Arab Emirates)
     pub const LCID_EN_AE: u32 = 0x4C09;
+    /// Spanish (Nicaragua)
     pub const LCID_ES_NI: u32 = 0x4C0A;
+    /// Spanish (Puerto Rico)
     pub const LCID_ES_PR: u32 = 0x500A;
+    /// Spanish (United States)
     pub const LCID_ES_US: u32 = 0x540A;
+    /// Spanish (Cuba)
     pub const LCID_ES_CU: u32 = 0x5C0A;
+    /// Bosnian (Cyrillic)
     pub const LCID_BS_CYRL: u32 = 0x641A;
+    /// Bosnian (Latin)
     pub const LCID_BS_LATN: u32 = 0x681A;
+    /// Serbian (Cyrillic)
     pub const LCID_SR_CYRL: u32 = 0x6C1A;
+    /// Serbian (Latin)
     pub const LCID_SR_LATN: u32 = 0x701A;
+    /// Sami (Inari)
     pub const LCID_SMN: u32 = 0x703B;
+    /// Azerbaijani (Cyrillic)
     pub const LCID_AZ_CYRL: u32 = 0x742C;
+    /// Sami (Skolt)
     pub const LCID_SMS: u32 = 0x743B;
+    /// Chinese
     pub const LCID_ZH: u32 = 0x7804;
+    /// Norwegian Nynorsk
     pub const LCID_NN: u32 = 0x7814;
+    /// Bosnian
     pub const LCID_BS: u32 = 0x781A;
+    /// Azerbaijani (Latin)
     pub const LCID_AZ_LATN: u32 = 0x782C;
+    /// Sami (Southern)
     pub const LCID_SMA: u32 = 0x783B;
+    /// Uzbek (Cyrillic)
     pub const LCID_UZ_CYRL: u32 = 0x7843;
+    /// Mongolian
     pub const LCID_MN_CYRL: u32 = 0x7850;
+    /// Inuktitut (Syllabics)
     pub const LCID_IU_CANS: u32 = 0x785D;
+    /// Central Atlas Tamazight (Tifinagh)
     pub const LCID_TZM_TFNG: u32 = 0x785F;
+    /// Chinese (Traditional)
     pub const LCID_ZH_HANT: u32 = 0x7C04;
+    /// Norwegian Bokmål
     pub const LCID_NB: u32 = 0x7C14;
+    /// Serbian
     pub const LCID_SR: u32 = 0x7C1A;
+    /// Tajik (Cyrillic)
     pub const LCID_TG_CYRL: u32 = 0x7C28;
+    /// Lower Sorbian
     pub const LCID_DSB: u32 = 0x7C2E;
+    /// Sami (Lule)
     pub const LCID_SMJ: u32 = 0x7C3B;
+    /// Uzbek (Latin)
     pub const LCID_UZ_LATN: u32 = 0x7C43;
+    /// Punjabi
     pub const LCID_PA_ARAB: u32 = 0x7C46;
+    /// Mongolian (Traditional Mongolian)
     pub const LCID_MN_MONG: u32 = 0x7C50;
+    /// Sindhi
     pub const LCID_SD_ARAB: u32 = 0x7C59;
+    /// Cherokee
     pub const LCID_CHR_CHER: u32 = 0x7C5C;
+    /// Inuktitut (Latin)
     pub const LCID_IU_LATN: u32 = 0x7C5D;
+    /// Central Atlas Tamazight (Latin)
     pub const LCID_TZM_LATN: u32 = 0x7C5F;
+    /// Fulah
     pub const LCID_FF_LATN: u32 = 0x7C67;
+    /// Hausa (Latin)
     pub const LCID_HA_LATN: u32 = 0x7C68;
+    /// Central Kurdish
     pub const LCID_KU_ARAB: u32 = 0x7C92;
 }

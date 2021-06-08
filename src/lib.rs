@@ -65,6 +65,48 @@ pub enum NameLookupError {
     Undefined(String),
 }
 
+/// A known ANSI code page. Some languages can be encoded using one of these
+/// code pages. This enum has a [`u32`] representation, and so can be converted
+/// to the numeric code page value if needed.
+#[derive(Clone, Copy, Debug)]
+#[repr(u32)]
+pub enum AnsiCodePage {
+    /// windows-874, Thai (Windows)
+    Windows874 = 874,
+    /// shift_jis, ANSI/OEM Japanese; Japanese (Shift-JIS)
+    ShiftJIS = 932,
+    /// gb2312, ANSI/OEM Simplified Chinese (PRC, Singapore); Chinese Simplified (GB2312)
+    GB2312 = 936,
+    /// ks_c_5601-1987, ANSI/OEM Korean (Unified Hangul Code)
+    KsC5601 = 949,
+    /// big5, ANSI/OEM Traditional Chinese (Taiwan; Hong Kong SAR, PRC); Chinese Traditional (Big5)
+    Big5 = 950,
+    /// windows-1250, ANSI Central European; Central European (Windows)
+    Windows1250 = 1250,
+    /// windows-1251, ANSI Cyrillic; Cyrillic (Windows)
+    Windows1251 = 1251,
+    /// windows-1252, ANSI Latin 1; Western European (Windows)
+    Windows1252 = 1252,
+    /// windows-1253, ANSI Greek; Greek (Windows)
+    Windows1253 = 1253,
+    /// windows-1254, ANSI Turkish; Turkish (Windows)
+    Windows1254 = 1254,
+    /// windows-1255, ANSI Hebrew; Hebrew (Windows)
+    Windows1255 = 1255,
+    /// windows-1256, ANSI Arabic; Arabic (Windows)
+    Windows1256 = 1256,
+    /// windows-1257, ANSI Baltic; Baltic (Windows)
+    Windows1257 = 1257,
+    /// windows-1258, ANSI/OEM Vietnamese; Vietnamese (Windows)
+    Windows1258 = 1258,
+}
+
+impl From<AnsiCodePage> for u32 {
+    fn from(value: AnsiCodePage) -> u32 {
+        value as u32
+    }
+}
+
 /// A language's identifiers and information. Lookups from numeric or named
 /// identifiers return a reference to statically defined `LanguageId`.
 #[derive(Clone, Debug)]
@@ -82,6 +124,9 @@ pub struct LanguageId {
     pub iso639_three_letter: &'static str,
     /// A three-letter code for the language used in the Windows API.
     pub windows_three_letter: &'static str,
+    /// The corresponding ANSI code page that may be used to encode this
+    /// language, or [`None`] if the language can't be encoded outside Unicode.
+    pub ansi_code_page: Option<AnsiCodePage>,
 }
 
 const PRIMARY_LANG_ID_MASK: u32 = 0x3ff;
@@ -225,5 +270,12 @@ mod tests {
             let err = TryInto::<&LanguageId>::try_into(sort_id).unwrap_err();
             assert_matches!(err, LcidLookupError::SortIdBits(v, r) if v == sort_id && r == sort_id_bits);
         }
+    }
+
+    #[test]
+    fn ansi_code_page_to_u32() {
+        assert_eq!(AnsiCodePage::Windows1252 as u32, 1252u32);
+        let value: u32 = AnsiCodePage::Windows1252.into();
+        assert_eq!(value, 1252u32);
     }
 }

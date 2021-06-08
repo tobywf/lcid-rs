@@ -29,6 +29,11 @@ fn assert_lang_eq_ci(lang: &LanguageId, ci: &CultureInfo) {
     assert_eq!(lang.iso639_two_letter, &ci.iso639_two_letter);
     assert_eq!(lang.iso639_three_letter, &ci.iso639_three_letter);
     assert_eq!(lang.windows_three_letter, &ci.windows_three_letter);
+    if ci.ansi_code_page == 0 {
+        assert_matches!(lang.ansi_code_page, None);
+    } else {
+        assert_matches!(lang.ansi_code_page, Some(cp) if (cp as u32) == ci.ansi_code_page);
+    }
 }
 
 #[test]

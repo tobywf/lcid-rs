@@ -43,6 +43,7 @@ The information provided in `LanguageId` is:
 * ISO 639-1 two-letter code (`iso639_two_letter`)
 * ISO 639-2/639-3 three-letter code (`iso639_three_letter`)
 * The Windows API three-letter language code (`windows_three_letter`)
+* ANSI code page (`ansi_code_page`)
 
 It currently tracks the `14.1`/2021-07-04 protocol revision. Future protocol
 revisions will may only trigger a minor version bump, so if you need a specific
@@ -52,6 +53,7 @@ revision, pin this crate accordingly.
 
 ### [0.1.1] - unreleased
 
+* Provide ANSI code page information
 * Codegen: Sort languages by LCID and name, so the generated code is stable for
   languages that share an LCID (`0x1000` ones)
 * Move `LanguageId` constants to a module, to avoid cluttering the crate namespace
