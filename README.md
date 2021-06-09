@@ -59,7 +59,7 @@ The maintenance status is "as-is". I'm happy to accept pull requests for correct
 
 ## MS-LCID protocol revision
 
-This library currently tracks the `14.1`/2021-07-04 protocol revision. Future
+This library currently tracks the `14.1`/2021-04-07 protocol revision. Future
 protocol revisions will may only trigger a minor version bump, so if you need
 lookup behaviour of a specific revision, pin this crate accordingly.
 
@@ -67,7 +67,7 @@ lookup behaviour of a specific revision, pin this crate accordingly.
 
 ### [0.2.0] - 2021-06-08
 
-* Tracks MS-LCID `14.1`/2021-07-04 protocol revision
+* Tracks MS-LCID `14.1`/2021-04-07 protocol revision
 * Provide ANSI code page information
 * Move `LanguageId` constants to a module, to avoid cluttering the crate
   namespace (breaking change)
@@ -97,7 +97,7 @@ JSON files.
 
 ## MS-LCID errata
 
-### Protocol revision `14.1`/2021-07-04
+### Protocol revision `14.1`/2021-04-07
 
 * "es-CU" is listed twice. Once as `0x5C0A` in the "Language ID" table, and
   once in the "Locale Names without LCIDs" table as `0x1000`. The former LCID
