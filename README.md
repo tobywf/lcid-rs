@@ -1,62 +1,78 @@
-# LCID-rs: A Rust library for Windows Language Code Identifiers
+# LCID-rs: A Rust library for Windows Language Code Identifiers and other language/culture information
 
-[![crates.io](https://img.shields.io/crates/v/lcid.svg)](https://crates.io/crates/lcid)
+[![crates.io](https://img.shields.io/crates/v/lcid.svg)](https://crates.io/crates/lcid) [![docs.rs](https://docs.rs/lcid/badge.svg)](https://docs.rs/lcid/) [![GitHub CI](https://github.com/tobywf/lcid-rs/actions/workflows/check.yaml/badge.svg)](https://github.com/tobywf/lcid-rs/)
 
-This library provides language code identifier parsing and information
-according to the [MS-LCID "Windows Language Code Identifier (LCID) Reference"](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f).
+[[Repository](https://github.com/tobywf/lcid-rs/)] [[Documentation](https://docs.rs/lcid/)] [[Crate Registry (crates.io)](https://crates.io/crates/lcid)]
 
-```toml
-[dependencies]
-lcid = "0.1"
-```
+---
 
-Language identifiers can be queried from a 32-bit unsigned integer (Language
-Code Identifier, or LCID) or a string (name, i.e. supported [IETF BCP 47 language tag](https://tools.ietf.org/rfc/bcp/bcp47.txt)):
+This crate provides language code identifier parsing and information
+according to the [[MS-LCID] Windows Language Code Identifier (LCID) Reference](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f) and [`System.Globalization.CultureInfo` API](https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo).
 
-```rust
-use lcid::LanguageId;
-use std::convert::TryInto;
+The following information is provided:
 
-fn main() {
-    let lcid = 1033;
-    let lang: &LanguageId = lcid.try_into().unwrap();
-    println!("LCID {} is '{}'/'{}'", lcid, lang.name, lang.english_name);
-
-    let name = "en-US";
-    let lang: &LanguageId = name.try_into().unwrap();
-    println!("Name '{}' is {}/'{}'", name, lang.lcid, lang.english_name);
-}
-```
-
-prints
-
-```
-LCID 1033 is 'en-US'/'English (United States)'
-Name 'en-US' is 1033/'English (United States)'
-```
-
-The information provided in `LanguageId` is:
-
-* Language Code Identifier/LCID (`lcid`)
-* Name/IETF language tag (`name`)
+* Language Code Identifier/LCID (`lcid`), and lookup by LCID
+* Name/IETF language tag (`name`), and lookup by name
 * A non-localised, English readable language name (`english_name`)
 * ISO 639-1 two-letter code (`iso639_two_letter`)
 * ISO 639-2/639-3 three-letter code (`iso639_three_letter`)
 * The Windows API three-letter language code (`windows_three_letter`)
 * ANSI code page (`ansi_code_page`)
 
-It currently tracks the `14.1`/2021-07-04 protocol revision. Future protocol
-revisions will may only trigger a minor version bump, so if you need a specific
-revision, pin this crate accordingly.
+To use this crate, add the following to your `Cargo.toml`:
+
+```toml
+[dependencies]
+lcid = "0.2"
+```
+
+Language identifiers/information can be queried by Language
+Code Identifier (LCID, a 32-bit unsigned integer), name (a string, i.e. supported [IETF BCP 47 language tags](https://tools.ietf.org/rfc/bcp/bcp47.txt)), or by directly referring to the language identifier constant:
+
+```rust
+use lcid::LanguageId;
+use std::convert::TryInto;
+
+fn main() {
+    let lang: &LanguageId = 1033.try_into().unwrap();
+    println!("Lang is '{}'/{}/'{}'", lang.name, lang.lcid, lang.english_name);
+
+    let lang: &LanguageId = "en-US".try_into().unwrap();
+    println!("Lang is '{}'/{}/'{}'", lang.name, lang.lcid, lang.english_name);
+
+    let lang: &LanguageId = lcid::constants::LANG_EN_US;
+    println!("Lang is '{}'/{}/'{}'", lang.name, lang.lcid, lang.english_name);
+}
+```
+
+This prints the following for each:
+
+```
+Lang is 'en-US'/1033/'English (United States)'
+```
+
+## Project name and status
+
+I struggle to find a good name for this. "locale-info" might be misleading (might imply some kind of POSIX locale support), or "culture-info" implying more than the project offers (like calendar information). In the end, I chose "lcid-rs", because "lcid" is ambiguous/hard to search for, although I named the crate itself "lcid" because in the context of Rust, "lcid" is not ambiguous. It'd be nice if this project was referred to as "lcid-rs" in ambiguous contexts (linking to the repo, blog posts, etc), and "lcid" only in Rust code/configuration.
+
+The maintenance status is "as-is". I'm happy to accept pull requests for corrections (as long as they align with MS-LCID and the Windows API), pull requests for new features, and pull requests for new MS-LCID protocol revisions in the future.
+
+## MS-LCID protocol revision
+
+This library currently tracks the `14.1`/2021-07-04 protocol revision. Future
+protocol revisions will may only trigger a minor version bump, so if you need
+lookup behaviour of a specific revision, pin this crate accordingly.
 
 ## Changelog
 
-### [0.1.1] - unreleased
+### [0.2.0] - 2021-06-08
 
+* Tracks MS-LCID `14.1`/2021-07-04 protocol revision
 * Provide ANSI code page information
+* Move `LanguageId` constants to a module, to avoid cluttering the crate
+  namespace (breaking change)
 * Codegen: Sort languages by LCID and name, so the generated code is stable for
   languages that share an LCID (`0x1000` ones)
-* Move `LanguageId` constants to a module, to avoid cluttering the crate namespace
 
 ### [0.1.0] - 2021-06-06
 
@@ -80,6 +96,8 @@ Finally, the `lcid-gen` crate generates code for the `lcid` crate
 JSON files.
 
 ## MS-LCID errata
+
+### Protocol revision `14.1`/2021-07-04
 
 * "es-CU" is listed twice. Once as `0x5C0A` in the "Language ID" table, and
   once in the "Locale Names without LCIDs" table as `0x1000`. The former LCID

@@ -11,12 +11,10 @@
 //! use lcid::LanguageId;
 //! use std::convert::TryInto;
 //!
-//! let lcid = 1033;
-//! let lang: &LanguageId = lcid.try_into().unwrap();
+//! let lang: &LanguageId = 1033.try_into().unwrap();
 //! assert_eq!(lang.name, "en-US");
 //!
-//! let name = "en-US";
-//! let lang: &LanguageId = name.try_into().unwrap();
+//! let lang: &LanguageId = "en-US".try_into().unwrap();
 //! assert_eq!(lang.lcid, 1033);
 //! ```
 //!
