@@ -65,6 +65,12 @@ lookup behaviour of a specific revision, pin this crate accordingly.
 
 ## Changelog
 
+### [0.2.1] - 2023-06-09
+
+* Remove `thiserror` dependency
+* MSRV is Rust 1.56
+* Edition is 2021
+
 ### [0.2.0] - 2021-06-08
 
 * Tracks MS-LCID `14.1`/2021-04-07 protocol revision

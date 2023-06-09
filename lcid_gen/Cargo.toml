@@ -2,7 +2,7 @@
 name = "lcid_gen"
 version = "0.1.0"
 authors = ["Toby Fleming <tobywf@users.noreply.github.com>"]
-edition = "2018"
+edition = "2021"
 description = "A helper crate for lcid that parses langague information from JSON and generated code."
 license = "MIT OR Apache-2.0"
 publish = false

@@ -25,42 +25,84 @@
 pub mod constants;
 
 use std::convert::TryFrom;
-use thiserror::Error;
+use std::fmt;
 
 /// Errors when looking up a [`LanguageId`] from a numeric ([`u32`]) LCID via
 /// [`TryFrom`] or [`TryInto`](std::convert::TryInto).
-#[derive(Error, Debug)]
+#[derive(Debug)]
 pub enum LcidLookupError {
     /// The LCID has set reserved bits (original value, reserved bits).
-    #[error("LCID {0}/{0:#06x} has reserved bits set: {1}/{1:#x}")]
     ReservedBits(u32, u32),
     /// The LCID has sort ID bits set (original value, sort ID bits).
-    #[error("LCID {0}/{0:#06x} has sort ID bits set: {1}/{1:#x}")]
     SortIdBits(u32, u32),
     /// The LCID refers to a named reserved language.
-    #[error("LCID {0}/{0:#06x} is reserved ('{1}')")]
     Reserved(u32, &'static str),
     /// The LCID refers to a unknown reserved language.
-    #[error("LCID {0}/{0:#06x} is reserved (<unknown>)")]
     ReservedUnknown(u32),
     /// The LCID is neither defined nor reserved.
-    #[error("LCID {0}/{0:#06x} is neither defined nor reserved")]
     NeitherDefinedNorReserved(u32),
     /// The LCID is undefined.
-    #[error("LCID {0}/{0:#06x} is undefined")]
     Undefined(u32),
+}
+
+impl fmt::Display for LcidLookupError {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        match self {
+            Self::ReservedBits(lcid, bits) => write!(
+                f,
+                "LCID {0}/{0:#06x} has reserved bits set: {1}/{1:#x}",
+                lcid, bits
+            ),
+            Self::SortIdBits(lcid, bits) => write!(
+                f,
+                "LCID {0}/{0:#06x} has sort ID bits set: {1}/{1:#x}",
+                lcid, bits
+            ),
+            Self::Reserved(lcid, language) => {
+                write!(f, "LCID {0}/{0:#06x} is reserved (`{1}`)", lcid, language)
+            }
+            Self::ReservedUnknown(lcid) => {
+                write!(f, "LCID {0}/{0:#06x} is reserved (<unknown>)", lcid)
+            }
+            Self::NeitherDefinedNorReserved(lcid) => {
+                write!(f, "LCID {0}/{0:#06x} is neither defined nor reserved", lcid)
+            }
+            Self::Undefined(lcid) => write!(f, "LCID {0}/{0:#06x} is undefined", lcid),
+        }
+    }
+}
+
+impl std::error::Error for LcidLookupError {
+    fn source(&self) -> Option<&(dyn std::error::Error + 'static)> {
+        None
+    }
 }
 
 /// Errors when looking up a [`LanguageId`] from a named identifier via
 /// [`TryFrom`] or [`TryInto`](std::convert::TryInto).
-#[derive(Error, Debug)]
+#[derive(Debug)]
 pub enum NameLookupError {
     /// The name refers to a reserved language.
-    #[error("Name '{0}' is reserved ({1}/{1:#06x})")]
     Reserved(&'static str, u32),
     /// The name does not refer to a defined language.
-    #[error("Name '{0}' is undefined")]
     Undefined(String),
+}
+
+impl fmt::Display for NameLookupError {
+    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        match self {
+            Self::Reserved(name, lcid) => {
+                write!(f, "Name `{0}` is reserved ({1}/{1:#06x})", name, lcid)
+            }
+            Self::Undefined(name) => write!(f, "Name `{0}` is undefined", name),
+        }
+    }
+}
+
+impl std::error::Error for NameLookupError {
+    fn source(&self) -> Option<&(dyn std::error::Error + 'static)> {
+        None
+    }
 }
 
 /// A known ANSI code page. Some languages can be encoded using one of these

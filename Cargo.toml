@@ -1,8 +1,9 @@
 [package]
 name = "lcid"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Toby Fleming <tobywf@users.noreply.github.com>"]
-edition = "2018"
+edition = "2021"
+rust-version = "1.56"
 description = "Parse language code identifiers per MS-LCID."
 readme = "README.md"
 license = "MIT OR Apache-2.0"
@@ -22,7 +23,6 @@ bench = false
 doc = true
 
 [dependencies]
-thiserror = "1.0"
 
 [dev-dependencies]
 assert_matches = "1.5"
