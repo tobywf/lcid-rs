@@ -230,7 +230,6 @@ impl TryFrom<u32> for &'static LanguageId {
         // language ID is 16 bits (0-15), primary and sub language ID combined
 
         // Generated from JSON
-        use constants::*;
         parse_lcid!(value)
     }
 }
@@ -242,7 +241,6 @@ impl TryFrom<&str> for &'static LanguageId {
     /// error if the name is unknown or reserved.
     fn try_from(value: &str) -> std::result::Result<Self, Self::Error> {
         // Generated from JSON
-        use constants::*;
         parse_name!(value)
     }
 }

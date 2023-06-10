@@ -158,9 +158,9 @@ fn parse_ms_lcid<P: AsRef<Path>>(
                 }
                 let identifier = identifiers.get(&name).expect("Identifier not found");
 
-                lookup_lcid.push_str(&format!("{:#06X} => Ok({}),\n", lcid, identifier));
+                lookup_lcid.push_str(&format!("{:#06X} => Ok(constants::{}),\n", lcid, identifier));
                 lookup_name.push_str(indent);
-                lookup_name.push_str(&format!("\"{}\" => Ok({}),\n", name, identifier));
+                lookup_name.push_str(&format!("\"{}\" => Ok(constants::{}),\n", name, identifier));
             }
         }
     }
@@ -187,7 +187,7 @@ fn parse_ms_lcid<P: AsRef<Path>>(
         let identifier = identifiers.get(&name).expect("Identifier not found");
 
         lookup_name.push_str(indent);
-        lookup_name.push_str(&format!("\"{}\" => Ok({}),\n", name, identifier));
+        lookup_name.push_str(&format!("\"{}\" => Ok(constants::{}),\n", name, identifier));
     }
 
     lookup_name.push_str("            undef => Err(Self::Error::Undefined(undef.to_owned())),\n");
