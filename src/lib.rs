@@ -21,6 +21,16 @@
 //! [`BCP 47`]: https://tools.ietf.org/rfc/bcp/bcp47.txt
 //! [`System.Globalization.CultureInfo`]: https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo
 //! [`MS-LCID`]: https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-lcid/70feba9f-294e-491e-b6eb-56532684c37f
+#![deny(
+    missing_docs,
+    missing_debug_implementations,
+    future_incompatible,
+    nonstandard_style,
+    rust_2018_idioms,
+    unused,
+    clippy::all,
+    clippy::cargo
+)]
 #[macro_use]
 pub mod constants;
 
@@ -108,7 +118,7 @@ impl std::error::Error for NameLookupError {
 /// A known ANSI code page. Some languages can be encoded using one of these
 /// code pages. This enum has a [`u32`] representation, and so can be converted
 /// to the numeric code page value if needed.
-#[derive(Clone, Copy, Debug)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 #[repr(u32)]
 pub enum AnsiCodePage {
     /// windows-874, Thai (Windows)
@@ -149,7 +159,7 @@ impl From<AnsiCodePage> for u32 {
 
 /// A language's identifiers and information. Lookups from numeric or named
 /// identifiers return a reference to statically defined `LanguageId`.
-#[derive(Clone, Debug)]
+#[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct LanguageId {
     /// A unique name that identifies the language (IETF language tag).
     pub name: &'static str,

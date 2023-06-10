@@ -65,11 +65,12 @@ lookup behaviour of a specific revision, pin this crate accordingly.
 
 ## Changelog
 
-### [0.2.1] - 2023-06-09
+### [0.2.1] - 2023-06-10
 
 * Remove `thiserror` dependency
 * MSRV is Rust 1.56
 * Edition is 2021
+* Add `PartialEq`, `Eq`, and `Hash` traits to `AnsiCodePage` and `LanguageId`
 
 ### [0.2.0] - 2021-06-08
 
