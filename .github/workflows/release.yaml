@@ -23,6 +23,7 @@ jobs:
   release:
     name: release
     runs-on: ubuntu-latest
+    environment: crates.io
     steps:
       - name: Get release information
         id: info
