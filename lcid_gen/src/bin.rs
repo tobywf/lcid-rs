@@ -158,7 +158,10 @@ fn parse_ms_lcid<P: AsRef<Path>>(
                 }
                 let identifier = identifiers.get(&name).expect("Identifier not found");
 
-                lookup_lcid.push_str(&format!("{:#06X} => Ok(constants::{}),\n", lcid, identifier));
+                lookup_lcid.push_str(&format!(
+                    "{:#06X} => Ok(constants::{}),\n",
+                    lcid, identifier
+                ));
                 lookup_name.push_str(indent);
                 lookup_name.push_str(&format!("\"{}\" => Ok(constants::{}),\n", name, identifier));
             }

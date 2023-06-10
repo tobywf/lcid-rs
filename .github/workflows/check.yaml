@@ -11,6 +11,8 @@ on:
 env:
   # Emit backtraces on panics.
   RUST_BACKTRACE: full
+  # Enable colors in cargo output.
+  CARGO_TERM_COLOR: always
   # Use sparse index (if supported).
   CARGO_REGISTRIES_CRATES_IO_PROTOCOL: sparse
 
@@ -39,10 +41,10 @@ jobs:
         shell: bash
         run: cargo test --workspace --no-fail-fast
 
+      - name: Run cargo examples
+        shell: bash
+        run: cargo run --example english
+
       - name: Run cargo clippy
         shell: bash
         run: cargo clippy
-
-      - name: Run cargo build
-        shell: bash
-        run: cargo build --verbose

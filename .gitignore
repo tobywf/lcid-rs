@@ -1,6 +1,4 @@
 /target
-Cargo.lock
-.DS_Store
-README.html
-/pdfs
 
+.DS_Store
+/pdfs
