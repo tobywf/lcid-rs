@@ -14,14 +14,14 @@ env:
   RUST_BACKTRACE: full
   # Enable colors in cargo output.
   CARGO_TERM_COLOR: always
-  # Use sparse index (if supported).
+  # Use sparse index if supported - unlikely with the MSRV?
   CARGO_REGISTRIES_CRATES_IO_PROTOCOL: sparse
   # Disable incremental compilation.
   CARGO_INCREMENTAL: 0
 
 jobs:
   release:
-    name: release
+    name: Release
     runs-on: ubuntu-latest
     environment: crates.io
     steps:
@@ -45,6 +45,8 @@ jobs:
           fi
           echo "version: $version"
           echo "target_commitish: $target_commitish"
+          echo "draft: $draft"
+          echo "dry_run: $dry_run"
 
           # is this a pre-release (-rc*, -alpha, -beta, -test)?
           if [[ "$version" == *"-"* ]]; then
@@ -73,7 +75,7 @@ jobs:
         shell: bash
 
       - name: Run cargo check (debug)
-        run: cargo check --workspace
+        run: RUSTFLAGS="-D warnings" cargo check --workspace
         shell: bash
 
       - name: Run cargo check (release)

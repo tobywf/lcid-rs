@@ -1,0 +1,37 @@
+name: GetCultureInfo
+on:
+  push:
+    branches:
+    - get-culture-info
+
+jobs:
+  get-culture-info:
+    name: GetCultureInfo
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v3
+
+      - name: Copy files to root
+        run: Copy-Item -LiteralPath @('.\lcid_gen\GetCultureInfo.ps1', '.\lcid_gen\ms-lcid-15.0.json') -Destination '.\'
+        shell: pwsh
+
+      - name: List files in root
+        run: Get-ChildItem -Path '.\' -File
+        shell: pwsh
+
+      - name: Get culture info
+        run: .\GetCultureInfo.ps1
+        shell: pwsh
+
+      - name: Print Windows version
+        run: systeminfo.exe /fo csv | ConvertFrom-Csv | select OS*, System* | Format-List
+        shell: pwsh
+
+      - name: Upload culture info
+        uses: actions/upload-artifact@v3
+        with:
+          name: culture-info
+          path: culture-info.json
+          retention-days: 5
