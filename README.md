@@ -62,7 +62,7 @@ This library currently tracks the `15.0`/2021-06-25 protocol revision. Future pr
 
 ## Changelog
 
-### [0.3.0] - Unreleased
+### [0.3.0] - 2023-06-15
 
 * Tracks MS-LCID `15.0`/2021-05-25 protocol revision
 * Breaking change: As the spec no longer enumerates "Locale Names without LCIDs", these are no longer supported

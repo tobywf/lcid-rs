@@ -10,7 +10,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/tobywf/lcid-rs"
 keywords = ["LCID", "language-identifier", "CultureInfo"]
 categories = ["localization", "value-formatting"]
-include = ["src/**/*.rs", "tests/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
+include = ["src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
 
 autoexamples = true
 autobenches = false
