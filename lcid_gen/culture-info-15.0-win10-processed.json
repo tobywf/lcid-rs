@@ -1,0 +1,3792 @@
+[
+  {
+    "Name": "ar",
+    "LCID": 1,
+    "EnglishName": "Arabic",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARA",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "bg",
+    "LCID": 2,
+    "EnglishName": "Bulgarian",
+    "TwoLetterISOLanguageName": "bg",
+    "ThreeLetterISOLanguageName": "bul",
+    "ThreeLetterWindowsLanguageName": "BGR",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "ca",
+    "LCID": 3,
+    "EnglishName": "Catalan",
+    "TwoLetterISOLanguageName": "ca",
+    "ThreeLetterISOLanguageName": "cat",
+    "ThreeLetterWindowsLanguageName": "CAT",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "zh-Hans",
+    "LCID": 4,
+    "EnglishName": "Chinese (Simplified)",
+    "TwoLetterISOLanguageName": "zh",
+    "ThreeLetterISOLanguageName": "zho",
+    "ThreeLetterWindowsLanguageName": "CHS",
+    "ANSICodePage": 936
+  },
+  {
+    "Name": "cs",
+    "LCID": 5,
+    "EnglishName": "Czech",
+    "TwoLetterISOLanguageName": "cs",
+    "ThreeLetterISOLanguageName": "ces",
+    "ThreeLetterWindowsLanguageName": "CSY",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "da",
+    "LCID": 6,
+    "EnglishName": "Danish",
+    "TwoLetterISOLanguageName": "da",
+    "ThreeLetterISOLanguageName": "dan",
+    "ThreeLetterWindowsLanguageName": "DAN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "de",
+    "LCID": 7,
+    "EnglishName": "German",
+    "TwoLetterISOLanguageName": "de",
+    "ThreeLetterISOLanguageName": "deu",
+    "ThreeLetterWindowsLanguageName": "DEU",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "el",
+    "LCID": 8,
+    "EnglishName": "Greek",
+    "TwoLetterISOLanguageName": "el",
+    "ThreeLetterISOLanguageName": "ell",
+    "ThreeLetterWindowsLanguageName": "ELL",
+    "ANSICodePage": 1253
+  },
+  {
+    "Name": "en",
+    "LCID": 9,
+    "EnglishName": "English",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENU",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es",
+    "LCID": 10,
+    "EnglishName": "Spanish",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESP",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fi",
+    "LCID": 11,
+    "EnglishName": "Finnish",
+    "TwoLetterISOLanguageName": "fi",
+    "ThreeLetterISOLanguageName": "fin",
+    "ThreeLetterWindowsLanguageName": "FIN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr",
+    "LCID": 12,
+    "EnglishName": "French",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRA",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "he",
+    "LCID": 13,
+    "EnglishName": "Hebrew",
+    "TwoLetterISOLanguageName": "he",
+    "ThreeLetterISOLanguageName": "heb",
+    "ThreeLetterWindowsLanguageName": "HEB",
+    "ANSICodePage": 1255
+  },
+  {
+    "Name": "hu",
+    "LCID": 14,
+    "EnglishName": "Hungarian",
+    "TwoLetterISOLanguageName": "hu",
+    "ThreeLetterISOLanguageName": "hun",
+    "ThreeLetterWindowsLanguageName": "HUN",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "is",
+    "LCID": 15,
+    "EnglishName": "Icelandic",
+    "TwoLetterISOLanguageName": "is",
+    "ThreeLetterISOLanguageName": "isl",
+    "ThreeLetterWindowsLanguageName": "ISL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "it",
+    "LCID": 16,
+    "EnglishName": "Italian",
+    "TwoLetterISOLanguageName": "it",
+    "ThreeLetterISOLanguageName": "ita",
+    "ThreeLetterWindowsLanguageName": "ITA",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ja",
+    "LCID": 17,
+    "EnglishName": "Japanese",
+    "TwoLetterISOLanguageName": "ja",
+    "ThreeLetterISOLanguageName": "jpn",
+    "ThreeLetterWindowsLanguageName": "JPN",
+    "ANSICodePage": 932
+  },
+  {
+    "Name": "ko",
+    "LCID": 18,
+    "EnglishName": "Korean",
+    "TwoLetterISOLanguageName": "ko",
+    "ThreeLetterISOLanguageName": "kor",
+    "ThreeLetterWindowsLanguageName": "KOR",
+    "ANSICodePage": 949
+  },
+  {
+    "Name": "nl",
+    "LCID": 19,
+    "EnglishName": "Dutch",
+    "TwoLetterISOLanguageName": "nl",
+    "ThreeLetterISOLanguageName": "nld",
+    "ThreeLetterWindowsLanguageName": "NLD",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "no",
+    "LCID": 20,
+    "EnglishName": "Norwegian",
+    "TwoLetterISOLanguageName": "nb",
+    "ThreeLetterISOLanguageName": "nob",
+    "ThreeLetterWindowsLanguageName": "NOR",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "pl",
+    "LCID": 21,
+    "EnglishName": "Polish",
+    "TwoLetterISOLanguageName": "pl",
+    "ThreeLetterISOLanguageName": "pol",
+    "ThreeLetterWindowsLanguageName": "PLK",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "pt",
+    "LCID": 22,
+    "EnglishName": "Portuguese",
+    "TwoLetterISOLanguageName": "pt",
+    "ThreeLetterISOLanguageName": "por",
+    "ThreeLetterWindowsLanguageName": "PTB",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "rm",
+    "LCID": 23,
+    "EnglishName": "Romansh",
+    "TwoLetterISOLanguageName": "rm",
+    "ThreeLetterISOLanguageName": "roh",
+    "ThreeLetterWindowsLanguageName": "RMC",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ro",
+    "LCID": 24,
+    "EnglishName": "Romanian",
+    "TwoLetterISOLanguageName": "ro",
+    "ThreeLetterISOLanguageName": "ron",
+    "ThreeLetterWindowsLanguageName": "ROM",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "ru",
+    "LCID": 25,
+    "EnglishName": "Russian",
+    "TwoLetterISOLanguageName": "ru",
+    "ThreeLetterISOLanguageName": "rus",
+    "ThreeLetterWindowsLanguageName": "RUS",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "hr",
+    "LCID": 26,
+    "EnglishName": "Croatian",
+    "TwoLetterISOLanguageName": "hr",
+    "ThreeLetterISOLanguageName": "hrv",
+    "ThreeLetterWindowsLanguageName": "HRV",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "sk",
+    "LCID": 27,
+    "EnglishName": "Slovak",
+    "TwoLetterISOLanguageName": "sk",
+    "ThreeLetterISOLanguageName": "slk",
+    "ThreeLetterWindowsLanguageName": "SKY",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "sq",
+    "LCID": 28,
+    "EnglishName": "Albanian",
+    "TwoLetterISOLanguageName": "sq",
+    "ThreeLetterISOLanguageName": "sqi",
+    "ThreeLetterWindowsLanguageName": "SQI",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "sv",
+    "LCID": 29,
+    "EnglishName": "Swedish",
+    "TwoLetterISOLanguageName": "sv",
+    "ThreeLetterISOLanguageName": "swe",
+    "ThreeLetterWindowsLanguageName": "SVE",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "th",
+    "LCID": 30,
+    "EnglishName": "Thai",
+    "TwoLetterISOLanguageName": "th",
+    "ThreeLetterISOLanguageName": "tha",
+    "ThreeLetterWindowsLanguageName": "THA",
+    "ANSICodePage": 874
+  },
+  {
+    "Name": "tr",
+    "LCID": 31,
+    "EnglishName": "Turkish",
+    "TwoLetterISOLanguageName": "tr",
+    "ThreeLetterISOLanguageName": "tur",
+    "ThreeLetterWindowsLanguageName": "TRK",
+    "ANSICodePage": 1254
+  },
+  {
+    "Name": "ur",
+    "LCID": 32,
+    "EnglishName": "Urdu",
+    "TwoLetterISOLanguageName": "ur",
+    "ThreeLetterISOLanguageName": "urd",
+    "ThreeLetterWindowsLanguageName": "URD",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "id",
+    "LCID": 33,
+    "EnglishName": "Indonesian",
+    "TwoLetterISOLanguageName": "id",
+    "ThreeLetterISOLanguageName": "ind",
+    "ThreeLetterWindowsLanguageName": "IND",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "uk",
+    "LCID": 34,
+    "EnglishName": "Ukrainian",
+    "TwoLetterISOLanguageName": "uk",
+    "ThreeLetterISOLanguageName": "ukr",
+    "ThreeLetterWindowsLanguageName": "UKR",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "be",
+    "LCID": 35,
+    "EnglishName": "Belarusian",
+    "TwoLetterISOLanguageName": "be",
+    "ThreeLetterISOLanguageName": "bel",
+    "ThreeLetterWindowsLanguageName": "BEL",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "sl",
+    "LCID": 36,
+    "EnglishName": "Slovenian",
+    "TwoLetterISOLanguageName": "sl",
+    "ThreeLetterISOLanguageName": "slv",
+    "ThreeLetterWindowsLanguageName": "SLV",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "et",
+    "LCID": 37,
+    "EnglishName": "Estonian",
+    "TwoLetterISOLanguageName": "et",
+    "ThreeLetterISOLanguageName": "est",
+    "ThreeLetterWindowsLanguageName": "ETI",
+    "ANSICodePage": 1257
+  },
+  {
+    "Name": "lv",
+    "LCID": 38,
+    "EnglishName": "Latvian",
+    "TwoLetterISOLanguageName": "lv",
+    "ThreeLetterISOLanguageName": "lav",
+    "ThreeLetterWindowsLanguageName": "LVI",
+    "ANSICodePage": 1257
+  },
+  {
+    "Name": "lt",
+    "LCID": 39,
+    "EnglishName": "Lithuanian",
+    "TwoLetterISOLanguageName": "lt",
+    "ThreeLetterISOLanguageName": "lit",
+    "ThreeLetterWindowsLanguageName": "LTH",
+    "ANSICodePage": 1257
+  },
+  {
+    "Name": "tg",
+    "LCID": 40,
+    "EnglishName": "Tajik",
+    "TwoLetterISOLanguageName": "tg",
+    "ThreeLetterISOLanguageName": "tgk",
+    "ThreeLetterWindowsLanguageName": "TAJ",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "fa",
+    "LCID": 41,
+    "EnglishName": "Persian",
+    "TwoLetterISOLanguageName": "fa",
+    "ThreeLetterISOLanguageName": "fas",
+    "ThreeLetterWindowsLanguageName": "FAR",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "vi",
+    "LCID": 42,
+    "EnglishName": "Vietnamese",
+    "TwoLetterISOLanguageName": "vi",
+    "ThreeLetterISOLanguageName": "vie",
+    "ThreeLetterWindowsLanguageName": "VIT",
+    "ANSICodePage": 1258
+  },
+  {
+    "Name": "hy",
+    "LCID": 43,
+    "EnglishName": "Armenian",
+    "TwoLetterISOLanguageName": "hy",
+    "ThreeLetterISOLanguageName": "hye",
+    "ThreeLetterWindowsLanguageName": "HYE",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "az",
+    "LCID": 44,
+    "EnglishName": "Azerbaijani",
+    "TwoLetterISOLanguageName": "az",
+    "ThreeLetterISOLanguageName": "aze",
+    "ThreeLetterWindowsLanguageName": "AZE",
+    "ANSICodePage": 1254
+  },
+  {
+    "Name": "eu",
+    "LCID": 45,
+    "EnglishName": "Basque",
+    "TwoLetterISOLanguageName": "eu",
+    "ThreeLetterISOLanguageName": "eus",
+    "ThreeLetterWindowsLanguageName": "EUQ",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "hsb",
+    "LCID": 46,
+    "EnglishName": "Upper Sorbian",
+    "TwoLetterISOLanguageName": "hsb",
+    "ThreeLetterISOLanguageName": "hsb",
+    "ThreeLetterWindowsLanguageName": "HSB",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "mk",
+    "LCID": 47,
+    "EnglishName": "Macedonian",
+    "TwoLetterISOLanguageName": "mk",
+    "ThreeLetterISOLanguageName": "mkd",
+    "ThreeLetterWindowsLanguageName": "MKI",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "st",
+    "LCID": 48,
+    "EnglishName": "Sesotho",
+    "TwoLetterISOLanguageName": "st",
+    "ThreeLetterISOLanguageName": "sot",
+    "ThreeLetterWindowsLanguageName": "SOT",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ts",
+    "LCID": 49,
+    "EnglishName": "Xitsonga",
+    "TwoLetterISOLanguageName": "ts",
+    "ThreeLetterISOLanguageName": "tso",
+    "ThreeLetterWindowsLanguageName": "TSO",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "tn",
+    "LCID": 50,
+    "EnglishName": "Setswana",
+    "TwoLetterISOLanguageName": "tn",
+    "ThreeLetterISOLanguageName": "tsn",
+    "ThreeLetterWindowsLanguageName": "TSN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ve",
+    "LCID": 51,
+    "EnglishName": "Venda",
+    "TwoLetterISOLanguageName": "ve",
+    "ThreeLetterISOLanguageName": "ven",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "xh",
+    "LCID": 52,
+    "EnglishName": "isiXhosa",
+    "TwoLetterISOLanguageName": "xh",
+    "ThreeLetterISOLanguageName": "xho",
+    "ThreeLetterWindowsLanguageName": "XHO",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "zu",
+    "LCID": 53,
+    "EnglishName": "isiZulu",
+    "TwoLetterISOLanguageName": "zu",
+    "ThreeLetterISOLanguageName": "zul",
+    "ThreeLetterWindowsLanguageName": "ZUL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "af",
+    "LCID": 54,
+    "EnglishName": "Afrikaans",
+    "TwoLetterISOLanguageName": "af",
+    "ThreeLetterISOLanguageName": "afr",
+    "ThreeLetterWindowsLanguageName": "AFK",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ka",
+    "LCID": 55,
+    "EnglishName": "Georgian",
+    "TwoLetterISOLanguageName": "ka",
+    "ThreeLetterISOLanguageName": "kat",
+    "ThreeLetterWindowsLanguageName": "KAT",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "fo",
+    "LCID": 56,
+    "EnglishName": "Faroese",
+    "TwoLetterISOLanguageName": "fo",
+    "ThreeLetterISOLanguageName": "fao",
+    "ThreeLetterWindowsLanguageName": "FOS",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "hi",
+    "LCID": 57,
+    "EnglishName": "Hindi",
+    "TwoLetterISOLanguageName": "hi",
+    "ThreeLetterISOLanguageName": "hin",
+    "ThreeLetterWindowsLanguageName": "HIN",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "mt",
+    "LCID": 58,
+    "EnglishName": "Maltese",
+    "TwoLetterISOLanguageName": "mt",
+    "ThreeLetterISOLanguageName": "mlt",
+    "ThreeLetterWindowsLanguageName": "MLT",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "se",
+    "LCID": 59,
+    "EnglishName": "Northern Sami",
+    "TwoLetterISOLanguageName": "se",
+    "ThreeLetterISOLanguageName": "sme",
+    "ThreeLetterWindowsLanguageName": "SME",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ga",
+    "LCID": 60,
+    "EnglishName": "Irish",
+    "TwoLetterISOLanguageName": "ga",
+    "ThreeLetterISOLanguageName": "gle",
+    "ThreeLetterWindowsLanguageName": "IRE",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "ms",
+    "LCID": 62,
+    "EnglishName": "Malay",
+    "TwoLetterISOLanguageName": "ms",
+    "ThreeLetterISOLanguageName": "msa",
+    "ThreeLetterWindowsLanguageName": "MSL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "kk",
+    "LCID": 63,
+    "EnglishName": "Kazakh",
+    "TwoLetterISOLanguageName": "kk",
+    "ThreeLetterISOLanguageName": "kaz",
+    "ThreeLetterWindowsLanguageName": "KKZ",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ky",
+    "LCID": 64,
+    "EnglishName": "Kyrgyz",
+    "TwoLetterISOLanguageName": "ky",
+    "ThreeLetterISOLanguageName": "kir",
+    "ThreeLetterWindowsLanguageName": "KYR",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "sw",
+    "LCID": 65,
+    "EnglishName": "Kiswahili",
+    "TwoLetterISOLanguageName": "sw",
+    "ThreeLetterISOLanguageName": "swa",
+    "ThreeLetterWindowsLanguageName": "SWK",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "tk",
+    "LCID": 66,
+    "EnglishName": "Turkmen",
+    "TwoLetterISOLanguageName": "tk",
+    "ThreeLetterISOLanguageName": "tuk",
+    "ThreeLetterWindowsLanguageName": "TUK",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "uz",
+    "LCID": 67,
+    "EnglishName": "Uzbek",
+    "TwoLetterISOLanguageName": "uz",
+    "ThreeLetterISOLanguageName": "uzb",
+    "ThreeLetterWindowsLanguageName": "UZB",
+    "ANSICodePage": 1254
+  },
+  {
+    "Name": "tt",
+    "LCID": 68,
+    "EnglishName": "Tatar",
+    "TwoLetterISOLanguageName": "tt",
+    "ThreeLetterISOLanguageName": "tat",
+    "ThreeLetterWindowsLanguageName": "TTT",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "bn",
+    "LCID": 69,
+    "EnglishName": "Bangla",
+    "TwoLetterISOLanguageName": "bn",
+    "ThreeLetterISOLanguageName": "ben",
+    "ThreeLetterWindowsLanguageName": "BNB",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "pa",
+    "LCID": 70,
+    "EnglishName": "Punjabi",
+    "TwoLetterISOLanguageName": "pa",
+    "ThreeLetterISOLanguageName": "pan",
+    "ThreeLetterWindowsLanguageName": "PAN",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "gu",
+    "LCID": 71,
+    "EnglishName": "Gujarati",
+    "TwoLetterISOLanguageName": "gu",
+    "ThreeLetterISOLanguageName": "guj",
+    "ThreeLetterWindowsLanguageName": "GUJ",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "or",
+    "LCID": 72,
+    "EnglishName": "Odia",
+    "TwoLetterISOLanguageName": "or",
+    "ThreeLetterISOLanguageName": "ori",
+    "ThreeLetterWindowsLanguageName": "ORI",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ta",
+    "LCID": 73,
+    "EnglishName": "Tamil",
+    "TwoLetterISOLanguageName": "ta",
+    "ThreeLetterISOLanguageName": "tam",
+    "ThreeLetterWindowsLanguageName": "TAI",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "te",
+    "LCID": 74,
+    "EnglishName": "Telugu",
+    "TwoLetterISOLanguageName": "te",
+    "ThreeLetterISOLanguageName": "tel",
+    "ThreeLetterWindowsLanguageName": "TEL",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "kn",
+    "LCID": 75,
+    "EnglishName": "Kannada",
+    "TwoLetterISOLanguageName": "kn",
+    "ThreeLetterISOLanguageName": "kan",
+    "ThreeLetterWindowsLanguageName": "KDI",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ml",
+    "LCID": 76,
+    "EnglishName": "Malayalam",
+    "TwoLetterISOLanguageName": "ml",
+    "ThreeLetterISOLanguageName": "mal",
+    "ThreeLetterWindowsLanguageName": "MYM",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "as",
+    "LCID": 77,
+    "EnglishName": "Assamese",
+    "TwoLetterISOLanguageName": "as",
+    "ThreeLetterISOLanguageName": "asm",
+    "ThreeLetterWindowsLanguageName": "ASM",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "mr",
+    "LCID": 78,
+    "EnglishName": "Marathi",
+    "TwoLetterISOLanguageName": "mr",
+    "ThreeLetterISOLanguageName": "mar",
+    "ThreeLetterWindowsLanguageName": "MAR",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "sa",
+    "LCID": 79,
+    "EnglishName": "Sanskrit",
+    "TwoLetterISOLanguageName": "sa",
+    "ThreeLetterISOLanguageName": "san",
+    "ThreeLetterWindowsLanguageName": "SAN",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "mn",
+    "LCID": 80,
+    "EnglishName": "Mongolian",
+    "TwoLetterISOLanguageName": "mn",
+    "ThreeLetterISOLanguageName": "mon",
+    "ThreeLetterWindowsLanguageName": "MON",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "bo",
+    "LCID": 81,
+    "EnglishName": "Tibetan",
+    "TwoLetterISOLanguageName": "bo",
+    "ThreeLetterISOLanguageName": "bod",
+    "ThreeLetterWindowsLanguageName": "BOB",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "cy",
+    "LCID": 82,
+    "EnglishName": "Welsh",
+    "TwoLetterISOLanguageName": "cy",
+    "ThreeLetterISOLanguageName": "cym",
+    "ThreeLetterWindowsLanguageName": "CYM",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "km",
+    "LCID": 83,
+    "EnglishName": "Khmer",
+    "TwoLetterISOLanguageName": "km",
+    "ThreeLetterISOLanguageName": "khm",
+    "ThreeLetterWindowsLanguageName": "KHM",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "lo",
+    "LCID": 84,
+    "EnglishName": "Lao",
+    "TwoLetterISOLanguageName": "lo",
+    "ThreeLetterISOLanguageName": "lao",
+    "ThreeLetterWindowsLanguageName": "LAO",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "my",
+    "LCID": 85,
+    "EnglishName": "Burmese",
+    "TwoLetterISOLanguageName": "my",
+    "ThreeLetterISOLanguageName": "mya",
+    "ThreeLetterWindowsLanguageName": "MYA",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "gl",
+    "LCID": 86,
+    "EnglishName": "Galician",
+    "TwoLetterISOLanguageName": "gl",
+    "ThreeLetterISOLanguageName": "glg",
+    "ThreeLetterWindowsLanguageName": "GLC",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "kok",
+    "LCID": 87,
+    "EnglishName": "Konkani",
+    "TwoLetterISOLanguageName": "kok",
+    "ThreeLetterISOLanguageName": "kok",
+    "ThreeLetterWindowsLanguageName": "KNK",
+    "ANSICodePage": 0
+  },
+  null,
+  {
+    "Name": "sd",
+    "LCID": 89,
+    "EnglishName": "Sindhi",
+    "TwoLetterISOLanguageName": "sd",
+    "ThreeLetterISOLanguageName": "snd",
+    "ThreeLetterWindowsLanguageName": "SIP",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "syr",
+    "LCID": 90,
+    "EnglishName": "Syriac",
+    "TwoLetterISOLanguageName": "syr",
+    "ThreeLetterISOLanguageName": "syr",
+    "ThreeLetterWindowsLanguageName": "SYR",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "si",
+    "LCID": 91,
+    "EnglishName": "Sinhala",
+    "TwoLetterISOLanguageName": "si",
+    "ThreeLetterISOLanguageName": "sin",
+    "ThreeLetterWindowsLanguageName": "SIN",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "chr",
+    "LCID": 92,
+    "EnglishName": "Cherokee",
+    "TwoLetterISOLanguageName": "chr",
+    "ThreeLetterISOLanguageName": "chr",
+    "ThreeLetterWindowsLanguageName": "CRE",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "iu",
+    "LCID": 93,
+    "EnglishName": "Inuktitut",
+    "TwoLetterISOLanguageName": "iu",
+    "ThreeLetterISOLanguageName": "iku",
+    "ThreeLetterWindowsLanguageName": "IUK",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "am",
+    "LCID": 94,
+    "EnglishName": "Amharic",
+    "TwoLetterISOLanguageName": "am",
+    "ThreeLetterISOLanguageName": "amh",
+    "ThreeLetterWindowsLanguageName": "AMH",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "tzm",
+    "LCID": 95,
+    "EnglishName": "Central Atlas Tamazight",
+    "TwoLetterISOLanguageName": "tzm",
+    "ThreeLetterISOLanguageName": "tzm",
+    "ThreeLetterWindowsLanguageName": "TZA",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ks",
+    "LCID": 96,
+    "EnglishName": "Kashmiri",
+    "TwoLetterISOLanguageName": "ks",
+    "ThreeLetterISOLanguageName": "kas",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ne",
+    "LCID": 97,
+    "EnglishName": "Nepali",
+    "TwoLetterISOLanguageName": "ne",
+    "ThreeLetterISOLanguageName": "nep",
+    "ThreeLetterWindowsLanguageName": "NEP",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "fy",
+    "LCID": 98,
+    "EnglishName": "Western Frisian",
+    "TwoLetterISOLanguageName": "fy",
+    "ThreeLetterISOLanguageName": "fry",
+    "ThreeLetterWindowsLanguageName": "FYN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ps",
+    "LCID": 99,
+    "EnglishName": "Pashto",
+    "TwoLetterISOLanguageName": "ps",
+    "ThreeLetterISOLanguageName": "pus",
+    "ThreeLetterWindowsLanguageName": "PAS",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "fil",
+    "LCID": 100,
+    "EnglishName": "Filipino",
+    "TwoLetterISOLanguageName": "fil",
+    "ThreeLetterISOLanguageName": "fil",
+    "ThreeLetterWindowsLanguageName": "FPO",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "dv",
+    "LCID": 101,
+    "EnglishName": "Divehi",
+    "TwoLetterISOLanguageName": "dv",
+    "ThreeLetterISOLanguageName": "div",
+    "ThreeLetterWindowsLanguageName": "DIV",
+    "ANSICodePage": 0
+  },
+  null,
+  {
+    "Name": "ff",
+    "LCID": 103,
+    "EnglishName": "Fulah",
+    "TwoLetterISOLanguageName": "ff",
+    "ThreeLetterISOLanguageName": "ful",
+    "ThreeLetterWindowsLanguageName": "FUL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ha",
+    "LCID": 104,
+    "EnglishName": "Hausa",
+    "TwoLetterISOLanguageName": "ha",
+    "ThreeLetterISOLanguageName": "hau",
+    "ThreeLetterWindowsLanguageName": "HAU",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "yo",
+    "LCID": 106,
+    "EnglishName": "Yoruba",
+    "TwoLetterISOLanguageName": "yo",
+    "ThreeLetterISOLanguageName": "yor",
+    "ThreeLetterWindowsLanguageName": "YOR",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "quz",
+    "LCID": 107,
+    "EnglishName": "Quechua",
+    "TwoLetterISOLanguageName": "quz",
+    "ThreeLetterISOLanguageName": "qub",
+    "ThreeLetterWindowsLanguageName": "QUB",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "nso",
+    "LCID": 108,
+    "EnglishName": "Sesotho sa Leboa",
+    "TwoLetterISOLanguageName": "nso",
+    "ThreeLetterISOLanguageName": "nso",
+    "ThreeLetterWindowsLanguageName": "NSO",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ba",
+    "LCID": 109,
+    "EnglishName": "Bashkir",
+    "TwoLetterISOLanguageName": "ba",
+    "ThreeLetterISOLanguageName": "bak",
+    "ThreeLetterWindowsLanguageName": "BAS",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "lb",
+    "LCID": 110,
+    "EnglishName": "Luxembourgish",
+    "TwoLetterISOLanguageName": "lb",
+    "ThreeLetterISOLanguageName": "ltz",
+    "ThreeLetterWindowsLanguageName": "LBX",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "kl",
+    "LCID": 111,
+    "EnglishName": "Kalaallisut",
+    "TwoLetterISOLanguageName": "kl",
+    "ThreeLetterISOLanguageName": "kal",
+    "ThreeLetterWindowsLanguageName": "KAL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ig",
+    "LCID": 112,
+    "EnglishName": "Igbo",
+    "TwoLetterISOLanguageName": "ig",
+    "ThreeLetterISOLanguageName": "ibo",
+    "ThreeLetterWindowsLanguageName": "IBO",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "om",
+    "LCID": 114,
+    "EnglishName": "Oromo",
+    "TwoLetterISOLanguageName": "om",
+    "ThreeLetterISOLanguageName": "orm",
+    "ThreeLetterWindowsLanguageName": "ORM",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ti",
+    "LCID": 115,
+    "EnglishName": "Tigrinya",
+    "TwoLetterISOLanguageName": "ti",
+    "ThreeLetterISOLanguageName": "tir",
+    "ThreeLetterWindowsLanguageName": "TIR",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "gn",
+    "LCID": 116,
+    "EnglishName": "Guarani",
+    "TwoLetterISOLanguageName": "gn",
+    "ThreeLetterISOLanguageName": "grn",
+    "ThreeLetterWindowsLanguageName": "GRN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "haw",
+    "LCID": 117,
+    "EnglishName": "Hawaiian",
+    "TwoLetterISOLanguageName": "haw",
+    "ThreeLetterISOLanguageName": "haw",
+    "ThreeLetterWindowsLanguageName": "HAW",
+    "ANSICodePage": 1252
+  },
+  null,
+  null,
+  {
+    "Name": "ii",
+    "LCID": 120,
+    "EnglishName": "Yi",
+    "TwoLetterISOLanguageName": "ii",
+    "ThreeLetterISOLanguageName": "iii",
+    "ThreeLetterWindowsLanguageName": "III",
+    "ANSICodePage": 0
+  },
+  null,
+  {
+    "Name": "arn",
+    "LCID": 122,
+    "EnglishName": "Mapuche",
+    "TwoLetterISOLanguageName": "arn",
+    "ThreeLetterISOLanguageName": "arn",
+    "ThreeLetterWindowsLanguageName": "MPD",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "moh",
+    "LCID": 124,
+    "EnglishName": "Mohawk",
+    "TwoLetterISOLanguageName": "moh",
+    "ThreeLetterISOLanguageName": "moh",
+    "ThreeLetterWindowsLanguageName": "MWK",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "br",
+    "LCID": 126,
+    "EnglishName": "Breton",
+    "TwoLetterISOLanguageName": "br",
+    "ThreeLetterISOLanguageName": "bre",
+    "ThreeLetterWindowsLanguageName": "BRE",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "",
+    "LCID": 127,
+    "EnglishName": "Invariant Language (Invariant Country)",
+    "TwoLetterISOLanguageName": "iv",
+    "ThreeLetterISOLanguageName": "ivl",
+    "ThreeLetterWindowsLanguageName": "IVL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ug",
+    "LCID": 128,
+    "EnglishName": "Uyghur",
+    "TwoLetterISOLanguageName": "ug",
+    "ThreeLetterISOLanguageName": "uig",
+    "ThreeLetterWindowsLanguageName": "UIG",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "mi",
+    "LCID": 129,
+    "EnglishName": "Maori",
+    "TwoLetterISOLanguageName": "mi",
+    "ThreeLetterISOLanguageName": "mri",
+    "ThreeLetterWindowsLanguageName": "MRI",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "oc",
+    "LCID": 130,
+    "EnglishName": "Occitan",
+    "TwoLetterISOLanguageName": "oc",
+    "ThreeLetterISOLanguageName": "oci",
+    "ThreeLetterWindowsLanguageName": "OCI",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "co",
+    "LCID": 131,
+    "EnglishName": "Corsican",
+    "TwoLetterISOLanguageName": "co",
+    "ThreeLetterISOLanguageName": "cos",
+    "ThreeLetterWindowsLanguageName": "COS",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "gsw",
+    "LCID": 132,
+    "EnglishName": "Swiss German",
+    "TwoLetterISOLanguageName": "gsw",
+    "ThreeLetterISOLanguageName": "gsw",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "sah",
+    "LCID": 133,
+    "EnglishName": "Sakha",
+    "TwoLetterISOLanguageName": "sah",
+    "ThreeLetterISOLanguageName": "sah",
+    "ThreeLetterWindowsLanguageName": "SAH",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "quc",
+    "LCID": 134,
+    "EnglishName": "K'iche'",
+    "TwoLetterISOLanguageName": "quc",
+    "ThreeLetterISOLanguageName": "quc",
+    "ThreeLetterWindowsLanguageName": "QUC",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "rw",
+    "LCID": 135,
+    "EnglishName": "Kinyarwanda",
+    "TwoLetterISOLanguageName": "rw",
+    "ThreeLetterISOLanguageName": "kin",
+    "ThreeLetterWindowsLanguageName": "KIN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "wo",
+    "LCID": 136,
+    "EnglishName": "Wolof",
+    "TwoLetterISOLanguageName": "wo",
+    "ThreeLetterISOLanguageName": "wol",
+    "ThreeLetterWindowsLanguageName": "WOL",
+    "ANSICodePage": 1252
+  },
+  null,
+  null,
+  null,
+  {
+    "Name": "prs",
+    "LCID": 140,
+    "EnglishName": "Dari",
+    "TwoLetterISOLanguageName": "prs",
+    "ThreeLetterISOLanguageName": "prs",
+    "ThreeLetterWindowsLanguageName": "PRS",
+    "ANSICodePage": 1256
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+    "Name": "gd",
+    "LCID": 145,
+    "EnglishName": "Scottish Gaelic",
+    "TwoLetterISOLanguageName": "gd",
+    "ThreeLetterISOLanguageName": "gla",
+    "ThreeLetterWindowsLanguageName": "GLA",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ku",
+    "LCID": 146,
+    "EnglishName": "Central Kurdish",
+    "TwoLetterISOLanguageName": "ku",
+    "ThreeLetterISOLanguageName": "kur",
+    "ThreeLetterWindowsLanguageName": "KUR",
+    "ANSICodePage": 1256
+  },
+  null,
+  {
+    "Name": "ar-SA",
+    "LCID": 1025,
+    "EnglishName": "Arabic (Saudi Arabia)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARA",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "bg-BG",
+    "LCID": 1026,
+    "EnglishName": "Bulgarian (Bulgaria)",
+    "TwoLetterISOLanguageName": "bg",
+    "ThreeLetterISOLanguageName": "bul",
+    "ThreeLetterWindowsLanguageName": "BGR",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "ca-ES",
+    "LCID": 1027,
+    "EnglishName": "Catalan (Catalan)",
+    "TwoLetterISOLanguageName": "ca",
+    "ThreeLetterISOLanguageName": "cat",
+    "ThreeLetterWindowsLanguageName": "CAT",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "zh-TW",
+    "LCID": 1028,
+    "EnglishName": "Chinese (Traditional, Taiwan)",
+    "TwoLetterISOLanguageName": "zh",
+    "ThreeLetterISOLanguageName": "zho",
+    "ThreeLetterWindowsLanguageName": "CHT",
+    "ANSICodePage": 950
+  },
+  {
+    "Name": "cs-CZ",
+    "LCID": 1029,
+    "EnglishName": "Czech (Czechia)",
+    "TwoLetterISOLanguageName": "cs",
+    "ThreeLetterISOLanguageName": "ces",
+    "ThreeLetterWindowsLanguageName": "CSY",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "da-DK",
+    "LCID": 1030,
+    "EnglishName": "Danish (Denmark)",
+    "TwoLetterISOLanguageName": "da",
+    "ThreeLetterISOLanguageName": "dan",
+    "ThreeLetterWindowsLanguageName": "DAN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "de-DE",
+    "LCID": 1031,
+    "EnglishName": "German (Germany)",
+    "TwoLetterISOLanguageName": "de",
+    "ThreeLetterISOLanguageName": "deu",
+    "ThreeLetterWindowsLanguageName": "DEU",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "el-GR",
+    "LCID": 1032,
+    "EnglishName": "Greek (Greece)",
+    "TwoLetterISOLanguageName": "el",
+    "ThreeLetterISOLanguageName": "ell",
+    "ThreeLetterWindowsLanguageName": "ELL",
+    "ANSICodePage": 1253
+  },
+  {
+    "Name": "en-US",
+    "LCID": 1033,
+    "EnglishName": "English (United States)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENU",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-ES",
+    "LCID": 1034,
+    "EnglishName": "Spanish (Spain, Traditional Sort)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESP",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fi-FI",
+    "LCID": 1035,
+    "EnglishName": "Finnish (Finland)",
+    "TwoLetterISOLanguageName": "fi",
+    "ThreeLetterISOLanguageName": "fin",
+    "ThreeLetterWindowsLanguageName": "FIN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-FR",
+    "LCID": 1036,
+    "EnglishName": "French (France)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRA",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "he-IL",
+    "LCID": 1037,
+    "EnglishName": "Hebrew (Israel)",
+    "TwoLetterISOLanguageName": "he",
+    "ThreeLetterISOLanguageName": "heb",
+    "ThreeLetterWindowsLanguageName": "HEB",
+    "ANSICodePage": 1255
+  },
+  {
+    "Name": "hu-HU",
+    "LCID": 1038,
+    "EnglishName": "Hungarian (Hungary)",
+    "TwoLetterISOLanguageName": "hu",
+    "ThreeLetterISOLanguageName": "hun",
+    "ThreeLetterWindowsLanguageName": "HUN",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "is-IS",
+    "LCID": 1039,
+    "EnglishName": "Icelandic (Iceland)",
+    "TwoLetterISOLanguageName": "is",
+    "ThreeLetterISOLanguageName": "isl",
+    "ThreeLetterWindowsLanguageName": "ISL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "it-IT",
+    "LCID": 1040,
+    "EnglishName": "Italian (Italy)",
+    "TwoLetterISOLanguageName": "it",
+    "ThreeLetterISOLanguageName": "ita",
+    "ThreeLetterWindowsLanguageName": "ITA",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ja-JP",
+    "LCID": 1041,
+    "EnglishName": "Japanese (Japan)",
+    "TwoLetterISOLanguageName": "ja",
+    "ThreeLetterISOLanguageName": "jpn",
+    "ThreeLetterWindowsLanguageName": "JPN",
+    "ANSICodePage": 932
+  },
+  {
+    "Name": "ko-KR",
+    "LCID": 1042,
+    "EnglishName": "Korean (Korea)",
+    "TwoLetterISOLanguageName": "ko",
+    "ThreeLetterISOLanguageName": "kor",
+    "ThreeLetterWindowsLanguageName": "KOR",
+    "ANSICodePage": 949
+  },
+  {
+    "Name": "nl-NL",
+    "LCID": 1043,
+    "EnglishName": "Dutch (Netherlands)",
+    "TwoLetterISOLanguageName": "nl",
+    "ThreeLetterISOLanguageName": "nld",
+    "ThreeLetterWindowsLanguageName": "NLD",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "nb-NO",
+    "LCID": 1044,
+    "EnglishName": "Norwegian Bokmål (Norway)",
+    "TwoLetterISOLanguageName": "nb",
+    "ThreeLetterISOLanguageName": "nob",
+    "ThreeLetterWindowsLanguageName": "NOR",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "pl-PL",
+    "LCID": 1045,
+    "EnglishName": "Polish (Poland)",
+    "TwoLetterISOLanguageName": "pl",
+    "ThreeLetterISOLanguageName": "pol",
+    "ThreeLetterWindowsLanguageName": "PLK",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "pt-BR",
+    "LCID": 1046,
+    "EnglishName": "Portuguese (Brazil)",
+    "TwoLetterISOLanguageName": "pt",
+    "ThreeLetterISOLanguageName": "por",
+    "ThreeLetterWindowsLanguageName": "PTB",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "rm-CH",
+    "LCID": 1047,
+    "EnglishName": "Romansh (Switzerland)",
+    "TwoLetterISOLanguageName": "rm",
+    "ThreeLetterISOLanguageName": "roh",
+    "ThreeLetterWindowsLanguageName": "RMC",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ro-RO",
+    "LCID": 1048,
+    "EnglishName": "Romanian (Romania)",
+    "TwoLetterISOLanguageName": "ro",
+    "ThreeLetterISOLanguageName": "ron",
+    "ThreeLetterWindowsLanguageName": "ROM",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "ru-RU",
+    "LCID": 1049,
+    "EnglishName": "Russian (Russia)",
+    "TwoLetterISOLanguageName": "ru",
+    "ThreeLetterISOLanguageName": "rus",
+    "ThreeLetterWindowsLanguageName": "RUS",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "hr-HR",
+    "LCID": 1050,
+    "EnglishName": "Croatian (Croatia)",
+    "TwoLetterISOLanguageName": "hr",
+    "ThreeLetterISOLanguageName": "hrv",
+    "ThreeLetterWindowsLanguageName": "HRV",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "sk-SK",
+    "LCID": 1051,
+    "EnglishName": "Slovak (Slovakia)",
+    "TwoLetterISOLanguageName": "sk",
+    "ThreeLetterISOLanguageName": "slk",
+    "ThreeLetterWindowsLanguageName": "SKY",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "sq-AL",
+    "LCID": 1052,
+    "EnglishName": "Albanian (Albania)",
+    "TwoLetterISOLanguageName": "sq",
+    "ThreeLetterISOLanguageName": "sqi",
+    "ThreeLetterWindowsLanguageName": "SQI",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "sv-SE",
+    "LCID": 1053,
+    "EnglishName": "Swedish (Sweden)",
+    "TwoLetterISOLanguageName": "sv",
+    "ThreeLetterISOLanguageName": "swe",
+    "ThreeLetterWindowsLanguageName": "SVE",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "th-TH",
+    "LCID": 1054,
+    "EnglishName": "Thai (Thailand)",
+    "TwoLetterISOLanguageName": "th",
+    "ThreeLetterISOLanguageName": "tha",
+    "ThreeLetterWindowsLanguageName": "THA",
+    "ANSICodePage": 874
+  },
+  {
+    "Name": "tr-TR",
+    "LCID": 1055,
+    "EnglishName": "Turkish (Turkey)",
+    "TwoLetterISOLanguageName": "tr",
+    "ThreeLetterISOLanguageName": "tur",
+    "ThreeLetterWindowsLanguageName": "TRK",
+    "ANSICodePage": 1254
+  },
+  {
+    "Name": "ur-PK",
+    "LCID": 1056,
+    "EnglishName": "Urdu (Pakistan)",
+    "TwoLetterISOLanguageName": "ur",
+    "ThreeLetterISOLanguageName": "urd",
+    "ThreeLetterWindowsLanguageName": "URD",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "id-ID",
+    "LCID": 1057,
+    "EnglishName": "Indonesian (Indonesia)",
+    "TwoLetterISOLanguageName": "id",
+    "ThreeLetterISOLanguageName": "ind",
+    "ThreeLetterWindowsLanguageName": "IND",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "uk-UA",
+    "LCID": 1058,
+    "EnglishName": "Ukrainian (Ukraine)",
+    "TwoLetterISOLanguageName": "uk",
+    "ThreeLetterISOLanguageName": "ukr",
+    "ThreeLetterWindowsLanguageName": "UKR",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "be-BY",
+    "LCID": 1059,
+    "EnglishName": "Belarusian (Belarus)",
+    "TwoLetterISOLanguageName": "be",
+    "ThreeLetterISOLanguageName": "bel",
+    "ThreeLetterWindowsLanguageName": "BEL",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "sl-SI",
+    "LCID": 1060,
+    "EnglishName": "Slovenian (Slovenia)",
+    "TwoLetterISOLanguageName": "sl",
+    "ThreeLetterISOLanguageName": "slv",
+    "ThreeLetterWindowsLanguageName": "SLV",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "et-EE",
+    "LCID": 1061,
+    "EnglishName": "Estonian (Estonia)",
+    "TwoLetterISOLanguageName": "et",
+    "ThreeLetterISOLanguageName": "est",
+    "ThreeLetterWindowsLanguageName": "ETI",
+    "ANSICodePage": 1257
+  },
+  {
+    "Name": "lv-LV",
+    "LCID": 1062,
+    "EnglishName": "Latvian (Latvia)",
+    "TwoLetterISOLanguageName": "lv",
+    "ThreeLetterISOLanguageName": "lav",
+    "ThreeLetterWindowsLanguageName": "LVI",
+    "ANSICodePage": 1257
+  },
+  {
+    "Name": "lt-LT",
+    "LCID": 1063,
+    "EnglishName": "Lithuanian (Lithuania)",
+    "TwoLetterISOLanguageName": "lt",
+    "ThreeLetterISOLanguageName": "lit",
+    "ThreeLetterWindowsLanguageName": "LTH",
+    "ANSICodePage": 1257
+  },
+  {
+    "Name": "tg-Cyrl-TJ",
+    "LCID": 1064,
+    "EnglishName": "Tajik (Cyrillic, Tajikistan)",
+    "TwoLetterISOLanguageName": "tg",
+    "ThreeLetterISOLanguageName": "tgk",
+    "ThreeLetterWindowsLanguageName": "TAJ",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "fa-IR",
+    "LCID": 1065,
+    "EnglishName": "Persian (Iran)",
+    "TwoLetterISOLanguageName": "fa",
+    "ThreeLetterISOLanguageName": "fas",
+    "ThreeLetterWindowsLanguageName": "FAR",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "vi-VN",
+    "LCID": 1066,
+    "EnglishName": "Vietnamese (Vietnam)",
+    "TwoLetterISOLanguageName": "vi",
+    "ThreeLetterISOLanguageName": "vie",
+    "ThreeLetterWindowsLanguageName": "VIT",
+    "ANSICodePage": 1258
+  },
+  {
+    "Name": "hy-AM",
+    "LCID": 1067,
+    "EnglishName": "Armenian (Armenia)",
+    "TwoLetterISOLanguageName": "hy",
+    "ThreeLetterISOLanguageName": "hye",
+    "ThreeLetterWindowsLanguageName": "HYE",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "az-Latn-AZ",
+    "LCID": 1068,
+    "EnglishName": "Azerbaijani (Latin, Azerbaijan)",
+    "TwoLetterISOLanguageName": "az",
+    "ThreeLetterISOLanguageName": "aze",
+    "ThreeLetterWindowsLanguageName": "AZE",
+    "ANSICodePage": 1254
+  },
+  {
+    "Name": "eu-ES",
+    "LCID": 1069,
+    "EnglishName": "Basque (Basque)",
+    "TwoLetterISOLanguageName": "eu",
+    "ThreeLetterISOLanguageName": "eus",
+    "ThreeLetterWindowsLanguageName": "EUQ",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "hsb-DE",
+    "LCID": 1070,
+    "EnglishName": "Upper Sorbian (Germany)",
+    "TwoLetterISOLanguageName": "hsb",
+    "ThreeLetterISOLanguageName": "hsb",
+    "ThreeLetterWindowsLanguageName": "HSB",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "mk-MK",
+    "LCID": 1071,
+    "EnglishName": "Macedonian (North Macedonia)",
+    "TwoLetterISOLanguageName": "mk",
+    "ThreeLetterISOLanguageName": "mkd",
+    "ThreeLetterWindowsLanguageName": "MKI",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "st-ZA",
+    "LCID": 1072,
+    "EnglishName": "Sesotho (South Africa)",
+    "TwoLetterISOLanguageName": "st",
+    "ThreeLetterISOLanguageName": "sot",
+    "ThreeLetterWindowsLanguageName": "SOT",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ts-ZA",
+    "LCID": 1073,
+    "EnglishName": "Xitsonga (South Africa)",
+    "TwoLetterISOLanguageName": "ts",
+    "ThreeLetterISOLanguageName": "tso",
+    "ThreeLetterWindowsLanguageName": "TSO",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "tn-ZA",
+    "LCID": 1074,
+    "EnglishName": "Setswana (South Africa)",
+    "TwoLetterISOLanguageName": "tn",
+    "ThreeLetterISOLanguageName": "tsn",
+    "ThreeLetterWindowsLanguageName": "TSN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ve-ZA",
+    "LCID": 1075,
+    "EnglishName": "Venda (South Africa)",
+    "TwoLetterISOLanguageName": "ve",
+    "ThreeLetterISOLanguageName": "ven",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "xh-ZA",
+    "LCID": 1076,
+    "EnglishName": "isiXhosa (South Africa)",
+    "TwoLetterISOLanguageName": "xh",
+    "ThreeLetterISOLanguageName": "xho",
+    "ThreeLetterWindowsLanguageName": "XHO",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "zu-ZA",
+    "LCID": 1077,
+    "EnglishName": "isiZulu (South Africa)",
+    "TwoLetterISOLanguageName": "zu",
+    "ThreeLetterISOLanguageName": "zul",
+    "ThreeLetterWindowsLanguageName": "ZUL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "af-ZA",
+    "LCID": 1078,
+    "EnglishName": "Afrikaans (South Africa)",
+    "TwoLetterISOLanguageName": "af",
+    "ThreeLetterISOLanguageName": "afr",
+    "ThreeLetterWindowsLanguageName": "AFK",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ka-GE",
+    "LCID": 1079,
+    "EnglishName": "Georgian (Georgia)",
+    "TwoLetterISOLanguageName": "ka",
+    "ThreeLetterISOLanguageName": "kat",
+    "ThreeLetterWindowsLanguageName": "KAT",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "fo-FO",
+    "LCID": 1080,
+    "EnglishName": "Faroese (Faroe Islands)",
+    "TwoLetterISOLanguageName": "fo",
+    "ThreeLetterISOLanguageName": "fao",
+    "ThreeLetterWindowsLanguageName": "FOS",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "hi-IN",
+    "LCID": 1081,
+    "EnglishName": "Hindi (India)",
+    "TwoLetterISOLanguageName": "hi",
+    "ThreeLetterISOLanguageName": "hin",
+    "ThreeLetterWindowsLanguageName": "HIN",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "mt-MT",
+    "LCID": 1082,
+    "EnglishName": "Maltese (Malta)",
+    "TwoLetterISOLanguageName": "mt",
+    "ThreeLetterISOLanguageName": "mlt",
+    "ThreeLetterWindowsLanguageName": "MLT",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "se-NO",
+    "LCID": 1083,
+    "EnglishName": "Sami, Northern (Norway)",
+    "TwoLetterISOLanguageName": "se",
+    "ThreeLetterISOLanguageName": "sme",
+    "ThreeLetterWindowsLanguageName": "SME",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "yi-001",
+    "LCID": 1085,
+    "EnglishName": "Yiddish (World)",
+    "TwoLetterISOLanguageName": "yi",
+    "ThreeLetterISOLanguageName": "yid",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ms-MY",
+    "LCID": 1086,
+    "EnglishName": "Malay (Malaysia)",
+    "TwoLetterISOLanguageName": "ms",
+    "ThreeLetterISOLanguageName": "msa",
+    "ThreeLetterWindowsLanguageName": "MSL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "kk-KZ",
+    "LCID": 1087,
+    "EnglishName": "Kazakh (Kazakhstan)",
+    "TwoLetterISOLanguageName": "kk",
+    "ThreeLetterISOLanguageName": "kaz",
+    "ThreeLetterWindowsLanguageName": "KKZ",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ky-KG",
+    "LCID": 1088,
+    "EnglishName": "Kyrgyz (Kyrgyzstan)",
+    "TwoLetterISOLanguageName": "ky",
+    "ThreeLetterISOLanguageName": "kir",
+    "ThreeLetterWindowsLanguageName": "KYR",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "sw-KE",
+    "LCID": 1089,
+    "EnglishName": "Kiswahili (Kenya)",
+    "TwoLetterISOLanguageName": "sw",
+    "ThreeLetterISOLanguageName": "swa",
+    "ThreeLetterWindowsLanguageName": "SWK",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "tk-TM",
+    "LCID": 1090,
+    "EnglishName": "Turkmen (Turkmenistan)",
+    "TwoLetterISOLanguageName": "tk",
+    "ThreeLetterISOLanguageName": "tuk",
+    "ThreeLetterWindowsLanguageName": "TUK",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "uz-Latn-UZ",
+    "LCID": 1091,
+    "EnglishName": "Uzbek (Latin, Uzbekistan)",
+    "TwoLetterISOLanguageName": "uz",
+    "ThreeLetterISOLanguageName": "uzb",
+    "ThreeLetterWindowsLanguageName": "UZB",
+    "ANSICodePage": 1254
+  },
+  {
+    "Name": "tt-RU",
+    "LCID": 1092,
+    "EnglishName": "Tatar (Russia)",
+    "TwoLetterISOLanguageName": "tt",
+    "ThreeLetterISOLanguageName": "tat",
+    "ThreeLetterWindowsLanguageName": "TTT",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "bn-IN",
+    "LCID": 1093,
+    "EnglishName": "Bengali (India)",
+    "TwoLetterISOLanguageName": "bn",
+    "ThreeLetterISOLanguageName": "ben",
+    "ThreeLetterWindowsLanguageName": "BNG",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "pa-IN",
+    "LCID": 1094,
+    "EnglishName": "Punjabi (India)",
+    "TwoLetterISOLanguageName": "pa",
+    "ThreeLetterISOLanguageName": "pan",
+    "ThreeLetterWindowsLanguageName": "PAN",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "gu-IN",
+    "LCID": 1095,
+    "EnglishName": "Gujarati (India)",
+    "TwoLetterISOLanguageName": "gu",
+    "ThreeLetterISOLanguageName": "guj",
+    "ThreeLetterWindowsLanguageName": "GUJ",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "or-IN",
+    "LCID": 1096,
+    "EnglishName": "Odia (India)",
+    "TwoLetterISOLanguageName": "or",
+    "ThreeLetterISOLanguageName": "ori",
+    "ThreeLetterWindowsLanguageName": "ORI",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ta-IN",
+    "LCID": 1097,
+    "EnglishName": "Tamil (India)",
+    "TwoLetterISOLanguageName": "ta",
+    "ThreeLetterISOLanguageName": "tam",
+    "ThreeLetterWindowsLanguageName": "TAI",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "te-IN",
+    "LCID": 1098,
+    "EnglishName": "Telugu (India)",
+    "TwoLetterISOLanguageName": "te",
+    "ThreeLetterISOLanguageName": "tel",
+    "ThreeLetterWindowsLanguageName": "TEL",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "kn-IN",
+    "LCID": 1099,
+    "EnglishName": "Kannada (India)",
+    "TwoLetterISOLanguageName": "kn",
+    "ThreeLetterISOLanguageName": "kan",
+    "ThreeLetterWindowsLanguageName": "KDI",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ml-IN",
+    "LCID": 1100,
+    "EnglishName": "Malayalam (India)",
+    "TwoLetterISOLanguageName": "ml",
+    "ThreeLetterISOLanguageName": "mal",
+    "ThreeLetterWindowsLanguageName": "MYM",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "as-IN",
+    "LCID": 1101,
+    "EnglishName": "Assamese (India)",
+    "TwoLetterISOLanguageName": "as",
+    "ThreeLetterISOLanguageName": "asm",
+    "ThreeLetterWindowsLanguageName": "ASM",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "mr-IN",
+    "LCID": 1102,
+    "EnglishName": "Marathi (India)",
+    "TwoLetterISOLanguageName": "mr",
+    "ThreeLetterISOLanguageName": "mar",
+    "ThreeLetterWindowsLanguageName": "MAR",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "sa-IN",
+    "LCID": 1103,
+    "EnglishName": "Sanskrit (India)",
+    "TwoLetterISOLanguageName": "sa",
+    "ThreeLetterISOLanguageName": "san",
+    "ThreeLetterWindowsLanguageName": "SAN",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "mn-MN",
+    "LCID": 1104,
+    "EnglishName": "Mongolian (Mongolia)",
+    "TwoLetterISOLanguageName": "mn",
+    "ThreeLetterISOLanguageName": "mon",
+    "ThreeLetterWindowsLanguageName": "MNN",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "bo-CN",
+    "LCID": 1105,
+    "EnglishName": "Tibetan (China)",
+    "TwoLetterISOLanguageName": "bo",
+    "ThreeLetterISOLanguageName": "bod",
+    "ThreeLetterWindowsLanguageName": "BOB",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "cy-GB",
+    "LCID": 1106,
+    "EnglishName": "Welsh (United Kingdom)",
+    "TwoLetterISOLanguageName": "cy",
+    "ThreeLetterISOLanguageName": "cym",
+    "ThreeLetterWindowsLanguageName": "CYM",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "km-KH",
+    "LCID": 1107,
+    "EnglishName": "Khmer (Cambodia)",
+    "TwoLetterISOLanguageName": "km",
+    "ThreeLetterISOLanguageName": "khm",
+    "ThreeLetterWindowsLanguageName": "KHM",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "lo-LA",
+    "LCID": 1108,
+    "EnglishName": "Lao (Laos)",
+    "TwoLetterISOLanguageName": "lo",
+    "ThreeLetterISOLanguageName": "lao",
+    "ThreeLetterWindowsLanguageName": "LAO",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "my-MM",
+    "LCID": 1109,
+    "EnglishName": "Burmese (Myanmar)",
+    "TwoLetterISOLanguageName": "my",
+    "ThreeLetterISOLanguageName": "mya",
+    "ThreeLetterWindowsLanguageName": "MYA",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "gl-ES",
+    "LCID": 1110,
+    "EnglishName": "Galician (Galician)",
+    "TwoLetterISOLanguageName": "gl",
+    "ThreeLetterISOLanguageName": "glg",
+    "ThreeLetterWindowsLanguageName": "GLC",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "kok-IN",
+    "LCID": 1111,
+    "EnglishName": "Konkani (India)",
+    "TwoLetterISOLanguageName": "kok",
+    "ThreeLetterISOLanguageName": "kok",
+    "ThreeLetterWindowsLanguageName": "KNK",
+    "ANSICodePage": 0
+  },
+  null,
+  null,
+  {
+    "Name": "syr-SY",
+    "LCID": 1114,
+    "EnglishName": "Syriac (Syria)",
+    "TwoLetterISOLanguageName": "syr",
+    "ThreeLetterISOLanguageName": "syr",
+    "ThreeLetterWindowsLanguageName": "SYR",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "si-LK",
+    "LCID": 1115,
+    "EnglishName": "Sinhala (Sri Lanka)",
+    "TwoLetterISOLanguageName": "si",
+    "ThreeLetterISOLanguageName": "sin",
+    "ThreeLetterWindowsLanguageName": "SIN",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "chr-Cher-US",
+    "LCID": 1116,
+    "EnglishName": "Cherokee (Cherokee, United States)",
+    "TwoLetterISOLanguageName": "chr",
+    "ThreeLetterISOLanguageName": "chr",
+    "ThreeLetterWindowsLanguageName": "CRE",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "iu-Cans-CA",
+    "LCID": 1117,
+    "EnglishName": "Inuktitut (Syllabics, Canada)",
+    "TwoLetterISOLanguageName": "iu",
+    "ThreeLetterISOLanguageName": "iku",
+    "ThreeLetterWindowsLanguageName": "IUS",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "am-ET",
+    "LCID": 1118,
+    "EnglishName": "Amharic (Ethiopia)",
+    "TwoLetterISOLanguageName": "am",
+    "ThreeLetterISOLanguageName": "amh",
+    "ThreeLetterWindowsLanguageName": "AMH",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "tzm-Arab-MA",
+    "LCID": 1119,
+    "EnglishName": "Central Atlas Tamazight (Arabic, Morocco)",
+    "TwoLetterISOLanguageName": "tzm",
+    "ThreeLetterISOLanguageName": "tzm",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "ks-Arab",
+    "LCID": 1120,
+    "EnglishName": "Kashmiri (Perso-Arabic)",
+    "TwoLetterISOLanguageName": "ks",
+    "ThreeLetterISOLanguageName": "kas",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ne-NP",
+    "LCID": 1121,
+    "EnglishName": "Nepali (Nepal)",
+    "TwoLetterISOLanguageName": "ne",
+    "ThreeLetterISOLanguageName": "nep",
+    "ThreeLetterWindowsLanguageName": "NEP",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "fy-NL",
+    "LCID": 1122,
+    "EnglishName": "Western Frisian (Netherlands)",
+    "TwoLetterISOLanguageName": "fy",
+    "ThreeLetterISOLanguageName": "fry",
+    "ThreeLetterWindowsLanguageName": "FYN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ps-AF",
+    "LCID": 1123,
+    "EnglishName": "Pashto (Afghanistan)",
+    "TwoLetterISOLanguageName": "ps",
+    "ThreeLetterISOLanguageName": "pus",
+    "ThreeLetterWindowsLanguageName": "PAS",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "fil-PH",
+    "LCID": 1124,
+    "EnglishName": "Filipino (Philippines)",
+    "TwoLetterISOLanguageName": "fil",
+    "ThreeLetterISOLanguageName": "fil",
+    "ThreeLetterWindowsLanguageName": "FPO",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "dv-MV",
+    "LCID": 1125,
+    "EnglishName": "Divehi (Maldives)",
+    "TwoLetterISOLanguageName": "dv",
+    "ThreeLetterISOLanguageName": "div",
+    "ThreeLetterWindowsLanguageName": "DIV",
+    "ANSICodePage": 0
+  },
+  null,
+  {
+    "Name": "ff-Latn-NG",
+    "LCID": 1127,
+    "EnglishName": "Fulah (Latin, Nigeria)",
+    "TwoLetterISOLanguageName": "ff",
+    "ThreeLetterISOLanguageName": "ful",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ha-Latn-NG",
+    "LCID": 1128,
+    "EnglishName": "Hausa (Latin, Nigeria)",
+    "TwoLetterISOLanguageName": "ha",
+    "ThreeLetterISOLanguageName": "hau",
+    "ThreeLetterWindowsLanguageName": "HAU",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "yo-NG",
+    "LCID": 1130,
+    "EnglishName": "Yoruba (Nigeria)",
+    "TwoLetterISOLanguageName": "yo",
+    "ThreeLetterISOLanguageName": "yor",
+    "ThreeLetterWindowsLanguageName": "YOR",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "quz-BO",
+    "LCID": 1131,
+    "EnglishName": "Quechua (Bolivia)",
+    "TwoLetterISOLanguageName": "quz",
+    "ThreeLetterISOLanguageName": "qub",
+    "ThreeLetterWindowsLanguageName": "QUB",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "nso-ZA",
+    "LCID": 1132,
+    "EnglishName": "Sesotho sa Leboa (South Africa)",
+    "TwoLetterISOLanguageName": "nso",
+    "ThreeLetterISOLanguageName": "nso",
+    "ThreeLetterWindowsLanguageName": "NSO",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ba-RU",
+    "LCID": 1133,
+    "EnglishName": "Bashkir (Russia)",
+    "TwoLetterISOLanguageName": "ba",
+    "ThreeLetterISOLanguageName": "bak",
+    "ThreeLetterWindowsLanguageName": "BAS",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "lb-LU",
+    "LCID": 1134,
+    "EnglishName": "Luxembourgish (Luxembourg)",
+    "TwoLetterISOLanguageName": "lb",
+    "ThreeLetterISOLanguageName": "ltz",
+    "ThreeLetterWindowsLanguageName": "LBX",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "kl-GL",
+    "LCID": 1135,
+    "EnglishName": "Kalaallisut (Greenland)",
+    "TwoLetterISOLanguageName": "kl",
+    "ThreeLetterISOLanguageName": "kal",
+    "ThreeLetterWindowsLanguageName": "KAL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ig-NG",
+    "LCID": 1136,
+    "EnglishName": "Igbo (Nigeria)",
+    "TwoLetterISOLanguageName": "ig",
+    "ThreeLetterISOLanguageName": "ibo",
+    "ThreeLetterWindowsLanguageName": "IBO",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "kr-Latn-NG",
+    "LCID": 1137,
+    "EnglishName": "Kanuri (Latin, Nigeria)",
+    "TwoLetterISOLanguageName": "kr",
+    "ThreeLetterISOLanguageName": "kau",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "om-ET",
+    "LCID": 1138,
+    "EnglishName": "Oromo (Ethiopia)",
+    "TwoLetterISOLanguageName": "om",
+    "ThreeLetterISOLanguageName": "orm",
+    "ThreeLetterWindowsLanguageName": "ORM",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ti-ET",
+    "LCID": 1139,
+    "EnglishName": "Tigrinya (Ethiopia)",
+    "TwoLetterISOLanguageName": "ti",
+    "ThreeLetterISOLanguageName": "tir",
+    "ThreeLetterWindowsLanguageName": "TIE",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "gn-PY",
+    "LCID": 1140,
+    "EnglishName": "Guarani (Paraguay)",
+    "TwoLetterISOLanguageName": "gn",
+    "ThreeLetterISOLanguageName": "grn",
+    "ThreeLetterWindowsLanguageName": "GRN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "haw-US",
+    "LCID": 1141,
+    "EnglishName": "Hawaiian (United States)",
+    "TwoLetterISOLanguageName": "haw",
+    "ThreeLetterISOLanguageName": "haw",
+    "ThreeLetterWindowsLanguageName": "HAW",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "la-VA",
+    "LCID": 1142,
+    "EnglishName": "Latin (Vatican City)",
+    "TwoLetterISOLanguageName": "la",
+    "ThreeLetterISOLanguageName": "lat",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "so-SO",
+    "LCID": 1143,
+    "EnglishName": "Somali (Somalia)",
+    "TwoLetterISOLanguageName": "so",
+    "ThreeLetterISOLanguageName": "som",
+    "ThreeLetterWindowsLanguageName": "SOM",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ii-CN",
+    "LCID": 1144,
+    "EnglishName": "Yi (China)",
+    "TwoLetterISOLanguageName": "ii",
+    "ThreeLetterISOLanguageName": "iii",
+    "ThreeLetterWindowsLanguageName": "III",
+    "ANSICodePage": 0
+  },
+  null,
+  {
+    "Name": "arn-CL",
+    "LCID": 1146,
+    "EnglishName": "Mapuche (Chile)",
+    "TwoLetterISOLanguageName": "arn",
+    "ThreeLetterISOLanguageName": "arn",
+    "ThreeLetterWindowsLanguageName": "MPD",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "moh-CA",
+    "LCID": 1148,
+    "EnglishName": "Mohawk (Mohawk)",
+    "TwoLetterISOLanguageName": "moh",
+    "ThreeLetterISOLanguageName": "moh",
+    "ThreeLetterWindowsLanguageName": "MWK",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "br-FR",
+    "LCID": 1150,
+    "EnglishName": "Breton (France)",
+    "TwoLetterISOLanguageName": "br",
+    "ThreeLetterISOLanguageName": "bre",
+    "ThreeLetterWindowsLanguageName": "BRE",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ug-CN",
+    "LCID": 1152,
+    "EnglishName": "Uyghur (China)",
+    "TwoLetterISOLanguageName": "ug",
+    "ThreeLetterISOLanguageName": "uig",
+    "ThreeLetterWindowsLanguageName": "UIG",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "mi-NZ",
+    "LCID": 1153,
+    "EnglishName": "Maori (New Zealand)",
+    "TwoLetterISOLanguageName": "mi",
+    "ThreeLetterISOLanguageName": "mri",
+    "ThreeLetterWindowsLanguageName": "MRI",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "oc-FR",
+    "LCID": 1154,
+    "EnglishName": "Occitan (France)",
+    "TwoLetterISOLanguageName": "oc",
+    "ThreeLetterISOLanguageName": "oci",
+    "ThreeLetterWindowsLanguageName": "OCI",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "co-FR",
+    "LCID": 1155,
+    "EnglishName": "Corsican (France)",
+    "TwoLetterISOLanguageName": "co",
+    "ThreeLetterISOLanguageName": "cos",
+    "ThreeLetterWindowsLanguageName": "COS",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "gsw-FR",
+    "LCID": 1156,
+    "EnglishName": "Alsatian (France)",
+    "TwoLetterISOLanguageName": "gsw",
+    "ThreeLetterISOLanguageName": "gsw",
+    "ThreeLetterWindowsLanguageName": "GSW",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "sah-RU",
+    "LCID": 1157,
+    "EnglishName": "Sakha (Russia)",
+    "TwoLetterISOLanguageName": "sah",
+    "ThreeLetterISOLanguageName": "sah",
+    "ThreeLetterWindowsLanguageName": "SAH",
+    "ANSICodePage": 1251
+  },
+  null,
+  {
+    "Name": "rw-RW",
+    "LCID": 1159,
+    "EnglishName": "Kinyarwanda (Rwanda)",
+    "TwoLetterISOLanguageName": "rw",
+    "ThreeLetterISOLanguageName": "kin",
+    "ThreeLetterWindowsLanguageName": "KIN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "wo-SN",
+    "LCID": 1160,
+    "EnglishName": "Wolof (Senegal)",
+    "TwoLetterISOLanguageName": "wo",
+    "ThreeLetterISOLanguageName": "wol",
+    "ThreeLetterWindowsLanguageName": "WOL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "prs-AF",
+    "LCID": 1164,
+    "EnglishName": "Dari (Afghanistan)",
+    "TwoLetterISOLanguageName": "prs",
+    "ThreeLetterISOLanguageName": "prs",
+    "ThreeLetterWindowsLanguageName": "PRS",
+    "ANSICodePage": 1256
+  },
+  null,
+  null,
+  null,
+  null,
+  {
+    "Name": "gd-GB",
+    "LCID": 1169,
+    "EnglishName": "Scottish Gaelic (United Kingdom)",
+    "TwoLetterISOLanguageName": "gd",
+    "ThreeLetterISOLanguageName": "gla",
+    "ThreeLetterWindowsLanguageName": "GLA",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ku-Arab-IQ",
+    "LCID": 1170,
+    "EnglishName": "Central Kurdish (Arabic, Iraq)",
+    "TwoLetterISOLanguageName": "ku",
+    "ThreeLetterISOLanguageName": "kur",
+    "ThreeLetterWindowsLanguageName": "KUR",
+    "ANSICodePage": 1256
+  },
+  null,
+  {
+    "Name": "qps-ploc",
+    "LCID": 1281,
+    "EnglishName": "Pseudo (Pseudo)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENU",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "qps-ploca",
+    "LCID": 1534,
+    "EnglishName": "Pseudo (Pseudo Asia)",
+    "TwoLetterISOLanguageName": "qps",
+    "ThreeLetterISOLanguageName": "jpn",
+    "ThreeLetterWindowsLanguageName": "JPN",
+    "ANSICodePage": 932
+  },
+  {
+    "Name": "ar-IQ",
+    "LCID": 2049,
+    "EnglishName": "Arabic (Iraq)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARI",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "ca-ES-valencia",
+    "LCID": 2051,
+    "EnglishName": "Valencian (Spain)",
+    "TwoLetterISOLanguageName": "ca",
+    "ThreeLetterISOLanguageName": "cat",
+    "ThreeLetterWindowsLanguageName": "VAL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "zh-CN",
+    "LCID": 2052,
+    "EnglishName": "Chinese (Simplified, China)",
+    "TwoLetterISOLanguageName": "zh",
+    "ThreeLetterISOLanguageName": "zho",
+    "ThreeLetterWindowsLanguageName": "CHS",
+    "ANSICodePage": 936
+  },
+  {
+    "Name": "de-CH",
+    "LCID": 2055,
+    "EnglishName": "German (Switzerland)",
+    "TwoLetterISOLanguageName": "de",
+    "ThreeLetterISOLanguageName": "deu",
+    "ThreeLetterWindowsLanguageName": "DES",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "en-GB",
+    "LCID": 2057,
+    "EnglishName": "English (United Kingdom)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENG",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-MX",
+    "LCID": 2058,
+    "EnglishName": "Spanish (Mexico)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESM",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-BE",
+    "LCID": 2060,
+    "EnglishName": "French (Belgium)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRB",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "it-CH",
+    "LCID": 2064,
+    "EnglishName": "Italian (Switzerland)",
+    "TwoLetterISOLanguageName": "it",
+    "ThreeLetterISOLanguageName": "ita",
+    "ThreeLetterWindowsLanguageName": "ITS",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "nl-BE",
+    "LCID": 2067,
+    "EnglishName": "Dutch (Belgium)",
+    "TwoLetterISOLanguageName": "nl",
+    "ThreeLetterISOLanguageName": "nld",
+    "ThreeLetterWindowsLanguageName": "NLB",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "nn-NO",
+    "LCID": 2068,
+    "EnglishName": "Norwegian Nynorsk (Norway)",
+    "TwoLetterISOLanguageName": "nn",
+    "ThreeLetterISOLanguageName": "nno",
+    "ThreeLetterWindowsLanguageName": "NON",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "pt-PT",
+    "LCID": 2070,
+    "EnglishName": "Portuguese (Portugal)",
+    "TwoLetterISOLanguageName": "pt",
+    "ThreeLetterISOLanguageName": "por",
+    "ThreeLetterWindowsLanguageName": "PTG",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ro-MD",
+    "LCID": 2072,
+    "EnglishName": "Romanian (Moldova)",
+    "TwoLetterISOLanguageName": "ro",
+    "ThreeLetterISOLanguageName": "ron",
+    "ThreeLetterWindowsLanguageName": "ROD",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "ru-MD",
+    "LCID": 2073,
+    "EnglishName": "Russian (Moldova)",
+    "TwoLetterISOLanguageName": "ru",
+    "ThreeLetterISOLanguageName": "rus",
+    "ThreeLetterWindowsLanguageName": "RUM",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "sr-Latn-CS",
+    "LCID": 2074,
+    "EnglishName": "Serbian (Latin, Serbia & Montenegro (Former))",
+    "TwoLetterISOLanguageName": "sr",
+    "ThreeLetterISOLanguageName": "srp",
+    "ThreeLetterWindowsLanguageName": "SRL",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "sv-FI",
+    "LCID": 2077,
+    "EnglishName": "Swedish (Finland)",
+    "TwoLetterISOLanguageName": "sv",
+    "ThreeLetterISOLanguageName": "swe",
+    "ThreeLetterWindowsLanguageName": "SVF",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ur-IN",
+    "LCID": 2080,
+    "EnglishName": "Urdu (India)",
+    "TwoLetterISOLanguageName": "ur",
+    "ThreeLetterISOLanguageName": "urd",
+    "ThreeLetterWindowsLanguageName": "URI",
+    "ANSICodePage": 1256
+  },
+  null,
+  null,
+  {
+    "Name": "dsb-DE",
+    "LCID": 2094,
+    "EnglishName": "Lower Sorbian (Germany)",
+    "TwoLetterISOLanguageName": "dsb",
+    "ThreeLetterISOLanguageName": "dsb",
+    "ThreeLetterWindowsLanguageName": "DSB",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "tn-BW",
+    "LCID": 2098,
+    "EnglishName": "Setswana (Botswana)",
+    "TwoLetterISOLanguageName": "tn",
+    "ThreeLetterISOLanguageName": "tsn",
+    "ThreeLetterWindowsLanguageName": "TSB",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "se-SE",
+    "LCID": 2107,
+    "EnglishName": "Sami, Northern (Sweden)",
+    "TwoLetterISOLanguageName": "se",
+    "ThreeLetterISOLanguageName": "sme",
+    "ThreeLetterWindowsLanguageName": "SMF",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ga-IE",
+    "LCID": 2108,
+    "EnglishName": "Irish (Ireland)",
+    "TwoLetterISOLanguageName": "ga",
+    "ThreeLetterISOLanguageName": "gle",
+    "ThreeLetterWindowsLanguageName": "IRE",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ms-BN",
+    "LCID": 2110,
+    "EnglishName": "Malay (Brunei)",
+    "TwoLetterISOLanguageName": "ms",
+    "ThreeLetterISOLanguageName": "msa",
+    "ThreeLetterWindowsLanguageName": "MSB",
+    "ANSICodePage": 1252
+  },
+  null,
+  null,
+  {
+    "Name": "bn-BD",
+    "LCID": 2117,
+    "EnglishName": "Bangla (Bangladesh)",
+    "TwoLetterISOLanguageName": "bn",
+    "ThreeLetterISOLanguageName": "ben",
+    "ThreeLetterWindowsLanguageName": "BNB",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "pa-Arab-PK",
+    "LCID": 2118,
+    "EnglishName": "Punjabi (Arabic, Pakistan)",
+    "TwoLetterISOLanguageName": "pa",
+    "ThreeLetterISOLanguageName": "pan",
+    "ThreeLetterWindowsLanguageName": "PAP",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "ta-LK",
+    "LCID": 2121,
+    "EnglishName": "Tamil (Sri Lanka)",
+    "TwoLetterISOLanguageName": "ta",
+    "ThreeLetterISOLanguageName": "tam",
+    "ThreeLetterWindowsLanguageName": "TAM",
+    "ANSICodePage": 0
+  },
+  null,
+  null,
+  {
+    "Name": "sd-Arab-PK",
+    "LCID": 2137,
+    "EnglishName": "Sindhi (Arabic, Pakistan)",
+    "TwoLetterISOLanguageName": "sd",
+    "ThreeLetterISOLanguageName": "snd",
+    "ThreeLetterWindowsLanguageName": "SIP",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "iu-Latn-CA",
+    "LCID": 2141,
+    "EnglishName": "Inuktitut (Latin, Canada)",
+    "TwoLetterISOLanguageName": "iu",
+    "ThreeLetterISOLanguageName": "iku",
+    "ThreeLetterWindowsLanguageName": "IUK",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "tzm-Latn-DZ",
+    "LCID": 2143,
+    "EnglishName": "Central Atlas Tamazight (Latin, Algeria)",
+    "TwoLetterISOLanguageName": "tzm",
+    "ThreeLetterISOLanguageName": "tzm",
+    "ThreeLetterWindowsLanguageName": "TZA",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ks-Deva-IN",
+    "LCID": 2144,
+    "EnglishName": "Kashmiri (Devanagari, India)",
+    "TwoLetterISOLanguageName": "ks",
+    "ThreeLetterISOLanguageName": "kas",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ne-IN",
+    "LCID": 2145,
+    "EnglishName": "Nepali (India)",
+    "TwoLetterISOLanguageName": "ne",
+    "ThreeLetterISOLanguageName": "nep",
+    "ThreeLetterWindowsLanguageName": "NEI",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ff-Latn-SN",
+    "LCID": 2151,
+    "EnglishName": "Fulah (Latin, Senegal)",
+    "TwoLetterISOLanguageName": "ff",
+    "ThreeLetterISOLanguageName": "ful",
+    "ThreeLetterWindowsLanguageName": "FUL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "quz-EC",
+    "LCID": 2155,
+    "EnglishName": "Quechua (Ecuador)",
+    "TwoLetterISOLanguageName": "quz",
+    "ThreeLetterISOLanguageName": "que",
+    "ThreeLetterWindowsLanguageName": "QUE",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ti-ER",
+    "LCID": 2163,
+    "EnglishName": "Tigrinya (Eritrea)",
+    "TwoLetterISOLanguageName": "ti",
+    "ThreeLetterISOLanguageName": "tir",
+    "ThreeLetterWindowsLanguageName": "TIR",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "qps-plocm",
+    "LCID": 2559,
+    "EnglishName": "Pseudo (Pseudo Mirrored)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARA",
+    "ANSICodePage": 1256
+  },
+  null,
+  {
+    "Name": "ar-EG",
+    "LCID": 3073,
+    "EnglishName": "Arabic (Egypt)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARE",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "zh-HK",
+    "LCID": 3076,
+    "EnglishName": "Chinese (Traditional, Hong Kong SAR)",
+    "TwoLetterISOLanguageName": "zh",
+    "ThreeLetterISOLanguageName": "zho",
+    "ThreeLetterWindowsLanguageName": "ZHH",
+    "ANSICodePage": 950
+  },
+  {
+    "Name": "de-AT",
+    "LCID": 3079,
+    "EnglishName": "German (Austria)",
+    "TwoLetterISOLanguageName": "de",
+    "ThreeLetterISOLanguageName": "deu",
+    "ThreeLetterWindowsLanguageName": "DEA",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "en-AU",
+    "LCID": 3081,
+    "EnglishName": "English (Australia)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENA",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-ES",
+    "LCID": 3082,
+    "EnglishName": "Spanish (Spain, International Sort)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-CA",
+    "LCID": 3084,
+    "EnglishName": "French (Canada)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRC",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "sr-Cyrl-CS",
+    "LCID": 3098,
+    "EnglishName": "Serbian (Cyrillic, Serbia & Montenegro (Former))",
+    "TwoLetterISOLanguageName": "sr",
+    "ThreeLetterISOLanguageName": "srp",
+    "ThreeLetterWindowsLanguageName": "SRB",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "se-FI",
+    "LCID": 3131,
+    "EnglishName": "Sami, Northern (Finland)",
+    "TwoLetterISOLanguageName": "se",
+    "ThreeLetterISOLanguageName": "sme",
+    "ThreeLetterWindowsLanguageName": "SMG",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "mn-Mong-MN",
+    "LCID": 3152,
+    "EnglishName": "Mongolian (Traditional Mongolian, Mongolia)",
+    "TwoLetterISOLanguageName": "mn",
+    "ThreeLetterISOLanguageName": "mon",
+    "ThreeLetterWindowsLanguageName": "MNM",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "dz-BT",
+    "LCID": 3153,
+    "EnglishName": "Dzongkha (Bhutan)",
+    "TwoLetterISOLanguageName": "dz",
+    "ThreeLetterISOLanguageName": "dzo",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 0
+  },
+  null,
+  {
+    "Name": "quz-PE",
+    "LCID": 3179,
+    "EnglishName": "Quechua (Peru)",
+    "TwoLetterISOLanguageName": "quz",
+    "ThreeLetterISOLanguageName": "qup",
+    "ThreeLetterWindowsLanguageName": "QUP",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "ar-LY",
+    "LCID": 4097,
+    "EnglishName": "Arabic (Libya)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARL",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "zh-SG",
+    "LCID": 4100,
+    "EnglishName": "Chinese (Simplified, Singapore)",
+    "TwoLetterISOLanguageName": "zh",
+    "ThreeLetterISOLanguageName": "zho",
+    "ThreeLetterWindowsLanguageName": "ZHI",
+    "ANSICodePage": 936
+  },
+  {
+    "Name": "de-LU",
+    "LCID": 4103,
+    "EnglishName": "German (Luxembourg)",
+    "TwoLetterISOLanguageName": "de",
+    "ThreeLetterISOLanguageName": "deu",
+    "ThreeLetterWindowsLanguageName": "DEL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "en-CA",
+    "LCID": 4105,
+    "EnglishName": "English (Canada)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENC",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-GT",
+    "LCID": 4106,
+    "EnglishName": "Spanish (Guatemala)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESG",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-CH",
+    "LCID": 4108,
+    "EnglishName": "French (Switzerland)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRS",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "hr-BA",
+    "LCID": 4122,
+    "EnglishName": "Croatian (Bosnia & Herzegovina)",
+    "TwoLetterISOLanguageName": "hr",
+    "ThreeLetterISOLanguageName": "hrv",
+    "ThreeLetterWindowsLanguageName": "HRB",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "smj-NO",
+    "LCID": 4155,
+    "EnglishName": "Sami, Lule (Norway)",
+    "TwoLetterISOLanguageName": "smj",
+    "ThreeLetterISOLanguageName": "smj",
+    "ThreeLetterWindowsLanguageName": "SMJ",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "tzm-Tfng-MA",
+    "LCID": 4191,
+    "EnglishName": "Central Atlas Tamazight (Tifinagh, Morocco)",
+    "TwoLetterISOLanguageName": "tzm",
+    "ThreeLetterISOLanguageName": "tzm",
+    "ThreeLetterWindowsLanguageName": "TZM",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "ar-DZ",
+    "LCID": 5121,
+    "EnglishName": "Arabic (Algeria)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARG",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "zh-MO",
+    "LCID": 5124,
+    "EnglishName": "Chinese (Traditional, Macao SAR)",
+    "TwoLetterISOLanguageName": "zh",
+    "ThreeLetterISOLanguageName": "zho",
+    "ThreeLetterWindowsLanguageName": "ZHM",
+    "ANSICodePage": 950
+  },
+  {
+    "Name": "de-LI",
+    "LCID": 5127,
+    "EnglishName": "German (Liechtenstein)",
+    "TwoLetterISOLanguageName": "de",
+    "ThreeLetterISOLanguageName": "deu",
+    "ThreeLetterWindowsLanguageName": "DEC",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "en-NZ",
+    "LCID": 5129,
+    "EnglishName": "English (New Zealand)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENZ",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-CR",
+    "LCID": 5130,
+    "EnglishName": "Spanish (Costa Rica)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESC",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-LU",
+    "LCID": 5132,
+    "EnglishName": "French (Luxembourg)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "bs-Latn-BA",
+    "LCID": 5146,
+    "EnglishName": "Bosnian (Latin, Bosnia & Herzegovina)",
+    "TwoLetterISOLanguageName": "bs",
+    "ThreeLetterISOLanguageName": "bos",
+    "ThreeLetterWindowsLanguageName": "BSB",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "smj-SE",
+    "LCID": 5179,
+    "EnglishName": "Sami, Lule (Sweden)",
+    "TwoLetterISOLanguageName": "smj",
+    "ThreeLetterISOLanguageName": "smj",
+    "ThreeLetterWindowsLanguageName": "SMK",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ar-MA",
+    "LCID": 6145,
+    "EnglishName": "Arabic (Morocco)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARM",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "en-IE",
+    "LCID": 6153,
+    "EnglishName": "English (Ireland)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENI",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-PA",
+    "LCID": 6154,
+    "EnglishName": "Spanish (Panama)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESA",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-MC",
+    "LCID": 6156,
+    "EnglishName": "French (Monaco)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRM",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "sr-Latn-BA",
+    "LCID": 6170,
+    "EnglishName": "Serbian (Latin, Bosnia & Herzegovina)",
+    "TwoLetterISOLanguageName": "sr",
+    "ThreeLetterISOLanguageName": "srp",
+    "ThreeLetterWindowsLanguageName": "SRS",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "sma-NO",
+    "LCID": 6203,
+    "EnglishName": "Sami, Southern (Norway)",
+    "TwoLetterISOLanguageName": "sma",
+    "ThreeLetterISOLanguageName": "sma",
+    "ThreeLetterWindowsLanguageName": "SMA",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ar-TN",
+    "LCID": 7169,
+    "EnglishName": "Arabic (Tunisia)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ART",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "en-ZA",
+    "LCID": 7177,
+    "EnglishName": "English (South Africa)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENS",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-DO",
+    "LCID": 7178,
+    "EnglishName": "Spanish (Dominican Republic)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESD",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-029",
+    "LCID": 7180,
+    "EnglishName": "French (Caribbean)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "sr-Cyrl-BA",
+    "LCID": 7194,
+    "EnglishName": "Serbian (Cyrillic, Bosnia & Herzegovina)",
+    "TwoLetterISOLanguageName": "sr",
+    "ThreeLetterISOLanguageName": "srp",
+    "ThreeLetterWindowsLanguageName": "SRN",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "sma-SE",
+    "LCID": 7227,
+    "EnglishName": "Sami, Southern (Sweden)",
+    "TwoLetterISOLanguageName": "sma",
+    "ThreeLetterISOLanguageName": "sma",
+    "ThreeLetterWindowsLanguageName": "SMB",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ar-OM",
+    "LCID": 8193,
+    "EnglishName": "Arabic (Oman)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARO",
+    "ANSICodePage": 1256
+  },
+  null,
+  {
+    "Name": "en-JM",
+    "LCID": 8201,
+    "EnglishName": "English (Jamaica)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENJ",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-VE",
+    "LCID": 8202,
+    "EnglishName": "Spanish (Venezuela)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESV",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-RE",
+    "LCID": 8204,
+    "EnglishName": "French (Réunion)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRR",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "bs-Cyrl-BA",
+    "LCID": 8218,
+    "EnglishName": "Bosnian (Cyrillic, Bosnia & Herzegovina)",
+    "TwoLetterISOLanguageName": "bs",
+    "ThreeLetterISOLanguageName": "bos",
+    "ThreeLetterWindowsLanguageName": "BSC",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "sms-FI",
+    "LCID": 8251,
+    "EnglishName": "Sami, Skolt (Finland)",
+    "TwoLetterISOLanguageName": "sms",
+    "ThreeLetterISOLanguageName": "sms",
+    "ThreeLetterWindowsLanguageName": "SMS",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ar-YE",
+    "LCID": 9217,
+    "EnglishName": "Arabic (Yemen)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARY",
+    "ANSICodePage": 1256
+  },
+  null,
+  {
+    "Name": "es-CO",
+    "LCID": 9226,
+    "EnglishName": "Spanish (Colombia)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESO",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-CD",
+    "LCID": 9228,
+    "EnglishName": "French Congo (DRC)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRD",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "sr-Latn-RS",
+    "LCID": 9242,
+    "EnglishName": "Serbian (Latin, Serbia)",
+    "TwoLetterISOLanguageName": "sr",
+    "ThreeLetterISOLanguageName": "srp",
+    "ThreeLetterWindowsLanguageName": "SRM",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "smn-FI",
+    "LCID": 9275,
+    "EnglishName": "Sami, Inari (Finland)",
+    "TwoLetterISOLanguageName": "smn",
+    "ThreeLetterISOLanguageName": "smn",
+    "ThreeLetterWindowsLanguageName": "SMN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ar-SY",
+    "LCID": 10241,
+    "EnglishName": "Arabic (Syria)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARS",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "en-BZ",
+    "LCID": 10249,
+    "EnglishName": "English (Belize)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-PE",
+    "LCID": 10250,
+    "EnglishName": "Spanish (Peru)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESR",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-SN",
+    "LCID": 10252,
+    "EnglishName": "French (Senegal)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "sr-Cyrl-RS",
+    "LCID": 10266,
+    "EnglishName": "Serbian (Cyrillic, Serbia)",
+    "TwoLetterISOLanguageName": "sr",
+    "ThreeLetterISOLanguageName": "srp",
+    "ThreeLetterWindowsLanguageName": "SRO",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "ar-JO",
+    "LCID": 11265,
+    "EnglishName": "Arabic (Jordan)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARJ",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "en-TT",
+    "LCID": 11273,
+    "EnglishName": "English (Trinidad & Tobago)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENT",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-AR",
+    "LCID": 11274,
+    "EnglishName": "Spanish (Argentina)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESS",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-CM",
+    "LCID": 11276,
+    "EnglishName": "French (Cameroon)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRE",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "sr-Latn-ME",
+    "LCID": 11290,
+    "EnglishName": "Serbian (Latin, Montenegro)",
+    "TwoLetterISOLanguageName": "sr",
+    "ThreeLetterISOLanguageName": "srp",
+    "ThreeLetterWindowsLanguageName": "SRP",
+    "ANSICodePage": 1250
+  },
+  null,
+  {
+    "Name": "ar-LB",
+    "LCID": 12289,
+    "EnglishName": "Arabic (Lebanon)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARB",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "en-ZW",
+    "LCID": 12297,
+    "EnglishName": "English (Zimbabwe)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENW",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-EC",
+    "LCID": 12298,
+    "EnglishName": "Spanish (Ecuador)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESF",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-CI",
+    "LCID": 12300,
+    "EnglishName": "French (Côte d’Ivoire)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRI",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "sr-Cyrl-ME",
+    "LCID": 12314,
+    "EnglishName": "Serbian (Cyrillic, Montenegro)",
+    "TwoLetterISOLanguageName": "sr",
+    "ThreeLetterISOLanguageName": "srp",
+    "ThreeLetterWindowsLanguageName": "SRQ",
+    "ANSICodePage": 1251
+  },
+  null,
+  {
+    "Name": "ar-KW",
+    "LCID": 13313,
+    "EnglishName": "Arabic (Kuwait)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARK",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "en-PH",
+    "LCID": 13321,
+    "EnglishName": "English (Philippines)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENP",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-CL",
+    "LCID": 13322,
+    "EnglishName": "Spanish (Chile)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-ML",
+    "LCID": 13324,
+    "EnglishName": "French (Mali)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRF",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "ar-AE",
+    "LCID": 14337,
+    "EnglishName": "Arabic (United Arab Emirates)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARU",
+    "ANSICodePage": 1256
+  },
+  null,
+  {
+    "Name": "es-UY",
+    "LCID": 14346,
+    "EnglishName": "Spanish (Uruguay)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESY",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-MA",
+    "LCID": 14348,
+    "EnglishName": "French (Morocco)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRO",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "ar-BH",
+    "LCID": 15361,
+    "EnglishName": "Arabic (Bahrain)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARH",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "en-HK",
+    "LCID": 15369,
+    "EnglishName": "English (Hong Kong SAR)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENH",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-PY",
+    "LCID": 15370,
+    "EnglishName": "Spanish (Paraguay)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESZ",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "fr-HT",
+    "LCID": 15372,
+    "EnglishName": "French (Haiti)",
+    "TwoLetterISOLanguageName": "fr",
+    "ThreeLetterISOLanguageName": "fra",
+    "ThreeLetterWindowsLanguageName": "FRH",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "ar-QA",
+    "LCID": 16385,
+    "EnglishName": "Arabic (Qatar)",
+    "TwoLetterISOLanguageName": "ar",
+    "ThreeLetterISOLanguageName": "ara",
+    "ThreeLetterWindowsLanguageName": "ARQ",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "en-IN",
+    "LCID": 16393,
+    "EnglishName": "English (India)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-BO",
+    "LCID": 16394,
+    "EnglishName": "Spanish (Bolivia)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESB",
+    "ANSICodePage": 1252
+  },
+  null,
+  null,
+  {
+    "Name": "en-MY",
+    "LCID": 17417,
+    "EnglishName": "English (Malaysia)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENM",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-SV",
+    "LCID": 17418,
+    "EnglishName": "Spanish (El Salvador)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESE",
+    "ANSICodePage": 1252
+  },
+  null,
+  null,
+  {
+    "Name": "en-SG",
+    "LCID": 18441,
+    "EnglishName": "English (Singapore)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ENE",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "es-HN",
+    "LCID": 18442,
+    "EnglishName": "Spanish (Honduras)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESH",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "en-AE",
+    "LCID": 19465,
+    "EnglishName": "English (United Arab Emirates)",
+    "TwoLetterISOLanguageName": "en",
+    "ThreeLetterISOLanguageName": "eng",
+    "ThreeLetterWindowsLanguageName": "ZZZ",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "es-NI",
+    "LCID": 19466,
+    "EnglishName": "Spanish (Nicaragua)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESI",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "es-PR",
+    "LCID": 20490,
+    "EnglishName": "Spanish (Puerto Rico)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESU",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "es-US",
+    "LCID": 21514,
+    "EnglishName": "Spanish (United States)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "EST",
+    "ANSICodePage": 1252
+  },
+  null,
+  null,
+  null,
+  {
+    "Name": "es-CU",
+    "LCID": 23562,
+    "EnglishName": "Spanish (Cuba)",
+    "TwoLetterISOLanguageName": "es",
+    "ThreeLetterISOLanguageName": "spa",
+    "ThreeLetterWindowsLanguageName": "ESK",
+    "ANSICodePage": 1252
+  },
+  null,
+  null,
+  {
+    "Name": "bs-Cyrl",
+    "LCID": 25626,
+    "EnglishName": "Bosnian (Cyrillic)",
+    "TwoLetterISOLanguageName": "bs",
+    "ThreeLetterISOLanguageName": "bos",
+    "ThreeLetterWindowsLanguageName": "BSC",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "bs-Latn",
+    "LCID": 26650,
+    "EnglishName": "Bosnian (Latin)",
+    "TwoLetterISOLanguageName": "bs",
+    "ThreeLetterISOLanguageName": "bos",
+    "ThreeLetterWindowsLanguageName": "BSB",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "sr-Cyrl",
+    "LCID": 27674,
+    "EnglishName": "Serbian (Cyrillic)",
+    "TwoLetterISOLanguageName": "sr",
+    "ThreeLetterISOLanguageName": "srp",
+    "ThreeLetterWindowsLanguageName": "SRO",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "sr-Latn",
+    "LCID": 28698,
+    "EnglishName": "Serbian (Latin)",
+    "TwoLetterISOLanguageName": "sr",
+    "ThreeLetterISOLanguageName": "srp",
+    "ThreeLetterWindowsLanguageName": "SRM",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "smn",
+    "LCID": 28731,
+    "EnglishName": "Sami (Inari)",
+    "TwoLetterISOLanguageName": "smn",
+    "ThreeLetterISOLanguageName": "smn",
+    "ThreeLetterWindowsLanguageName": "SMN",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "az-Cyrl",
+    "LCID": 29740,
+    "EnglishName": "Azerbaijani (Cyrillic)",
+    "TwoLetterISOLanguageName": "az",
+    "ThreeLetterISOLanguageName": "aze",
+    "ThreeLetterWindowsLanguageName": "AZC",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "sms",
+    "LCID": 29755,
+    "EnglishName": "Sami (Skolt)",
+    "TwoLetterISOLanguageName": "sms",
+    "ThreeLetterISOLanguageName": "sms",
+    "ThreeLetterWindowsLanguageName": "SMS",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "zh",
+    "LCID": 30724,
+    "EnglishName": "Chinese",
+    "TwoLetterISOLanguageName": "zh",
+    "ThreeLetterISOLanguageName": "zho",
+    "ThreeLetterWindowsLanguageName": "CHS",
+    "ANSICodePage": 936
+  },
+  {
+    "Name": "nn",
+    "LCID": 30740,
+    "EnglishName": "Norwegian Nynorsk",
+    "TwoLetterISOLanguageName": "nn",
+    "ThreeLetterISOLanguageName": "nno",
+    "ThreeLetterWindowsLanguageName": "NON",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "bs",
+    "LCID": 30746,
+    "EnglishName": "Bosnian",
+    "TwoLetterISOLanguageName": "bs",
+    "ThreeLetterISOLanguageName": "bos",
+    "ThreeLetterWindowsLanguageName": "BSB",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "az-Latn",
+    "LCID": 30764,
+    "EnglishName": "Azerbaijani (Latin)",
+    "TwoLetterISOLanguageName": "az",
+    "ThreeLetterISOLanguageName": "aze",
+    "ThreeLetterWindowsLanguageName": "AZE",
+    "ANSICodePage": 1254
+  },
+  {
+    "Name": "sma",
+    "LCID": 30779,
+    "EnglishName": "Sami (Southern)",
+    "TwoLetterISOLanguageName": "sma",
+    "ThreeLetterISOLanguageName": "sma",
+    "ThreeLetterWindowsLanguageName": "SMB",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "uz-Cyrl",
+    "LCID": 30787,
+    "EnglishName": "Uzbek (Cyrillic)",
+    "TwoLetterISOLanguageName": "uz",
+    "ThreeLetterISOLanguageName": "uzb",
+    "ThreeLetterWindowsLanguageName": "UZC",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "mn-Cyrl",
+    "LCID": 30800,
+    "EnglishName": "Mongolian (Cyrillic)",
+    "TwoLetterISOLanguageName": "mn",
+    "ThreeLetterISOLanguageName": "mon",
+    "ThreeLetterWindowsLanguageName": "MNN",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "iu-Cans",
+    "LCID": 30813,
+    "EnglishName": "Inuktitut (Syllabics)",
+    "TwoLetterISOLanguageName": "iu",
+    "ThreeLetterISOLanguageName": "iku",
+    "ThreeLetterWindowsLanguageName": "IUS",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "tzm-Tfng",
+    "LCID": 30815,
+    "EnglishName": "Central Atlas Tamazight (Tifinagh)",
+    "TwoLetterISOLanguageName": "tzm",
+    "ThreeLetterISOLanguageName": "tzm",
+    "ThreeLetterWindowsLanguageName": "TZM",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "zh-Hant",
+    "LCID": 31748,
+    "EnglishName": "Chinese (Traditional)",
+    "TwoLetterISOLanguageName": "zh",
+    "ThreeLetterISOLanguageName": "zho",
+    "ThreeLetterWindowsLanguageName": "CHT",
+    "ANSICodePage": 950
+  },
+  {
+    "Name": "nb",
+    "LCID": 31764,
+    "EnglishName": "Norwegian Bokmål",
+    "TwoLetterISOLanguageName": "nb",
+    "ThreeLetterISOLanguageName": "nob",
+    "ThreeLetterWindowsLanguageName": "NOR",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "sr",
+    "LCID": 31770,
+    "EnglishName": "Serbian",
+    "TwoLetterISOLanguageName": "sr",
+    "ThreeLetterISOLanguageName": "srp",
+    "ThreeLetterWindowsLanguageName": "SRB",
+    "ANSICodePage": 1250
+  },
+  {
+    "Name": "tg-Cyrl",
+    "LCID": 31784,
+    "EnglishName": "Tajik (Cyrillic)",
+    "TwoLetterISOLanguageName": "tg",
+    "ThreeLetterISOLanguageName": "tgk",
+    "ThreeLetterWindowsLanguageName": "TAJ",
+    "ANSICodePage": 1251
+  },
+  {
+    "Name": "dsb",
+    "LCID": 31790,
+    "EnglishName": "Lower Sorbian",
+    "TwoLetterISOLanguageName": "dsb",
+    "ThreeLetterISOLanguageName": "dsb",
+    "ThreeLetterWindowsLanguageName": "DSB",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "smj",
+    "LCID": 31803,
+    "EnglishName": "Sami (Lule)",
+    "TwoLetterISOLanguageName": "smj",
+    "ThreeLetterISOLanguageName": "smj",
+    "ThreeLetterWindowsLanguageName": "SMK",
+    "ANSICodePage": 1252
+  },
+  null,
+  {
+    "Name": "uz-Latn",
+    "LCID": 31811,
+    "EnglishName": "Uzbek (Latin)",
+    "TwoLetterISOLanguageName": "uz",
+    "ThreeLetterISOLanguageName": "uzb",
+    "ThreeLetterWindowsLanguageName": "UZB",
+    "ANSICodePage": 1254
+  },
+  {
+    "Name": "pa-Arab",
+    "LCID": 31814,
+    "EnglishName": "Punjabi (Arabic)",
+    "TwoLetterISOLanguageName": "pa",
+    "ThreeLetterISOLanguageName": "pan",
+    "ThreeLetterWindowsLanguageName": "PAP",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "mn-Mong",
+    "LCID": 31824,
+    "EnglishName": "Mongolian (Traditional Mongolian)",
+    "TwoLetterISOLanguageName": "mn",
+    "ThreeLetterISOLanguageName": "mon",
+    "ThreeLetterWindowsLanguageName": "MNG",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "sd-Arab",
+    "LCID": 31833,
+    "EnglishName": "Sindhi (Arabic)",
+    "TwoLetterISOLanguageName": "sd",
+    "ThreeLetterISOLanguageName": "snd",
+    "ThreeLetterWindowsLanguageName": "SIP",
+    "ANSICodePage": 1256
+  },
+  {
+    "Name": "chr-Cher",
+    "LCID": 31836,
+    "EnglishName": "Cherokee",
+    "TwoLetterISOLanguageName": "chr",
+    "ThreeLetterISOLanguageName": "chr",
+    "ThreeLetterWindowsLanguageName": "CRE",
+    "ANSICodePage": 0
+  },
+  {
+    "Name": "iu-Latn",
+    "LCID": 31837,
+    "EnglishName": "Inuktitut (Latin)",
+    "TwoLetterISOLanguageName": "iu",
+    "ThreeLetterISOLanguageName": "iku",
+    "ThreeLetterWindowsLanguageName": "IUK",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "tzm-Latn",
+    "LCID": 31839,
+    "EnglishName": "Central Atlas Tamazight (Latin)",
+    "TwoLetterISOLanguageName": "tzm",
+    "ThreeLetterISOLanguageName": "tzm",
+    "ThreeLetterWindowsLanguageName": "TZA",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ff-Latn",
+    "LCID": 31847,
+    "EnglishName": "Fulah (Latin)",
+    "TwoLetterISOLanguageName": "ff",
+    "ThreeLetterISOLanguageName": "ful",
+    "ThreeLetterWindowsLanguageName": "FUL",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ha-Latn",
+    "LCID": 31848,
+    "EnglishName": "Hausa (Latin)",
+    "TwoLetterISOLanguageName": "ha",
+    "ThreeLetterISOLanguageName": "hau",
+    "ThreeLetterWindowsLanguageName": "HAU",
+    "ANSICodePage": 1252
+  },
+  {
+    "Name": "ku-Arab",
+    "LCID": 31890,
+    "EnglishName": "Central Kurdish (Arabic)",
+    "TwoLetterISOLanguageName": "ku",
+    "ThreeLetterISOLanguageName": "kur",
+    "ThreeLetterWindowsLanguageName": "KUR",
+    "ANSICodePage": 1256
+  },
+  null,
+  null,
+  null
+]

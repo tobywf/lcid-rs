@@ -13,7 +13,7 @@ env:
   RUST_BACKTRACE: full
   # Enable colors in cargo output.
   CARGO_TERM_COLOR: always
-  # Use sparse index (if supported).
+  # Use sparse index if supported - unlikely with the MSRV?
   CARGO_REGISTRIES_CRATES_IO_PROTOCOL: sparse
 
 jobs:
@@ -35,7 +35,7 @@ jobs:
 
       - name: Run cargo check
         shell: bash
-        run: cargo check --workspace
+        run: RUSTFLAGS="-D warnings" cargo check --workspace
 
       - name: Run cargo test
         shell: bash

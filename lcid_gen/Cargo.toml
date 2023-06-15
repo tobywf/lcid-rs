@@ -1,6 +1,6 @@
 [package]
 name = "lcid_gen"
-version = "0.1.0"
+version = "0.3.0"
 authors = ["Toby Fleming <tobywf@users.noreply.github.com>"]
 edition = "2021"
 description = "A helper crate for lcid that parses langague information from JSON and generated code."
@@ -10,18 +10,10 @@ publish = false
 autoexamples = false
 autobenches = false
 
-[lib]
-name = "lcid_gen"
-path = "src/lib.rs"
-test = true
-doctest = false
-bench = false
-doc = false
-
 [[bin]]
 name = "lcid_gen"
 path = "src/bin.rs"
-test = false
+test = true
 doctest = false
 bench = false
 doc = false
